@@ -1,5 +1,9 @@
 # Kiwi's CTT Overhaul
+<<<<<<< HEAD
 Version 0.1.2; 10 August 2020; Made for KSP 1.9.1
+=======
+## Version 0.1.1; 9 August 2020; Made for KSP 1.9.1
+>>>>>>> f723bb3c511020fc4a8d59d445abf4c1ec2cbdb4
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
 
@@ -31,9 +35,14 @@ The mods that I am looking at incorporating if changes necessary in the current 
 
 While BDB and Tantares, and Kerbalism are really amazing mods, their scope is intimidating.  More than happy to accept help on this front if anyone is interested.
 
+<<<<<<< HEAD
 Changelog
 0.1.2 Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
 0.1.1 Added MkIV Spaceplane Support, Part Upgrades to Mk1-3 Plane systems to discourage those being used for the first crewed space missions.
+=======
+## Changelog
+* 0.1.1 Added MkIV Spaceplane Support, Added part ppgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
+>>>>>>> f723bb3c511020fc4a8d59d445abf4c1ec2cbdb4
 
 # License
 
