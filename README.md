@@ -1,5 +1,5 @@
 # Kiwi's CTT Overhaul
-Version 0.1.1; 9 August 2020; Made for KSP 1.9.1
+Version 0.1.2; 10 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
 
@@ -29,9 +29,10 @@ The mods that I am looking at incorporating if changes necessary in the current 
 13. Stockish Project Orion
 14. Mining Expansion
 
-While BDB and Tantares are really amazing mods, their scope is intimidating.  More than happy to accept help on this front if anyone is interested.
+While BDB and Tantares, and Kerbalism are really amazing mods, their scope is intimidating.  More than happy to accept help on this front if anyone is interested.
 
 Changelog
+0.1.2 Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
 0.1.1 Added MkIV Spaceplane Support, Part Upgrades to Mk1-3 Plane systems to discourage those being used for the first crewed space missions.
 
 # License
