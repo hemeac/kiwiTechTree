@@ -36,6 +36,10 @@ While BDB and Tantares, and Kerbalism are really amazing mods, their scope is in
 * 0.1.2 Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
 * 0.1.1 Added MkIV Spaceplane Support, Added part upgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
 
+## Disclaimer
+
+This mod has not been endorsed by _Zee, Spink Akron, Nertea or any other mod/asset creator referenced in the config files.  All errors are my own, please do not hassle the original authors if these configurations create conflicts with other mods.
+
 ## License
 
 MIT License
