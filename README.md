@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.2; 10 August 2020; Made for KSP 1.9.1
+## Version 0.1.3; 10 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
 
@@ -10,14 +10,19 @@ This overhaul, like its predecessors, revolves around the  premise that probes s
 
 This is an attempt to make my tech choices a bit more meaningful and allow me to have my kerbins spend some time testing jets in Kerbin's atmosphere before launching in space.  I have added another 62 tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly linked here (which as of now is functionally none).
 
-Like UnKerballed Start, I have started with 0.625 meter engines and tanks and worked progressively larger.  To try and prevent early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but have provided higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same as the introduction of the Mk3 spaceplane).
+Like UnKerballed Start, I have started with 0.625 meter engines and tanks and work progressively larger.  To try and prevent early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but have provided higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same as the introduction of the Mk3 spaceplane).
 
 I calibrated the basic idea around stock and the expansion packs alongside Restock/Restock+ and Missing History.  Ultimately, given the number of nodes, you will benefit by having several parts mods.
 
 In limited cases, I have added a couple of rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style. I've currently given myself a "Mk0" inline cockpit in the start node because I am terrible at plane design and it is a bit cheaty.  This will probably change as this develops.
 
-The mods that I am looking at incorporating if changes necessary in the current order of preference: 
-1. Nertea's Full Suite of Parts mods excluding Far Future due to his current revamp (MK IV done)
+## Current Supported Mods (see details below for general changes):
+* BetterSRBs
+* Completely Non-Aggressive Rocketry
+* Mark IV Spaceplane System
+
+The mods that I am looking at incorporating if changes necessary in the sort-of order of preference: 
+1. Nertea's Full Suite of Parts mods excluding Far Future due to his current revamp
 2. DMagic Orbital Science
 3. Universal Storage 2
 4. Luciole
@@ -31,11 +36,20 @@ The mods that I am looking at incorporating if changes necessary in the current 
 12. KIS/KAS
 13. Stockish Project Orion
 14. Mining Expansion
-15. BetterSRBs (Done)
 
 While BDB and Tantares, and Kerbalism are really amazing mods, their scope is intimidating.  More than happy to accept help on this front if anyone is interested.
 
+## BetterSRBs
+Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
+
+## Completely Non-Aggressive Rocketry
+Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space
+
+## Mark IV Spaceplane System
+Shuffled the tech nodes.
+
 ## Changelog
+* 0.1.3 Added CNAR support.
 * 0.1.2 Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
 * 0.1.1 Added MkIV Spaceplane Support, Added part upgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
 
