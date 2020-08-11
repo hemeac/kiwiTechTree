@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.3; 10 August 2020; Made for KSP 1.9.1
+## Version 0.1.4; 11 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
 
@@ -37,7 +37,10 @@ The mods that I am looking at incorporating if changes necessary in the sort-of 
 13. Stockish Project Orion
 14. Mining Expansion
 
-While BDB and Tantares, and Kerbalism are really amazing mods, their scope is intimidating.  More than happy to accept help on this front if anyone is interested.
+## Great Mods, but not likely to be added by me (Happy to accept help):
+1. BDB and Tantares
+2. Kerbalism
+3. MOLE (Very limited support); I've taken a few selective pieces out for my personal playthrough, the 1.21 release added beautiful work on the Appaloosa, but it adds a complicated science station module that I am not likely to use, so the cfg will only include parts I use.
 
 ## BetterSRBs
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -49,6 +52,7 @@ Created a new node in the tech tree between the start and other tech nodes for t
 Shuffled the tech nodes.
 
 ## Changelog
+* 0.1.4 Added Nuclear Power & Propulsion
 * 0.1.3 Added CNAR support.
 * 0.1.2 Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
 * 0.1.1 Added MkIV Spaceplane Support, Added part upgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
