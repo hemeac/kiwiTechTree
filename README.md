@@ -38,9 +38,9 @@ The mods that I am looking at incorporating if changes necessary in the sort-of 
 14. Mining Expansion
 
 ## Great Mods, but not likely to be added by me (Happy to accept help):
-1. BDB and Tantares
-2. Kerbalism
-3. MOLE (Very limited support); I've taken a few selective pieces out for my personal playthrough, the 1.21 release added beautiful work on the Appaloosa, but it adds a complicated science station module that I am not likely to use, so the cfg will only include parts I use.
+* BDB and Tantares (Scale and Scope are huge and hard to break down like Near Future)
+* Kerbalism (Doesn't fit my personal playstyle)
+* MOLE (Very limited support); I've taken a few selective pieces out for my personal playthrough, the 1.21 release added beautiful work on the Appaloosa, but it adds a complicated science station module that I am not likely to use, so the cfg will only include parts I use.
 
 ## BetterSRBs
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
