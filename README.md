@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.4; 11 August 2020; Made for KSP 1.9.1
+## Version 0.1.5; 12 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
 
@@ -20,6 +20,7 @@ In limited cases, I have added a couple of rescaled parts and a couple more if R
 * BetterSRBs
 * Completely Non-Aggressive Rocketry
 * Mark IV Spaceplane System
+* M.O.L.E. (Very Limited Support)
 
 The mods that I am looking at incorporating if changes necessary in the sort-of order of preference: 
 1. Nertea's Full Suite of Parts mods excluding Far Future due to his current revamp
@@ -40,7 +41,6 @@ The mods that I am looking at incorporating if changes necessary in the sort-of 
 ## Great Mods, but not likely to be added by me (Happy to accept help):
 * BDB and Tantares (Scale and Scope are huge and hard to break down like Near Future)
 * Kerbalism (Doesn't fit my personal playstyle)
-* MOLE (Very limited support); I've taken a few selective pieces out for my personal playthrough, the 1.21 release added beautiful work on the Appaloosa, but it adds a complicated science station module that I am not likely to use, so the cfg will only include parts I use.
 
 ## BetterSRBs
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -51,7 +51,11 @@ Created a new node in the tech tree between the start and other tech nodes for t
 ## Mark IV Spaceplane System
 Shuffled the tech nodes.
 
+## M.O.L.E.
+I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this only because I can't be bothered putting another folder for this, so consider this incomplete.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
+
 ## Changelog
+* 0.1.5 Added a couple of nodes to support the command module strand.
 * 0.1.4 Added Nuclear Power & Propulsion
 * 0.1.3 Added CNAR support.
 * 0.1.2 Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
