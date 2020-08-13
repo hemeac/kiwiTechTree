@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.5; 12 August 2020; Made for KSP 1.9.1
+## Version 0.1.6; 13 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
 
@@ -17,10 +17,14 @@ I calibrated the basic idea around stock and the expansion packs alongside Resto
 In limited cases, I have added a couple of rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style. I've currently given myself a "Mk0" inline cockpit in the start node because I am terrible at plane design and it is a bit cheaty.  This will probably change as this develops.
 
 ## Current Supported Mods (see details below for general changes):
-* BetterSRBs
-* Completely Non-Aggressive Rocketry
-* Mark IV Spaceplane System
-* M.O.L.E. (Very Limited Support)
+* BetterSRBs 1.2.3
+* Completely Non-Aggressive Rocketry 1.0.2
+* LTech 0.5.1 Beta
+* Mark IV Spaceplane System 3.1.2
+* Missing History 1.8.2
+* M.O.L.E. (Very Limited Support) 1.22.1
+* Restock/Restock+ 1.1.2
+* SCANsat 20.2
 
 The mods that I am looking at incorporating if changes necessary in the sort-of order of preference: 
 1. Nertea's Full Suite of Parts mods excluding Far Future due to his current revamp
@@ -42,19 +46,29 @@ The mods that I am looking at incorporating if changes necessary in the sort-of 
 * BDB and Tantares (Scale and Scope are huge and hard to break down like Near Future)
 * Kerbalism (Doesn't fit my personal playstyle)
 
-## BetterSRBs
+## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
 
-## Completely Non-Aggressive Rocketry
+## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space
 
-## Mark IV Spaceplane System
+## Mark IV Spaceplane System 3.1.2
 Shuffled the tech nodes.
 
-## M.O.L.E.
+## Missing History 1.8.2
+Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Restock+ is installed; Used Restock models if available.
+
+## M.O.L.E. 1.22.1
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this only because I can't be bothered putting another folder for this, so consider this incomplete.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
 
+## Restock/Restock+ 1.1.2
+Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts.
+
+## SCANsat
+Shuffled the tech nodes. Slight cost rebalancing.
+
 ## Changelog
+* 0.1.6 Added LTech Beta and SCANsat support; rebalanced stock resource scanners compared to SCANsat
 * 0.1.5 Added a couple of nodes to support the command module strand.
 * 0.1.4 Added Nuclear Power & Propulsion
 * 0.1.3 Added CNAR support.
