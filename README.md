@@ -4,7 +4,7 @@
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
 
-A CTT "Probes/Planes Before Crew" type Overhaul based on the Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and also inspired by Spink Akron's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/). Requires the Community Tech Tree: [CTT](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/).
+A CTT "Probes/Planes Before Crew" type Overhaul based on the Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and inspired by Spink Akron's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/). Requires the Community Tech Tree: [CTT](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/).
 
 This overhaul, like its predecessors, revolves around the  premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin/Mun/Minmus.  
 
@@ -64,7 +64,7 @@ I've taken a few selective pieces out for my personal playthrough and provided s
 ## Restock/Restock+ 1.1.2
 Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts.
 
-## SCANsat
+## SCANsat 20.2
 Shuffled the tech nodes. Slight cost rebalancing.
 
 ## Changelog
