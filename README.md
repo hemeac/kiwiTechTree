@@ -1,20 +1,20 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.7; 15 August 2020; Made for KSP 1.9.1
+## Version 0.1.8; 16 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/StiyWnp.png)
 
-A CTT "Probes/Planes Before Crew" type Overhaul based on the Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and inspired by Spink Akron's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/). Requires the Community Tech Tree: [CTT](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/).
+A CTT "Probes/Planes Before Crew" type Overhaul originally based on the Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and inspired by Spink Akron's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/). Requires the Community Tech Tree: [CTT](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/).
 
-This overhaul, like its predecessors, revolves around the  premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin/Mun/Minmus.  
+This overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  
 
-This is an attempt to make my tech choices a bit more meaningful and allow me to have my kerbins spend some time testing jets in Kerbin's atmosphere before launching in space.  I have added another 62 tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly linked here (which as of now is functionally none).
+This is an attempt to make my tech choices a bit more meaningful and allow me to have my kerbins spend some time testing jets in Kerbin's atmosphere before launching in space.  I have added another 62 tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported.
 
-Like UnKerballed Start, I have started with 0.625 meter engines and tanks and work progressively larger.  To try and prevent early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but have provided higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same as the introduction of the Mk3 spaceplane).
+Like UnKerballed Start, I have started with 0.625 meter engines and tanks and work progressively larger.  To try and prevent early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but have provided higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same as the introduction of the Mk3 spaceplane). I have used Zee's PBC mod to start the mod going, but even at this point, there is much that is different, so you should expect a different gameplay experience.
 
 I calibrated the basic idea around stock and the expansion packs alongside Restock/Restock+ and Missing History.  Ultimately, given the number of nodes, you will benefit by having several parts mods.
 
-In limited cases, I have added a couple of rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style. I've currently given myself a "Mk0" inline cockpit in the start node because I am terrible at plane design and it is a bit cheaty.  This will probably change as this develops.
+In some cases, I have added rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style. I've currently given myself a "Mk0" inline cockpit in the start node because I am terrible at plane design and it is a bit cheaty.  This will probably change as this develops.
 
 ## Current Supported Mods (see details below for general changes):
 * BetterSRBs 1.2.3
@@ -47,6 +47,9 @@ The mods that I am looking at incorporating if changes necessary in the sort-of 
 * BDB and Tantares (Scale and Scope are huge and hard to break down like Near Future)
 * Kerbalism (Doesn't fit my personal playstyle)
 
+## General Gameplay Changes
+I change probe behavior in two ways.  First is I have kept PBC's Telemetry Report.  It is a nice and easy mod to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path.
+
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
 
@@ -77,6 +80,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.1.8 16 August 2020; Added SAS upgrades to probe parts, removed default SAS levels for all stock/modded probes.
 * 0.1.7 Slight rebalance of solar parts; Added Near Future Solar support; Added Omega Solar Tech node in tree.
 * 0.1.6 Added LTech Beta and SCANsat support; rebalanced stock resource scanners compared to SCANsat
 * 0.1.5 Added a couple of nodes to support the command module strand.
