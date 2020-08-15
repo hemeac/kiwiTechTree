@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.6; 13 August 2020; Made for KSP 1.9.1
+## Version 0.1.7; 15 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
 
@@ -23,11 +23,12 @@ In limited cases, I have added a couple of rescaled parts and a couple more if R
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
 * M.O.L.E. (Very Limited Support) 1.22.1
+* Near Future Solar 1.2.3
 * Restock/Restock+ 1.1.2
 * SCANsat 20.2
 
 The mods that I am looking at incorporating if changes necessary in the sort-of order of preference: 
-1. Nertea's Full Suite of Parts mods excluding Far Future due to his current revamp
+1. Nertea's Full Suite of Parts mods excluding the current Far Future due to his current revamp
 2. DMagic Orbital Science
 3. Universal Storage 2
 4. Luciole
@@ -61,6 +62,9 @@ Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Re
 ## M.O.L.E. 1.22.1
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this only because I can't be bothered putting another folder for this, so consider this incomplete.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
 
+## Near Future Solar 1.2.3
+If installed, this will place solar a touch earlier in the tech tree and place most stock parts available a bit earlier.  I've also added B9PS support to the panels, having advanced and concentrated panels similar to NF Solar (no visual difference as seen in Nertea's version). I also spread new solar parts further through the tech tree and added concentrated part variants to those parts which excluded.  Lastly, the advanced and concentrated versions of both Nertea and stock require a tech upgrade to access.  Advanced will occur one level above the part, Concentrated two levels.
+
 ## Restock/Restock+ 1.1.2
 Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts.
 
@@ -68,6 +72,7 @@ Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts.
 Shuffled the tech nodes. Slight cost rebalancing.
 
 ## Changelog
+* 0.1.7 Slight rebalance of solar parts; Added Near Future Solar support; Added Omega Solar Tech node in tree.
 * 0.1.6 Added LTech Beta and SCANsat support; rebalanced stock resource scanners compared to SCANsat
 * 0.1.5 Added a couple of nodes to support the command module strand.
 * 0.1.4 Added Nuclear Power & Propulsion
