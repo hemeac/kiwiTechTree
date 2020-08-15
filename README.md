@@ -2,7 +2,7 @@
 
 ## Version 0.1.7; 15 August 2020; Made for KSP 1.9.1
 
-![Kiwi CTT Overhaul](https://i.imgur.com/23iexmsh.png)
+![Kiwi CTT Overhaul](https://i.imgur.com/StiyWnp.png)
 
 A CTT "Probes/Planes Before Crew" type Overhaul based on the Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and inspired by Spink Akron's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/). Requires the Community Tech Tree: [CTT](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/).
 
