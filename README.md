@@ -48,7 +48,7 @@ The mods that I am looking at incorporating if changes necessary in the sort-of 
 * Kerbalism (Doesn't fit my personal playstyle)
 
 ## General Gameplay Changes
-I change probe behavior in two ways.  First is I have kept PBC's Telemetry Report.  It is a nice and easy mod to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path.
+I change probe behavior in two ways.  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path.
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -76,7 +76,13 @@ Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts.
 ## SCANsat 20.2
 Shuffled the tech nodes. Slight cost rebalancing.
 
-## Alternate Tech Tree Mods
+## Alternate Tech Tree Mods (In no particular order)
+* [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/)
+* [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/)
+* [TETRIX and SIMPLEX Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/174731-19x-tetrix-techtree-25-and-simplex-techtree-116/)
+* [ETT - Engineering Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/112627-181-ett-engineering-tech-tree-may-4-2020/)
+* [Remodeled Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/188286-173-remodeled-tech-tree-v016/)
+* [The classic: SETI, Unmanned before Manned](https://forum.kerbalspaceprogram.com/index.php?/topic/95645-13x-seti-unmanned-before-manned-patreon/)
 
 
 ## Changelog
@@ -96,7 +102,7 @@ This mod has not been endorsed by _Zee, Spink Akron, Nertea or any other mod/par
 ## License
 
 MIT License
-Copyright (c) 2019, _Zee; 2020, Hemeac
+Copyright (c) 2020, Hemeac
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
 and associated documentation files (the "Software"), to deal in the Software without restriction, 
@@ -114,6 +120,8 @@ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### Additional Licenses and attributions:
+
+Some files were based on config files originally created by _Zee and redistributed under the same MIT license.
 
 Icons from Community Tech Tree by Nertea were modified and included in this mod and are licensed under Creative Commons Attribution-NonCommercial 4.0.
 
