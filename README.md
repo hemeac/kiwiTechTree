@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.9; 21 August 2020; Made for KSP 1.9.1
+## Version 0.1.10; 21 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/StiyWnp.png)
 
@@ -23,6 +23,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
 * M.O.L.E. (Very Limited Support) 1.22.1
+* Near Future Electrical 1.1.3
 * Near Future Propulsion 1.2.2
 * Near Future Solar 1.2.3
 * RealPlume-Stock 4.0.1
@@ -67,6 +68,9 @@ Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Re
 ## M.O.L.E. 1.22.1
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this only because I can't be bothered putting another folder for this, so consider this incomplete.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
 
+## Near Future Propulsion 1.1.3
+Slight repositioning of the tech nodes.
+
 ## Near Future Propulsion 1.2.2
 If installed, we will move the Xenon tanks to noble gas fuel system nodes in the tech tree.  I've added B9 Part Upgrades to Argon and Xenon engines.  Of particular note, as a third tier upgrade to the Argon Hall Thrusters, I have added a Argon/Xenon mix based on the ideas of Diop, Gibert, and Bouchoule (2019) and Yamasaki, Yokota, and Shimamura (2019), that suggests that mixing Xenon and Argon can improve Argon efficiency, while the latter further notes that having a longer discharge channel is able to promote argon ionization, hence higher efficiency. As the hall thrusters had a bit higher thrust relative to xenon for the size class and efficiency, I balanced the VASIMR engines to reflect that gameplay element.  I also increased the cost of Xenon in the stock if Propulsion is installed.  Currently 2.5x the original cost and have modified any Xenon tank costs to reflect that change.
 
@@ -96,8 +100,9 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
-* 0.1.9 21 August 2020; Added Near Future Propulsion Support; Added nodes to Tech Tree for Ion Propulsion Fuel Systems Line; Balanced Xenon costs
-* 0.1.8 16 August 2020; Added SAS upgrades to probe parts, removed default SAS levels for all stock/modded probes.
+* 0.1.10 (21 August 2020); Added Near Future Electrical; Minor changes to Near Future Propulsion
+* 0.1.9 (21 August 2020); Added Near Future Propulsion Support; Added nodes to Tech Tree for Ion Propulsion Fuel Systems Line; Balanced Xenon costs
+* 0.1.8 (16 August 2020); Added SAS upgrades to probe parts, removed default SAS levels for all stock/modded probes.
 * 0.1.7 Slight rebalance of solar parts; Added Near Future Solar support; Added Omega Solar Tech node in tree.
 * 0.1.6 Added LTech Beta and SCANsat support; rebalanced stock resource scanners compared to SCANsat
 * 0.1.5 Added a couple of nodes to support the command module strand.
@@ -107,7 +112,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 * 0.1.1 Added MkIV Spaceplane Support, Added part upgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
 
 ## Known Issues
-* Couple of upgrade lines disappear when viewing them at the end of the screen.
+* Couple of upgrade lines in the Tech Tree disappear when viewing them near the edges of the screen.
 
 ## Disclaimer
 
