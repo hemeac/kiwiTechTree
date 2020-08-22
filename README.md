@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.10; 21 August 2020; Made for KSP 1.9.1
+## Version 0.1.11; 23 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/StiyWnp.png)
 
@@ -26,6 +26,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Near Future Electrical 1.1.3
 * Near Future Propulsion 1.2.2
 * Near Future Solar 1.2.3
+* Near Future Spacecraft 1.3.3
 * RealPlume-Stock 4.0.1
 * Restock/Restock+ 1.1.2
 * SCANsat 20.2
@@ -51,7 +52,7 @@ The mods that I am looking at incorporating if changes necessary in the sort-of 
 * Kerbalism (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting)
 
 ## General Gameplay Changes
-I change probe behavior in two ways.  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path.
+I change probe behavior in two ways.  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path. I've renamed the command pods to reflect the relative node in which they appear.
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -68,20 +69,22 @@ Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Re
 ## M.O.L.E. 1.22.1
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this only because I can't be bothered putting another folder for this, so consider this incomplete.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
 
-## Near Future Propulsion 1.1.3
-Slight repositioning of the tech nodes.
+## Near Future Electrical 1.1.3
+Slight repositioning of the tech nodes. If Decaying RTGs installed as an optional mod, doubles the half-life to allow the RTGs to be more useful for OPM or other large scale missions.
 
 ## Near Future Propulsion 1.2.2
 If installed, we will move the Xenon tanks to noble gas fuel system nodes in the tech tree.  I've added B9 Part Upgrades to Argon and Xenon engines.  Of particular note, as a third tier upgrade to the Argon Hall Thrusters, I have added a Argon/Xenon mix based on the ideas of Diop, Gibert, and Bouchoule (2019) and Yamasaki, Yokota, and Shimamura (2019), that suggests that mixing Xenon and Argon can improve Argon efficiency, while the latter further notes that having a longer discharge channel is able to promote argon ionization, hence higher efficiency. As the hall thrusters had a bit higher thrust relative to xenon for the size class and efficiency, I balanced the VASIMR engines to reflect that gameplay element.  I also increased the cost of Xenon in the stock if Propulsion is installed.  Currently 2.5x the original cost and have modified any Xenon tank costs to reflect that change.
-
 
 ## Near Future Solar 1.2.3
 If installed, this will place solar a touch earlier in the tech tree and place most stock parts available a bit earlier.  I've also added B9PS support to the panels, having advanced and concentrated panels similar to NF Solar (no visual difference as seen in Nertea's version). I also spread Nertea's solar parts further through the tech tree and added concentrated part variants to those parts which excluded (Just used the Advanced textures in cases where there were no concentrated versions of the textures). The basic layout is that fixed panels came first, then deployable, but non-tracking, then deployable and tracking.  Along the nodes we have upgrades to each of these variants.
 
 Lastly, the advanced and concentrated versions of both Nertea and stock require a tech upgrade to access.  Advanced will occur one level above the part, Concentrated two levels.
 
-## RealPlume 4.0.1
-Where I have modified engines such as rescaling CNAR, have tried to ensure that the RealPlume is patched for compliance.
+## Near Future Spacecraft 1.3.3
+Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods.
+
+## RealPlume 4.0.1 / PlumeParty
+Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, will use Plume Party.
 
 ## Restock/Restock+ 1.1.2
 Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts.
@@ -100,7 +103,8 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
-* 0.1.10 (21 August 2020); Added Near Future Electrical; Minor changes to Near Future Propulsion
+* 0.1.11 (23 August 2020); Added Near Future Spacecraft support; Decaying RTG patch to Near Future Electrical; Added node for the special propulsion line; renamed command pods; Noted the license restrictions of supported mods.
+* 0.1.10 (21 August 2020); Added Near Future Electrical support; Minor changes to Near Future Propulsion
 * 0.1.9 (21 August 2020); Added Near Future Propulsion Support; Added nodes to Tech Tree for Ion Propulsion Fuel Systems Line; Balanced Xenon costs
 * 0.1.8 (16 August 2020); Added SAS upgrades to probe parts, removed default SAS levels for all stock/modded probes.
 * 0.1.7 Slight rebalance of solar parts; Added Near Future Solar support; Added Omega Solar Tech node in tree.
@@ -139,8 +143,7 @@ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### Additional Licenses and attributions:
-
-Some files were based on config files originally created by _Zee and redistributed under the same MIT license.
+Tech tree reconfigs were based on config files originally created by _Zee and redistributed under the same MIT license. Additional config files are likely to be influenced by their respective mod creators and the respective licenses of the config files are noted within the mod files within each subfolder in GameData\KiwiAerospace\TechTree\Configurations\Mods
 
 Icons from Community Tech Tree by Nertea were modified and included in this mod and are licensed under Creative Commons Attribution-NonCommercial 4.0.
 
