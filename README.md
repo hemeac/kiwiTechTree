@@ -14,6 +14,8 @@ A CTT "Probes/Planes Before Crew" type Overhaul originally based on the Zee's [P
 ## Recommended
 * [PlumeParty](https://github.com/JadeOfMaar/PlumeParty) (Alternative to RealPlume)
 
+## Objective
+
 This overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree Mod, I have also spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite.  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the being restricted to having one or the other within the gameplay environment.
 
 The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  I have added another 69+ tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported.
