@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.1.11; 23 August 2020; Made for KSP 1.9.1
+## Version 0.2.0; 23 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/StiyWnp.png)
 
@@ -16,7 +16,7 @@ A CTT "Probes/Planes Before Crew" type Overhaul originally based on the Zee's [P
 
 ## Objective
 
-This overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree Mod, I have also spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite.  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the being restricted to having one or the other within the gameplay environment.
+This overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree Mod, I have also spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite.  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the restriction of having to choose one or the other within the gameplay environment.
 
 The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  I have added another 69+ tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported.
 
@@ -62,7 +62,10 @@ The mods that I am looking at incorporating if changes necessary in the sort-of 
 * Kerbalism (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting)
 
 ## General Gameplay Changes
-I change probe behavior in two ways.  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path. I've renamed the command pods to reflect the relative node in which they appear.
+* Probe behavior changes in two ways:  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path. 
+* Renamed the command pods to reflect the relative node in which they appear.
+* Cockpit heat resistance has been reduced until High-Altitude Flight
+* Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -97,7 +100,7 @@ Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongsi
 Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, will use Plume Party.
 
 ## Restock/Restock+ 1.1.2
-Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts.
+Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost
 
 ## SCANsat 20.2
 Shuffled the tech nodes. Slight cost rebalancing.
@@ -113,6 +116,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.2.0 (23 August 2020); Added B9PS Upgrades to Engines in Stock/Restock+; Moved SSME earlier in tree; light rebalancing.
 * 0.1.11 (23 August 2020); Added Near Future Spacecraft support; Decaying RTG patch to Near Future Electrical; Added node for the special propulsion line; renamed command pods; Noted the license restrictions of supported mods.
 * 0.1.10 (21 August 2020); Added Near Future Electrical support; Minor changes to Near Future Propulsion
 * 0.1.9 (21 August 2020); Added Near Future Propulsion Support; Added nodes to Tech Tree for Ion Propulsion Fuel Systems Line; Balanced Xenon costs
