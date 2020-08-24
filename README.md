@@ -24,11 +24,14 @@ Like UnKerballed Start, I have started with 0.625 meter engines and tanks and wo
 
 I calibrated the basic idea around stock and the expansion packs alongside Restock/Restock+ and Missing History.  Ultimately, given the number of nodes, you will benefit by having several parts mods.
 
-In some cases, I have added rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style. I've currently given myself a "Mk0" inline cockpit in the start node because I am terrible at plane design and it is a bit cheaty.  This will probably change as this develops.
+In some cases, I have added rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style.  I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion.
+
+I've currently given myself a "Mk0" inline cockpit in the start node because I am terrible at plane design and it is a bit cheaty.  This will probably change as this develops.
 
 ## Current Supported Mods (see details below for general changes):
 * BetterSRBs 1.2.3
 * Completely Non-Aggressive Rocketry 1.0.2
+* Heat Control 0.5.2
 * LTech 0.5.1 Beta
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
@@ -73,6 +76,9 @@ Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless ot
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space
 
+## Heat Control 0.5.2
+Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scaled 50% to get a 1.875 m variant.  Have to say that I am not an expert in the heat mechanics, so any recommendations will be appreciated.
+
 ## Mark IV Spaceplane System 3.1.2
 Shuffled the tech nodes.
 
@@ -116,6 +122,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.2.2 (24 August 2020); Added Heat Control Support
 * 0.2.1 (24 August 2020); Added B9PS Upgrades to Nuclear Engines in Stock/Restock/Missing History; Added 5% increased mass to upgraded engines.
 * 0.2.0 (23 August 2020); Added B9PS Upgrades to Engines in Stock/Restock+; Moved SSME earlier in tree; light rebalancing.
 * 0.1.11 (23 August 2020); Added Near Future Spacecraft support; Decaying RTG patch to Near Future Electrical; Added node for the special propulsion line; renamed command pods; Noted the license restrictions of supported mods.

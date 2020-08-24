@@ -1,0 +1,3 @@
+Heat Control by Nertea
+https://forum.kerbalspaceprogram.com/index.php?/topic/112027-110x-heat-control-more-radiators-august-3rd-2020/
+Configuration Files License: MIT
