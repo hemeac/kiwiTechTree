@@ -16,7 +16,7 @@ A CTT "Probes/Planes Before Crew" type Overhaul originally based on the Zee's [P
 
 ## Objective
 
-This overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree Mod, I have also spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite.  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the restriction of having to choose one or the other within the gameplay environment.
+This overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree Mod, I have also spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite.  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the restriction of having to choose one or the other within the gameplay environment. While I have tried to keep changes relatively minimial, if you like to play with new parts as the modder intended, this is probably not the right tech tree mod for you.
 
 The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  I have added another 69+ tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported.
 
@@ -24,7 +24,7 @@ Like UnKerballed Start, I have started with 0.625 meter engines and tanks and wo
 
 I calibrated the basic idea around stock and the expansion packs alongside Restock/Restock+ and Missing History.  Ultimately, given the number of nodes, you will benefit by having several parts mods.
 
-In some cases, I have added rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style.  I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion.
+In some cases, I have added rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style.  I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion. However, please do not take this as Nertea's endorsement of the mod.
 
 I've currently given myself a "Mk0" inline cockpit in the start node because I am terrible at plane design and it is a bit cheaty.  This will probably change as this develops.
 
@@ -44,25 +44,26 @@ I've currently given myself a "Mk0" inline cockpit in the start node because I a
 * Restock/Restock+ 1.1.2
 * SCANsat 20.2
 
-The mods that I am looking at incorporating if changes necessary in the sort-of order of preference: 
-1. Nertea's Full Suite of Parts mods excluding the current Far Future due to his current revamp
-2. DMagic Orbital Science
-3. Universal Storage 2
-4. Luciole
-5. B9 Procedural Wings
-6. AirplanePlus
-7. Stockalike Mk1 Open cockpit
-8. Mk2/Mk3 Expansion
-9. Rational Resources
-10. MKS
-11. Knes
-12. KIS/KAS
-13. Stockish Project Orion
-14. Mining Expansion
+## Plan of Attack for Mods (Roughly): 
+* Nertea's Full Suite of Parts mods excluding the current Far Future due to his current revamp
+* DMagic Orbital Science
+* Universal Storage 2
+* Luciole
+* B9 Procedural Wings
+* AirplanePlus
+* Stockalike Mk1 Open cockpit
+* Mk2/Mk3 Expansion
+* Rational Resources
+* MKS
+* Knes
+* KIS/KAS
+* Stockish Project Orion
+* Mining Expansion
+* Waterfall (Will continue to watch this as Nertea develops)
 
 ## Great Mods, but not likely to be added by me (Happy to accept help):
-* BDB and Tantares (Scale and Scope are huge and hard to break down like Near Future)
-* Kerbalism (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting)
+* BDB and Tantares (Scale and Scope are huge and hard to break down like Near Future). As they also have a strong historical basis, I feel they are out of scope for this mod and probably deserve someone who has a deeper appreciation for the history of spaceflight than I do.  However, if anyone would like to tackle this, I am definitely open for it.  As for BDB though, I would ask that you work towards the 1.7 development build.
+* Kerbalism (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting and I will explore that)
 
 ## General Gameplay Changes
 * Probe behavior changes in two ways:  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path. 
