@@ -1,0 +1,144 @@
+// Strip out SAS functionality of all probes except for stability control and add back in via upgrades
+@PART[*]:HAS[@MODULE[ModuleCommand],#vesselType[Probe]]:NEEDS[CommunityTechTree]:FOR[zKiwiAerospace]
+{
+	@description = #$description$ \n\n<color=#ff0000>This part has upgrades!</color> 
+	!MODULE[ModuleSAS] {} // Remove original SAS Module
+	MODULE // Default to a basic level of stability
+	{
+		name = ModuleSAS
+		SASServiceLevel = 0
+	}
+	
+	%costAdjust1 = #$cost$
+	@costAdjust1 *= 0.50
+	%costAdjust2 = #$cost$
+	%costAdjust3 = #$cost$
+	@costAdjust3 *= 2
+	
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = sasSwitch
+		switcherDescription = SAS Switch
+		affectDragCubes = False
+		affectFARVoxels = False
+		
+		SUBTYPE
+	    {
+			name = SAS-Level0
+			title = Stability Augmentation System (Level 0)
+			descriptionSummary = Baseline Stability 
+			descriptionDetail = This level provides basic stability control.
+			addedCost = 0
+			defaultSubtypePriority = 1
+			primaryColor = #99c0ff
+			secondaryColor = #99c0ff
+	    }
+		
+		SUBTYPE
+	    {
+			name = SAS-Level1
+			title = Stability Augmentation System (Level 1)
+			descriptionSummary = Improved Stability
+			descriptionDetail = Probes are now capable of holding the vessel in Prograde/Retrograde orientation.
+			//upgradeRequired = sas1Upgrade
+			addedCost = #$../../costAdjust1$
+			defaultSubtypePriority = 0
+			primaryColor = #5c9aff
+			secondaryColor = #5c9aff
+			
+			MODULE
+			{
+			    IDENTIFIER
+			    {
+					name = ModuleSAS
+			    }
+
+			    DATA
+			    {
+					SASServiceLevel = 1
+				}			    
+			}
+	    }		
+		
+		SUBTYPE
+	    {
+			name = SAS-Level2
+			title = Stability Augmentation System (Level 2)
+			descriptionSummary = Advanced Stability
+			descriptionDetail = Probes are now capable of holding the vessel in Normal/Radial orientation.
+			//upgradeRequired = sas2Upgrade
+			addedCost = #$../../costAdjust2$
+			defaultSubtypePriority = 0
+			primaryColor = #1f75ff
+			secondaryColor = #1f75ff
+			
+			MODULE
+			{
+			    IDENTIFIER
+			    {
+					name = ModuleSAS
+			    }
+
+			    DATA
+			    {
+					SASServiceLevel = 2
+				}			    
+			}
+	    }
+		
+		SUBTYPE
+	    {
+			name = SAS-Level3
+			title = Stability Augmentation System (Level 3)
+			descriptionSummary = Extreme Stability
+			descriptionDetail = Probes are now capable of tracking targets and aligning with maneuvers.
+			//upgradeRequired = sas3Upgrade
+			addedCost = #$../../costAdjust3$
+			defaultSubtypePriority = 0
+			primaryColor = #0056e0
+			secondaryColor = #0056e0
+			
+			MODULE
+			{
+			    IDENTIFIER
+			    {
+					name = ModuleSAS
+			    }
+
+			    DATA
+			    {
+					SASServiceLevel = 3
+				}			    
+			}
+	    }
+	}
+}
+
+PARTUPGRADE
+{
+	name = sas1Upgrade
+	partIcon = probeCoreSphere_v2
+	techRequired = surviability
+	entryCost = 10000
+	title = SAS Level 1
+	description = Probes have been upgraded so are able to point towards prograde and retrograde.
+}
+PARTUPGRADE
+{
+	name = sas2Upgrade
+	partIcon = probeCoreSphere_v2
+	techRequired = advFlightControl
+	entryCost = 50000
+	title = SAS Level 2
+	description = Probes have been upgraded so can now point towards normal and radial.
+}
+PARTUPGRADE
+{
+	name = sas3Upgrade
+	partIcon = probeCoreSphere_v2
+	techRequired = experimentalControl
+	entryCost = 200000
+	title = SAS Level 3
+	description = Probes have been upgraded so can now track targets and hold a position for maneuvers.
+}

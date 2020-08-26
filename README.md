@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.2.2; 24 August 2020; Made for KSP 1.9.1
+## Version 0.2.3; 26 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/StiyWnp.png)
 
@@ -37,6 +37,7 @@ I've currently given myself a "Mk0" inline cockpit in the start node because I a
 * Missing History 1.8.2
 * M.O.L.E. (Very Limited Support) 1.22.1
 * Near Future Electrical 1.1.3
+* Near Future Launch Vehicles 2.0.3
 * Near Future Propulsion 1.2.2
 * Near Future Solar 1.2.3
 * Near Future Spacecraft 1.3.3
@@ -70,6 +71,7 @@ I've currently given myself a "Mk0" inline cockpit in the start node because I a
 * Renamed the command pods to reflect the relative node in which they appear.
 * Cockpit heat resistance has been reduced until High-Altitude Flight.
 * Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass.
+* Fuel Tanks and the Mk1-3 Spaceplane Systems have B9 upgrade systems implemented that reduce their dry weight by 20% for an additional 50% cost.
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -91,6 +93,9 @@ I've taken a few selective pieces out for my personal playthrough and provided s
 
 ## Near Future Electrical 1.1.3
 Slight repositioning of the tech nodes. If Decaying RTGs installed as an optional mod, doubles the half-life to allow the RTGs to be more useful for OPM or other large scale missions.
+
+## Near Future Launch Vehicles 2.0.3
+Added B9 Engine Upgrades; Reposition stock and restock engines if LV is installed; Added B9 Upgrade to Fuel Tanks. Cost rebalancing of engines.
 
 ## Near Future Propulsion 1.2.2
 If installed, we will move the Xenon tanks to noble gas fuel system nodes in the tech tree.  I've added B9 Part Upgrades to Argon and Xenon engines.  Of particular note, as a third tier upgrade to the Argon Hall Thrusters, I have added a Argon/Xenon mix based on the ideas of Diop, Gibert, and Bouchoule (2019) and Yamasaki, Yokota, and Shimamura (2019), that suggests that mixing Xenon and Argon can improve Argon efficiency, while the latter further notes that having a longer discharge channel is able to promote argon ionization, hence higher efficiency. As the hall thrusters had a bit higher thrust relative to xenon for the size class and efficiency, I balanced the VASIMR engines to reflect that gameplay element.  I also increased the cost of Xenon in the stock if Propulsion is installed.  Currently 2.5x the original cost and have modified any Xenon tank costs to reflect that change.
@@ -123,6 +128,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.2.3 (26 August 2020); Added Near Future Launch Vehicles Support with Engine Upgrades; Added Fuel Tank Upgrade to Stock/Restock/NFLV; Added Structural Upgrades to Mk1,Mk2,Mk3 Spaceplane Systems; Added some rescaled parts such as 3.75m and 5m SAS modules; Minor Rebalancing.
 * 0.2.2 (24 August 2020); Added Heat Control Support
 * 0.2.1 (24 August 2020); Added B9PS Upgrades to Nuclear Engines in Stock/Restock/Missing History; Added 5% increased mass to upgraded engines.
 * 0.2.0 (23 August 2020); Added B9PS Upgrades to Engines in Stock/Restock+; Moved SSME earlier in tree; light rebalancing.
