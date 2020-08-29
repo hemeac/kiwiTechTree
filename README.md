@@ -1,10 +1,10 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.2.3; 26 August 2020; Made for KSP 1.9.1
+## Version 0.3.0; 29 August 2020; Made for KSP 1.9.1
 
-![Kiwi CTT Overhaul](https://i.imgur.com/StiyWnp.png)
+![Kiwi CTT Overhaul](https://i.imgur.com/uNxEiqz.png)
 
-A CTT "Probes/Planes Before Crew" type Overhaul originally based on the Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and inspired by Spink Akron's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/).
+A CTT "Probes/Planes Before Crew" type overhaul inspired byZee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron and theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by providing an upgrade path (via B9PS or the stock upgrade system) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to (hopefully) balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
 
 ## Dependencies
 * [Community Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/)
@@ -20,13 +20,11 @@ This overhaul, like its predecessors, revolves around the premise that probes sh
 
 The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  I have added another 69+ tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported.
 
-Like UnKerballed Start, I have started with 0.625 meter engines and tanks and work progressively larger.  To try and prevent early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but have provided higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same as the introduction of the Mk3 spaceplane). I have used Zee's PBC mod to start the mod going, but even at this point, there is much that is different, so you should expect a different gameplay experience.
+Like UnKerballed Start, I have started with 0.625 meter engines and tanks and work progressively larger.  To try and prevent early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but have provided higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same as the introduction of the Mk3 spaceplane). I have used Zee's PBC mod to start the mod going, but the end goals are fairly, so you should expect a different gameplay experience. However, if you are looking for just a tech tree revamp, UnKerballed Start is back in active development.
 
 I calibrated the basic idea around stock and the expansion packs alongside Restock/Restock+ and Missing History.  Ultimately, given the number of nodes, you will benefit by having several parts mods.
 
 In some cases, I have added rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style.  I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion. However, please do not take this as Nertea's endorsement of the mod.
-
-I've currently given myself a "Mk0" inline cockpit in the start node because I am terrible at plane design and it is a bit cheaty.  This will probably change as this develops.
 
 ## Current Supported Mods (see details below for general changes):
 * BetterSRBs 1.2.3
@@ -69,9 +67,10 @@ I've currently given myself a "Mk0" inline cockpit in the start node because I a
 ## General Gameplay Changes
 * Probe behavior changes in two ways:  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path. 
 * Renamed the command pods to reflect the relative node in which they appear.
-* Cockpit heat resistance has been reduced until High-Altitude Flight.
-* Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass.
-* Fuel Tanks and the Mk1-3 Spaceplane Systems have B9 upgrade systems implemented that reduce their dry weight by 20% for an additional 50% cost.
+* Cockpit heat resistance has been reduced until High-Altitude Flight which is added through a B9PS upgrade.
+* Rocket Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass.
+* Jet Engines have received a B9PS upgrade two tiers later which adds about 20% thrust.  I tweaked the R.A.P.I.E.R. a bit more.
+* Command Pods, Fuel Tanks and the Mk1-3 Spaceplane Systems, and other structural parts have B9 upgrade systems implemented that reduce their dry weight by 20% for an additional 50% cost.
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -128,21 +127,22 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
-* 0.2.3 (26 August 2020); Added Near Future Launch Vehicles Support with Engine Upgrades; Added Fuel Tank Upgrade to Stock/Restock/NFLV; Added Structural Upgrades to Mk1,Mk2,Mk3 Spaceplane Systems; Added some rescaled parts such as 3.75m and 5m SAS modules; Minor Rebalancing.
-* 0.2.2 (24 August 2020); Added Heat Control Support
-* 0.2.1 (24 August 2020); Added B9PS Upgrades to Nuclear Engines in Stock/Restock/Missing History; Added 5% increased mass to upgraded engines.
-* 0.2.0 (23 August 2020); Added B9PS Upgrades to Engines in Stock/Restock+; Moved SSME earlier in tree; light rebalancing.
-* 0.1.11 (23 August 2020); Added Near Future Spacecraft support; Decaying RTG patch to Near Future Electrical; Added node for the special propulsion line; renamed command pods; Noted the license restrictions of supported mods.
-* 0.1.10 (21 August 2020); Added Near Future Electrical support; Minor changes to Near Future Propulsion
-* 0.1.9 (21 August 2020); Added Near Future Propulsion Support; Added nodes to Tech Tree for Ion Propulsion Fuel Systems Line; Balanced Xenon costs
-* 0.1.8 (16 August 2020); Added SAS upgrades to probe parts, removed default SAS levels for all stock/modded probes.
-* 0.1.7 Slight rebalance of solar parts; Added Near Future Solar support; Added Omega Solar Tech node in tree.
-* 0.1.6 Added LTech Beta and SCANsat support; rebalanced stock resource scanners compared to SCANsat
-* 0.1.5 Added a couple of nodes to support the command module strand.
-* 0.1.4 Added Nuclear Power & Propulsion
-* 0.1.3 Added CNAR support.
-* 0.1.2 Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
-* 0.1.1 Added MkIV Spaceplane Support, Added part upgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
+* 0.3.0 (30 August 2020): Added upgrades to jet engines; Added upgrades to structural parts; moved some plane parts earlier, including Mk1 Cockpit to start. Color coded upgrades in B9PS; Lowered the cost of several structural parts, they relatively expensive relative to engines.
+* 0.2.3 (26 August 2020): Added Near Future Launch Vehicles Support with Engine Upgrades; Added Fuel Tank Upgrade to Stock/Restock/NFLV; Added Structural Upgrades to Mk1,Mk2,Mk3 Spaceplane Systems; Added some rescaled parts such as 3.75m and 5m SAS modules; Minor Rebalancing.
+* 0.2.2 (24 August 2020): Added Heat Control Support
+* 0.2.1 (24 August 2020): Added B9PS Upgrades to Nuclear Engines in Stock/Restock/Missing History; Added 5% increased mass to upgraded engines.
+* 0.2.0 (23 August 2020): Added B9PS Upgrades to Engines in Stock/Restock+; Moved SSME earlier in tree; light rebalancing.
+* 0.1.11 (23 August 2020): Added Near Future Spacecraft support; Decaying RTG patch to Near Future Electrical; Added node for the special propulsion line; renamed command pods; Noted the license restrictions of supported mods.
+* 0.1.10 (21 August 2020): Added Near Future Electrical support; Minor changes to Near Future Propulsion
+* 0.1.9 (21 August 2020): Added Near Future Propulsion Support; Added nodes to Tech Tree for Ion Propulsion Fuel Systems Line; Balanced Xenon costs
+* 0.1.8 (16 August 2020): Added SAS upgrades to probe parts, removed default SAS levels for all stock/modded probes.
+* 0.1.7: Slight rebalance of solar parts; Added Near Future Solar support; Added Omega Solar Tech node in tree.
+* 0.1.6: Added LTech Beta and SCANsat support; rebalanced stock resource scanners compared to SCANsat
+* 0.1.5: Added a couple of nodes to support the command module strand.
+* 0.1.4: Added Nuclear Power & Propulsion
+* 0.1.3: Added CNAR support.
+* 0.1.2: Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
+* 0.1.1: Added MkIV Spaceplane Support, Added part upgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
 
 ## Known Issues
 * Couple of upgrade lines in the Tech Tree disappear when viewing them near the edges of the screen.
