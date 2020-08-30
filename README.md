@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.3.0; 29 August 2020; Made for KSP 1.9.1
+## Version 0.3.1; 30 August 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/uNxEiqz.png)
 
@@ -34,6 +34,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
 * M.O.L.E. (Very Limited Support) 1.22.1
+* Near Future Construction 1.2.3
 * Near Future Electrical 1.1.3
 * Near Future Launch Vehicles 2.0.3
 * Near Future Propulsion 1.2.2
@@ -82,13 +83,16 @@ Created a new node in the tech tree between the start and other tech nodes for t
 Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scaled 50% to get a 1.875 m variant.  Have to say that I am not an expert in the heat mechanics, so any recommendations will be appreciated.
 
 ## Mark IV Spaceplane System 3.1.2
-Shuffled the tech nodes.
+Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%
 
 ## Missing History 1.8.2
 Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass.
 
 ## M.O.L.E. 1.22.1
-I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this only because I can't be bothered putting another folder for this, so consider this incomplete.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
+I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
+
+## Near Future Construction 1.2.3
+Repositioning of the tech nodes.  Added B9PS Upgrades to parts.
 
 ## Near Future Electrical 1.1.3
 Slight repositioning of the tech nodes. If Decaying RTGs installed as an optional mod, doubles the half-life to allow the RTGs to be more useful for OPM or other large scale missions.
@@ -127,6 +131,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.3.1 (30 August 2020): Added Near Future Construction Support; Added upgrades to adapters, docking ports, etc.; Added a general tech node template.
 * 0.3.0 (30 August 2020): Added upgrades to jet engines; Added upgrades to structural parts; moved some plane parts earlier, including Mk1 Cockpit to start. Color coded upgrades in B9PS; Lowered the cost of several structural parts, they relatively expensive relative to engines.
 * 0.2.3 (26 August 2020): Added Near Future Launch Vehicles Support with Engine Upgrades; Added Fuel Tank Upgrade to Stock/Restock/NFLV; Added Structural Upgrades to Mk1,Mk2,Mk3 Spaceplane Systems; Added some rescaled parts such as 3.75m and 5m SAS modules; Minor Rebalancing.
 * 0.2.2 (24 August 2020): Added Heat Control Support
@@ -176,4 +181,4 @@ Tech tree reconfigs were based on config files originally created by _Zee and re
 
 Icons from Community Tech Tree by Nertea were modified and included in this mod and are licensed under Creative Commons Attribution-NonCommercial 4.0.
 
-Additional icons sourced from flaticon.com and thenounproject.com.
+Additional icons used within the tech tree were modified based on incons sourced from flaticon.com and thenounproject.com.

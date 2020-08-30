@@ -1,0 +1,609 @@
+// Kiwi's CTT Overhaul Template
+// Version 0.3
+// Last Updated: 30 August 2020 for KSP 1.9.1
+
+
+
+//// ********* Aerodynamics ********* \\\\
+
+// ***** Cockpits and Engines and Air Intakes ***** \\
+
+// Tier 0 - Start
+
+// Tier 1 - earlyFlight
+
+// Tier 2 - stability
+
+// Tier 3 - aviation
+
+// Tier 4 - streamlinedFlight
+
+// Tier 5 - supersonicFlight
+
+// Tier 6 - highAltitudeFlight
+
+// Tier 7 - hypersonicFlight
+
+// Tier 8 - aerospaceTech
+
+// Tier 9 - expAircraftEngines
+
+
+
+
+// ***** Structural & Wings ***** \\
+// Tier 0 - Start
+
+// Tier 1 - earlyFlight
+
+// Tier 2 - stability
+
+// Tier 3 - aviation
+
+// Tier 4 - aerodynamicSystems
+
+// Tier 5 - advAerodynamics
+
+// Tier 6 - heavyAerodynamics
+
+// Tier 7 - experimentalAerodynamics
+
+// Tier 8 - aerospaceComposites
+
+// Tier 9 - advAerospaceEngineering
+
+
+
+// ***** Rotors ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - earlyFlight
+
+// Tier 2 - stability
+
+// Tier 3 - aviation
+
+// Tier 4 - subsonicFlight
+
+// Tier 5 - efficientFlightSystems
+
+// Tier 6 - advancedFlightSystems
+
+// Tier 7 - specializedFlightSystems
+
+
+
+
+//// ********* Command Modules ********* \\\\
+
+// ***** Command Modules ***** \\
+
+// Tier 4 - simpleCommandModules or simpleCommandModulesExtensions
+
+// Tier 5 - commandModules or commandModulesExtensions
+
+// Tier 6 - heavyCommandModules
+
+// Tier 7 - specializedCommandModules
+
+// Tier 8 - specializedCommandCenters or specializedLanders
+
+// Tier 9 - heavyLanders or heavyCommandCenters
+
+
+
+//// ********* Construction ********* \\\\
+
+// ***** Adapters, Fairings, Rocket Nose Cones ***** \\
+// Tier 0 - start
+
+// Tier 1 - basicRocketry
+
+// Tier 2 - basicConstruction
+
+// Tier 3 - generalConstruction
+
+// Tier 4 - Advanced Construction - advConstruction
+
+// Tier 5 - Specialized Construction - specializedConstruction
+
+// Tier 6 - Advanced MetalWorks - advMetalworks
+
+// Tier 7 - Nanolathing - nanolathing
+
+// Tier 8 - Exotic Alloys - exoticAlloys
+
+// Tier 9 - aerographite
+
+
+
+// ***** Structural Parts ***** \\
+// Tier 0 - start
+
+// Tier 1 - Basic Rocketry - basicRocketry
+
+// Tier 2 - Basic Construction - basicConstruction
+
+// Tier 3 - General Construction - generalConstruction
+
+// Tire 4 - Advanced Construction - advConstruction
+
+// Tier 5 - Specialized Construction - specializedConstruction
+
+// Tier 6 - Composites - composites
+
+// Tier 7 - Meta-Materials - metaMaterials
+
+// Tier 8 - Orbital Assembly - orbitalAssembly
+
+// Tier 9 - Orbital Megastructures - orbitalMegastructures
+
+
+//// ********* Decouplers/Separators/DockingPorts/EnginePlates ********* \\\\
+
+// Tier 0
+
+// Tier 1
+
+// Tier 2 Basic Construction - basicConstruction
+
+// Tier 3 Decoupling - decoupling
+
+// Tier 4 Docking - docking
+
+// Tier 5 Advanced Decoupling -advancedDecoupling
+
+// Tier 6 Engine Plates - enginePlates
+
+// Tier 7 Advanced Docking - advancedDocking
+
+// Tier 8 Advanced Engine Plates - advancedEnginePlates
+
+// Tier 9 Automated Decoupling Systems - automatedDecouplingSystems
+
+// Tier 10 extremeFuelStorage
+
+
+//// ********* Electric / Solar / Heat ********* \\\\
+
+
+// ***** Batteries ***** \\
+
+// Tier 0
+
+// Tier 1 Engineering 101 - engineering101
+
+// Tier 2 - Science 201 - science201
+
+// Tier 3 - Basic Science - basicScience
+
+// Tier 4 - Electrics - electrics
+
+// Tier 5 - Advanced Electrics - advElectrics
+
+// Tier 6 - High-Power Electrics // largeElectrics
+
+// Tier 7 - Specialized Electrics - specializedElectrics
+
+// Tier 8 - Experimental Electrics - experimentalElectrics
+
+// Tier 9 - High Tech Electrical Systems - highTechElectricalSystems
+
+// Tier 10 - High Power Electrical Systems - highPowerElectricalSystems
+
+// Tier 11 - Experimental Electrical Systems - experimentalElectricalSystems
+
+// Tier 12 - Exotic Electrical Systems - exoticElectricalSystems
+
+
+
+
+
+// ***** Solar and Fuel Cells ***** \\
+
+// Tier 0 - start
+
+// Tier 1 Engineering 101 - engineering101
+
+// Tier 2 - Science 201 - science201
+
+// Tier 3 - batteryTech
+
+// Tier 4 - electrics
+
+// Tier 5 - advElectrics
+
+// Tier 6 - largeElectrics (High-Power Electrics)
+
+// Tier 7 - advSolarTech 
+
+// Tier 8 - Advanced Photovoltaic Materials (advPVMaterials) / Cutting-Edge Solar Technology (cuttingEdgeSolarTech)
+
+// Tier 9 - Microwave Power Transmission / Exotic Solar Technology (exoticSolarTech)
+
+// Tier 10 - Omega Solar Technology (omegaSolarTech)
+
+
+
+
+
+
+
+//// ********* Engines ********* \\\\
+
+// ***** Liquid Fuel ***** \\
+
+// Tier 0 - start, just the small jet engine to allow for the aeronautics branch
+
+// Tier 1 - basicRocketry , a basic 0.625m engine that helps get us off the ground
+
+// Tier 2 - generalRocketry ; Stronger 0.625m engine and initial 1.25m engine
+
+// Tier 3 - advRocketry ; Intro of the 1.875m engine in Making History
+
+// Tier 4 - heavyRocketry Heavy Rocketry, Intro of 2.5m engines
+
+// Tier 5 - heavierRocketry Heavier Rocketry
+
+// Tier 6 - evenHeavierRocketry Even Heavier Rocketry Intro of 3.75m engines
+
+// Tier 7 - veryHeavyRocketry Very Heavy Rocketry
+
+// Tier 8 - experimentalRocketry Experimental Rocketry
+
+// Tier 9 - giganticRocketry
+
+// Tier 10 - colossalRocketry
+
+
+
+// ***** Speciality Liquid Fuel/Mono Engines ***** \\
+
+// Tier 4 - propulsionSystems
+
+// Tier 5 - precisionPropulsion
+
+// Tier 6 - experimentalPropulsion
+
+// Tier 7 - exoticPropulsion or ionPropulsion
+
+// Tier 8 - advIonPropulsion
+
+// Tier 9 - plasmaPropulsion or advGriddedThrusters
+
+// Tier 10 - advEMSystems or expGriddedThrusters
+
+// Tier 11 - specializedPlasmaGeneration or exoticGriddedThrusters
+
+// Tier 12 - exoticPlasmaPropulsion
+
+
+
+// ***** Solid Rocket Boosters ***** \\
+
+// Tier 0 - start
+// Good starting solid rocket to get off ground, barely
+
+// Tier 1, looking at just a slightly more powerful 0.625m part - soundingRockets
+
+// Tier 2, Introduce a 1.25m SRB - tinyBoosters
+
+// Tier 3, Some more powerful 1.25m SRB - smallBoosters
+
+// Tier 4, Intro of a solid 1.875 m booster found within Missing History Patch
+
+// Tier 5, 2.5m booster - largeBoosters
+
+// Tier 6, Pollux from Making History makes this branch - largerBoosters
+
+// Tier 7 - hugeBoosters
+
+// Tier 8 - gargantuanBoosters
+
+
+
+//// ********* Fuel Tanks ********* \\\\
+
+// ***** Liquid Fuel ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - basicRocketry; 0.625m Fuel Tank
+
+// Tier 2 - earlyFuelSystems ; Intro of the 1.25m tank, a larger 0.625 piece
+
+// Tier 3 - basicFuelSystems // Intro of the 1.875 if Making History installed
+
+// Tier 4 - fuelSystems // Intro of the 2.5m
+
+// Tier 5 - advFuelSystems - Intro of the 3.75m
+
+// Tier 6 - largeVolumeContainment // Intro of the 5m Large Volume Containment
+
+// Tier 7 - highPerformanceFuelSystems // Intro of the 7.5m High Performance Fuel Systems
+
+// Tier 8 - specializedFuelStorage Specialized Fuel Storage
+
+// Tier 9 - exoticFuelStorage
+
+// Tier 10 - extremeFuelStorage
+
+
+// ***** Speciality Liquid Fuel Tanks ***** \\
+
+// Tier 3 - fuelLines
+
+// Tier 4 - flexibleFuelSolutions
+
+// Tier 5 - advancedFlexibleFuelSolutions
+
+
+
+//// ********* Probes and Communication ********* \\\\
+
+// ***** Probes ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - engineering101
+
+// Tier 2 - science201
+
+// Tier 3 - basicScience
+
+// Tier 4 - earlyProbes
+
+// Tier 5 - communicationSatellites
+
+// Tier 6 - unmannedTech
+
+// Tier 7 - advUnmanned
+
+// Tier 8 - largeUnmanned
+
+// Tier 9 - artificialIntelligence
+
+
+
+// ***** Antenna ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - engineering101
+
+// Tier 2 - science201
+
+// Tier 3 - basicScience
+
+// Tier 4 - earlyProbes
+
+// Tier 5 - communicationSatellites
+
+// Tier 6 - highGainCommunications
+
+// Tier 7 - signalProcessing
+
+// Tier 8 - digitalSignalProcessing
+
+// Tier 9 - xBandCommunications
+
+// Tier 10 - deepSpaceOpticalCommunications
+
+// Tier 11 - quantumCommunications
+
+
+
+
+//// ********** Nuclear *********** \\\\
+// ***** Nuclear Power ***** \\
+
+// Tier 6 - nuclearPower
+
+// Tier 7 - largeNuclearPower
+
+// Tier 8 - advNuclearPower
+
+// Tier 9 - expNuclearPower
+
+// Tier 10 - exoticNuclearPower
+
+// ***** Nuclear Propulsion ***** \\
+// Tier 6 - nuclearPropulsion
+
+// Tier 7 - improvedNuclearPropulsion
+
+// Tier 8 - advNuclearPropulsion
+
+// Tier 9 - expNuclearPropulsion
+
+// Tier 10 - exoticNuclearPropulsion
+
+
+
+//// ********** Utility/Misc *********** \\\\
+
+// ***** Landing Gear and Wheels ***** \\
+// Tier 0 - Start
+
+// Tier 1 - earlyFlight
+
+// Tier 2 - stability
+
+// Tier 3 - aviation
+
+// Tier 4 - landing
+
+// Tier 5 - fieldScience
+
+// Tier 6 - advLanding
+
+// Tier 7 - heavyLanding
+
+// Tier 8 - advancedMotors
+
+
+
+
+// ***** Flight Control ***** \\
+// Tier 0 - Start
+
+// Tier 1 - earlyFlight
+
+// Tier 2 - stability or survivability for SAS
+
+// Tier 3 - flightControl
+
+// Tier 4 - advFlightControl
+
+// Tier 5 - specializedControl
+
+// Tier 6 - experimentalControl
+
+// Tier 7 - exoticControl
+
+
+
+
+
+// ***** Thermals ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - engineering101
+
+// Tier 2 - science201
+
+// Tier 3 - batteryTech
+
+// Tier 4 - electrics
+
+// Tier 5 - heatManagementSystems
+
+// Tier 6 - intermediateHeatManagement
+
+// Tier 7 - advHeatManagement
+
+// Tier 8 - skipped
+
+// Tier 9 - specializedRadiators
+
+
+// ***** Ladders and Lights ***** \\
+
+// Tier 4 - spaceExploration
+
+// Tier 5 - advExploration
+
+
+
+//// ********* Logistics and Station/Moon Habitation ********* \\\\
+// ***** Stations / Colony Pieces ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - engineering101
+
+// Tier 2 - serviceModules
+
+// Tier 3 - skipped
+
+// Tier 4 - recycling
+
+// Tier 5 - hydroponics
+
+// Tier 6 - earlyStations
+
+// Tier 7 - shortTermHabitation
+
+// Tier 8 - longTermHabitation
+
+// Tier 9 - advancedStations
+
+// Tier 10 - colonization
+
+// Tier 11 - advColonization
+
+
+
+
+// ***** Storage/Resources ***** \\
+// Tier 0 - start
+
+// Tier 1 - engineering101
+
+// Tier 2 - serviceModules
+
+// Tier 3 - Skipped
+
+// Tier 4 - storageTech
+
+// Tier 5 - earlyLogistics
+
+// Tier 6 - logistics
+
+// Tier 7 - isru
+
+// Tier 8 - advLogistics
+
+// Tier 9 - advOffworldMining
+
+// Tier 10 - resourceExploitation
+
+
+
+// ***** Parachutes ***** \\
+
+//	@TechRequired = survivability
+
+//	@TechRequired = enhancedSurvivability
+
+
+//// ********* Science ********* \\\\
+
+// Tier 0 - start
+
+// Tier 1  - engineering101
+
+// Tier 2 - science201 
+
+// Tier 3 - basicScience
+
+// Tier 4 - appliedScience
+
+// Tier 5 - exactScience
+
+// Tier 6 - scienceTech
+
+// Tier 7 - advScienceTech or specializedScienceTech // Resource Detection goes in advScienceTech
+
+// Tier 8 - experimentalScience or longTermScienceTech // Resource Detection goes in experimentalScience
+
+// Tier 9 - metascience or scientificOutposts // Resource detection goes in metaScience
+
+// Tier 10 - highEnergyScience
+
+// Tier 11 - appliedHighEnergyPhysics
+
+// Tier 12 - ultraHighEnergyPhysics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
