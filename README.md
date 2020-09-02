@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.3.1; 30 August 2020; Made for KSP 1.9.1
+## Version 0.3.2; 3 September 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/uNxEiqz.png)
 
