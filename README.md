@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.3.2; 3 September 2020; Made for KSP 1.9.1
+## Version 0.3.3; 7 September 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/uNxEiqz.png)
 
@@ -29,6 +29,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 ## Current Supported Mods (see details below for general changes):
 * BetterSRBs 1.2.3
 * Completely Non-Aggressive Rocketry 1.0.2
+* Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
 * Heat Control 0.5.2
 * Kerbal Atomics 1.1.4
@@ -81,8 +82,11 @@ Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless ot
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space
 
+## Cryogenic Engines 1.1.4
+Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Will convert some Stock, Making History, and ReStock+ to cryogenic engines if they were originally based off crogenic engines. If CryoTanksMethalox is installed (ie. a blank folder with that name is added to GameData), will add methalox variants to all cryogenic engines along with custom methalox plumes if RealPlume is installed.  On the potential to-do list is add PlumeParty support if RealPlume is not available, but currently methalox engines without RealPlume uses the default hydrolox plumes.
+
 ## CryoTanks 1.5.2
-Created a couple of 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; This will replace the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a bit busy...
+Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a bit busy...
 
 ## Heat Control 0.5.2
 Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scaled 50% to get a 1.875 m variant.  Have to say that I am not an expert in the heat mechanics, so any recommendations will be appreciated.
@@ -117,7 +121,7 @@ If installed, this will place solar a touch earlier in the tech tree and place m
 Lastly, the advanced and concentrated versions of both Nertea and stock require a tech upgrade to access.  Advanced will occur one level above the part, Concentrated two levels.
 
 ## Near Future Spacecraft 1.3.3
-Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the RCS fuel tanks as they provide some variety to the fuel tanks.
+Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the Monopropellant fuel tanks as they provide some variety to the fuel tanks, they don't look as bad as Nertea thinks they look.
 
 ## RealPlume 4.0.1 / PlumeParty
 Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, will use Plume Party.  Added temporary RealPlume patches to the Kerbal Atomics aerospikes.
@@ -139,6 +143,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.3.3 (7 September 2020): Added Cryogenic Engines Support
 * 0.3.2 (3 September 2020): Added Kerbal Atomics and CryoTanks Support; Modifies tank upgrades depending on CryoTanks installation; Changed color scheme for Engine Switches based on fuel types; Added new tier on Nuclear Propulsion for Kerbal Atomics Upgrades
 * 0.3.1 (30 August 2020): Added Near Future Construction Support; Added upgrades to adapters, docking ports, etc.; Added a general tech node template.
 * 0.3.0 (30 August 2020): Added upgrades to jet engines; Added upgrades to structural parts; moved some plane parts earlier, including Mk1 Cockpit to start. Color coded upgrades in B9PS; Lowered the cost of several structural parts, they relatively expensive relative to engines.
