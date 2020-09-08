@@ -292,7 +292,7 @@
 
 // Tier 7 - exoticPropulsion or ionPropulsion
 
-// Tier 8 - advIonPropulsion
+// Tier 8 - advIonPropulsion or aBitMoreExoticPropulsion
 
 // Tier 9 - plasmaPropulsion or advGriddedThrusters
 
@@ -382,9 +382,9 @@
 
 // Tier 6 - unmannedTech
 
-// Tier 7 - advUnmanned
+// Tier 7 - advUnmanned or automation
 
-// Tier 8 - largeUnmanned
+// Tier 8 - largeUnmanned or mechatronics
 
 // Tier 9 - artificialIntelligence
 

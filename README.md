@@ -1,6 +1,6 @@
 # Kiwi's CTT Overhaul
 
-## Version 0.3.3; 7 September 2020; Made for KSP 1.9.1
+## Version 0.3.4; 8 September 2020; Made for KSP 1.9.1
 
 ![Kiwi CTT Overhaul](https://i.imgur.com/uNxEiqz.png)
 
@@ -33,10 +33,11 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * CryoTanks 1.5.2
 * Heat Control 0.5.2
 * Kerbal Atomics 1.1.4
-* LTech 0.5.1 Beta
+* LTech 0.5.1 [Beta]
+* M.O.L.E. (Very Limited Support) 1.22.1
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
-* M.O.L.E. (Very Limited Support) 1.22.1
+* Mk-33 [Beta]
 * Near Future Construction 1.2.3
 * Near Future Electrical 1.1.3
 * Near Future Launch Vehicles 2.0.3
@@ -94,14 +95,17 @@ Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scale
 ## Kerbal Atomics 1.1.4
 Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov.
 
+## M.O.L.E. 1.22.1
+I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
+
 ## Mark IV Spaceplane System 3.1.2
 Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%
 
 ## Missing History 1.8.2
 Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. If installed alongside Kerbal Atomics, will adapt the same LF/LH2 multimode design as the Stock NERV and ReStock+ Cherenkov and updates the RealPlume plume to match.
 
-## M.O.L.E. 1.22.1
-I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
+## Mk-33 Beta
+Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore.
 
 ## Near Future Construction 1.2.3
 Repositioning of the tech nodes.  Added B9PS Upgrades to parts.
@@ -143,6 +147,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.3.4 (8 September 2020): Added Mk-33 Support; Moved the R.A.P.I.E.R engine to alternate propulsion branch; Added a new node A Bit More Exotic Propulsion; Added Plurals to B9PS Switches
 * 0.3.3 (7 September 2020): Added Cryogenic Engines Support
 * 0.3.2 (3 September 2020): Added Kerbal Atomics and CryoTanks Support; Modifies tank upgrades depending on CryoTanks installation; Changed color scheme for Engine Switches based on fuel types; Added new tier on Nuclear Propulsion for Kerbal Atomics Upgrades
 * 0.3.1 (30 August 2020): Added Near Future Construction Support; Added upgrades to adapters, docking ports, etc.; Added a general tech node template.
