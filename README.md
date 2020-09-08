@@ -1,10 +1,10 @@
-# Kiwi's CTT Overhaul
+# Kiwi's Tech Tree Overhaul
 
 ## Version 0.3.4; 8 September 2020; Made for KSP 1.9.1
 
-![Kiwi CTT Overhaul](https://i.imgur.com/uNxEiqz.png)
+![Kiwi Tech Tree Overhaul](https://i.imgur.com/uNxEiqz.png)
 
-A CTT "Probes/Planes Before Crew" type overhaul inspired byZee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron and theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by providing an upgrade path (via B9PS or the stock upgrade system) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to (hopefully) balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
+A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired byZee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron/theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by providing an upgrade path (via B9PS or the stock upgrade system) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to (hopefully) balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
 
 ## Dependencies
 * [Community Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/)
@@ -16,7 +16,7 @@ A CTT "Probes/Planes Before Crew" type overhaul inspired byZee's [PBC Mod](https
 
 ## Objective
 
-This overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree Mod, I have also spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite.  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the restriction of having to choose one or the other within the gameplay environment. While I have tried to keep changes relatively minimial, if you like to play with new parts as the modder intended, this is probably not the right tech tree mod for you.
+This Tech Tree overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree Mod, I have also spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite.  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the restriction of having to choose one or the other within the gameplay environment. While I have tried to keep changes relatively minimial, if you like to play with new parts as the modder intended, this is probably not the right tech tree mod for you.
 
 The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  I have added another 69+ tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported.
 
