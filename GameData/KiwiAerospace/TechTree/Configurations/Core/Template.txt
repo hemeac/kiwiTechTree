@@ -26,12 +26,12 @@
 
 // Tier 8 - aerospaceTech
 
-// Tier 9 - expAircraftEngines
+// Tier 9 - experimentalAerospaceTech
 
 
 
 
-// ***** Structural & Wings ***** \\
+// ***** Structural & Wings & Plane Fuel Tanks ***** \\
 // Tier 0 - Start
 
 // Tier 1 - earlyFlight
@@ -71,6 +71,8 @@
 // Tier 6 - advancedFlightSystems
 
 // Tier 7 - specializedFlightSystems
+
+// Tier 8 - experimentalFlightSystems
 
 
 
@@ -294,9 +296,9 @@
 
 // Tier 8 - advIonPropulsion or aBitMoreExoticPropulsion
 
-// Tier 9 - plasmaPropulsion or advGriddedThrusters
+// Tier 9 - plasmaPropulsion or advGriddedThrusters or expAircraftEngines
 
-// Tier 10 - advEMSystems or expGriddedThrusters
+// Tier 10 - advEMSystems or expGriddedThrusters or hybridAircraftEngines
 
 // Tier 11 - specializedPlasmaGeneration or exoticGriddedThrusters
 

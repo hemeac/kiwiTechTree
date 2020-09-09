@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.3.4; 8 September 2020; Made for KSP 1.9.1
+## Version 0.3.5; 9 September 2020; Made for KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/uNxEiqz.png)
 
@@ -38,6 +38,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
 * Mk-33 [Beta]
+* Near Future Aeronautics 2.0.0
 * Near Future Construction 1.2.3
 * Near Future Electrical 1.1.3
 * Near Future Launch Vehicles 2.0.3
@@ -107,6 +108,9 @@ Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Re
 ## Mk-33 Beta
 Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore.
 
+## Near Future Aeronautics 2.0.0
+Repositioning of the tech nodes. Some cost rebalancing  Added B9PS Upgrades to parts. If installed, it will move the stock Whiplash one level earlier to try to avoid it being obsolete upon researching it.
+
 ## Near Future Construction 1.2.3
 Repositioning of the tech nodes.  Added B9PS Upgrades to parts.
 
@@ -147,6 +151,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.3.5 (9 September 2020): Added Near Future Aeronautics Support; Removed the Needs CommunityTechTree from some parts (felt redundant).  Moved Experimental Aircraft Engines to alternative propulsion branch; Added new node in aeronautics branch, one in flight systems, one in alternate propulsion.
 * 0.3.4 (8 September 2020): Added Mk-33 Support; Moved the R.A.P.I.E.R engine to alternate propulsion branch; Added a new node A Bit More Exotic Propulsion; Added Plurals to B9PS Switches
 * 0.3.3 (7 September 2020): Added Cryogenic Engines Support
 * 0.3.2 (3 September 2020): Added Kerbal Atomics and CryoTanks Support; Modifies tank upgrades depending on CryoTanks installation; Changed color scheme for Engine Switches based on fuel types; Added new tier on Nuclear Propulsion for Kerbal Atomics Upgrades
