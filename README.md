@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.3.5; 9 September 2020; Made for KSP 1.9.1
+## Version 0.3.6; 10 September 2020; Made for KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -41,6 +41,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Near Future Aeronautics 2.0.0
 * Near Future Construction 1.2.3
 * Near Future Electrical 1.1.3
+* Near Future Exploration 1.0.10
 * Near Future Launch Vehicles 2.0.3
 * Near Future Propulsion 1.2.2
 * Near Future Solar 1.2.3
@@ -117,6 +118,9 @@ Repositioning of the tech nodes.  Added B9PS Upgrades to parts.
 ## Near Future Electrical 1.1.3
 Slight repositioning of the tech nodes. If Decaying RTGs installed as an optional mod, doubles the half-life to allow the RTGs to be more useful for OPM or other large scale missions.
 
+## Near Future Exploration 1.0.10
+Repositioning of the tech nodes.  Will move several of the stock antennae further into the tech tree, will require using multiple antenna and reflectors to get further from Kerbin earlier in the tech tree.  Adds methane variants to fuel tanks of CryoTanksMethalox is installed.
+
 ## Near Future Launch Vehicles 2.0.3
 Added B9 Engine Upgrades; Reposition stock and restock engines if LV is installed; Added B9 Upgrade to Fuel Tanks. Cost rebalancing of engines.
 
@@ -151,6 +155,7 @@ Shuffled the tech nodes. Slight cost rebalancing.
 
 
 ## Changelog
+* 0.3.6 (10 September 2020): Added Near Future Exploration Support; Added additional EC to Stayputnik; Slight change in stock antenna tech nodes; Fixed typo in probe upgrades so it is researchable; Fixed overly general rcsblock patch in NF Spacecraft.
 * 0.3.5 (9 September 2020): Added Near Future Aeronautics Support; Removed the Needs CommunityTechTree from some parts (felt redundant).  Moved Experimental Aircraft Engines to alternative propulsion branch; Added new node in aeronautics branch, one in flight systems, one in alternate propulsion.
 * 0.3.4 (8 September 2020): Added Mk-33 Support; Moved the R.A.P.I.E.R engine to alternate propulsion branch; Added a new node A Bit More Exotic Propulsion; Added Plurals to B9PS Switches
 * 0.3.3 (7 September 2020): Added Cryogenic Engines Support
