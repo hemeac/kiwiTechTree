@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.3.7; 12 September 2020; Made for KSP 1.9.1
+## Version 0.3.8; 12 September 2020; Made for KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -31,13 +31,14 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Completely Non-Aggressive Rocketry 1.0.2
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
+* DMagic Orbital Science 1.4.3
 * Heat Control 0.5.2
 * Kerbal Atomics 1.1.4
 * LTech 0.5.1 [Beta]
 * M.O.L.E. (Very Limited Support) 1.22.1
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
-* Mk-33 [Beta]
+* Mk-33 [Beta; 8 September 2020]
 * Near Future Aeronautics 2.0.0
 * Near Future Construction 1.2.3
 * Near Future Electrical 1.1.3
@@ -52,8 +53,6 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Stockalike Station Parts Expansion Redux 1.3.6
 
 ## Plan of Attack for Mods (Roughly): 
-* Nertea's Full Suite of Parts mods excluding the current Far Future due to his current revamp
-* DMagic Orbital Science
 * Universal Storage 2
 * Luciole
 * B9 Procedural Wings
@@ -91,6 +90,9 @@ Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Will
 
 ## CryoTanks 1.5.2
 Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a bit busy...
+
+## DMagic Orbital Science 1.4.3
+Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game.
 
 ## Heat Control 0.5.2
 Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scaled 50% to get a 1.875 m variant.  Have to say that I am not an expert in the heat mechanics, so any recommendations will be appreciated.
@@ -159,6 +161,7 @@ Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.
 
 
 ## Changelog
+* 0.3.8 (12 September 2020): Added DMagic Orbital Science Support; Renamed Scanning Tech node title to Science Tech (which is what the underlying node is called called)
 * 0.3.7 (12 September 2020): Added Stockalike Station Parts Expansion Redux Support; Added framework for antenna upgrade (not currently functional)
 * 0.3.6 (10 September 2020): Added Near Future Exploration Support; Added additional EC to Stayputnik; Slight change in stock antenna tech nodes; Fixed typo in probe upgrades so it is researchable; Fixed overly general rcsblock patch in NF Spacecraft.
 * 0.3.5 (9 September 2020): Added Near Future Aeronautics Support; Removed the Needs CommunityTechTree from some parts (felt redundant).  Moved Experimental Aircraft Engines to alternative propulsion branch; Added new node in aeronautics branch, one in flight systems, one in alternate propulsion.
