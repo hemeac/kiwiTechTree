@@ -85,7 +85,7 @@
 
 // Tier 5 - commandModules or commandModulesExtensions
 
-// Tier 6 - heavyCommandModules
+// Tier 6 - heavyCommandModules or heavyCommandModulesExtensions
 
 // Tier 7 - specializedCommandModules
 

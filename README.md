@@ -48,6 +48,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * DMagic Orbital Science 1.4.3
 * Heat Control 0.5.2
 * Kerbal Atomics 1.1.4
+* KOOSE 2.0.5
 * LTech 0.5.1.5 [Beta]
 * M.O.L.E. (Very Limited Support) 1.22.1
 * Mark IV Spaceplane System 3.1.2
@@ -64,6 +65,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * RealPlume-Stock 4.0.1
 * Restock/Restock+ 1.1.2
 * SCANsat 20.2
+* Science Pancake 1.0.0
 * Science Param Editor 12.0
 * Stockalike Station Parts Expansion Redux 1.3.6
 
@@ -83,9 +85,14 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Waterfall (Will continue to watch this as Nertea develops)
 
 ## Great Mods, but not likely to be added by me (Happy to accept help):
-* BDB and Tantares (Scale and Scope are huge and hard to break down like Near Future). As they also have a strong historical basis, I feel they are out of scope for this mod and probably deserve someone who has a deeper appreciation for the history of spaceflight than I do.  However, if anyone would like to tackle this, I am definitely open for it.  As for BDB though, I would ask that you work towards the 1.7 development build.
-* Kerbalism (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting and I will explore that)
-* KSP Interstellar Extended This a large mod that does a lot of things.  I may look to see how hard it is to patch the tiers together, but that won't be in the near future.
+* SDHI Service Module System:
+  * It disables the Restock Mk1-3 cockpit model and has RealChutes dependency that prevents me from using in my own game, although this is a beautifully executed concept.
+* BDB and Tantares
+  * (Scale and Scope are huge and hard to break down like Near Future). As they also have a strong historical basis, I feel they are out of scope for this mod and probably deserve someone who has a deeper appreciation for the history of spaceflight than I do.  However, if anyone would like to tackle this, I am definitely open for it.  As for BDB though, I would ask that you work towards the 1.7 development build.
+* Kerbalism
+  * (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting and I will explore that)
+* KSP Interstellar Extended
+  * This a large mod that does a lot of things.  I may look to see how hard it is to patch the tiers together, but that won't be in the near future.
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -110,6 +117,9 @@ Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scale
 
 ## Kerbal Atomics 1.1.4
 Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov.
+
+## KOOSE 2.0.5
+Reshuffled tech nodes. Slight cost rebalancing.
 
 ## L-Tech Scientific Industries Continued 0.5.1.5
 Reshuffled tech nodes.  Rebalanced costs.  Nerfed the science multiplier boost of the Skylab.
@@ -161,6 +171,9 @@ Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts. E
 ## SCANsat 20.2
 Shuffled the tech nodes. Slight cost rebalancing.
 
+## Science Pancake 1.0.0
+Shuffled the tech node.
+
 ## Science Param Editor 12.0
 Increases science within Kerbin slightly, but generally decreases the multiplier of most other planets.  Current support for Stock, OPM, GEP, and MPE.
 
@@ -178,7 +191,7 @@ Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.
 
 
 ## Changelog
-* 0.4.1 (13 September 2020): Added Bumblebee Support; slight tweak of tech tree.
+* 0.4.1 (13 September 2020): Added Bumblebee Support; Science Pancake Support; slight tweak of tech tree.
 * 0.4.0 (13 September 2020): Added Science Param Editor Support; Revamped science system; Nerfed L-Tech Skylab station multiplier; removed some extra scanning capability from DMagic Orbital Science parts
 * 0.3.8 (12 September 2020): Added DMagic Orbital Science Support; Renamed Scanning Tech node title to Science Tech (which is what the underlying node is called called)
 * 0.3.7 (12 September 2020): Added Stockalike Station Parts Expansion Redux Support; Added framework for antenna upgrade (not currently functional)
