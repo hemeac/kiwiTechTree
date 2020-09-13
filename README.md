@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.3.8; 12 September 2020; Made for KSP 1.9.1
+## Version 0.4.0; 13 September 2020; Made for KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -10,6 +10,10 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired byZee's [P
 * [Community Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/)
 * [B9 Part Switch](https://forum.kerbalspaceprogram.com/index.php?/topic/140541-1101-b9partswitch-v2170-july-29/)
 * [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-18x-110x-module-manager-414-july-7th-2020-locked-inside-edition/)
+
+## Strongly Recommended
+* [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
+  * Support for Stock; OPM; MPE; GEP
 
 ## Recommended
 * [PlumeParty](https://github.com/JadeOfMaar/PlumeParty) (Alternative to RealPlume)
@@ -34,7 +38,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * DMagic Orbital Science 1.4.3
 * Heat Control 0.5.2
 * Kerbal Atomics 1.1.4
-* LTech 0.5.1 [Beta]
+* LTech 0.5.1.5 [Beta]
 * M.O.L.E. (Very Limited Support) 1.22.1
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
@@ -50,6 +54,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * RealPlume-Stock 4.0.1
 * Restock/Restock+ 1.1.2
 * SCANsat 20.2
+* Science Param Editor 12.0
 * Stockalike Station Parts Expansion Redux 1.3.6
 
 ## Plan of Attack for Mods (Roughly): 
@@ -78,6 +83,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Rocket Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass.
 * Jet Engines have received a B9PS upgrade two tiers later which adds about 20% thrust.  I tweaked the R.A.P.I.E.R. a bit more.
 * Command Pods, Fuel Tanks and the Mk1-3 Spaceplane Systems, and other structural parts have B9 upgrade systems implemented that reduce their dry weight by 20% for an additional 50% cost.
+* Revamped Science points; Set the scienceCap to the same level as the base level eliminating need to repeat experiments.  Reduced the level of transmit science of Mystery Goo, Material Lab to 14% of cap.  Increased the transmission to 100% for all other stock science experiments.
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -92,13 +98,16 @@ Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Will
 Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a bit busy...
 
 ## DMagic Orbital Science 1.4.3
-Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game.
+Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game. Reduced the transmit values of the Bio Drill Scan, Solar Particles and Bathymetry Scan.
 
 ## Heat Control 0.5.2
 Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scaled 50% to get a 1.875 m variant.  Have to say that I am not an expert in the heat mechanics, so any recommendations will be appreciated.
 
 ## Kerbal Atomics 1.1.4
 Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov.
+
+## L-Tech Scientific Industries Continued 0.5.1.5
+Reshuffled tech nodes.  Rebalanced costs.  Nerfed the science multiplier boost of the Skylab.
 
 ## M.O.L.E. 1.22.1
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
@@ -147,6 +156,9 @@ Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts. E
 ## SCANsat 20.2
 Shuffled the tech nodes. Slight cost rebalancing.
 
+## Science Param Editor 12.0
+Increases science within Kerbin slightly, but generally decreases the multiplier of most other planets.  Current support for Stock, OPM, GEP, and MPE.
+
 ## Stockalike Station Parts Expansion Redux 1.3.6
 Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr
 
@@ -161,6 +173,7 @@ Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.
 
 
 ## Changelog
+* 0.4.0 (13 September 2020): Added Science Param Editor Support; Revamped science system; Nerfed L-Tech Skylab station multiplier; removed some extra scanning capability from DMagic Orbital Science parts
 * 0.3.8 (12 September 2020): Added DMagic Orbital Science Support; Renamed Scanning Tech node title to Science Tech (which is what the underlying node is called called)
 * 0.3.7 (12 September 2020): Added Stockalike Station Parts Expansion Redux Support; Added framework for antenna upgrade (not currently functional)
 * 0.3.6 (10 September 2020): Added Near Future Exploration Support; Added additional EC to Stayputnik; Slight change in stock antenna tech nodes; Fixed typo in probe upgrades so it is researchable; Fixed overly general rcsblock patch in NF Spacecraft.
