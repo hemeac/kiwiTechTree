@@ -512,7 +512,7 @@
 
 // Tier 7 - advHeatManagement
 
-// Tier 8 - skipped
+// Tier 8 - experimentalHeatManagement
 
 // Tier 9 - specializedRadiators
 
@@ -582,9 +582,13 @@
 
 // ***** Parachutes ***** \\
 
-//	@TechRequired = survivability
+// Tier 2 - survivability
 
-//	@TechRequired = enhancedSurvivability
+// Tier 3 - enhancedSurvivability
+
+// Tier 4 - spaceExploration
+
+// Tier 5 - advExploration
 
 
 //// ********* Science ********* \\\\

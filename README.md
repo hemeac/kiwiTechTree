@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.4.0; 13 September 2020; Made for KSP 1.9.1
+## Version 0.4.1; 13 September 2020; Made for KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -30,8 +30,18 @@ I calibrated the basic idea around stock and the expansion packs alongside Resto
 
 In some cases, I have added rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style.  I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion. However, please do not take this as Nertea's endorsement of the mod.
 
+## General Gameplay Changes
+* Probe behavior changes in two ways:  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path. 
+* Renamed the command pods to reflect the relative node in which they appear.
+* Cockpit heat resistance has been reduced until High-Altitude Flight which is added through a B9PS upgrade.
+* Rocket Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass.
+* Jet Engines have received a B9PS upgrade two tiers later which adds about 20% thrust.  I tweaked the R.A.P.I.E.R. a bit more.
+* Command Pods, Fuel Tanks and the Mk1-3 Spaceplane Systems, and other structural parts have B9 upgrade systems implemented that reduce their dry weight by 20% for an additional 50% cost.
+* Revamped Science points; Set the scienceCap to the same level as the base level eliminating need to repeat experiments.  Reduced the level of transmit science of Mystery Goo, Material Lab to 14% of cap.  Increased the transmission to 100% for all other stock science experiments.
+
 ## Current Supported Mods (see details below for general changes):
 * BetterSRBs 1.2.3
+* Bumblebee 0.5
 * Completely Non-Aggressive Rocketry 1.0.2
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
@@ -75,18 +85,13 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 ## Great Mods, but not likely to be added by me (Happy to accept help):
 * BDB and Tantares (Scale and Scope are huge and hard to break down like Near Future). As they also have a strong historical basis, I feel they are out of scope for this mod and probably deserve someone who has a deeper appreciation for the history of spaceflight than I do.  However, if anyone would like to tackle this, I am definitely open for it.  As for BDB though, I would ask that you work towards the 1.7 development build.
 * Kerbalism (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting and I will explore that)
-
-## General Gameplay Changes
-* Probe behavior changes in two ways:  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path. 
-* Renamed the command pods to reflect the relative node in which they appear.
-* Cockpit heat resistance has been reduced until High-Altitude Flight which is added through a B9PS upgrade.
-* Rocket Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass.
-* Jet Engines have received a B9PS upgrade two tiers later which adds about 20% thrust.  I tweaked the R.A.P.I.E.R. a bit more.
-* Command Pods, Fuel Tanks and the Mk1-3 Spaceplane Systems, and other structural parts have B9 upgrade systems implemented that reduce their dry weight by 20% for an additional 50% cost.
-* Revamped Science points; Set the scienceCap to the same level as the base level eliminating need to repeat experiments.  Reduced the level of transmit science of Mystery Goo, Material Lab to 14% of cap.  Increased the transmission to 100% for all other stock science experiments.
+* KSP Interstellar Extended This a large mod that does a lot of things.  I may look to see how hard it is to patch the tiers together, but that won't be in the near future.
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
+
+## Bumblebee 0.5
+Shuffled the tech nodes.  Generally increased the prices, particularly the sensor package to create a cost to getting a rather large sensor suite in a very small package. Added decaying RTG support if Near Future Electrical and Decaying RTG extra is installed.
 
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space
@@ -173,6 +178,7 @@ Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.
 
 
 ## Changelog
+* 0.4.1 (13 September 2020): Added Bumblebee Support; slight tweak of tech tree.
 * 0.4.0 (13 September 2020): Added Science Param Editor Support; Revamped science system; Nerfed L-Tech Skylab station multiplier; removed some extra scanning capability from DMagic Orbital Science parts
 * 0.3.8 (12 September 2020): Added DMagic Orbital Science Support; Renamed Scanning Tech node title to Science Tech (which is what the underlying node is called called)
 * 0.3.7 (12 September 2020): Added Stockalike Station Parts Expansion Redux Support; Added framework for antenna upgrade (not currently functional)
@@ -201,7 +207,7 @@ Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.
 
 ## Known Issues
 * Couple of upgrade lines in the Tech Tree disappear when viewing them near the edges of the screen.
-* Breaks support for KerbalAtomicsLH2NTRModSupport Extras (I do incorporate some elements of the patch)
+* Many of the extras for the Near Future Suite that change the behavior of engines, etc. will most likely not lead to expected results if installed.  Check each mod above as some behaviors were adopted directly.
 
 ## Disclaimer
 
