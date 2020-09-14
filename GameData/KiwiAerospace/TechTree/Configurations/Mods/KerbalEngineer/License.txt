@@ -1,0 +1,3 @@
+Kerbal Engineer Redux by jrbudda
+https://forum.kerbalspaceprogram.com/index.php?/topic/17833-130-kerbal-engineer-redux-1130-2017-05-28/
+Configuration Files License: GNU General Public License v3

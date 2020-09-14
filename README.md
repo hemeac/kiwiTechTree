@@ -48,6 +48,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * DMagic Orbital Science 1.4.3
 * Heat Control 0.5.2
 * Kerbal Atomics 1.1.4
+* Kerbal Engineer Redux 1.1.7.2
 * KOOSE 2.0.5
 * LTech 0.5.1.5 [Beta]
 * M.O.L.E. (Very Limited Support) 1.22.1
@@ -68,10 +69,9 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Science Pancake 1.0.0
 * Science Param Editor 12.0
 * Stockalike Station Parts Expansion Redux 1.3.6
-* Universal Storage 1.9.1.2
+* Universal Storage 2 1.9.1.2
 
 ## Plan of Attack for Mods (Roughly): 
-* Universal Storage 2
 * Luciole
 * B9 Procedural Wings
 * AirplanePlus
@@ -118,6 +118,9 @@ Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scale
 
 ## Kerbal Atomics 1.1.4
 Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov.
+
+## Kerbal Engineer Redux 1.1.7.2
+Moved chips to Engineering 101.  If KerbalEngineerProbes folder is created (can be blank), will add Kerbal Engineering functionality to all probes. 
 
 ## KOOSE 2.0.5
 Reshuffled tech nodes. Slight cost rebalancing.
@@ -181,7 +184,7 @@ Increases science within Kerbin slightly, but generally decreases the multiplier
 ## Stockalike Station Parts Expansion Redux 1.3.6
 Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr
 
-## Universal Storage 1.9.1.2
+## Universal Storage 2 1.9.1.2
 Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 
 ## Alternate Tech Tree Mods (In no particular order)
@@ -195,7 +198,7 @@ Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 
 
 ## Changelog
-* 0.4.2 (14 September 2020): Added Universal Storage 2 Support; Added US2 Support for DMagic Orbital Science; Slight tweak of ReStock+ nodes
+* 0.4.2 (14 September 2020): Added Universal Storage 2 and Kerbal Engineering Support; Added US2 Support for DMagic Orbital Science; Slight tweak of ReStock+ nodes
 * 0.4.1 (13 September 2020): Added Bumblebee Support; Science Pancake Support; KOOSE Support; slight tweak of tech tree.
 * 0.4.0 (13 September 2020): Added Science Param Editor Support; Revamped science system; Nerfed L-Tech Skylab station multiplier; removed some extra scanning capability from DMagic Orbital Science parts
 * 0.3.8 (12 September 2020): Added DMagic Orbital Science Support; Renamed Scanning Tech node title to Science Tech (which is what the underlying node is called called)
