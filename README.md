@@ -68,6 +68,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Science Pancake 1.0.0
 * Science Param Editor 12.0
 * Stockalike Station Parts Expansion Redux 1.3.6
+* Universal Storage 1.9.1.2
 
 ## Plan of Attack for Mods (Roughly): 
 * Universal Storage 2
@@ -180,6 +181,9 @@ Increases science within Kerbin slightly, but generally decreases the multiplier
 ## Stockalike Station Parts Expansion Redux 1.3.6
 Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr
 
+## Universal Storage 1.9.1.2
+Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
+
 ## Alternate Tech Tree Mods (In no particular order)
 * [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/)
 * [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/)
@@ -191,6 +195,7 @@ Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.
 
 
 ## Changelog
+* 0.4.2 (14 September 2020): Added Universal Science 2 Support; Added US2 Support for DMagic Orbital Science; Slight tweak of ReStock+ nodes
 * 0.4.1 (13 September 2020): Added Bumblebee Support; Science Pancake Support; KOOSE Support; slight tweak of tech tree.
 * 0.4.0 (13 September 2020): Added Science Param Editor Support; Revamped science system; Nerfed L-Tech Skylab station multiplier; removed some extra scanning capability from DMagic Orbital Science parts
 * 0.3.8 (12 September 2020): Added DMagic Orbital Science Support; Renamed Scanning Tech node title to Science Tech (which is what the underlying node is called called)
