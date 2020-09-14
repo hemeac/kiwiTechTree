@@ -40,6 +40,7 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Revamped Science points; Set the scienceCap to the same level as the base level eliminating need to repeat experiments.  Reduced the level of transmit science of Mystery Goo, Material Lab to 14% of cap.  Increased the transmission to 100% for all other stock science experiments.
 
 ## Current Supported Mods (see details below for general changes):
+* B9 Procedural Wings Fork 1.0.0
 * BetterSRBs 1.2.3
 * Bumblebee 0.5
 * Completely Non-Aggressive Rocketry 1.0.2
@@ -94,6 +95,9 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
   * (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting and I will explore that)
 * KSP Interstellar Extended
   * This a large mod that does a lot of things.  I may look to see how hard it is to patch the tiers together, but that won't be in the near future.
+
+## B9 Procedural Wings Fork 1.0.0
+Creates custom node off of Aviation if installed.  It is in the same tier, but the cost of the next tier.  Supports CryoTanksMethalox.
 
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -198,7 +202,7 @@ Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 
 
 ## Changelog
-* 0.4.2 (14 September 2020): Added Universal Storage 2 and Kerbal Engineering Support; Added US2 Support for DMagic Orbital Science; Slight tweak of ReStock+ nodes
+* 0.4.2 (14 September 2020): Added Universal Storage 2, B9 Procedural Wings and Kerbal Engineering Support; Added US2 Support for DMagic Orbital Science; Slight tweak of ReStock+ nodes
 * 0.4.1 (13 September 2020): Added Bumblebee Support; Science Pancake Support; KOOSE Support; slight tweak of tech tree.
 * 0.4.0 (13 September 2020): Added Science Param Editor Support; Revamped science system; Nerfed L-Tech Skylab station multiplier; removed some extra scanning capability from DMagic Orbital Science parts
 * 0.3.8 (12 September 2020): Added DMagic Orbital Science Support; Renamed Scanning Tech node title to Science Tech (which is what the underlying node is called called)
