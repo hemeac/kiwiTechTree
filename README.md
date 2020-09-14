@@ -74,7 +74,6 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 
 ## Plan of Attack for Mods (Roughly): 
 * Luciole
-* B9 Procedural Wings
 * AirplanePlus
 * Stockalike Mk1 Open cockpit
 * Mk2/Mk3 Expansion
