@@ -94,6 +94,14 @@
 // Tier 9 - heavyLanders or heavyCommandCenters
 
 
+// ***** Re-entry Pods ***** \\
+
+// Tier 3 - basicReentryModule
+
+// Tier 4 - reentryModule
+
+// Tier 5 - advancedReentryModule
+
 
 //// ********* Construction ********* \\\\
 

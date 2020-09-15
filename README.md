@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.4.2; 14 September 2020; Made for KSP 1.9.1
+## Version 0.4.3; 15 September 2020; Made for KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -20,15 +20,17 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired byZee's [P
 
 ## Objective
 
-This Tech Tree overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found two issues: It took a bit too long to see my kerbals in game and I could get a good way through the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree Mod, I have also spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite.  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the restriction of having to choose one or the other within the gameplay environment. While I have tried to keep changes relatively minimial, if you like to play with new parts as the modder intended, this is probably not the right tech tree mod for you.
+This Tech Tree overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found it took a bit too long to see my kerbals in game and I could could progress through most of the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree mod at it's core, I have spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite (if relevant mods are installed).  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the restriction of having to choose one or the other within the gameplay environment. While I have tried to keep changes relatively minimial, if you like to play with new parts as the modder intended, this is probably not the right tech tree mod for you.
 
 The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  I have added another 69+ tech nodes across the tree, but have tried to leave the general layout of the tree largely intact.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported.
 
-Like UnKerballed Start, I have started with 0.625 meter engines and tanks and work progressively larger.  To try and prevent early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but have provided higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same as the introduction of the Mk3 spaceplane). I have used Zee's PBC mod to start the mod going, but the end goals have significantly diverged, so you should expect a different gameplay experience. If you are looking for just a tech tree revamp, UnKerballed Start is back in active development.
+Like UnKerballed Start, you start with 0.625 meter engines and tanks and work progressively larger.  To try to limit early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but provide higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same tier as the Mk3 cockpit). I used Zee's PBC mod to start the mod to learn MM, but the design has significantly diverged, so you should expect a different gameplay experience. If you are looking for just a tech tree revamp, UnKerballed Start is back in active development.
 
-I calibrated the basic idea around stock and the expansion packs alongside Restock/Restock+ and Missing History.  Ultimately, given the number of nodes, you will benefit by having several parts mods.
+I calibrated the nodes around stock, expansion packs, Restock/Restock+ and Missing History.  The name of the nodes do not fully indicate the type of technology within the node, but rather the type of technologies that you should expect to find there.  Some nodes do not fully represent their current use (ie. miniaturization), but have decided at this point to not rename them. Given the number of nodes, you will benefit by having several parts mods.
 
-In some cases, I have added rescaled parts and a couple more if Restock is installed.  In other cases such as Missing History, I will use the Restock texture when available for consistency in the visual style.  I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion. However, please do not take this as Nertea's endorsement of the mod.
+In some cases, I have added rescaled parts, but have attempted to indicate when and from what mod I have rescaled the parts within the description.  In some cases such as Missing History, I will use the Restock texture when available for consistency in the visual style.  
+
+I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion. However, please do not take this as Nertea's endorsement of the mod.
 
 ## General Gameplay Changes
 * Probe behavior changes in two ways:  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also remove ALL probes SAS levels by default and add in the functionality through the stock upgrade system which follows the Flight Control tech path. 
@@ -52,10 +54,12 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Kerbal Engineer Redux 1.1.7.2
 * KOOSE 2.0.5
 * LTech 0.5.1.5 [Beta]
+* Luciole 1.5
 * M.O.L.E. (Very Limited Support) 1.22.1
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
 * Mk-33 [Beta; 8 September 2020]
+* Modular Launch Pads 2.1 [Alpha]
 * Near Future Aeronautics 2.0.0
 * Near Future Construction 1.2.3
 * Near Future Electrical 1.1.3
@@ -73,7 +77,6 @@ In some cases, I have added rescaled parts and a couple more if Restock is insta
 * Universal Storage 2 1.9.1.2
 
 ## Plan of Attack for Mods (Roughly): 
-* Luciole
 * AirplanePlus
 * Stockalike Mk1 Open cockpit
 * Mk2/Mk3 Expansion
@@ -131,6 +134,9 @@ Reshuffled tech nodes. Slight cost rebalancing.
 ## L-Tech Scientific Industries Continued 0.5.1.5
 Reshuffled tech nodes.  Rebalanced costs.  Nerfed the science multiplier boost of the Skylab.
 
+## Luciole 1.5
+Reshuffled tech nodes and cost rebalancing (generally large increases in cost and entry cost to align with stock parts). Nerfed engine ISP to align more closely with stock, exception was aerospike engine which I decreased in vacuum, but significantly increased ISP in thick atmospheres to align with other aerospike engines; added B9PS engine upgrades. If Near Future Solar is installed, adds similar B9PS upgrade system. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases.
+
 ## M.O.L.E. 1.22.1
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
 
@@ -141,7 +147,10 @@ Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%
 Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. If installed alongside Kerbal Atomics, will adapt the same LF/LH2 multimode design as the Stock NERV and ReStock+ Cherenkov and updates the RealPlume plume to match.
 
 ## Mk-33 Beta
-Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore.
+Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases.
+
+## Modular Launch Pads 2.1 [Alpha]
+Adds support for launch pads installed by other mods into General Launch Pads.
 
 ## Near Future Aeronautics 2.0.0
 Repositioning of the tech nodes. Some cost rebalancing  Added B9PS Upgrades to parts. If installed, it will move the stock Whiplash one level earlier to try to avoid it being obsolete upon researching it.
@@ -170,7 +179,7 @@ Lastly, the advanced and concentrated versions of both Nertea and stock require 
 Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the Monopropellant fuel tanks as they provide some variety to the fuel tanks, they don't look as bad as Nertea thinks they look.
 
 ## RealPlume 4.0.1 / PlumeParty
-Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, will use Plume Party.  Added temporary RealPlume patches to the Kerbal Atomics aerospikes.
+Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, will use Plume Party.  Added temporary RealPlume patches to the Kerbal Atomics aerospikes. Modified the description text to turn it green to make it easier to pinpoint the engines that have RealPlume support.
 
 ## Restock/Restock+ 1.1.2
 Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% increased mass.
@@ -201,6 +210,7 @@ Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 
 
 ## Changelog
+* 0.4.3 (15 September 2020): Added Luciole and Modular Launch Pads Support; Changed the color of RealPlume engine support indicator in part descriptions; fixed typo in 0.625 rescaled monoprop parts; Shifted KOOSE parts to re-entry module branch; Stock solar patches for Near Future Solar in an earlier pass.
 * 0.4.2 (14 September 2020): Added Universal Storage 2, B9 Procedural Wings and Kerbal Engineering Support; Added US2 Support for DMagic Orbital Science; Slight tweak of ReStock+ nodes
 * 0.4.1 (13 September 2020): Added Bumblebee Support; Science Pancake Support; KOOSE Support; slight tweak of tech tree.
 * 0.4.0 (13 September 2020): Added Science Param Editor Support; Revamped science system; Nerfed L-Tech Skylab station multiplier; removed some extra scanning capability from DMagic Orbital Science parts
