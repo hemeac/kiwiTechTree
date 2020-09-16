@@ -48,13 +48,17 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Completely Non-Aggressive Rocketry 1.0.2
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
+* Deep Space Surface Habitat Unit Pack 1.10.1
 * DMagic Orbital Science 1.4.3
+* Duna Direct 1.10.1
 * Heat Control 0.5.2
+* James Webb 1.10
 * Kerbal Atomics 1.1.4
 * Kerbal Engineer Redux 1.1.7.2
 * KOOSE 2.0.5
 * LTech 0.5.1.5 [Beta]
 * Luciole 1.5
+* Making Alternate History 1.10.1
 * M.O.L.E. (Very Limited Support) 1.22.1
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
@@ -78,6 +82,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 
 ## Plan of Attack for Mods (Roughly): 
 * AirplanePlus
+* The Martian (after part revamp)
 * Stockalike Mk1 Open cockpit
 * Mk2/Mk3 Expansion
 * Rational Resources
@@ -116,11 +121,20 @@ Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Will
 ## CryoTanks 1.5.2
 Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a bit busy...
 
+## Deep Space Surface Habitat Unit Pack 1.10.1
+Shuffled the tech nodes.  Added Decaying RTG support; B9PS Upgrade solar support if Near Future Solar installed; Standard structural piece B9 upgrades.
+
 ## DMagic Orbital Science 1.4.3
 Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game. Reduced the transmit values of the Bio Drill Scan, Solar Particles and Bathymetry Scan.
 
+## Duna Direct 1.10.1
+Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added a Duna Direct System Upgrade in-line with Mk3 Spaceplane Upgrade System.
+
 ## Heat Control 0.5.2
 Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scaled 50% to get a 1.875 m variant.  Have to say that I am not an expert in the heat mechanics, so any recommendations will be appreciated.
+
+## James Webb 1.10
+Tech reshuffle.  Nerfed the main antenna.  Added solar panel upgrades if Near Future Solar installed to deployable pieces (excluded main satelite).
 
 ## Kerbal Atomics 1.1.4
 Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov.
@@ -136,6 +150,9 @@ Reshuffled tech nodes.  Rebalanced costs.  Nerfed the science multiplier boost o
 
 ## Luciole 1.5
 Reshuffled tech nodes and cost rebalancing (generally large increases in cost and entry cost to align with stock parts). Nerfed engine ISP to align more closely with stock, exception was aerospike engine which I decreased in vacuum, but significantly increased ISP in thick atmospheres to align with other aerospike engines; added B9PS engine upgrades. If Near Future Solar is installed, adds similar B9PS upgrade system. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases.
+
+## Making Alternate History 1.10.1
+Shuffled the tech nodes and cost rebalancing.  Nerfed the descent stage as ISP too high for liquid fuel engine. Convert the engines to hydrolox/methalox if CryoEngines/CryoTanksMethalox installed (currently does not have methalox RealPlume support, not high priority). Colony modules have RTGs installed if decaying rtg patch installed with NFE.  Added a MAH System Upgrade in-line with Mk3 Spaceplane Upgrade System.
 
 ## M.O.L.E. 1.22.1
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
@@ -210,6 +227,7 @@ Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 
 
 ## Changelog
+* 0.4.4 (16 September 2020): Added James Webb, Deep Space Surface Habitat Unit, Making Alternate History, and Duna Direct Support; Increased the additional mass for upgraded engines to 10% from 5%; Fixed Typos in Mk1-3 Part Upgrade Text
 * 0.4.3 (15 September 2020): Added Luciole and Modular Launch Pads Support; Changed the color of RealPlume engine support indicator in part descriptions; fixed typo in 0.625 rescaled monoprop parts; Shifted KOOSE parts to re-entry module branch; Stock solar patches for Near Future Solar in an earlier pass.
 * 0.4.2 (14 September 2020): Added Universal Storage 2, B9 Procedural Wings and Kerbal Engineering Support; Added US2 Support for DMagic Orbital Science; Slight tweak of ReStock+ nodes
 * 0.4.1 (13 September 2020): Added Bumblebee Support; Science Pancake Support; KOOSE Support; slight tweak of tech tree.
