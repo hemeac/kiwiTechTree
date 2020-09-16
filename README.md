@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.4.3; 15 September 2020; Made for KSP 1.9.1
+## Version 0.4.4; 16 September 2020; Made for KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
