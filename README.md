@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.4.4; 16 September 2020; Made for KSP 1.9.1
+## Version 0.4.4; 16 September 2020; Currently tested in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -42,6 +42,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Revamped Science points; Set the scienceCap to the same level as the base level eliminating need to repeat experiments.  Reduced the level of transmit science of Mystery Goo, Material Lab to 14% of cap.  Increased the transmission to 100% for all other stock science experiments.
 
 ## Current Supported Mods (see details below for general changes):
+* Airplane Plus 26.5
 * B9 Procedural Wings Fork 1.0.0
 * BetterSRBs 1.2.3
 * Bumblebee 0.5
@@ -52,10 +53,12 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * DMagic Orbital Science 1.4.3
 * Duna Direct 1.10.1
 * Heat Control 0.5.2
+* Interkosmos 0.3
 * James Webb 1.10
 * Kerbal Atomics 1.1.4
 * Kerbal Engineer Redux 1.1.7.2
 * KOOSE 2.0.5
+* Kraken Science 1.0
 * LTech 0.5.1.5 [Beta]
 * Luciole 1.5
 * Making Alternate History 1.10.1
@@ -80,8 +83,10 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Stockalike Station Parts Expansion Redux 1.3.6
 * Universal Storage 2 1.9.1.2
 
-## Plan of Attack for Mods (Roughly): 
-* AirplanePlus
+## Plan of Attack for Mods (In no particular order):
+* Ж-20 "Moroz" Spaceplane
+* Fuji
+* Provenance Aerospace (likely after next round of part revamp)
 * The Martian (after part revamp)
 * Stockalike Mk1 Open cockpit
 * Mk2/Mk3 Expansion
@@ -91,7 +96,8 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * KIS/KAS
 * Stockish Project Orion
 * Mining Expansion
-* Waterfall (Will continue to watch this as Nertea develops)
+* Lander Can Mk12
+* Waterfall (Will explore as development continues)
 
 ## Great Mods, but not likely to be added by me (Happy to accept help):
 * SDHI Service Module System:
@@ -102,6 +108,9 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
   * (Doesn't fit my personal playstyle, yet the Science Only configuration that I came across recently looks interesting and I will explore that)
 * KSP Interstellar Extended
   * This a large mod that does a lot of things.  I may look to see how hard it is to patch the tiers together, but that won't be in the near future.
+  
+## Airplane Plus 26.5
+Reshuffled tech nodes, generally provide parts one or two tiers earlier than the default.  Added space worthiness upgrade to cockpits.  Added engine upgrades to engines with the exceptions of the rotors not using ModuleEngines as they cannot be modified by B9PS. 
 
 ## B9 Procedural Wings Fork 1.0.0
 Creates custom node off of Aviation if installed.  It is in the same tier, but the cost of the next tier.  Supports CryoTanksMethalox.
@@ -133,6 +142,9 @@ Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added 
 ## Heat Control 0.5.2
 Shuffled the tech nodes lightly.  Duplicated the surface 3.75 radiator and scaled 50% to get a 1.875 m variant.  Have to say that I am not an expert in the heat mechanics, so any recommendations will be appreciated.
 
+## Interkosmos 0.3
+Shuffled the tech nodes. Rebalanced the science values, making the gas analyzer and hydrometer experiments require the data to be returned in order for the vast majority of the science to be recovered.  Otherwise, it returns only the minimum of 10%.
+
 ## James Webb 1.10
 Tech reshuffle.  Nerfed the main antenna.  Added solar panel upgrades if Near Future Solar installed to deployable pieces (excluded main satelite).
 
@@ -141,6 +153,9 @@ Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospher
 
 ## Kerbal Engineer Redux 1.1.7.2
 Moved chips to Engineering 101.  If KerbalEngineerProbes folder is created (can be blank), will add Kerbal Engineering functionality to all probes. 
+
+## Kraken Science 1.0
+Reshuffled tech nodes of science tech and cost rebalancing.  Placed Kraken Juice related parts in a far future tier and significantly increased costs.
 
 ## KOOSE 2.0.5
 Reshuffled tech nodes. Slight cost rebalancing.
@@ -227,6 +242,7 @@ Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 
 
 ## Changelog
+* 0.4.5 (17 September 2020): Added AirplanePlus, Interkosmos, and Kraken Science Support; Lowered data scale of early science; Added 20 EC to probes to help balance lack of start battery; Lowered cost of radio experiments in LTech; Moved Circular Intake earlier; Moved the L-02 Beehive LaunchPad (Luciole) support for modular launch pads.
 * 0.4.4 (16 September 2020): Added James Webb, Deep Space Surface Habitat Unit, Making Alternate History, and Duna Direct Support; Increased the additional mass for upgraded engines to 10% from 5%; Fixed Typos in Mk1-3 Part Upgrade Text
 * 0.4.3 (15 September 2020): Added Luciole and Modular Launch Pads Support; Changed the color of RealPlume engine support indicator in part descriptions; fixed typo in 0.625 rescaled monoprop parts; Shifted KOOSE parts to re-entry module branch; Stock solar patches for Near Future Solar in an earlier pass.
 * 0.4.2 (14 September 2020): Added Universal Storage 2, B9 Procedural Wings and Kerbal Engineering Support; Added US2 Support for DMagic Orbital Science; Slight tweak of ReStock+ nodes
@@ -268,7 +284,7 @@ This mod has not been endorsed by _Zee, Spink Akron, Nertea or any other mod/par
 ## License
 Copyright (c) 2020, Trevor Kollmann
 
-Kiwi Aeronautics is trademarked by Trevor Kollmann. All rights reserved.
+Kiwi Aeronautics is copyrighted by Trevor Kollmann. All rights reserved.
 
 Configuration Files are destributed under a MIT License
 
