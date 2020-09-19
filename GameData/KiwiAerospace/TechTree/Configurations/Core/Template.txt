@@ -1,14 +1,36 @@
-// Kiwi's CTT Overhaul Template
-// Version 0.3
-// Last Updated: 30 August 2020 for KSP 1.9.1
+// Kiwi's Tech Tree Overhaul Template
+// Version 0.4
+// Last Updated: 19 September 2020 for KSP 1.9.1
+Update: 19 September 2020: Added otherParts; Actuators, Attachments
 
+//// Other \\\\
+// Tier 0 - otherParts
+
+//// ********* Actuators, Attachments ********* \\\\
+// Tier 0 - start
+
+// Tier 1 - basicRocketry
+
+// Tier 2 - basicConstruction
+
+// Tier 3 - generalConstruction
+
+// Tier 4 - advConstruction
+
+// Tier 5 - actuators
+
+// Tier 6 - advActuators
+
+// Tier 7 - experimentalActuators
+
+// Tier 8 - offworldManufacturing
 
 
 //// ********* Aerodynamics ********* \\\\
 
 // ***** Cockpits and Engines and Air Intakes ***** \\
 
-// Tier 0 - Start
+// Tier 0 - start
 
 // Tier 1 - earlyFlight
 
@@ -32,7 +54,7 @@
 
 
 // ***** Structural & Wings & Plane Fuel Tanks ***** \\
-// Tier 0 - Start
+// Tier 0 - start
 
 // Tier 1 - earlyFlight
 
