@@ -76,7 +76,7 @@ Update: 19 September 2020: Added otherParts; Actuators, Attachments
 
 
 
-// ***** Rotors ***** \\
+// ***** Rotors & VTOLS ***** \\
 
 // Tier 0 - start
 
@@ -341,17 +341,17 @@ Update: 19 September 2020: Added otherParts; Actuators, Attachments
 // Tier 0 - start
 // Good starting solid rocket to get off ground, barely
 
-// Tier 1, looking at just a slightly more powerful 0.625m part - soundingRockets
+// Tier 1, soundingRockets - looking at just a slightly more powerful 0.625m part
 
-// Tier 2, Introduce a 1.25m SRB - tinyBoosters
+// Tier 2, tinyBoosters - Introduce a 1.25m SRB
 
-// Tier 3, Some more powerful 1.25m SRB - smallBoosters
+// Tier 3, smallBoosters - Some more powerful 1.25m SRB
 
-// Tier 4, Intro of a solid 1.875 m booster found within Missing History Patch
+// Tier 4, mediumBoosters - Intro of a solid 1.875 m booster found within Missing History Patch
 
-// Tier 5, 2.5m booster - largeBoosters
+// Tier 5, largeBoosters - 2.5m booster
 
-// Tier 6, Pollux from Making History makes this branch - largerBoosters
+// Tier 6, largerBoosters - Pollux from Making History makes this branch
 
 // Tier 7 - hugeBoosters
 

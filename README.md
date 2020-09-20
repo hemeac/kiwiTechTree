@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.4.6; 19 September 2020; Currently tested in KSP 1.9.1
+## Version 0.4.7; 20 September 2020; Currently tested in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -72,6 +72,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
 * Mk-33 [Beta; 8 September 2020]
+* Mk2 Stockalike Expansion 1.8.9.3
 * Modular Launch Pads 2.1 [Alpha]
 * Near Future Aeronautics 2.0.0
 * Near Future Construction 1.2.3
@@ -94,7 +95,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Provenance Aerospace (after part revamp)
 * The Martian (after part revamp)
 * Stockalike Mk1 Open cockpit (after part revamp)
-* Mk2/Mk3 Expansion
+* Mk3 Stockalike Expansion
 * Rational Resources
 * USI
 * MKS
@@ -104,6 +105,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Stockalike Mining Expansion
 * Lander Can Mk12
 * Tundra Exploration
+* Picoport Shielded
 * Waterfall (Will explore as development continues)
 
 ## Great Mods, but not likely to be added by me (Happy to accept help):
@@ -216,6 +218,9 @@ Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Re
 ## Mk-33 Beta
 Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases.
 
+## MK2 Stockalike Expansion 1.8.9.3
+Shuffled tech nodes.  If installed, will move the Stock Mk2 Cockpit one tier earlier to streamlined flight.  Upgraded E.V.E.R.Y. single engine, but have not currently added any missing RealPlume planes.  Added cockpits and structural parts to the Mk2 Spaceplane System Upgrade.
+
 ## Modular Launch Pads 2.1 [Alpha]
 Adds support for launch pads installed by other mods into General Launch Pads.
 
@@ -280,6 +285,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 
 
 ## Changelog
+* 0.4.7 (20 September 2020): Added MK2 Stockalike Expansion Support; Slight tweak of Moroz; Fixed bug that Mk2-3 LF/O tanks had access to multiple upgrades when CryoTanks installed; Moved MkIV crew cabin to same branch as cockpit.
 * 0.4.6 (19 September 2020): Added Ж-20 "Moroz" Spaceplane, Fuji, Internal RCS, KeR-7, DeepFreeze, KIS, KAS Support; Moved small Restock+ RCS thrusters earlier in the tech tree; Added Other Parts node in the tech tree; Updated the template.
 * 0.4.5 (17 September 2020): Added AirplanePlus, Interkosmos, and Kraken Science Support; Lowered data scale of early science; Added 20 EC to probes to help balance lack of start battery; Lowered cost of radio experiments in LTech; Moved Circular Intake earlier; Moved the L-02 Beehive LaunchPad (Luciole) support for modular launch pads.
 * 0.4.4 (16 September 2020): Added James Webb, Deep Space Surface Habitat Unit, Making Alternate History, and Duna Direct Support; Increased the additional mass for upgraded engines to 10% from 5%; Fixed Typos in Mk1-3 Part Upgrade Text
