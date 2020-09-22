@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.4.7; 20 September 2020; Currently tested in KSP 1.9.1
+## Version 0.4.8; 22 September 2020; Currently tested in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -14,6 +14,8 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired byZee's [P
 ## Strongly Recommended
 * [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
   * Support for Stock; OPM; MPE; GEP
+* [BetterSRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/)
+  * Better SRBs is how I am handling the "upgrades" for SRBs.  If it isn't added, they will stay at stock levels, but will move to their own tech branch.
 
 ## Recommended
 * [PlumeParty](https://github.com/JadeOfMaar/PlumeParty) (Alternative to RealPlume)
@@ -63,6 +65,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Kerbal Attachment System 1.7
 * Kerbal Engineer Redux 1.1.7.2
 * Kerbal Inventory System 1.26
+* Kerbal Reusability Expansion 2.8.6
 * KOOSE 2.0.5
 * Kraken Science 1.0
 * LTech 0.5.1.5 [Beta]
@@ -73,6 +76,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Missing History 1.8.2
 * Mk-33 [Beta; 8 September 2020]
 * Mk2 Stockalike Expansion 1.8.9.3
+* Mk3 Stockalike Expansion 1.5.1
 * Modular Launch Pads 2.1 [Alpha]
 * Near Future Aeronautics 2.0.0
 * Near Future Construction 1.2.3
@@ -95,38 +99,51 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Provenance Aerospace (after part revamp)
 * The Martian (after part revamp)
 * Stockalike Mk1 Open cockpit (after part revamp)
+* Beamed Power Plugin (after development completes)
 * Mk3 Stockalike Expansion
 * Rational Resources
+* Decoupler Shroud
+* reDIRECT
+* Shuttle Orbiter Construction Kit
 * USI
 * MKS
+* Bon Voyage
 * Knes
 * Dodo Labs
 * Stockish Project Orion
 * Stockalike Mining Expansion
 * Lander Can Mk12
-* Tundra Exploration
 * Picoport Shielded
+* Extraplanetary Launchpads
+* SmartParts
 * Waterfall (Will explore as development continues)
 
 ## Great Mods, but not likely to be added by me (Happy to accept help):
-* Kerbal Planetary Base Systems
-  * It is a large mod and will likely stick to MKS, but if there is enough interest, will consider.
 * BDB and Tantares
-  * (Scale and Scope are huge and hard to break down like Near Future). As they also have a strong historical basis, I feel they are out of scope for this mod and probably deserve someone who has a deeper appreciation for the history of spaceflight than I do.  However, if anyone would like to tackle this, I am definitely open for it.  As for BDB though, I would ask that you work towards the 1.7 development build.
+  * (Scale and Scope are huge and hard to break down like Near Future). As they also have a strong historical basis, I feel they are likely out of scope for this mod.  They probably deserve a mod which has a deeper appreciation for the history of spaceflight.  However, if anyone would like to tackle either of these, I am definitely open for it.  As for BDB though, I would ask that you work towards the 1.7 development build.
 * Kerbalism
   * (Not sure I will try going this "real", yet the Science Only configuration looks interesting and I will likely explore)
 * KSP Interstellar Extended
   * This a large mod that does a lot of things.  I may look to see how hard it is to patch the tiers together, but that won't be in the near future.
-* SpaceY
-  * There are unique parts, but overlaps with Near Future and textures that aren't up to 2020 standards, so not something I need in game, but will add support if anyone provides a patch.
+* Kerbal Planetary Base Systems
+  * It is a large mod and will likely stick to MKS, but if there is enough interest, will consider.
+* KW Rocketry Rebalanced
+  * Part overlap with Near Future makes this redundant.
 * OPT
   * Not likely to add in my personal game, but this could be added if there is enough interest.
 * SDHI Service Module System
   * It disables the Restock Mk1-3 cockpit model and I am not interested in having both stock and Restock within my game, although this is a beautifully executed concept. If someone provides a patch, will add.
+* SpaceY
+  * There are unique parts, but overlaps with Near Future and textures that are not up to 2020 standards.  As it is not something I personally will use in game, I will not add this myself, but will add support if anyone provides a patch.
+* SXT Continued
+  * It has a fair bit of overlap with other stock part expansions.
+* Tundra Exploration/SpaceX Launch Vehicles
+  * The real-life design of SpaceX designs is not something I find personally appealing.
 
 ## No Planned Support
 * Firespitter Parts
   * The B9 system does not appear to be compatible with the switcher system in Firespitter, so will not upgrade any parts that use that system and will avoid any parts mod that exclusively uses it for engines. AirplanePlus was the exception as most motors relied on stock mechanics for the engines.
+* Any BDArmory or related mod as that style of gameplay does not interest me.
   
 ## Airplane Plus 26.5
 Reshuffled tech nodes, generally provide parts one or two tiers earlier than the default.  Added space worthiness upgrade to cockpits.  Added engine upgrades to engines with the exceptions of the rotors not using ModuleEngines as they cannot be modified by B9PS. 
@@ -191,6 +208,9 @@ Moved chips to Engineering 101.  If KerbalEngineerProbes folder is created (can 
 ## Kerbal Inventory System 1.26
 Reshuffled Tech Nodes.  Added B9 upgrades to containers.
 
+## Kerbal Reusability Expansion 2.8.6
+Reshuffled Tech Nodes. Added B9 Upgrades to structures and SuperDraco engines.
+
 ## Kraken Science 1.0
 Reshuffled tech nodes of science tech and cost rebalancing.  Placed Kraken Juice related parts in a far future tier and significantly increased costs.
 
@@ -219,7 +239,10 @@ Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Re
 Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases.
 
 ## MK2 Stockalike Expansion 1.8.9.3
-Shuffled tech nodes.  If installed, will move the Stock Mk2 Cockpit one tier earlier to streamlined flight.  Upgraded E.V.E.R.Y. single engine, but have not currently added any missing RealPlume planes.  Added cockpits and structural parts to the Mk2 Spaceplane System Upgrade.
+Shuffled tech nodes.  If installed, will move the Stock Mk2 Cockpit one tier earlier to streamlined flight.  Upgraded E.V.E.R.Y. single engine, but have not currently added RealPlume support for engines not currently supporting it.  Added cockpits and structural parts to the Mk2 Spaceplane System Upgrade.
+
+## MK3 Stockalike Expansion 1.5.1
+Shuffled the tech nodes.  Added engine B9 Upgrades.  Structural part upgrades part of the Mk3 Spaceplane System Upgrade.  If Better SRBs installed, added support for SRBs.  Have not currently added RealPlume support to engines lacking RealPlume support.
 
 ## Modular Launch Pads 2.1 [Alpha]
 Adds support for launch pads installed by other mods into General Launch Pads.
@@ -275,7 +298,7 @@ Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgrades as part of the Moroz Spaceplane System.  Comes in a bit earlier than the Mk3 and is spaceplane capable, so useful if you would like as your first spaceplane.
 
 ## Alternate Tech Tree Mods (In no particular order)
-* [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/181932-18x-unkerballed-start-v110-updated-oct-27-2019/)
+* [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/)
 * [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/)
 * [TETRIX and SIMPLEX Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/174731-19x-tetrix-techtree-25-and-simplex-techtree-116/)
 * [ETT - Engineering Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/112627-181-ett-engineering-tech-tree-may-4-2020/)
@@ -285,6 +308,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 
 
 ## Changelog
+* 0.4.8 (22 September 2020): Added MK3 Stockalike Expansion and Kerbal Reusability Expansion Support; Moved RoveMax Model XL3 one tier earlier in tech tree; Moved some AirplanePlus parts a touch earlier in the tech tree; Moved the decoupling and docking ports for Mk2 Stockalike Expansion
 * 0.4.7 (20 September 2020): Added MK2 Stockalike Expansion Support; Slight tweak of Moroz; Fixed bug that Mk2-3 LF/O tanks had access to multiple upgrades when CryoTanks installed; Moved MkIV crew cabin to same branch as cockpit.
 * 0.4.6 (19 September 2020): Added Ж-20 "Moroz" Spaceplane, Fuji, Internal RCS, KeR-7, DeepFreeze, KIS, KAS Support; Moved small Restock+ RCS thrusters earlier in the tech tree; Added Other Parts node in the tech tree; Updated the template.
 * 0.4.5 (17 September 2020): Added AirplanePlus, Interkosmos, and Kraken Science Support; Lowered data scale of early science; Added 20 EC to probes to help balance lack of start battery; Lowered cost of radio experiments in LTech; Moved Circular Intake earlier; Moved the L-02 Beehive LaunchPad (Luciole) support for modular launch pads.
