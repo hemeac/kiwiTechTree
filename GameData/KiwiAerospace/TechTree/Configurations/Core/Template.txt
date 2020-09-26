@@ -1,7 +1,8 @@
 // Kiwi's Tech Tree Overhaul Template
 // Version 0.4
-// Last Updated: 19 September 2020 for KSP 1.9.1
-Update: 19 September 2020: Added otherParts; Actuators, Attachments
+// Last Updated: 23 September 2020 for KSP 1.9.1
+//Update: 19 September 2020: Added otherParts; Actuators, Attachments
+//Update: 23 September 2020: Clarified role of Flight Control branch
 
 //// Other \\\\
 // Tier 0 - otherParts
@@ -503,7 +504,7 @@ Update: 19 September 2020: Added otherParts; Actuators, Attachments
 
 
 
-// ***** Flight Control ***** \\
+// ***** Flight Control: Monopropellant Tanks, RCS Thrusters, SAS Modules, Launch Escape Systems ***** \\
 // Tier 0 - Start
 
 // Tier 1 - earlyFlight
