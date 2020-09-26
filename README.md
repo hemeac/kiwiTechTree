@@ -18,7 +18,7 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired byZee's [P
   * Better SRBs is how I am handling the "upgrades" for SRBs.  If it isn't added, they will stay at stock levels, but will move to their own tech branch.
 * [StageRecovery](https://forum.kerbalspaceprogram.com/index.php?/topic/179306-19x-stagerecovery-recover-funds-from-dropped-stages/)
   * Entry costs can get expensive, so it is probably good to recover as much of your vessel as possible.
-* Custom Barn Kit
+* [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18-custom-barn-kit-1120-19-october-2019-parachute-included/)
   * Increases the initial number of parts for the VAB and SPH to be 40, useful given the smaller pieces available.
   
 ## Objectives
