@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.5.0; 27 September 2020; Currently tested in KSP 1.9.1
+## Version 0.5.1; 27 September 2020; Currently tested in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -50,13 +50,16 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Airplane Plus 26.5
 * B9 Procedural Wings Fork 1.0.0
 * BetterSRBs 1.2.3
+* BonVoyage 1.1.1
 * Bumblebee 0.5
 * Completely Non-Aggressive Rocketry 1.0.2
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
+* Decoupler Shroud 0.7.2
 * Deep Space Surface Habitat Unit Pack 1.10.1
 * DeepFreeze 0.28.0
 * DMagic Orbital Science 1.4.3
+* Dodo Labs 1.3.1
 * Duna Direct 1.10.1
 * Fuji 1.1
 * Heat Control 0.5.2
@@ -71,10 +74,12 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Kerbal Reusability Expansion 2.8.6
 * Knes  1.8.2
 * KOOSE 2.0.5
+* kOS 1.2.1.0
 * Kraken Science 1.0
 * LTech 0.5.1.5 [Beta]
 * Luciole 1.5
 * Making Alternate History 1.10.1
+* The Martian 1.10.1.2
 * M.O.L.E. (Very Limited Support) 1.22.1
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
@@ -95,31 +100,28 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * SCANsat 20.2
 * Science Pancake 1.0.0
 * Science Param Editor 12.0
+* SmartParts 1.9.16
 * Stockalike Station Parts Expansion Redux 1.3.6
 * Universal Storage 2 1.9.1.2
 * Ж-20 "Moroz" Spaceplane 1.3
 
-## Plan of Attack for Mods (In no particular order):
-* Provenance Aerospace (after part revamp)
-* The Martian
-* Stockalike Mk1 Open cockpit (after part revamp)
+## Planned Mods (alphabetical order):
 * Beamed Power Plugin (after development completes)
-* Rational Resources
 * Comfortable Landing
-* Decoupler Shroud
+* Extraplanetary Launchpads
+* Habtech2
+* kOS
+* Lander Can Mk12
+* MKS
+* Picoport Shielded
+* Provenance Aerospace (after part revamp)
+* Rational Resources
 * reDIRECT
 * Shuttle Orbiter Construction Kit
-* Habtech2
-* USI
-* MKS
-* Bon Voyage
-* Dodo Labs
-* Stockish Project Orion
 * Stockalike Mining Expansion
-* Lander Can Mk12
-* Picoport Shielded
-* Extraplanetary Launchpads
-* SmartParts
+* Stockalike Mk1 Open cockpit (after part revamp)
+* Stockish Project Orion
+* USI
 * Waterfall (Will explore as development continues)
 
 ## Great Mods, but not likely to be added by me (Happy to accept help):
@@ -159,6 +161,9 @@ Creates custom node off of Aviation if installed.  It is in the same tier, but t
 ## BetterSRBs 1.2.3
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
 
+## BonVoyage 1.1.1
+Moved module to science node.  Kept upgrades in current path.
+
 ## Bumblebee 0.5
 Shuffled the tech nodes.  Generally increased the prices, particularly the sensor package to create a cost to getting a rather large sensor suite in a very small package. Added decaying RTG support if Near Future Electrical and Decaying RTG extra is installed.
 
@@ -171,6 +176,9 @@ Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Will
 ## CryoTanks 1.5.2
 Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a bit busy...
 
+## Decoupler Shroud 0.7.2
+Moved the part to decoupler node in the tech tree. Don't forget to add Basic Procedural Textures for further compatibility.
+
 ## Deep Space Surface Habitat Unit Pack 1.10.1
 Shuffled the tech nodes.  Added Decaying RTG support; B9PS Upgrade solar support if Near Future Solar installed; Standard structural piece B9 upgrades.
 
@@ -179,6 +187,9 @@ Changed the tech nodes, placed later in the tech tree in the colonization branch
 
 ## DMagic Orbital Science 1.4.3
 Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game. Reduced the transmit values of the Bio Drill Scan, Solar Particles and Bathymetry Scan.
+
+## Dodo Labs 1.3.1
+Shuffled the tech nodes. Lowered the cost of the fairings. Slight renaming of a couple engines.  Usual B9 Part Upgrades.
 
 ## Duna Direct 1.10.1
 Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added a Duna Direct System Upgrade in-line with Mk3 Spaceplane Upgrade System.
@@ -225,6 +236,9 @@ Reshuffled tech nodes of science tech and cost rebalancing.  Placed Kraken Juice
 ## KOOSE 2.0.5
 Reshuffled tech nodes. Slight cost rebalancing.
 
+## kOS 1.2.1.0
+Reshuffled tech nodes.
+
 ## L-Tech Scientific Industries Continued 0.5.1.5
 Reshuffled tech nodes.  Rebalanced costs.  Nerfed the science multiplier boost of the Skylab.
 
@@ -233,6 +247,9 @@ Reshuffled tech nodes and cost rebalancing (generally large increases in cost an
 
 ## Making Alternate History 1.10.1
 Shuffled the tech nodes and cost rebalancing.  Nerfed the descent stage as ISP too high for liquid fuel engine. Convert the engines to hydrolox/methalox if CryoEngines/CryoTanksMethalox installed (currently does not have methalox RealPlume support, not high priority). Colony modules have RTGs installed if decaying rtg patch installed with NFE.  Added a MAH System Upgrade in-line with Mk3 Spaceplane Upgrade System.
+
+## The Martian 1.10.1.2
+Shuffled the tech nodes.  Stripped out the in-built support for Methalox engines, but have added in Hydrolox and Methalox support if Cryo Engines, CryoTanksMethalox are installed, respectively. Unlike other cryo engines, these engines maintain their kerolox support as well.  Part upgrades are mostly through the Mk4 Ares System Upgrade, outside of the solar battery and engines (as usual).
 
 ## M.O.L.E. 1.22.1
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
@@ -296,6 +313,9 @@ Shuffled the tech node.
 ## Science Param Editor 12.0
 Increases science within Kerbin slightly, but generally decreases the multiplier of most other planets.  Current support for Stock, OPM, GEP, and MPE.
 
+## SmartParts 1.9.16
+Shuffled the tech node.  Added 0.625m and 5m fuel breakers.
+
 ## Stockalike Station Parts Expansion Redux 1.3.6
 Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr
 
@@ -316,6 +336,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 
 
 ## Changelog
+* 0.5.1 (27 September 2020): Added BonVoyage, Decoupler Shroud, Dodo Labs, kOS, SmartParts, and The Martian for KSP Support; Lowered entry cost of Calypso engine in Knes; Fixed tech node for Multi-Role Kapsule DM in Knes; Added parachute upgrade support for KOOSE, Bumblebee, and Fuji; Added B9 Plural to Cryotanks patch (Fuel Mixes, copied from The Martian for KSP by bcink); Moved cubesats from Luciole to Unkerballed Tech and increased cost.
 * 0.5.0 (27 September 2020): Added Knes Support; Added Custom Barn Kit and Hide Empty Node Support (code copied from Unkerballed Start 1.2.0 by SpinkAkron/theonegalen); Modified science values for SSPX; Added SSPX visual observation science experiments to stock cupola and SSPX 2.5m observation piece; Fixed placement of docking port in Luciole; Tweaked Mk3 Expansion SRBs thrust to be consistent with Better SRBs; Lowered entry cost of Otter in NFLV; Reduced the entry costs of parts from CNAR; Fixed bug that broke part upgrade system if not all mods with part upgrades available were not available; Fixed NEEDS and AFTER in KIS; Fixed Node placement for Atlas SRB when BetterSRBs installed; Moved a couple of stock antenna later in the tech tree if NF Exploration is installed; Added B9 Plural to Spaceworthiness switch.
 * 0.4.8 (22 September 2020): Added MK3 Stockalike Expansion and Kerbal Reusability Expansion Support; Moved RoveMax Model XL3 one tier earlier in tech tree; Moved some AirplanePlus parts a touch earlier in the tech tree; Moved the decoupling and docking ports for Mk2 Stockalike Expansion
 * 0.4.7 (20 September 2020): Added MK2 Stockalike Expansion Support; Slight tweak of Moroz; Fixed bug that Mk2-3 LF/O tanks had access to multiple upgrades when CryoTanks installed; Moved MkIV crew cabin to same branch as cockpit.

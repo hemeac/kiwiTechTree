@@ -1,8 +1,9 @@
 // Kiwi's Tech Tree Overhaul Template
-// Version 0.4
-// Last Updated: 23 September 2020 for KSP 1.9.1
-//Update: 19 September 2020: Added otherParts; Actuators, Attachments
-//Update: 23 September 2020: Clarified role of Flight Control branch
+// Version 0.5
+// Last Updated: 27 September 2020 for KSP 1.9.1
+// 19 September 2020: Added otherParts; Actuators, Attachments
+// 23 September 2020: Clarified role of Flight Control branch
+// 27 September 2020: Fixed incorrect node in Battery Branch
 
 //// Other \\\\
 // Tier 0 - otherParts
@@ -209,9 +210,9 @@
 
 // Tier 2 - Science 201 - science201
 
-// Tier 3 - Basic Science - basicScience
+// Tier 3 - Battery Tech - batteryTech
 
-// Tier 4 - Electrics - electrics
+// Tier 4 - Electrics - batteryTech
 
 // Tier 5 - Advanced Electrics - advElectrics
 
