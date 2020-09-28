@@ -1,10 +1,10 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.5.1; 27 September 2020; Currently tested in KSP 1.9.1
+## Version 0.6.0; 27 September 2020; Currently tested in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
-A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired byZee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron/theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by providing an upgrade path (via B9PS or the stock upgrade system) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to (hopefully) balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
+A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron/theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by further providing an upgrade path (via B9PS or the stock upgrade system when B9 is not available) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
 
 ## Dependencies (Not Included)
 * [Community Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/)
@@ -23,11 +23,13 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired byZee's [P
   
 ## Objectives
 
-This Tech Tree overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found it took a bit too long to see my kerbals in game and I could could progress through most of the tech tree before leaving Kerbin's sphere of influence.  While it is a Tech Tree mod at it's core, I have spent a fair bit of time trying to align the stock parts to have similar functionality available with Nertea's NF Suite (if relevant mods are installed).  In addition, I have tried to implement optional mods in Near Future using B9PS functionality, thus removing the restriction of having to choose one or the other within the gameplay environment. If you like to play with new parts as the modder intended, this is probably not the right tech tree mod for you. Many parts have available upgrades such as engine upgrades which increase thrust/isp or structural upgrades which decrease the mass of the part.  These upgrades generally come with a 50% increasee in the part cost and are generally available later in the tech tree. If you are looking for just a tech tree revamp, UnKerballed Start is back in active development.
+Kiwi Tech Tree overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found it took a bit too long to see my kerbals in game and I could could progress through most of the tech tree before leaving Kerbin's sphere of influence.  You begin with 0.625m parts and work progressively larger.  To try to limit early crewed missions using plane cockpits, I have nerfed the skin temperature of the spaceplanes, but provide higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same tier as the Mk3 cockpit). I have kept heat shields in, so you are of course free to experiment with re-entry.
 
-The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  I have added another over 70 tech nodes across the tree, but have tried to leave the general layout of the tree largely consistent with the Community Tech Tree.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported.
+KTT is a Tech Tree mod at it's core, however, I have tried to align stock parts and other mods to have similar functionality available with Nertea's NF Suite (if the relevant NF mods are installed).  I further implement some optional mods within the NF Suite using B9PS functionality. This removes the need to choose one or the other within the gameplay environment. If you like to play with new parts as the modder intended, this is not the right tech tree mod for you. 
 
-Like UnKerballed Start, you start with 0.625 meter engines and tanks and work progressively larger.  To try to limit early crewed missions using spaceplane parts, I have nerfed the skin temperature of the spaceplanes, but provide higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same tier as the Mk3 cockpit). 
+Many parts have available upgrades such as engine upgrades which increase thrust/isp or structural upgrades which decrease the mass of the part.  These upgrades generally come paired with a 50% increasee in the part cost and available later in the tech tree. The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  
+
+I have added another over 70 tech nodes across the tree, but have tried to leave the general layout of the tree largely consistent with the Community Tech Tree.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported. To balance the additional number of science nodes, I have reduced some of the costs.  Expect to need to collect around 40% more science points over the course of your career to unlock the majority of the tree with parts.
 
 I calibrated the nodes around stock, expansion packs, Restock/Restock+ and Missing History.  The name of the nodes do not fully indicate the type of technology within the node, but rather the type of technologies that you should expect to find there.  Some nodes do not fully represent their current use (ie. miniaturization), but have decided at this point to not rename them. Given the number of nodes, you will benefit by having several parts mods.
 
@@ -45,6 +47,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Jet Engines have received a B9PS upgrade two tiers later which adds about 20% thrust.  The R.A.P.I.E.R. gets moved into the "unique" propulsion branch rather than part of the jet engines.
 * Command Pods, Fuel Tanks and the Mk1-3 Spaceplane Systems, and other structural parts have B9 upgrade systems implemented that reduce their dry weight by 20% for an additional 50% cost.
 * Revamped Science points; Set the scienceCap to the same level as the base level eliminating need to repeat experiments.  Reduced the level of transmit science of Mystery Goo, Material Lab to 14% of cap.  Increased the transmission to 100% for all other stock science experiments.
+* Added around 72 new tech nodes.  This increases the cost to unlock early tech tiers substantially, but have lowered cost of tiers in most cases so it balances to a 40% premium in required science over the long-run. 
 
 ## Current Supported Mods (see details below for general changes):
 * Airplane Plus 26.5
@@ -102,56 +105,29 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Science Param Editor 12.0
 * SmartParts 1.9.16
 * Stockalike Station Parts Expansion Redux 1.3.6
+* Stockish Project Orion 1.8.1
 * Universal Storage 2 1.9.1.2
 * Ж-20 "Moroz" Spaceplane 1.3
 
-## Planned Mods (alphabetical order):
-* Beamed Power Plugin (after development completes)
-* Comfortable Landing
-* Extraplanetary Launchpads
-* Habtech2
-* kOS
-* Lander Can Mk12
-* MKS
-* Picoport Shielded
-* Provenance Aerospace (after part revamp)
-* Rational Resources
-* reDIRECT
-* Shuttle Orbiter Construction Kit
-* Stockalike Mining Expansion
-* Stockalike Mk1 Open cockpit (after part revamp)
-* Stockish Project Orion
-* USI
-* Waterfall (Will explore as development continues)
-
-## Great Mods, but not likely to be added by me (Happy to accept help):
-* BDB and Tantares
-  * (Scale and Scope are huge and hard to break down like Near Future). As they also have a strong historical basis, I feel they are likely out of scope for this mod.  They probably deserve a mod which has a deeper appreciation for the history of spaceflight.  However, if anyone would like to tackle either of these, I am definitely open for it.  As for BDB though, I would ask that you work towards the 1.7 development build.
-* Kerbalism
-  * (Not sure I will try going this "real", yet the Science Only configuration looks interesting and I will likely explore)
-* KSP Interstellar Extended
-  * This a large mod that does a lot of things.  I may look to see how hard it is to patch the tiers together, but that won't be in the near future.
-* Kerbal Planetary Base Systems
-  * It is a large mod and will likely stick to MKS, but if there is enough interest, will consider.
-* FASA Light
-* KW Rocketry Rebalanced
-  * Part overlap with Near Future makes this redundant.
-* OPT
-  * Not likely to add in my personal game, but this could be added if there is enough interest.
-* SDHI Service Module System
-  * It disables the Restock Mk1-3 cockpit model and I am not interested in having both stock and Restock within my game, although this is a beautifully executed concept. If someone provides a patch, will add.
-* SpaceY
-  * There are unique parts, but overlaps with Near Future and textures that are not up to 2020 standards.  As it is not something I personally will use in game, I will not add this myself, but will add support if anyone provides a patch.
-* SXT Continued
-  * It has a fair bit of overlap with other stock part expansions.
-* Tundra Exploration/SpaceX Launch Vehicles
-  * The real-life design of SpaceX designs is not something I find personally appealing.
+## Planned Mods
+* Roadmap for [Version 1.0](https://github.com/hemeac/kiwiTechTree/milestone/1) to see what the planned mod support will be.  
+* "Near Future" roadmap for [Version 1.1](https://github.com/hemeac/kiwiTechTree/milestone/2).  Some of these are a bit ambitious and not sure that I will practically get them done on my own.
+* "Possible" roadmap for [Version 1.2](https://github.com/hemeac/kiwiTechTree/milestone/3)
 
 ## No Planned Support
 * Firespitter Parts
   * The B9 system does not appear to be compatible with the switcher system in Firespitter, so will not upgrade any parts that use that system and will avoid any parts mod that exclusively uses it for engines. AirplanePlus was the exception as most motors relied on stock mechanics for the engines.
 * Any BDArmory or related mod as that style of gameplay does not interest me.
-  
+
+## Known/Likely Issues
+* Couple of upgrade lines in the Tech Tree may disappear when viewing them near the edges of the screen. This issue has disappeared "naturally" on my install.
+* Many of the extras for the Near Future Suite that change the behavior of engines, etc. will most likely not lead to expected results if installed.  Check each mod above as some behaviors were adopted directly. This is not a bug and will not be fixed.
+* Kerbal Research & Development's upgrade system appears to be incompatible with the upgrades that I have implemented.  I would expect bad things to happen.
+* Realistic Power Draw modifies the science modules and given the ordering of the pass in MM, this will likely break the changes to the science system I am doing.  If you use this and want me to make a patch, get in touch.
+* Removing parts from installed mods (either manually removing configs or Perma Prune in Janitor's Closet) that have part upgrades will very likely break upgrades for other parts.  If you remove the parts, you will need to remove the associated PARTUPGRADE node from the mod manually.
+* This breaks support for Smart Docking Aid.  Considering how to best implement a compatibility patch.
+* Very likely to break any mod that attempts to reconfigure engines or fuel tanks in any manner. 
+
 ## Airplane Plus 26.5
 Reshuffled tech nodes, generally provide parts one or two tiers earlier than the default.  Added space worthiness upgrade to cockpits.  Added engine upgrades to engines with the exceptions of the rotors not using ModuleEngines as they cannot be modified by B9PS. 
 
@@ -319,6 +295,9 @@ Shuffled the tech node.  Added 0.625m and 5m fuel breakers.
 ## Stockalike Station Parts Expansion Redux 1.3.6
 Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr
 
+## Stockish Project Orion 1.8.1
+Note in this version, some textures are incorrectly specified and the restock whitelist is missing some required textures.  If this mod has not been updated from 1.8.1, you can find the solutions within its Github issues page filed by hemeac. Shuffled the tech nodes. Reduced the cost of the atomic pulse units by 80% to make it a more viable form of transportation. Cost balancing of container parts as they were incorrectly specified. Standard B9 strucutral upgrades. Medusa and Orion engine have a mass reduction upgrade (untested if making them lighter is better as the mass may make them less controllable...)
+
 ## Universal Storage 2 1.9.1.2
 Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 
@@ -336,6 +315,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 
 
 ## Changelog
+* 0.6.0 (28 September 2020): Added Orion Support; Renamed tech tree icons and configs to KTT from CTT to reflect that it isn't CTT; Rebalanced the science unlock costs in the tech tree; Added "Even Later" structural upgrade template to Stock Structural Upgrade config for easier reference.
 * 0.5.1 (27 September 2020): Added BonVoyage, Decoupler Shroud, Dodo Labs, kOS, SmartParts, and The Martian for KSP Support; Lowered entry cost of Calypso engine in Knes; Fixed tech node for Multi-Role Kapsule DM in Knes; Added parachute upgrade support for KOOSE, Bumblebee, and Fuji; Added B9 Plural to Cryotanks patch (Fuel Mixes, copied from The Martian for KSP by bcink); Moved cubesats from Luciole to Unkerballed Tech and increased cost.
 * 0.5.0 (27 September 2020): Added Knes Support; Added Custom Barn Kit and Hide Empty Node Support (code copied from Unkerballed Start 1.2.0 by SpinkAkron/theonegalen); Modified science values for SSPX; Added SSPX visual observation science experiments to stock cupola and SSPX 2.5m observation piece; Fixed placement of docking port in Luciole; Tweaked Mk3 Expansion SRBs thrust to be consistent with Better SRBs; Lowered entry cost of Otter in NFLV; Reduced the entry costs of parts from CNAR; Fixed bug that broke part upgrade system if not all mods with part upgrades available were not available; Fixed NEEDS and AFTER in KIS; Fixed Node placement for Atlas SRB when BetterSRBs installed; Moved a couple of stock antenna later in the tech tree if NF Exploration is installed; Added B9 Plural to Spaceworthiness switch.
 * 0.4.8 (22 September 2020): Added MK3 Stockalike Expansion and Kerbal Reusability Expansion Support; Moved RoveMax Model XL3 one tier earlier in tech tree; Moved some AirplanePlus parts a touch earlier in the tech tree; Moved the decoupling and docking ports for Mk2 Stockalike Expansion
@@ -371,14 +351,6 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * 0.1.3: Added CNAR support.
 * 0.1.2: Added BetterSRBs support, Added couple of parts.  Began adding support for optional mod, KiwiDeprecated which soft deprecates parts on the basis of overlap of Nertea's mods if they don't fit in a stockalike style.
 * 0.1.1: Added MkIV Spaceplane Support, Added part upgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
-
-## Known/Likely Issues
-* Couple of upgrade lines in the Tech Tree may disappear when viewing them near the edges of the screen.
-* Many of the extras for the Near Future Suite that change the behavior of engines, etc. will most likely not lead to expected results if installed.  Check each mod above as some behaviors were adopted directly.
-* Kerbal Research & Development's upgrade system appears to be incompatible with the upgrades that I have implemented.  I would expect bad things to happen.
-* Realistic Power Draw modifies the science modules and given the ordering of the pass in MM, this will likely break the changes to the science system I am doing.  If you use this and want me to make a patch, get in touch.
-* Removing parts from installed mods (either manually removing configs or Perma Prune in Janitor's Closet) that have part upgrades will very likely break upgrades for other parts.  If you remove the parts, you will need to remove the associated PARTUPGRADE node from the mod manually.
-
 
 ## Disclaimer
 This mod has not been endorsed by _Zee, Spink Akron, Nertea or any other mod/part creator referenced in the config files.  All errors are my own.  Please do not hassle mod authors if these configurations cause conflicts with other mods.
