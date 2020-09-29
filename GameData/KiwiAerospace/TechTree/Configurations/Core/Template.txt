@@ -1,9 +1,12 @@
 // Kiwi's Tech Tree Overhaul Template
-// Version 0.5
-// Last Updated: 27 September 2020 for KSP 1.9.1
+// Version 0.6
+// Last Updated: 29 September 2020 for KSP 1.9.1
 // 19 September 2020: Added otherParts; Actuators, Attachments
 // 23 September 2020: Clarified role of Flight Control branch
 // 27 September 2020: Fixed incorrect node in Battery Branch
+// 29 September 2020: Added Nuclear Fuel Systems and Deprecated Node
+
+// Tier -1 deprecated
 
 //// Other \\\\
 // Tier 0 - otherParts
@@ -454,6 +457,10 @@
 
 
 //// ********** Nuclear *********** \\\\
+// ***** Nuclear Fuel Systems ***** \\
+
+// Tier 7 - nuclearFuelSystems
+
 // ***** Nuclear Power ***** \\
 
 // Tier 6 - nuclearPower
@@ -526,7 +533,7 @@
 
 
 
-// ***** Thermals ***** \\
+// ***** Thermals including Heat Shields ***** \\
 
 // Tier 0 - start
 

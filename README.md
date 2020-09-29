@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.6.0; 28 September 2020; Currently tested in KSP 1.9.1
+## Version 0.6.1; 29 September 2020; Currently tested in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
 
@@ -23,7 +23,7 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
   
 ## Objectives
 
-Kiwi Tech Tree overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found it took a bit too long to see my kerbals in game and I could could progress through most of the tech tree before leaving Kerbin's sphere of influence.  You begin with 0.625m parts and work progressively larger.  To try to limit early crewed missions using plane cockpits, I have nerfed the skin temperature of the spaceplanes, but provide higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same tier as the Mk3 cockpit). I have kept heat shields in, so you are of course free to experiment with re-entry.
+Kiwi Tech Tree overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found it took a bit too long to see my kerbals in game and I could could progress through most of the tech tree before leaving Kerbin's sphere of influence.  You begin with 0.625m parts and work progressively larger.  To try to limit early crewed missions using plane cockpits, I have nerfed the skin temperature of the spaceplanes, but provide higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same tier as the Mk3 cockpit). I have made heat shields available relatively early, so you are of course free to experiment with re-entry.
 
 KTT is a Tech Tree mod at it's core, however, I have tried to align stock parts and other mods to have similar functionality available with Nertea's NF Suite (if the relevant NF mods are installed).  I further implement some optional mods within the NF Suite using B9PS functionality. This removes the need to choose one or the other within the gameplay environment. If you like to play with new parts as the modder intended, this is not the right tech tree mod for you. 
 
@@ -31,11 +31,11 @@ Many parts have available upgrades such as engine upgrades which increase thrust
 
 I have added another over 70 tech nodes across the tree, but have tried to leave the general layout of the tree largely consistent with the Community Tech Tree.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not explictly supported. To balance the additional number of science nodes, I have reduced some of the costs.  Expect to need to collect around 40% more science points over the course of your career to unlock the majority of the tree with parts.
 
-I calibrated the nodes around stock, expansion packs, Restock/Restock+ and Missing History.  The name of the nodes do not fully indicate the type of technology within the node, but rather the type of technologies that you should expect to find there.  Some nodes do not fully represent their current use (ie. miniaturization), but have decided at this point to not rename them. Given the number of nodes, you will benefit by having several parts mods.
+I calibrated the nodes around stock, expansion packs, Restock/Restock+ and Missing History.  The name of the nodes do not fully indicate the type of technology within the node, but rather the type of technologies that you should expect to find along the branch.  However, some branches do not fully represent their current use (ie. miniaturization where you will find ground science).  I have decided at this point to not rename them. Given the number of nodes, you will benefit by having several parts mods.
 
 I have not spent excessive time balancing costs.  Costs for some mods have been aligned roughly to stock costs.  My general feeling is that money rewards should not be set too low in the difficulty settings, particularly if you are paying for parts to unlock.  My cost revamps are fairly ad-hoc. If this a bug bear for you and you want to tackle a comprehensive review of the cost structure, please get in touch.  I may readjust a few pieces if they are fundamentally out of proportion to other parts, but revamping costs are beyond the scope of what I will tackle.
 
-In some cases, I have added rescaled parts, but have attempted to indicate when and from what mod I have rescaled the parts within the description.  In some cases such as Missing History, I will use the Restock texture when available for consistency in the visual style.  
+In some cases, I have added rescaled parts, but indicated when and from what mod I have rescaled the parts within the description.  In cases like Missing History, I will use the Restock texture when available for consistency in the visual style.  
 
 I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion. However, please do not take this as Nertea's endorsement of the mod.
 
@@ -83,7 +83,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Luciole 1.5
 * Making Alternate History 1.10.1
 * The Martian 1.10.1.2
-* M.O.L.E. (Very Limited Support) 1.22.1
+* M.O.L.E. 1.22.1 (Very Limited Support) 
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
 * Mk-33 [Beta; 8 September 2020]
@@ -98,21 +98,24 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Near Future Propulsion 1.2.2
 * Near Future Solar 1.2.3
 * Near Future Spacecraft 1.3.3
+* Rational Resources 1.11.0
 * RealPlume-Stock 4.0.1
 * Restock/Restock+ 1.1.2
-* SCANsat 20.2
+* SCANsat 20.4
 * Science Pancake 1.0.0
 * Science Param Editor 12.0
 * SmartParts 1.9.16
 * Stockalike Station Parts Expansion Redux 1.3.6
 * Stockish Project Orion 1.8.1
+* Super Heavy Boosters Historical - Nexus 2.0.200524 (Limited Support)
+* TD Advanced Propulsion Systems - 0.6.200606 (Limited Support)
 * Universal Storage 2 1.9.1.2
 * Ж-20 "Moroz" Spaceplane 1.3
 
 ## Planned Mods
 * Roadmap for [Version 1.0](https://github.com/hemeac/kiwiTechTree/milestone/1) to see what the planned mod support will be.  
-* "Near Future" roadmap for [Version 1.1](https://github.com/hemeac/kiwiTechTree/milestone/2).  Some of these are a bit ambitious and not sure that I will practically get them done on my own.
-* "Possible" roadmap for [Version 1.2](https://github.com/hemeac/kiwiTechTree/milestone/3)
+* "Near Future" roadmap for [Version 1.5](https://github.com/hemeac/kiwiTechTree/milestone/2).  Some of these are a bit ambitious and not sure that I will practically get them done on my own.
+* "Possible" roadmap for [Version 2.0](https://github.com/hemeac/kiwiTechTree/milestone/3)
 
 ## No Planned Support
 * Firespitter Parts
@@ -207,7 +210,7 @@ Reshuffled Tech Nodes. Added B9 Upgrades to structures and SuperDraco engines.
 Reshuffled tech nodes.  Cost rebalance, generally costs and entry costs of engines has been increased.  In some cases, have also modified the efficiency and thrust as an attempt to differentiate the engines from Near Future and stock performance. Name changes for many solid rocket boosters and engines. If BetterSRBs is installed, it will also adapt the configs to Knes Boosters. Cargo pods have had strict ore/crystal requirements removed in favor of B9 Cargo switches if SSPX is installed to make them more versatile outside of Crystal production ISRU chain introduced in Knes.  In addition to the standard structural and engine upgrades, three "system" upgrades are added included the ATV 2.5m, STEAM 1.25m and Lifting Bodies such as the Hermes.
 
 ## Kraken Science 1.0
-Reshuffled tech nodes of science tech and cost rebalancing.  Placed Kraken Juice related parts in a far future tier and significantly increased costs.
+Reshuffled tech nodes of science tech and cost rebalancing.  Placed Kraken Juice related parts in deprecated node.
 
 ## KOOSE 2.0.5
 Reshuffled tech nodes. Slight cost rebalancing.
@@ -227,14 +230,14 @@ Shuffled the tech nodes and cost rebalancing.  Nerfed the descent stage as ISP t
 ## The Martian 1.10.1.2
 Shuffled the tech nodes.  Stripped out the in-built support for Methalox engines, but have added in Hydrolox and Methalox support if Cryo Engines, CryoTanksMethalox are installed, respectively. Unlike other cryo engines, these engines maintain their kerolox support as well.  Part upgrades are mostly through the Mk4 Ares System Upgrade, outside of the solar battery and engines (as usual).
 
-## M.O.L.E. 1.22.1
+## M.O.L.E. 1.22.1 (Partial Support)
 I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful.
 
 ## Mark IV Spaceplane System 3.1.2
 Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%
 
 ## Missing History 1.8.2
-Soft-deprecate liquid engines of Restock+ installed; hide a few more parts if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. If installed alongside Kerbal Atomics, will adapt the same LF/LH2 multimode design as the Stock NERV and ReStock+ Cherenkov and updates the RealPlume plume to match.
+Move liquid engines to deprecate node of Restock+ installed; move a few more parts to deprecated node if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. If installed alongside Kerbal Atomics, will adapt the same LF/LH2 multimode design as the Stock NERV and ReStock+ Cherenkov and updates the RealPlume plume to match.
 
 ## Mk-33 Beta
 Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases.
@@ -274,6 +277,9 @@ Lastly, the advanced and concentrated versions of both Nertea and stock require 
 ## Near Future Spacecraft 1.3.3
 Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the Monopropellant fuel tanks as they provide some variety to the fuel tanks, they don't look as bad as Nertea thinks they look.
 
+## Rational Resources 1.11.0
+Shuffled the tech nodes.  Placed the engines in the deprecated node as they feel disconnected from other parts and re-use existing textures.
+
 ## RealPlume 4.0.1 / PlumeParty
 Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, will use Plume Party.  Added temporary RealPlume patches to the Kerbal Atomics aerospikes. Modified the description text to turn it green to make it easier to pinpoint the engines that have RealPlume support.
 
@@ -298,6 +304,12 @@ Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.
 ## Stockish Project Orion 1.8.1
 Note in this version, some textures are incorrectly specified and the restock whitelist is missing some required textures.  If this mod has not been updated from 1.8.1, you can find the solutions within its Github issues page filed by hemeac. Shuffled the tech nodes. Reduced the cost of the atomic pulse units by 80% to make it a more viable form of transportation. Cost balancing of container parts as they were incorrectly specified. Standard B9 strucutral upgrades. Medusa and Orion engine have a mass reduction upgrade (untested if making them lighter is better as the mass may make them less controllable...)
 
+## Super Heavy Boosters Historical - Nexus 2.0.200524 (Partial Support)
+Mod looks super promising as it is beautifully modelled and the very definition of MOAR BOOSTERS.  Unfortunately appears unfinished.  Default RealPlume configs appears to be broken and thus most engines currently fly without plumes with RealPlume installed. This will get better support when I get around to fixing the plumes and/or get closer to it in the tech tree. Currently shuffled the tech tree nodes.  Engines have not currently received upgrades.  Cost rebalancing, mostly made things more expensive and fixed the costs of the fuel tanks.  
+
+## TD Advanced Propulsion Systems - 0.6.200606 (Partial Support)
+Like the Nexus, this mod is beautiful and promising, but the RealPlume support is currently broken, so I have just moved these later in the nuclear propulsion node and will work on supporting this in a later update.
+
 ## Universal Storage 2 1.9.1.2
 Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox.
 
@@ -315,6 +327,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 
 
 ## Changelog
+* 0.6.1 (29 September 2020): Added Rational Resources support and partial Nexus and TDAPS support; added a deprecated node and placed a couple of parts from Missing History, BetterSRBs, Kraken Juice and Rational Resources to deprecated folder; Support for Scansat increased to Scansat 20.4; Moved Plume Party Vapor Vents to Other Parts node.
 * 0.6.0 (28 September 2020): Added Orion Support; Renamed tech tree icons and configs to KTT from CTT to reflect that it isn't CTT; Rebalanced the science unlock costs in the tech tree; Added "Even Later" structural upgrade template to Stock Structural Upgrade config for easier reference.
 * 0.5.1 (27 September 2020): Added BonVoyage, Decoupler Shroud, Dodo Labs, kOS, SmartParts, and The Martian for KSP Support; Lowered entry cost of Calypso engine in Knes; Fixed tech node for Multi-Role Kapsule DM in Knes; Added parachute upgrade support for KOOSE, Bumblebee, and Fuji; Added B9 Plural to Cryotanks patch (Fuel Mixes, copied from The Martian for KSP by bcink); Moved cubesats from Luciole to Unkerballed Tech and increased cost.
 * 0.5.0 (27 September 2020): Added Knes Support; Added Custom Barn Kit and Hide Empty Node Support (code copied from Unkerballed Start 1.2.0 by SpinkAkron/theonegalen); Modified science values for SSPX; Added SSPX visual observation science experiments to stock cupola and SSPX 2.5m observation piece; Fixed placement of docking port in Luciole; Tweaked Mk3 Expansion SRBs thrust to be consistent with Better SRBs; Lowered entry cost of Otter in NFLV; Reduced the entry costs of parts from CNAR; Fixed bug that broke part upgrade system if not all mods with part upgrades available were not available; Fixed NEEDS and AFTER in KIS; Fixed Node placement for Atlas SRB when BetterSRBs installed; Moved a couple of stock antenna later in the tech tree if NF Exploration is installed; Added B9 Plural to Spaceworthiness switch.
