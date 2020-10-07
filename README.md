@@ -192,13 +192,13 @@ Shuffled the tech nodes.  Added Decaying RTG support; B9PS Upgrade solar support
 Changed the tech nodes, placed later in the tech tree in the colonization branch.  Increased the costs.  Added a Glykerol wedge if US2 installed (based on the hydrogen wedge)
 
 ## DMagic Orbital Science 1.4.3
-Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game. Reduced the transmit values of the Bio Drill Scan, Solar Particles and Bathymetry Scan. ** Keeps existing configs for Kerbalism **
+Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game. Reduced the transmit values of the Bio Drill Scan, Solar Particles and Bathymetry Scan. **Keeps existing configs for Kerbalism.**
 
 ## Dodo Labs 1.3.1
 Shuffled the tech nodes. Lowered the cost of the fairings. Slight renaming of a couple engines.  Usual B9 Part Upgrades.
 
 ## Duna Direct 1.10.1
-Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added a Duna Direct System Upgrade in-line with Mk3 Spaceplane Upgrade System.  ** Has Built-in Kerbalism Support **
+Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added a Duna Direct System Upgrade in-line with Mk3 Spaceplane Upgrade System.  **Has Built-in Kerbalism Support.**
 
 ## Extraplanetary Launchpads 6.8.2
 Shuffled the tech nodes and some cost balancing as some parts were missing entry costs.  I am not very familiar with the mod, so locations were set without much balancing and yet unsure how much I will use this mod.  No upgrades were applied to containers.
@@ -222,13 +222,13 @@ Shuffled the tech nodes.  Added upgrade to Liquid Fuel engines.  Nerfed the ISP 
 Tech reshuffle.  Nerfed the main antenna.  Added solar panel upgrades if Near Future Solar installed to deployable pieces (excluded main satelite). **If Kerbalism with FeatureScience is installed: Creates a new infrared experiment and applies it to the James Webb Telescope for long-term science gains.**
 
 ## Kerbalism 3.11
-** See notes above. **
+**See notes above.**
 
 ## KeR-7 1.0
 Reshuffled tech tree and named the engines.  Standard B9 Engine Upgrades.  To Do: Add RealPlume support, but current attempt at a config results in compilation error. 
 
 ## Kerbal Atomics 1.1.4
-Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov. ** Keeps existing configs for Kerbalism **
+Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov. **Keeps existing configs for Kerbalism.**
 
 ## Kerbal Attachment System 1.7
 Reshuffled Tech Nodes.
@@ -240,7 +240,7 @@ Moved chips to Engineering 101.  If KerbalEngineerProbes folder is created (can 
 Reshuffled Tech Nodes.  Added B9 upgrades to containers.
 
 ## Kerbal Planetary Base Systems 1.6.12
-Reshuffled Tech Nodes.  Added B9 upgrades to parts, mostly through a unique Kerbal Planetary Base Systems Upgrade.  Also supports mod support for Extraplanetary Launchpads, Lifesupport mods, DeepFreeze, KAS, and KIS.  If SSPX is installed, SSPX experiments will replace or add in a couple of experiments to KPBS parts. ** Keeps Kerbalism configs as is.  Appear to be some bugs that need to get tackled at some point **
+Reshuffled Tech Nodes.  Added B9 upgrades to parts, mostly through a unique Kerbal Planetary Base Systems Upgrade.  Also supports mod support for Extraplanetary Launchpads, Lifesupport mods, DeepFreeze, KAS, and KIS.  If SSPX is installed, SSPX experiments will replace or add in a couple of experiments to KPBS parts. **Keeps Kerbalism configs as is. Appear to be some bugs like duplicate modules that need to get tackled at some point.**
 
 ## Kerbal Reusability Expansion 2.8.6
 Reshuffled Tech Nodes. Added B9 Upgrades to structures and SuperDraco engines.
@@ -252,7 +252,7 @@ Reshuffled tech nodes.  Cost rebalance, generally costs and entry costs of engin
 Reshuffled tech nodes of science tech and cost rebalancing.  Placed Kraken Juice related parts in deprecated node.
 
 ## KOOSE 2.0.5
-Reshuffled tech nodes. Slight cost rebalancing. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to pod **
+Reshuffled tech nodes. Slight cost rebalancing. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to pod.**
 
 ## kOS 1.2.1.0
 Reshuffled tech nodes.
@@ -291,7 +291,7 @@ Shuffled the tech nodes.  Added engine B9 Upgrades.  Structural part upgrades pa
 Adds support for launch pads installed by other mods into General Launch Pads.
 
 ## Near Future Aeronautics 2.0.0
-Repositioning of the tech nodes. Some cost rebalancing  Added B9PS Upgrades to parts. If installed, it will move the stock Whiplash one level earlier to try to avoid it being obsolete upon researching it. ** If Kerbalism with FeatureRadiation is installed, it adds emitted radiation to atomic engines.**
+Repositioning of the tech nodes. Some cost rebalancing  Added B9PS Upgrades to parts. If installed, it will move the stock Whiplash one level earlier to try to avoid it being obsolete upon researching it. **If Kerbalism with FeatureRadiation is installed, it adds emitted radiation to atomic engines.**
 
 ## Near Future Construction 1.2.3
 Repositioning of the tech nodes.  Added B9PS Upgrades to parts.
@@ -314,7 +314,7 @@ If installed, this will place solar a touch earlier in the tech tree and place m
 Lastly, the advanced and concentrated versions of both Nertea and stock require a tech upgrade to access.  Advanced will occur one level above the part, Concentrated two levels.
 
 ## Near Future Spacecraft 1.3.3
-Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the Monopropellant fuel tanks as they provide some variety to the fuel tanks, they don't look as bad as Nertea thinks they look. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. ** If Kerbalism with FeatureScience is installed, it will re-balance the HDD modules.  Adds a panoramic view to the Phoebe. If FeatureRadiation is installed, it adds a radiation emitter to the RTG in the 2.5m utility pod, but "balanced" by the fact that it has a radiation sickness bay added by Kerbalism (irony?)**
+Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the Monopropellant fuel tanks as they provide some variety to the fuel tanks, they don't look as bad as Nertea thinks they look. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. **If Kerbalism with FeatureScience is installed, it will re-balance the HDD modules.  Adds a panoramic view to the Phoebe. If FeatureRadiation is installed, it adds a radiation emitter to the RTG in the 2.5m utility pod, but "balanced" by the fact that it has a radiation sickness bay added by Kerbalism (irony?)**
 
 ## Rational Resources 1.11.0
 Shuffled the tech nodes.  Placed the engines in the deprecated node as they feel disconnected from other parts and re-use existing textures.
@@ -323,10 +323,10 @@ Shuffled the tech nodes.  Placed the engines in the deprecated node as they feel
 Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, will use Plume Party.  Added temporary RealPlume patches to the Kerbal Atomics aerospikes. Modified the description text to turn it green to make it easier to pinpoint the engines that have RealPlume support.
 
 ## ReStock/ReStock+ 1.2.1
-Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% increased mass. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. Note that ReStock 1.2.1 is installed in 1.9.1, you will lose the Advanced Grabbing Unit Jr as a stock version is introduced in 1.10. It will also split the single nozzle and the quadruple nozzle variants of the Poodle into two engines.  The quad nozzle will become an SL engine with higher thrust, while the single longer nozzle, named the Malshi, will be the vacuum engine. ** If Kerbalism is installed, edits HDD and Science Slots to Experiment Return Unit so the Hard Drive is not a default 500 kB generic HDD.**
+Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% increased mass. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. Note that ReStock 1.2.1 is installed in 1.9.1, you will lose the Advanced Grabbing Unit Jr as a stock version is introduced in 1.10. It will also split the single nozzle and the quadruple nozzle variants of the Poodle into two engines.  The quad nozzle will become an SL engine with higher thrust, while the single longer nozzle, named the Malshi, will be the vacuum engine. **If Kerbalism is installed, edits HDD and Science Slots to Experiment Return Unit so the Hard Drive is not a default 500 kB generic HDD.**
 
 ## SCANsat 20.4
-Shuffled the tech nodes. Slight cost rebalancing. ** Do not currently change any features in SCANsat and Kerbalism **
+Shuffled the tech nodes. Slight cost rebalancing. **No change to any features in SCANsat and Kerbalism.**
 
 ## Science Pancake 1.0.0
 Shuffled the tech node.
@@ -344,10 +344,10 @@ Shuffled the tech node.  Added 0.625m and 5m fuel breakers.
 Shuffled the tech nodes.  Added B9 upgrades to mass driver engines.  If installed, will move the stock ISRU's one tier later in the tech tree.
 
 ## Stockalike Station Parts Expansion Redux 1.3.6
-Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr.  Also adds the Visual Observation to stock and KPBS cupolas. ** Keeps the current Kerbalism configs intact. **
+Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr.  Also adds the Visual Observation to stock and KPBS cupolas. **Keeps the current Kerbalism configs intact.**
 
 ## Stockish Project Orion 1.8.1
-Note in this version, some textures are incorrectly specified and the restock whitelist is missing some required textures.  If this mod has not been updated from 1.8.1, you can find the solutions within its Github issues page filed by hemeac. Shuffled the tech nodes. Reduced the cost of the atomic pulse units by 80% to make it a more viable form of transportation. Cost balancing of container parts as they were incorrectly specified. Standard B9 strucutral upgrades. Medusa and Orion engine have a mass reduction upgrade (untested if making them lighter is better as the mass may make them less controllable...) ** If Kerbalism with FeatureScience is installed, it adds custom HDD modules and Lab group science to the lab; If FeatureRadiation is installed, it will add emitters to Orion and Medusa engines; If FeatureComfort is installed, it adds Radiation shower and TV slots to station components. **
+Note in this version, some textures are incorrectly specified and the restock whitelist is missing some required textures.  If this mod has not been updated from 1.8.1, you can find the solutions within its Github issues page filed by hemeac. Shuffled the tech nodes. Reduced the cost of the atomic pulse units by 80% to make it a more viable form of transportation. Cost balancing of container parts as they were incorrectly specified. Standard B9 strucutral upgrades. Medusa and Orion engine have a mass reduction upgrade (untested if making them lighter is better as the mass may make them less controllable...) **If Kerbalism with FeatureScience is installed, it adds custom HDD modules and Lab group science to the lab; If FeatureRadiation is installed, it will add emitters to Orion and Medusa engines; If FeatureComfort is installed, it adds Radiation shower and TV slots to station components.**
 
 ## Super Heavy Boosters Historical - Nexus 2.0.200524 (Partial Support)
 Mod looks super promising as it is beautifully modelled and the very definition of MOAR BOOSTERS.  Unfortunately appears unfinished.  Default RealPlume configs appears to be broken and thus most engines currently fly without plumes with RealPlume installed. This will get better support when I get around to fixing the plumes and/or get closer to it in the tech tree. Currently shuffled the tech tree nodes.  Engines have not currently received upgrades.  Cost rebalancing, mostly made things more expensive and fixed the costs of the fuel tanks.  
