@@ -15,11 +15,11 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
 * [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
   * Support for Stock; OPM; MPE; GEP
 * [BetterSRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/)
-  * Better SRBs is how I am handling the "upgrades" for SRBs.  I mod SRBs from supported mods to behave like Better SRBs custom configs.
+  * Better SRBs is how KTT is handling the "upgrades" for SRBs.  I also modify SRBs from mods not directly supported in Better SRBs custom configs if BetterSRBs is present.
 * [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
-  * Rational Resources implements some cold gas RCS modes into stock, ReStock+ and NF RCS blocks.  I've added upgrades to these parts and this will be how the mod handles RCS upgrades.  Be aware that this mod changes the distribution of planet resources and ISRU chains.
+  * Rational Resources implements some cold gas RCS modes into stock, ReStock+ and NF RCS blocks.  I've added upgrades to these parts and this will be how KTT handles RCS upgrades.  Be aware that this mod changes the distribution of planet resources and ISRU chains!
 * [StageRecovery](https://forum.kerbalspaceprogram.com/index.php?/topic/179306-19x-stagerecovery-recover-funds-from-dropped-stages/)
-  * Entry costs can get expensive, so it is probably good to recover as much of your vessel as possible.
+  * Entry costs and upgrades can get expensive, so it is good to recover as much of your vessel as possible.
 * [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18-custom-barn-kit-1120-19-october-2019-parachute-included/)
   * Increases the initial number of parts for the VAB and SPH to be 40 as I do not find arbitrary part counts to be a fun game mechanic.
 
@@ -59,10 +59,10 @@ I started off KTT without plans for Kerbalism, but this changed as I was develop
 * Integrated science experiments to Kerbalism for several mods that have custom experiments.
 * Added radiation emitters to several atomic jets for mods not supported in-house by Kerbalism
 * Added a few comfort upgrades to some station parts.
-* Have nerfed the early reliability of engines slightly, both in terms of ignition failures and operation duration.  Duration is now a function of vacuum ISP (see note below). Vacuum engines have a higher baseline reliability than surface launchers.  While Kerbalism has an in-game mechanic to increase reliability, I add increases in the baseline reliability of engines through part upgrades.  
-  * Ion engine duration is now finite, but argon thrusters now match Ion thruster durability.
-  * Duration upgrades are engine specific and will come in the same upgrade that increases thrust, ISP, etc. that normally is available two tiers after the engine is first available.  E
-  * Engine ignition reliability will be global between liquid fuel engines and separately, solid rocket boosters.  This allows some early fun at watching engines explode, but that will be less of a feature as the space program matures. This hopefully will avoid the game mechanic getting stale when you have spent several hours developing a craft and just want it to !@#%$#@$ work before you go to bed.
+* Nerfed the reliability of engines slightly, both in terms of ignition failures and operation duration.  Duration is a function of vacuum ISP (see note below). Vacuum engines have a higher baseline operation duration than surface launchers.  While Kerbalism has an in-game mechanic to increase duration and number of ignitions, I add increases in the baseline reliability of engines through part upgrades that works alongside the in-built mechanic.  
+  * Ion engine duration is now finite, but not likely to be a limiting factor. Argon thrusters now match Ion thruster durability.
+  * Burn Duration upgrades are engine specific and are tied to the same upgrade that increases thrust, ISP, etc. that normally is available two tiers after the engine is first available.
+  * Engine ignition reliability will be global between liquid fuel engines and separately, solid rocket boosters.  This allows some early fun at watching engines explode.  This will be less of a feature as the space program matures to avoid the game mechanic getting stale when you have spent several hours developing a craft and just want it to !@#%$#@$ work before you go to bed.
   * Note: When calculating rated duration of hydrolox engines, I divide the ISP by 30% to get an approximate ISP if the engine was Kerolox.
   
 
@@ -173,7 +173,7 @@ Shuffled the tech nodes.  Generally increased the prices, particularly the senso
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space.
 
-## Conformal Decals 0.2.0
+## Conformal Decals 0.2.1
 Moved the decals to the Other Parts node.
 
 ## Cryogenic Engines 1.1.4
@@ -257,7 +257,7 @@ Reshuffled tech nodes. Slight cost rebalancing. **If Kerbalism with FeatureScien
 ## kOS 1.2.1.0
 Reshuffled tech nodes.
 
-## L-Tech Scientific Industries Continued 0.5.1.6
+## L-Tech Scientific Industries Continued 0.5.1.7
 Reshuffled tech nodes.  Rebalanced costs.  Nerfed the science multiplier boost of the Skylab. **If Kerbalism with FeatureScience is installed: Merged radiation scan with Kerbalism; setup radio waves and film camera to be compatible with science system; put the digital camera as a group experiment to take both low and high quality experiments. Removed any experiments with Skylab and stripped camera features from the parts; Added Sample Slots and HDD space to Sample Bins. Note though that the Skylab component of the mod is redundant with Feature Science as it lab science occurs over time.  I had added support in Kerbalism as it has some nicely modelled science parts from CobaltWolf which I am using in my personal playthrough with Kerbalism.**
 
 ## Luciole 1.5
