@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.8.2; 10 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.8.3; 11 October 2020; Currently tested only in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/T8ZxxiI.png)
 
@@ -61,7 +61,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Added around 72 new tech nodes.  This increases the cost to unlock early tech tiers substantially, but KTT lowers the early cost of research nodes in most cases so it balances to a 40% premium in required science over the long-run. 
 
 ## Kerbalism 3.11 Compliant
-I started off KTT without plans for Kerbalism, but this changed as I was developing the mod.  I have added support to a fair number of the mods that I support within KTT and believe that the Kerbalism experience will be enhanced when using KTT.  However, the tree does not require it to fully enjoy the tech tree.  I intend to add USI/MKS support in an upcoming update as a Kerbalism alternative.
+I have added support to a fair number of the mods that I support within KTT and believe that the Kerbalism experience will be enhanced when using KTT.  However, the tree does not require it to fully enjoy the tech tree.  I intend to add USI/MKS support in an upcoming update as a Kerbalism alternative.
 * Balances the Kerbalism parts to correspond to general KTT placements
 * Generally leaves the upgrades as is, the exception being pressure control upgrade which is a bit later in the tech tree corresponding to the later availability of command pods.  To that end, I have removed the unpressurized state of the Mk1 Command Pod.
 * Added custom hard drive values to probes and command pods of supported mods.
@@ -72,7 +72,7 @@ I started off KTT without plans for Kerbalism, but this changed as I was develop
   * Ion engine duration is now finite, but not likely to be a limiting factor. Argon thrusters now match Ion thruster durability.
   * Burn Duration upgrades are engine specific and are tied to the same upgrade that increases thrust, ISP, etc. that normally is available two tiers after the engine is first available.
   * Engine ignition reliability will be global between liquid fuel engines and separately, solid rocket boosters.  This allows some early fun at watching engines explode.  This will be less of a feature as the space program matures to avoid the game mechanic getting stale when you have spent several hours developing a craft and just want it to !@#%$#@$ work before you go to bed.
-  * Note: When calculating rated duration of hydrolox engines, I divide the ISP by 30% to get an approximate ISP if the engine was Kerolox.
+  * Note: I have created an "S-shaped" function that will determine the duration based on vacuum ISP.  The function was a fitted cubic spline based on a set of points that I felt would balance the duration.  When calculating rated duration of hydrolox engines, I divide the ISP by 30% to get an approximate ISP if the engine was Kerolox.
   
 
 ## Current Supported Mods (see details below for general changes):
@@ -116,7 +116,7 @@ I started off KTT without plans for Kerbalism, but this changed as I was develop
 * M.O.L.E. 1.22.1 (Very Limited Support) 
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
-* Mk-33 [Beta; 8 September 2020]
+* Mk-33 1.0
 * Mk2 Stockalike Expansion 1.8.9.3
 * Mk3 Stockalike Expansion 1.5.1
 * Modular Launch Pads 2.1 [Alpha]
@@ -169,7 +169,7 @@ Reshuffled tech nodes, generally provide parts one or two tiers earlier than the
 ## B9 Procedural Wings Fork 1.0.0
 Creates custom node off of Aviation if installed.  It is in the same tier, but the cost of the next tier.  Supports CryoTanksMethalox.
 
-## BetterSRBs 1.2.3
+## BetterSRBs 1.2.4
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
 
 ## BonVoyage 1.1.1
@@ -286,14 +286,14 @@ Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%. If Rati
 ## Missing History 1.8.2
 Move liquid engines to deprecate node of Restock+ installed; move a few more parts to deprecated node if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. If installed alongside Kerbal Atomics, will adapt the same LF/LH2 multimode design as the Stock NERV and ReStock+ Cherenkov and updates the RealPlume plume to match. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities; Adds RTG to Candle Engine and Radiation Emitter to nuclear propulsion if FeatureRadiation is installed.**
 
-## Mk-33 Beta
+## Mk-33 1.0
 Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases.
 
 ## MK2 Stockalike Expansion 1.8.9.3
 Shuffled tech nodes.  If installed, will move the Stock Mk2 Cockpit one tier earlier to streamlined flight.  Upgraded E.V.E.R.Y. single engine, but have not currently added RealPlume support for engines not currently supporting it.  Added cockpits and structural parts to the Mk2 Spaceplane System Upgrade. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities and Lab Group science to Lab; Lowers the radiation emitter for the Atomic Engine to be aligned with NERV.**
 
 ## MK3 Stockalike Expansion 1.5.1
-Shuffled the tech nodes.  Added engine B9 Upgrades.  Structural part upgrades part of the Mk3 Spaceplane System Upgrade.  If Better SRBs installed, added support for SRBs.  Have not currently added RealPlume support to engines lacking RealPlume support. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities and Lab Group science to Lab; Adds radiation emitter to atomic parts to be aligned with the modified Mk2 Stockalike Expansion configs.**
+Shuffled the tech nodes.  Added engine B9 Upgrades.  Structural part upgrades part of the Mk3 Spaceplane System Upgrade.  Have not currently added RealPlume support to engines lacking RealPlume support. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities and Lab Group science to Lab; Adds radiation emitter to atomic parts to be aligned with the modified Mk2 Stockalike Expansion configs.**
 
 ## Modular Launch Pads 2.1 [Alpha]
 Adds support for launch pads installed by other mods into General Launch Pads.
@@ -383,6 +383,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 0.8.3 (11 October 2020): KSP Forum Add-On Development Release; Updated Support to BetterSRBs 1.2.4; Mk-33 1.0; Removed custom BetterSRBs support for Mk3Expansion as it is built-in to latest version; Moved Service Bays to Logistics Branch from Construction
 * 0.8.2 (10 October 2020): Reduced the mass of the 40k rover antenna in NF Exploration which is the start antenna if available; Moved the stock launch clamp to General Launch Bases if Modular LaunchPad is installed; Added KEREB-D to parts receiving probe upgrades; Moved the Metal SRBs from RR Parts to SRB branch; Hide the EL Launch Clamp
 * 0.8.1 (10 October 2020): Added GPP to Science Param Editor; Fixed typo (missing }) in Missing History Config;
 * 0.8.0 (8 October 2020): Kerbalism Support - Full notes see variouus Github Issues in 1.0 milestone; Moved food and lifesupport wedge in US2 to recyling node; Removed changes to deployed science points in BreakingGround patch; Moved Survey Station to later tier in Extraplanetary Launchpads; Moved Large Science Return Bin from LTech to later tier; Moved Sciencebox from ReStockPlus to later tier; Confirmed support for LTech 5.1.7 and Conformal Decals 0.2.1; Readded a KiwiDeprecate pass to force parts to deprecated node; Fixed typo that prevented PlumeParty vents moving to otherParts node; Added upgrade to Fuji orbital station part; Added missing structural upgrade to Extraplanetary Launchpads station section; Added late pass to extra variable clean-up.
@@ -427,12 +428,12 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * 0.1.1: Added MkIV Spaceplane Support, Added part upgrades to Mk1-3 crewed parts to discourage those being used for the first crewed space missions, cost balancing for engines and SRBs.
 
 ## Disclaimer
-This mod has not been endorsed by _Zee, Spink Akron, Nertea or any other mod/part creator referenced in the config files.  All errors are my own.  Please do not hassle mod authors if these configurations cause conflicts with other mods.
+This mod has not been endorsed by _Zee, Spink Akron, Nertea, Well or any other mod/part creator referenced in the config files.  All errors are my own.  Please do not hassle mod authors if these configurations cause conflicts with their mods.
 
 ## License
-Copyright (c) 2020, Trevor Kollmann
+Copyright (c) 2020, Trevor Kollmann (Hemeac)
 
-Kiwi Aeronautics is copyrighted by Trevor Kollmann. All rights reserved. Please rename any fork of this project to exclude "Kiwi Aeronautics" if you plan to redistribute on a Kerbal Space Program related website.
+Kiwi Aeronautics is copyrighted by Trevor Kollmann. All rights reserved. Please rename any fork of this project to exclude "Kiwi Aeronautics" if you plan to redistribute a variant of this project on a Kerbal Space Program related website.
 
 Configuration Files are distributed under a MIT License.
 
@@ -447,4 +448,4 @@ Core tech tree configuration files are based on files originally created by _Zee
 
 Some icons from Community Tech Tree by Nertea were modified bundled in this mod.  They are licensed under Creative Commons Attribution-NonCommercial 4.0.
 
-Additional icons used within the tech tree were modified based on icons sourced from flaticon.com and thenounproject.com.  I purchased these as a premium member of these services.  Please check the licensing terms of these websites prior to any redistribution to ensure you remain in compliance with their terms.
+Additional icons used within the tech tree were modified from icons sourced from flaticon.com and thenounproject.com.  I purchased these as a premium member of these services.  Please check the licensing terms of these websites prior to any redistribution to ensure you remain in compliance with their terms.
