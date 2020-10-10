@@ -1,8 +1,10 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.8.0; 8 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.8.1; 10 October 2020; Currently tested only in KSP 1.9.1
 
-![Kiwi Tech Tree Overhaul](https://i.imgur.com/1MWP2O1.png)
+![Kiwi Tech Tree Overhaul](https://i.imgur.com/T8ZxxiI.png)
+
+![Introduction](https://www.youtube.com/watch?v=ddb7BdREy04)
 
 A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron/theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by further providing an upgrade path (via B9PS or the stock upgrade system when B9 is not available) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
 
@@ -13,7 +15,7 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
 
 ## Strongly Recommended
 * [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
-  * Support for Stock; OPM; MPE; GEP
+  * Support for Stock; GPP, GEP, OPM; and MPE.
 * [BetterSRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/)
   * Better SRBs is how KTT is handling the "upgrades" for SRBs.  I also modify SRBs from mods not directly supported in Better SRBs custom configs if BetterSRBs is present.
 * [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
@@ -332,7 +334,7 @@ Shuffled the tech nodes. Slight cost rebalancing. **No change to any features in
 Shuffled the tech node.
 
 ## Science Param Editor 12.0
-Increases science within Kerbin slightly, but generally decreases the multiplier of most other planets.  Current support for Stock, OPM, GEP, and MPE.
+Increases science within Kerbin slightly, but generally decreases the multiplier of most other planets.  Current support for Stock, Galileo Planet Pack, Grannus Expansion Pack, Outer Planets Mod, and Minor Planets Expansion.
 
 ## Smart Docking Aid 1.0
 As SAS levels are available only through upgrades, the docking aid is added to ALL probes.  It currently is not possible to make it available when probes are upgraded.  It's use thus functionally needs to be "role played".
@@ -375,6 +377,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 0.8.1 (10 October 2020): Added GPP to Science Param Editor; Fixed typo (missing }) in Missing History Config;
 * 0.8.0 (8 October 2020): Kerbalism Support - Full notes see variouus Github Issues in 1.0 milestone; Moved food and lifesupport wedge in US2 to recyling node; Removed changes to deployed science points in BreakingGround patch; Moved Survey Station to later tier in Extraplanetary Launchpads; Moved Large Science Return Bin from LTech to later tier; Moved Sciencebox from ReStockPlus to later tier; Confirmed support for LTech 5.1.7 and Conformal Decals 0.2.1; Readded a KiwiDeprecate pass to force parts to deprecated node; Fixed typo that prevented PlumeParty vents moving to otherParts node; Added upgrade to Fuji orbital station part; Added missing structural upgrade to Extraplanetary Launchpads station section; Added late pass to extra variable clean-up.
 * 0.7.1 (2 October 2020): Verified ReStock/ReStock+ 1.2.1 is functional within 1.9.1 and allocated new parts; Returned Poodle to HeavyRocketry; Split ReStock/1.10 Poodle Variant to two parts, ASL Lifter and Vacuum Engine, if ReStock is installed with new RealPlume support; moved radial attachment points (Stock/ReStock+) in the tech tree and added parts upgrades.
 * 0.7.0 (2 October 2020): Added Extraplanetary Launchpads, Grounded, Kerbal Planetary Base Systems, and Stockalike Mining Extension Support; Checked balance of science available versus science requirements across tech tiers. Increased telemetry science base to 2 and made it more biome specific.  Support for L-Tech moved to 0.5.1.6; Moved M-2 Cryogenic Gas Separator later in tech tree for Near Future propulsion; Added new tech node for some Grounded parts; Add Visual Observation experiment from SSPX to KPBS cupola; Added Noble Gas/Lithim Fuel System Branch to Template; Fixed typo in description of some upgraded parts in SSPX; Fixed duplicate upgrades for Stock xenon tanks if Near Future Propulsion is installed; Add support for cold gas RCS thrusters in Rational Resources update; Workaround for Smart Docking Aid.
