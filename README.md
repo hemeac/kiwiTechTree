@@ -4,7 +4,9 @@
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/T8ZxxiI.png)
 
-![Introduction](https://www.youtube.com/watch?v=ddb7BdREy04)
+[Introduction Video](https://www.youtube.com/watch?v=ddb7BdREy04)
+[VAB Video](https://youtu.be/3JYnA26nVpE)
+[Kerbalism Video](https://youtu.be/XBZTyywFqkQ)
 
 A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron/theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by further providing an upgrade path (via B9PS or the stock upgrade system when B9 is not available) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
 
