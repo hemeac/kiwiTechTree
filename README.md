@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.8.1; 10 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.8.2; 10 October 2020; Currently tested only in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/T8ZxxiI.png)
 
@@ -18,16 +18,19 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
 * [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-18x-110x-module-manager-414-july-7th-2020-locked-inside-edition/)
 
 ## Strongly Recommended
-* [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
-  * Support for Stock; GPP, GEP, OPM; and MPE.
 * [BetterSRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/)
   * Better SRBs is how KTT is handling the "upgrades" for SRBs.  I also modify SRBs from mods not directly supported in Better SRBs custom configs if BetterSRBs is present.
-* [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
-  * Rational Resources implements some cold gas RCS modes into stock, ReStock+ and NF RCS blocks.  I've added upgrades to these parts and this will be how KTT handles RCS upgrades.  Be aware that this mod changes the distribution of planet resources and ISRU chains!
-* [StageRecovery](https://forum.kerbalspaceprogram.com/index.php?/topic/179306-19x-stagerecovery-recover-funds-from-dropped-stages/)
-  * Entry costs and upgrades can get expensive, so it is good to recover as much of your vessel as possible.
 * [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18-custom-barn-kit-1120-19-october-2019-parachute-included/)
   * Increases the initial number of parts for the VAB and SPH to be 40 as I do not find arbitrary part counts to be a fun game mechanic.
+* [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
+  * It is hard to argue that this mod should not be part of any game.  The costs reflected in the engines and structural part upgrades are intended to have trade-offs through the increased construction time of your craft, thus balancing deltaV versus the time it takes to construct the vessel and completing contracts quickly.
+* [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
+  * Rational Resources implements some cold gas RCS modes into stock, ReStock+ and NF RCS blocks.  I've added upgrades to these parts and this will be how KTT handles RCS upgrades.  Be aware that this mod changes the distribution of planet resources and ISRU chains!
+* [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
+  * Support for Stock; GPP, GEP, OPM; and MPE.
+* [StageRecovery](https://forum.kerbalspaceprogram.com/index.php?/topic/179306-19x-stagerecovery-recover-funds-from-dropped-stages/)
+  * Entry costs and upgrades can get expensive, so it is good to recover as much of your vessel as possible.
+
 
 ## Objectives
 
@@ -48,7 +51,7 @@ In some cases, I have added rescaled parts, but indicated when and from what mod
 I have asked Nertea for permission in regards to using Restock/NF models for resizing (if they are installed) and have tried to indicate in the part descriptions which parts I have added in order to avoid confusion. However, please do not take this as Nertea's endorsement of the mod.
 
 ## General Gameplay Changes
-* Probe behavior changes in two ways:  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also reduce probes SAS levels to the lowest level for all probes and begin with no SAS functionality.  SAS is turned on early through an upgrade in Engineering 1010 and further SAS functionality is added along the Flight Control tech path.
+* Probe behavior changes in two ways:  First is I have kept PBC's Telemetry Report.  It is a nice and easy way to get some early science which is obviously needed given the additional nodes.  I also reduce probes SAS levels to the lowest level for all probes and begin with no SAS functionality.  SAS is turned on early through an upgrade in Engineering 101 and further SAS functionality is added along the Flight Control tech path.
 * Renamed the command pods to reflect the relative node in which they appear.
 * Cockpit heat resistance has been reduced until High-Altitude Flight which is added through a B9PS upgrade.
 * Rocket Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. As an added "bonus", the upgrade variants have custom names.
@@ -79,7 +82,7 @@ I started off KTT without plans for Kerbalism, but this changed as I was develop
 * BonVoyage 1.1.1
 * Bumblebee 0.5
 * Completely Non-Aggressive Rocketry 1.0.2
-* Conformal Decals 0.2.0
+* Conformal Decals 0.2.1
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
 * Decoupler Shroud 0.7.2
@@ -106,7 +109,7 @@ I started off KTT without plans for Kerbalism, but this changed as I was develop
 * KOOSE 2.0.5
 * kOS 1.2.1.0
 * Kraken Science 1.0
-* LTech 0.5.1.5 [Beta]
+* LTech 0.5.1.7 [Beta]
 * Luciole 1.5
 * Making Alternate History 1.10.1
 * The Martian 1.10.1.2
@@ -142,7 +145,7 @@ I started off KTT without plans for Kerbalism, but this changed as I was develop
 * Ж-20 "Moroz" Spaceplane 1.3
 
 ## Planned Mods
-* Roadmap for [Version 1.0](https://github.com/hemeac/kiwiTechTree/milestone/1) to see what the planned mod support will be.  
+* Roadmap for [Version 1.0](https://github.com/hemeac/kiwiTechTree/milestone/1) to see what the remaining plans are for 1.0 (at this point, mostly part balancing).  
 * "Near Future" roadmap for [Version 1.5](https://github.com/hemeac/kiwiTechTree/milestone/2).  Some of these are a bit ambitious and not sure that I will practically get them done on my own.
 * "Possible" roadmap for [Version 2.0](https://github.com/hemeac/kiwiTechTree/milestone/3)
 
@@ -240,7 +243,7 @@ Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospher
 Reshuffled Tech Nodes.
 
 ## Kerbal Engineer Redux 1.1.7.2
-Moved chips to Engineering 101.  If KerbalEngineerProbes folder is created (can be blank), will add Kerbal Engineering functionality to all probes. 
+Moved chips to Engineering 101.  If KerbalEngineerProbes folder is created (can be blank), will add Kerbal Engineering functionality to all probes. This is functionally equivalent to the mod "MechJeb and Engineer For All" by linuxgurugamer except that it only impacts Kerbal Engineer.  However, I have no plans for MechJeb support.
 
 ## Kerbal Inventory System 1.26
 Reshuffled Tech Nodes.  Added B9 upgrades to containers.
@@ -381,6 +384,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 0.8.2 (10 October 2020): Reduced the mass of the 40k rover antenna in NF Exploration which is the start antenna if available; Moved the stock launch clamp to General Launch Bases if Modular LaunchPad is installed; Added KEREB-D to parts receiving probe upgrades; Moved the Metal SRBs from RR Parts to SRB branch; Hide the EL Launch Clamp
 * 0.8.1 (10 October 2020): Added GPP to Science Param Editor; Fixed typo (missing }) in Missing History Config;
 * 0.8.0 (8 October 2020): Kerbalism Support - Full notes see variouus Github Issues in 1.0 milestone; Moved food and lifesupport wedge in US2 to recyling node; Removed changes to deployed science points in BreakingGround patch; Moved Survey Station to later tier in Extraplanetary Launchpads; Moved Large Science Return Bin from LTech to later tier; Moved Sciencebox from ReStockPlus to later tier; Confirmed support for LTech 5.1.7 and Conformal Decals 0.2.1; Readded a KiwiDeprecate pass to force parts to deprecated node; Fixed typo that prevented PlumeParty vents moving to otherParts node; Added upgrade to Fuji orbital station part; Added missing structural upgrade to Extraplanetary Launchpads station section; Added late pass to extra variable clean-up.
 * 0.7.1 (2 October 2020): Verified ReStock/ReStock+ 1.2.1 is functional within 1.9.1 and allocated new parts; Returned Poodle to HeavyRocketry; Split ReStock/1.10 Poodle Variant to two parts, ASL Lifter and Vacuum Engine, if ReStock is installed with new RealPlume support; moved radial attachment points (Stock/ReStock+) in the tech tree and added parts upgrades.
