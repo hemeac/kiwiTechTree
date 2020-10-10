@@ -144,7 +144,7 @@ I started off KTT without plans for Kerbalism, but this changed as I was develop
 * Universal Storage 2 1.9.1.2
 * Ж-20 "Moroz" Spaceplane 1.3
 
-## Planned Mods
+## Roadmap
 * Roadmap for [Version 1.0](https://github.com/hemeac/kiwiTechTree/milestone/1) to see what the remaining plans are for 1.0 (at this point, mostly part balancing).  
 * "Near Future" roadmap for [Version 1.5](https://github.com/hemeac/kiwiTechTree/milestone/2).  Some of these are a bit ambitious and not sure that I will practically get them done on my own.
 * "Possible" roadmap for [Version 2.0](https://github.com/hemeac/kiwiTechTree/milestone/3)
@@ -160,8 +160,7 @@ I started off KTT without plans for Kerbalism, but this changed as I was develop
 * Kerbal Research & Development's upgrade system appears to be incompatible with the upgrades that I have implemented.  I would expect bad things to happen.
 * Realistic Power Draw modifies the science modules and given the ordering of the pass in MM, this will likely break the changes to the science system I am doing.  If you use this and want me to make a patch, get in touch.
 * Removing parts from installed mods (either manually removing configs or Perma Prune in Janitor's Closet) that have part upgrades will very likely break upgrades for other parts.  If you remove the parts, you will need to remove the associated PARTUPGRADE node from the mod manually.
-* This breaks support for Smart Docking Aid.  Considering how to best implement a compatibility patch.
-* Very likely to break any mod that attempts to reconfigure engines or fuel tanks in any manner.
+* Very likely to break any mod that attempts to reconfigure engines or fuel tanks in any manner. I am not planning on supporting any alternative fuel switchers.
 * Smart Docking Aid functionality is added by this mod to all probes due to an inability to tie it to probes once Level 3 SAS upgrades have been applied. Limited testing suggests it may not turn on until SAS 3, but need to test further.
 
 ## Airplane Plus 26.5
