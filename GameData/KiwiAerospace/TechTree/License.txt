@@ -1,6 +1,6 @@
-Copyright (c) 2020, Trevor Kollmann
+Copyright (c) 2020, Trevor Kollmann (Hemeac)
 
-Kiwi Aeronautics is copyrighted by Trevor Kollmann. All rights reserved. Please rename any fork of this project to exclude "Kiwi Aeronautics" if you plan to redistribute on a Kerbal Space Program related website.
+Kiwi Aeronautics is copyrighted by Trevor Kollmann. All rights reserved. Please rename any fork of this project to exclude "Kiwi Aeronautics" if you plan to redistribute a variant of this project on a Kerbal Space Program related website.
 
 Configuration Files are distributed under a MIT License.
 
@@ -15,4 +15,4 @@ Core tech tree configuration files are based on files originally created by _Zee
 
 Some icons from Community Tech Tree by Nertea were modified bundled in this mod.  They are licensed under Creative Commons Attribution-NonCommercial 4.0.
 
-Additional icons used within the tech tree were modified based on icons sourced from flaticon.com and thenounproject.com.  I purchased these as a premium member of these services.  Please check the licensing terms of these websites prior to any redistribution to ensure you remain in compliance with their terms.
+Additional icons used within the tech tree were modified from icons sourced from flaticon.com and thenounproject.com.  I purchased these as a premium member of these services.  Please check the licensing terms of these websites prior to any redistribution to ensure you remain in compliance with their terms.
