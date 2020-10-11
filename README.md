@@ -383,6 +383,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 0.8.4 (11 October 2020): Reduced entry costs of AirplanePlus parts; Moved the FL-A10 Adapter to the start; Balanced Kerbalism experiments for Interkosmos and Knes
 * 0.8.3 (11 October 2020): Github Pre-Release; Updated Support to BetterSRBs 1.2.4; Mk-33 1.0; Removed custom BetterSRBs support for Mk3Expansion as it is built-in to latest version; Moved Service Bays to Logistics Branch from Construction
 * 0.8.2 (10 October 2020): Reduced the mass of the 40k rover antenna in NF Exploration which is the start antenna if available; Moved the stock launch clamp to General Launch Bases if Modular LaunchPad is installed; Added KEREB-D to parts receiving probe upgrades; Moved the Metal SRBs from RR Parts to SRB branch; Hide the EL Launch Clamp
 * 0.8.1 (10 October 2020): Added GPP to Science Param Editor; Fixed typo (missing }) in Missing History Config;
