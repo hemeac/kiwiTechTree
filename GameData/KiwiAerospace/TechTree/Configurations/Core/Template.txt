@@ -1,11 +1,13 @@
 // Kiwi's Tech Tree Overhaul Template
-// Version 0.6
+// Version 0.9
 // Last Updated: 1 October 2020 for KSP 1.9.1
 // 19 September 2020: Added otherParts; Actuators, Attachments
 // 23 September 2020: Clarified role of Flight Control branch
 // 27 September 2020: Fixed incorrect node in Battery Branch
 // 29 September 2020: Added Nuclear Fuel Systems and Deprecated Node
 // 1 October 2020: Added Noble Gas/Lithium Fuel Systems Branch to template
+// 15 October 2020: Added Flight Control to Alternative Propulsion branch template.
+// 18 October 2020: Added  Basic Flight Control node to Flight Control template. 
 
 // Tier -1 deprecated
 
@@ -322,6 +324,10 @@
 
 // ***** Speciality Liquid Fuel/Mono Engines ***** \\
 
+// Tier 2 - basicFlightControl
+
+// Tier 3 - flightControl
+
 // Tier 4 - propulsionSystems
 
 // Tier 5 - precisionPropulsion
@@ -522,11 +528,11 @@
 
 
 // ***** Flight Control: Monopropellant Tanks, RCS Thrusters, SAS Modules, Launch Escape Systems ***** \\
-// Tier 0 - Start
+// Tier 0 - start
 
-// Tier 1 - earlyFlight
+// Tier 1 - basicRocketry
 
-// Tier 2 - stability or survivability for SAS
+// Tier 2 - basicFlightControl
 
 // Tier 3 - flightControl
 

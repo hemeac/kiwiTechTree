@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.8.4; 11 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.9.0; 24 October 2020; Currently tested only in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/T8ZxxiI.png)
 
@@ -21,7 +21,7 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
 * [BetterSRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/)
   * Better SRBs is how KTT is handling the "upgrades" for SRBs.  I also modify SRBs from mods not directly supported in Better SRBs custom configs if BetterSRBs is present.
 * [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18-custom-barn-kit-1120-19-october-2019-parachute-included/)
-  * Increases the initial number of parts for the VAB and SPH to be 40 as I do not find arbitrary part counts to be a fun game mechanic.
+  * Increases the initial number of parts for the VAB and SPH to be 40 as I did not want part counts to be as binding as a game mechanic. If JNSQ or Sigma Dimensions is detected, will increase the part count limits to 64 to help offset the availability of only smaller fuel tanks in the beginning of the tech tree.
 * [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
   * It is hard to argue that this mod should not be part of any game.  The costs reflected in the engines and structural part upgrades are intended to have trade-offs through the increased construction time of your craft, thus balancing deltaV versus the time it takes to construct the vessel and completing contracts quickly.
 * [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
@@ -57,6 +57,7 @@ I have asked Nertea for permission in regards to using Restock/NF models for res
 * Rocket Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. As an added "bonus", the upgrade variants have custom names.
 * Jet Engines have received a B9PS upgrade two tiers later which adds about 20% thrust.  The R.A.P.I.E.R. gets moved into the "unique" propulsion branch rather than part of the jet engines.
 * Command Pods, Fuel Tanks and the Mk1-3 Spaceplane Systems, and other structural parts have B9 upgrade systems implemented that reduce their dry weight by 20% for an additional 50% cost.
+* Batteries have energy density upgrades.  Baseline battery densities come a bit later in the tech tree, but should be offset that probes have had their EC amounts augmented
 * Revamped Science points; Set the scienceCap to the same level as the base level eliminating need to repeat experiments.  Reduced the level of transmit science of Mystery Goo, Material Lab to 14% of cap.  Increased the transmission to 100% for all other stock science experiments.
 * Added around 72 new tech nodes.  This increases the cost to unlock early tech tiers substantially, but KTT lowers the early cost of research nodes in most cases so it balances to a 40% premium in required science over the long-run. 
 
@@ -68,11 +69,12 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Integrated science experiments to Kerbalism for several mods that have custom experiments.
 * Added radiation emitters to several atomic jets for mods not supported in-house by Kerbalism
 * Added a few comfort upgrades to some station parts.
+* Added reliability upgrades to solar panels and reaction wheels to make it more likely that they would be functional after interstellar travel.
 * Nerfed the reliability of engines slightly, both in terms of ignition failures and operation duration.  Duration is a function of vacuum ISP (see note below). Vacuum engines have a higher baseline operation duration than surface launchers.  While Kerbalism has an in-game mechanic to increase duration and number of ignitions, I add increases in the baseline reliability of engines through part upgrades that works alongside the in-built mechanic.  
   * Ion engine duration is now finite, but not likely to be a limiting factor. Argon thrusters now match Ion thruster durability.
   * Burn Duration upgrades are engine specific and are tied to the same upgrade that increases thrust, ISP, etc. that normally is available two tiers after the engine is first available.
   * Engine ignition reliability will be global between liquid fuel engines and separately, solid rocket boosters.  This allows some early fun at watching engines explode.  This will be less of a feature as the space program matures to avoid the game mechanic getting stale when you have spent several hours developing a craft and just want it to !@#%$#@$ work before you go to bed.
-  * Note: I have created an "S-shaped" function that will determine the duration based on vacuum ISP.  The function was a fitted cubic spline based on a set of points that I felt would balance the duration.  When calculating rated duration of hydrolox engines, I divide the ISP by 30% to get an approximate ISP if the engine was Kerolox.
+  * Note: I have created an "S-shaped" function that will determine the duration based on vacuum ISP.  The function was a fitted cubic spline based on a set of points that I felt would balance the duration.  When calculating rated duration of hydrolox engines, I divide the ISP by 30% to get an approximate ISP if the engine was Kerolox. If JNSQ or Sigma Dimensions is installed, baseline duration for all engines will be increased by 60 seconds to account for the longer burns required.
   
 
 ## Current Supported Mods (see details below for general changes):
@@ -81,6 +83,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * BetterSRBs 1.2.3
 * BonVoyage 1.1.1
 * Bumblebee 0.5
+* Coatl Aerospace 20 October 2020 (Github)
 * Completely Non-Aggressive Rocketry 1.0.2
 * Conformal Decals 0.2.1
 * Cryogenic Engines 1.1.4
@@ -116,6 +119,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * M.O.L.E. 1.22.1 (Very Limited Support) 
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
+* Mk-1 Stockalike Open Cockpit 1.2.1
 * Mk-33 1.0
 * Mk2 Stockalike Expansion 1.8.9.3
 * Mk3 Stockalike Expansion 1.5.1
@@ -178,6 +182,9 @@ Moved module to science node.  Kept upgrades in current path.
 ## Bumblebee 0.5
 Shuffled the tech nodes.  Generally increased the prices, particularly the sensor package to create a cost to getting a rather large sensor suite in a very small package. Added decaying RTG support if Near Future Electrical and Decaying RTG extra is installed. If BonVoyage is installed, adds a BV module to the Bumblebee core. **If Kerbalism with FeatureScience is installed: Setup probe body to have larger HDD space and 9 science slots.**
 
+## Coatl Aerospace Github Download 20 October 2020
+Shuffled the tech tree. Rebalanced some of the antenna to provide more variety of antenna through the tech tree. Usual B9 engine upgrades. **If Kerbalism with FeatureScience is installed, adds custom probe HDD space and customized science experiments to help differentiate some of the experiments and give more reason to launch experiments. If FeatureRadiation is installed, will make the RTGs compliant and act as radiation emitters. Probe bus with RTG shielding is a radiation absorber.**
+
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space.
 
@@ -200,7 +207,7 @@ Shuffled the tech nodes.  Added Decaying RTG support; B9PS Upgrade solar support
 Changed the tech nodes, placed later in the tech tree in the colonization branch.  Increased the costs.  Added a Glykerol wedge if US2 installed (based on the hydrogen wedge)
 
 ## DMagic Orbital Science 1.4.3
-Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game. Reduced the transmit values of the Bio Drill Scan, Solar Particles and Bathymetry Scan. **Keeps existing configs for Kerbalism.**
+Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game. Reduced the transmit values of the Bio Drill Scan, Solar Particles and Bathymetry Scan. **If Kerbalism with FeatureScience is installed, replaces the 1.10 Magnetometer experiment with the DMagic scan as this mod is currently for KSP 1.9.1. Remove the DMagicOrbitalScience_Kerbalism.cfg file if in KSP 1.10.1+.**
 
 ## Dodo Labs 1.3.1
 Shuffled the tech nodes. Lowered the cost of the fairings. Slight renaming of a couple engines.  Usual B9 Part Upgrades.
@@ -286,8 +293,11 @@ Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%. If Rati
 ## Missing History 1.8.2
 Move liquid engines to deprecate node of Restock+ installed; move a few more parts to deprecated node if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. If installed alongside Kerbal Atomics, will adapt the same LF/LH2 multimode design as the Stock NERV and ReStock+ Cherenkov and updates the RealPlume plume to match. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities; Adds RTG to Candle Engine and Radiation Emitter to nuclear propulsion if FeatureRadiation is installed.**
 
+## Mk-1 Stockalike Open Cockpit 1.2.1
+Shuffled the tech tree.  If installed with CNAR, it moves the sounding rockets to their own node. If installed, it will move a few more aviation pieces to the start.  If Airplane Plus is installed, moves a couple of wing pieces and the Spud Engine to the start node. Nerfs the skin temperature capacity of the cockpits so they cannot be used for early space vehicles and does not have a spaceworthiness upgrade.
+
 ## Mk-33 1.0
-Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases.
+Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities.**
 
 ## MK2 Stockalike Expansion 1.8.9.3
 Shuffled tech nodes.  If installed, will move the Stock Mk2 Cockpit one tier earlier to streamlined flight.  Upgraded E.V.E.R.Y. single engine, but have not currently added RealPlume support for engines not currently supporting it.  Added cockpits and structural parts to the Mk2 Spaceplane System Upgrade. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities and Lab Group science to Lab; Lowers the radiation emitter for the Atomic Engine to be aligned with NERV.**
@@ -383,6 +393,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 0.9.0 (): Coatl Aerospace and Mk1 Open Cockpit Support; Further balance to AirplanePlus parts; Fixed OP antenna for CNAR; Added entry cost to Knes Vesta 0.625 adapter and P80 Booster; Adjusted Mk2 and Mk3 Expansion SRB costs; Earlier entry for three engines in AirplanePlus; Adjusted part counts for CustomBarnKit if JNSQ or Sigma Dimensions installed; Adjusted engine duration for Feature Reliability (Kerbalism) if JNSQ or Sigma Dimensions is installed; Added correct needs to Luciole solar panels; Moved flight control branch up alongside the alternative propulsion branch; moved the ion and nuclear branches to accommodate; Moved Spider and Ant from Stock to Flight Control; Moved Hyper Mantis engine to Flight Control; Added compatibility with animation to LTech radios and changed requirements for film and digital cameras in Kerbalism installs; Restored the DMagic Orbital Science Magnetometer experiment back for Kerbalism; Fixed compliance issues with Bumblebee and Kerbalism; Added reliability upgrades for Solar Panels and Reaction Wheels if FeatureReliability is installed with Kerbalism; Added Basic Flight Control Node; Moved RCS parts for the following mods: InternalRCS, Knes, Luciole, Mk2 Expansion, Near Future Launch Vehicles, Near Future Spacecraft, ReStock+; Moved 1.875-1.25 abort adapter from Knes to flight control; added cold gas thruster support to several additional mods; Moved the US2 RPWS experiment to the correct node; Moved low power antenna in Near Future Exploration and Knes to Engineering 101; Duplicated relay antenna from ReStock and added earlier in the tech tree with reduced range; Lowered the experiment data size for the James Webb Experiment; Added Coatl Aerospace Compatibility for Bumblebee and Kerbalism; Changed the colour of the RealPlume description text to orange; Added structural upgrade to solid rocket boosters; Moved P03 SRB from Knes and Mite from Stock to Sounding Rockets if CNAR is installed; Readjusted Science Tech Unlock points if Kerbalism with FeatureScience is installed.
 * 0.8.4 (11 October 2020): Reduced entry costs of AirplanePlus parts; Moved the FL-A10 Adapter to the start; Balanced Kerbalism experiments for Interkosmos and Knes
 * 0.8.3 (11 October 2020): Github Pre-Release; Updated Support to BetterSRBs 1.2.4; Mk-33 1.0; Removed custom BetterSRBs support for Mk3Expansion as it is built-in to latest version; Moved Service Bays to Logistics Branch from Construction
 * 0.8.2 (10 October 2020): Reduced the mass of the 40k rover antenna in NF Exploration which is the start antenna if available; Moved the stock launch clamp to General Launch Bases if Modular LaunchPad is installed; Added KEREB-D to parts receiving probe upgrades; Moved the Metal SRBs from RR Parts to SRB branch; Hide the EL Launch Clamp
