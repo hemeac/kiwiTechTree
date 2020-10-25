@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.9.0; 24 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.9.1; 25 October 2020; Currently tested only in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/T8ZxxiI.png)
 
@@ -105,6 +105,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Kerbal Atomics 1.1.4
 * Kerbal Attachment System 1.7
 * Kerbal Engineer Redux 1.1.7.2
+* Kerbal GPS Revived 1.2.0.1
 * Kerbal Inventory System 1.26
 * Kerbal Planetary Base Systems 1.6.12
 * Kerbal Reusability Expansion 2.8.6
@@ -115,6 +116,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * LTech 0.5.1.7 [Beta]
 * Luciole 1.5
 * Making Alternate History 1.10.1
+* MandatoryRCS 1.8
 * The Martian 1.10.1.2
 * M.O.L.E. 1.22.1 (Very Limited Support) 
 * Mark IV Spaceplane System 3.1.2
@@ -251,6 +253,9 @@ Reshuffled Tech Nodes.
 ## Kerbal Engineer Redux 1.1.7.2
 Moved chips to Engineering 101.  If KerbalEngineerProbes folder is created (can be blank), will add Kerbal Engineering functionality to all probes. This is functionally equivalent to the mod "MechJeb and Engineer For All" by linuxgurugamer except that it only impacts Kerbal Engineer.  However, I have no plans for MechJeb support.
 
+## Kerbal GPS Revived 1.2.0.1
+Did not move, but ensured that the parts appear correctly in the electronics sciencenode. Finally something that sort of fits there...
+
 ## Kerbal Inventory System 1.26
 Reshuffled Tech Nodes.  Added B9 upgrades to containers.
 
@@ -280,6 +285,9 @@ Reshuffled tech nodes and cost rebalancing (generally large increases in cost an
 
 ## Making Alternate History 1.10.1
 Shuffled the tech nodes and cost rebalancing.  Nerfed the descent stage as ISP too high for liquid fuel engine. Convert the engines to hydrolox/methalox if CryoEngines/CryoTanksMethalox installed (currently does not have methalox RealPlume support, not high priority). Colony modules have RTGs installed if decaying rtg patch installed with NFE.  Added a MAH System Upgrade in-line with Mk3 Spaceplane Upgrade System. **If Kerbalism with FeatureRadiation is installed: Adds small radiation emitted from RTGs; If FeatureScience is installed: Adds lab science group and custom HDD values.**
+
+## MandatoryRCS 1.8
+Ensured that the patches in MandatoryRCS does not move my RCS patches to incorrect tiers.  They show up at the same level, so should remain compatible.
 
 ## The Martian 1.10.1.2
 Shuffled the tech nodes.  Stripped out the in-built support for Methalox engines, but have added in Hydrolox and Methalox support if Cryo Engines, CryoTanksMethalox are installed, respectively. Unlike other cryo engines, these engines maintain their kerolox support as well.  Part upgrades are mostly through the Mk4 Ares System Upgrade, outside of the solar battery and engines (as usual). **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to cockpits.**
@@ -393,7 +401,8 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 0.9.0 (): Coatl Aerospace and Mk1 Open Cockpit Support; Further balance to AirplanePlus parts; Fixed OP antenna for CNAR; Added entry cost to Knes Vesta 0.625 adapter and P80 Booster; Adjusted Mk2 and Mk3 Expansion SRB costs; Earlier entry for three engines in AirplanePlus; Adjusted part counts for CustomBarnKit if JNSQ or Sigma Dimensions installed; Adjusted engine duration for Feature Reliability (Kerbalism) if JNSQ or Sigma Dimensions is installed; Added correct needs to Luciole solar panels; Moved flight control branch up alongside the alternative propulsion branch; moved the ion and nuclear branches to accommodate; Moved Spider and Ant from Stock to Flight Control; Moved Hyper Mantis engine to Flight Control; Added compatibility with animation to LTech radios and changed requirements for film and digital cameras in Kerbalism installs; Restored the DMagic Orbital Science Magnetometer experiment back for Kerbalism; Fixed compliance issues with Bumblebee and Kerbalism; Added reliability upgrades for Solar Panels and Reaction Wheels if FeatureReliability is installed with Kerbalism; Added Basic Flight Control Node; Moved RCS parts for the following mods: InternalRCS, Knes, Luciole, Mk2 Expansion, Near Future Launch Vehicles, Near Future Spacecraft, ReStock+; Moved 1.875-1.25 abort adapter from Knes to flight control; added cold gas thruster support to several additional mods; Moved the US2 RPWS experiment to the correct node; Moved low power antenna in Near Future Exploration and Knes to Engineering 101; Duplicated relay antenna from ReStock and added earlier in the tech tree with reduced range; Lowered the experiment data size for the James Webb Experiment; Added Coatl Aerospace Compatibility for Bumblebee and Kerbalism; Changed the colour of the RealPlume description text to orange; Added structural upgrade to solid rocket boosters; Moved P03 SRB from Knes and Mite from Stock to Sounding Rockets if CNAR is installed; Readjusted Science Tech Unlock points if Kerbalism with FeatureScience is installed.
+* 0.9.1 (25 October 2020): Mandatory RCS and Kerbal GPS Revived Support; Added MonoPropellant Engine Upgrades to Internal RCS, Knes, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future Spacecraft; and Stock;  Fixed 0 cost for STEAM Blamont MonoPropellant Module in Knes; 
+* 0.9.0 (24 October 2020): Coatl Aerospace and Mk1 Open Cockpit Support; Further balance to AirplanePlus parts; Fixed OP antenna for CNAR; Added entry cost to Knes Vesta 0.625 adapter and P80 Booster; Adjusted Mk2 and Mk3 Expansion SRB costs; Earlier entry for three engines in AirplanePlus; Adjusted part counts for CustomBarnKit if JNSQ or Sigma Dimensions installed; Adjusted engine duration for Feature Reliability (Kerbalism) if JNSQ or Sigma Dimensions is installed; Added correct needs to Luciole solar panels; Moved flight control branch up alongside the alternative propulsion branch; moved the ion and nuclear branches to accommodate; Moved Spider and Ant from Stock to Flight Control; Moved Hyper Mantis engine to Flight Control; Added compatibility with animation to LTech radios and changed requirements for film and digital cameras in Kerbalism installs; Restored the DMagic Orbital Science Magnetometer experiment back for Kerbalism; Fixed compliance issues with Bumblebee and Kerbalism; Added reliability upgrades for Solar Panels and Reaction Wheels if FeatureReliability is installed with Kerbalism; Added Basic Flight Control Node; Moved RCS parts for the following mods: InternalRCS, Knes, Luciole, Mk2 Expansion, Near Future Launch Vehicles, Near Future Spacecraft, ReStock+; Moved 1.875-1.25 abort adapter from Knes to flight control; added cold gas thruster support to several additional mods; Moved the US2 RPWS experiment to the correct node; Moved low power antenna in Near Future Exploration and Knes to Engineering 101; Duplicated relay antenna from ReStock and added earlier in the tech tree with reduced range; Lowered the experiment data size for the James Webb Experiment; Added Coatl Aerospace Compatibility for Bumblebee and Kerbalism; Changed the colour of the RealPlume description text to orange; Added structural upgrade to solid rocket boosters; Moved P03 SRB from Knes and Mite from Stock to Sounding Rockets if CNAR is installed; Readjusted Science Tech Unlock points if Kerbalism with FeatureScience is installed.
 * 0.8.4 (11 October 2020): Reduced entry costs of AirplanePlus parts; Moved the FL-A10 Adapter to the start; Balanced Kerbalism experiments for Interkosmos and Knes
 * 0.8.3 (11 October 2020): Github Pre-Release; Updated Support to BetterSRBs 1.2.4; Mk-33 1.0; Removed custom BetterSRBs support for Mk3Expansion as it is built-in to latest version; Moved Service Bays to Logistics Branch from Construction
 * 0.8.2 (10 October 2020): Reduced the mass of the 40k rover antenna in NF Exploration which is the start antenna if available; Moved the stock launch clamp to General Launch Bases if Modular LaunchPad is installed; Added KEREB-D to parts receiving probe upgrades; Moved the Metal SRBs from RR Parts to SRB branch; Hide the EL Launch Clamp
