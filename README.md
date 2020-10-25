@@ -2,7 +2,7 @@
 
 ## Version 0.9.2; 25 October 2020; Currently tested only in KSP 1.9.1
 
-![Kiwi Tech Tree Overhaul](https://i.imgur.com/AmoNnPS.png)
+![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
 [Introduction Video](https://www.youtube.com/watch?v=ddb7BdREy04)
 
