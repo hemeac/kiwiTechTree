@@ -1,14 +1,14 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.9.3; 26 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.9.4; 27 October 2020; Currently tested only in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
-[Introduction Video](https://www.youtube.com/watch?v=ddb7BdREy04)
+[Introduction Video](https://youtu.be/P0Dcon7vGhk)
 
-[VAB Video](https://youtu.be/3JYnA26nVpE)
+[VAB Video](https://youtu.be/47xVyCwTc8s)
 
-[Kerbalism Video](https://youtu.be/XBZTyywFqkQ)
+[Kerbalism Video](https://youtu.be/nZW2DYPcmNA)
 
 A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron/theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by further providing an upgrade path (via B9PS or the stock upgrade system when B9 is not available) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
 
@@ -401,6 +401,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 0.9.4 (27 October 2020): KSP Forum Release; Better fix for bug where EC upgrades are available in parts with an EC max capacity of 0; Fixed issue where Kerbalism was inserting reliability variables into the incorrect module; added a upgrade config for engines for future development.
 * 0.9.3 (26 October 2020): Moved Kiwi Tech Tree to folder outside of Kiwi Aerospace; Rebalanced costs of Coatl Aerospace RCS thrusters; Fixed Ground Vehicles tech node being present even if Grounded is not available; Fixed bug where EC upgrades appeared on a few engines which had ElectricCharge Resource with 0 max capacity (for reasons?)
 * 0.9.2 (25 October 2020): Nerfed the reaction wheel in Open Cockpit; Added crew report and hard drive for Kerbalism to Open Cockpit; Added a resized part to start if Open Cockpit and Airplane Plus is installed; Increased the starting SPH and VAB part count
 * 0.9.1 (25 October 2020): Mandatory RCS and Kerbal GPS Revived Support; Added MonoPropellant Engine Upgrades to Internal RCS, Knes, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future Spacecraft; and Stock;  Fixed 0 cost for STEAM Blamont MonoPropellant Module in Knes.
