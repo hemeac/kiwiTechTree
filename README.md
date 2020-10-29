@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.9.5; 29 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.9.6; 29 October 2020; Currently tested only in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -86,6 +86,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Coatl Aerospace 20 October 2020 (Github)
 * Completely Non-Aggressive Rocketry 1.0.2
 * Conformal Decals 0.2.1
+* CRE Stockalike British Rocketry 2.0
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
 * Decoupler Shroud 0.7.2
@@ -193,8 +194,11 @@ Created a new node in the tech tree between the start and other tech nodes for t
 ## Conformal Decals 0.2.1
 Moved the decals to the Other Parts node.
 
+## CRE Stockalike British Rocketry 2.0
+Rebalanced tech nodes and balanced a few of the costs.  Also nerfed the fuel capacity of the Black Knight 0.625m fuel tanks to align with stock tanks and relative to other CRE fuel tanks. Added standard engines upgrades. When installed, will move a couple early engines from Stock/ReStock+ to later tiers to reflect that early engines should have lower ISP. **If Kerbalism with FeatureScience is installed, adds custom probe HDD values.**
+
 ## Cryogenic Engines 1.1.4
-Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Will convert some Stock, Making History, and ReStock+ to cryogenic engines if they were originally based off crogenic engines. If CryoTanksMethalox is installed (ie. a blank folder with that name is added to GameData), will add methalox variants to all cryogenic engines along with custom methalox plumes if RealPlume is installed.  On the potential to-do list is add PlumeParty support if RealPlume is not available, but currently methalox engines without RealPlume uses the default hydrolox plumes.
+Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Lowered the vacuum ISP of some engines so upgraded variants are not as close to the theoretical maximum for Hydrolox fuel. Will convert some Stock, Making History, and ReStock+ to cryogenic engines if they were originally based off crogenic engines. If CryoTanksMethalox is installed (ie. a blank folder with that name is added to GameData), will add methalox variants to all cryogenic engines along with custom methalox plumes if RealPlume is installed.  On the potential to-do list is add PlumeParty support if RealPlume is not available, but currently methalox engines without RealPlume uses the default hydrolox plumes.
 
 ## CryoTanks 1.5.2
 Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a busy...
@@ -401,6 +405,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 0.9.6 (29 October 2020): Added CRE Stockalike British Rocketry Support; Balanced cryo engines ISP in Making Alternate History and CryoEngines (Thanks to suggestion by Github user T10a); 
 * 0.9.5 (29 October 2020): Added additional general engine upgrade patches; Incorporated some stock and Making History engines to general engine patches; Fixed bug where general engine upgrade patch failed if engines didn't use ModuleEnginesFX; Removed additional added variables in late pass after their need is no longer required; Light changes to the placement of early solid rocket boosters; Added check for fuel tank upgrades to only apply the patch if the part has fuel as some parts do not have fuel if other mods are not installed; Added CryTanks as an explicit NEEDS, removed redundant patch that incorrectly added zzz_CryoTanks pass; Incorrect NEEDS on the SRB PARTUPGRADE; Fixed Upgrade for Twin-Boar introduced from 28 October update; Generalized the B9 Module Identifier for the engine upgrades across all mods to accommodate that not all use the newer ModuleEnginesFX
 * 0.9.4 (27 October 2020): KSP Forum Release; Better fix for bug where EC upgrades are available in parts with an EC max capacity of 0; Fixed issue where Kerbalism was inserting reliability variables into the incorrect module; added a upgrade config for engines for future development.
 * 0.9.3 (26 October 2020): Moved Kiwi Tech Tree to folder outside of Kiwi Aerospace; Rebalanced costs of Coatl Aerospace RCS thrusters; Fixed Ground Vehicles tech node being present even if Grounded is not available; Fixed bug where EC upgrades appeared on a few engines which had ElectricCharge Resource with 0 max capacity (for reasons?)
