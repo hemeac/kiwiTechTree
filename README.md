@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.9.4; 27 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.9.5; 29 October 2020; Currently tested only in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -21,7 +21,7 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
 * [BetterSRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/)
   * Better SRBs is how KTT is handling the "upgrades" for SRBs.  I also modify SRBs from mods not directly supported in Better SRBs custom configs if BetterSRBs is present.
 * [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18-custom-barn-kit-1120-19-october-2019-parachute-included/)
-  * Increases the initial number of parts for the VAB and SPH to be 40 as I did not want part counts to be as binding as a game mechanic. If JNSQ or Sigma Dimensions is detected, will increase the part count limits to 64 to help offset the availability of only smaller fuel tanks in the beginning of the tech tree.
+  * Increases the initial number of parts for the VAB and SPH to be 46 as I did not want part counts to be as binding as a game mechanic. If JNSQ or Sigma Dimensions is detected, will increase the part count limits to 72 to help offset the availability of only smaller fuel tanks in the beginning of the tech tree.
 * [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
   * It is hard to argue that this mod should not be part of any game.  The costs reflected in the engines and structural part upgrades are intended to have trade-offs through the increased construction time of your craft, thus balancing deltaV versus the time it takes to construct the vessel and completing contracts quickly.
 * [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
@@ -401,6 +401,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 0.9.5 (29 October 2020): Added additional general engine upgrade patches; Incorporated some stock and Making History engines to general engine patches; Fixed bug where general engine upgrade patch failed if engines didn't use ModuleEnginesFX; Removed additional added variables in late pass after their need is no longer required; Light changes to the placement of early solid rocket boosters; Added check for fuel tank upgrades to only apply the patch if the part has fuel as some parts do not have fuel if other mods are not installed; Added CryTanks as an explicit NEEDS, removed redundant patch that incorrectly added zzz_CryoTanks pass; Incorrect NEEDS on the SRB PARTUPGRADE; Fixed Upgrade for Twin-Boar introduced from 28 October update; Generalized the B9 Module Identifier for the engine upgrades across all mods to accommodate that not all use the newer ModuleEnginesFX
 * 0.9.4 (27 October 2020): KSP Forum Release; Better fix for bug where EC upgrades are available in parts with an EC max capacity of 0; Fixed issue where Kerbalism was inserting reliability variables into the incorrect module; added a upgrade config for engines for future development.
 * 0.9.3 (26 October 2020): Moved Kiwi Tech Tree to folder outside of Kiwi Aerospace; Rebalanced costs of Coatl Aerospace RCS thrusters; Fixed Ground Vehicles tech node being present even if Grounded is not available; Fixed bug where EC upgrades appeared on a few engines which had ElectricCharge Resource with 0 max capacity (for reasons?)
 * 0.9.2 (25 October 2020): Nerfed the reaction wheel in Open Cockpit; Added crew report and hard drive for Kerbalism to Open Cockpit; Added a resized part to start if Open Cockpit and Airplane Plus is installed; Increased the starting SPH and VAB part count
