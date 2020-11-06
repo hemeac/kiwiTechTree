@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 0.9.6; 29 October 2020; Currently tested only in KSP 1.9.1
+## Version 0.9.6; 6 November 2020; Currently tested only in KSP 1.9.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -186,10 +186,10 @@ Moved module to science node.  Kept upgrades in current path.
 Shuffled the tech nodes.  Generally increased the prices, particularly the sensor package to create a cost to getting a rather large sensor suite in a very small package. Added decaying RTG support if Near Future Electrical and Decaying RTG extra is installed. If BonVoyage is installed, adds a BV module to the Bumblebee core. **If Kerbalism with FeatureScience is installed: Setup probe body to have larger HDD space and 9 science slots.**
 
 ## Coatl Aerospace Github Download 20 October 2020
-Shuffled the tech tree. Rebalanced some of the antenna to provide more variety of antenna through the tech tree. Usual B9 engine upgrades. **If Kerbalism with FeatureScience is installed, adds custom probe HDD space and customized science experiments to help differentiate some of the experiments and give more reason to launch experiments. If FeatureRadiation is installed, will make the RTGs compliant and act as radiation emitters. Probe bus with RTG shielding is a radiation absorber.**
+Shuffled the tech tree. Rebalanced some of the antenna to provide more variety of antenna through the tech tree. Usual B9 engine upgrades. If Engine Ignitor is installed, adds custom configs. **If Kerbalism with FeatureScience is installed, adds custom probe HDD space and customized science experiments to help differentiate some of the experiments and give more reason to launch experiments. If FeatureRadiation is installed, will make the RTGs compliant and act as radiation emitters. Probe bus with RTG shielding is a radiation absorber.**
 
 ## Completely Non-Aggressive Rocketry 1.0.2
-Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space.
+Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space.  If Engine Ignitor is installed, adds custom configs.
 
 ## Conformal Decals 0.2.1
 Moved the decals to the Other Parts node.
@@ -216,10 +216,10 @@ Changed the tech nodes, placed later in the tech tree in the colonization branch
 Shuffled the tech nodes.  Moved the Intelligence Satelites fairly late in the tech tree and nerfed their signal strength to 10% of default value.  Even after nerfing, should not be able to get that strong of relay satelites early in the game. Reduced the transmit values of the Bio Drill Scan, Solar Particles and Bathymetry Scan. **If Kerbalism with FeatureScience is installed, replaces the 1.10 Magnetometer experiment with the DMagic scan as this mod is currently for KSP 1.9.1. Remove the DMagicOrbitalScience_Kerbalism.cfg file if in KSP 1.10.1+.**
 
 ## Dodo Labs 1.3.1
-Shuffled the tech nodes. Lowered the cost of the fairings. Slight renaming of a couple engines.  Usual B9 Part Upgrades.
+Shuffled the tech nodes. Lowered the cost of the fairings. Slight renaming of a couple engines.  Usual B9 Part Upgrades. If Engine Ignitor is installed, adds custom configs.
 
 ## Duna Direct 1.10.1
-Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added a Duna Direct System Upgrade in-line with Mk3 Spaceplane Upgrade System.  **Has Built-in Kerbalism Support.**
+Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added a Duna Direct System Upgrade in-line with Mk3 Spaceplane Upgrade System. If Engine Ignitor is installed, adds custom configs. **Has Built-in Kerbalism Support.**
 
 ## Extraplanetary Launchpads 6.8.2
 Shuffled the tech nodes and some cost balancing as some parts were missing entry costs.  I am not very familiar with the mod, so locations were set without much balancing and yet unsure how much I will use this mod.  No upgrades were applied to containers.
@@ -246,7 +246,7 @@ Tech reshuffle.  Nerfed the main antenna.  Added solar panel upgrades if Near Fu
 **See notes above.**
 
 ## KeR-7 1.0
-Reshuffled tech tree and named the engines.  Standard B9 Engine Upgrades.  To Do: Add RealPlume support, but current attempt at a config results in compilation error. 
+Reshuffled tech tree and named the engines.  Standard B9 Engine Upgrades.  To Do: Add RealPlume support, but current attempt at a config results in compilation error. If Engine Ignitor is installed, adds custom configs.
 
 ## Kerbal Atomics 1.1.4
 Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov. **Keeps existing configs for Kerbalism.**
@@ -288,16 +288,16 @@ Reshuffled tech nodes.  Rebalanced costs.  Nerfed the science multiplier boost o
 Reshuffled tech nodes and cost rebalancing (generally large increases in cost and entry cost to align with stock parts). Nerfed engine ISP to align more closely with stock, exception was aerospike engine which I decreased in vacuum, but significantly increased ISP in thick atmospheres to align with other aerospike engines; added B9PS engine upgrades. If Near Future Solar is installed, adds similar B9PS upgrade system. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases. **If Kerbalism with FeatureScience is installed: Adds custom HDD values to probes and re-entry vessels; Adds the student, customer and KSC and new government experiment cubesat experiment group.**
 
 ## Making Alternate History 1.10.1
-Shuffled the tech nodes and cost rebalancing.  Nerfed the descent stage as ISP too high for liquid fuel engine. Convert the engines to hydrolox/methalox if CryoEngines/CryoTanksMethalox installed (currently does not have methalox RealPlume support, not high priority). Colony modules have RTGs installed if decaying rtg patch installed with NFE.  Added a MAH System Upgrade in-line with Mk3 Spaceplane Upgrade System. **If Kerbalism with FeatureRadiation is installed: Adds small radiation emitted from RTGs; If FeatureScience is installed: Adds lab science group and custom HDD values.**
+Shuffled the tech nodes and cost rebalancing.  Nerfed the descent stage as ISP too high for liquid fuel engine. Convert the engines to hydrolox/methalox if CryoEngines/CryoTanksMethalox installed (currently does not have methalox RealPlume support, not high priority). Colony modules have RTGs installed if decaying rtg patch installed with NFE.  Added a MAH System Upgrade in-line with Mk3 Spaceplane Upgrade System. If Engine Ignitor is installed, adds custom configs. **If Kerbalism with FeatureRadiation is installed: Adds small radiation emitted from RTGs; If FeatureScience is installed: Adds lab science group and custom HDD values.**
 
 ## MandatoryRCS 1.8
 Ensured that the patches in MandatoryRCS does not move my RCS patches to incorrect tiers.  They show up at the same level, so should remain compatible.
 
 ## The Martian 1.10.1.2
-Shuffled the tech nodes.  Stripped out the in-built support for Methalox engines, but have added in Hydrolox and Methalox support if Cryo Engines, CryoTanksMethalox are installed, respectively. Unlike other cryo engines, these engines maintain their kerolox support as well.  Part upgrades are mostly through the Mk4 Ares System Upgrade, outside of the solar battery and engines (as usual). **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to cockpits.**
+Shuffled the tech nodes.  Stripped out the in-built support for Methalox engines, but have added in Hydrolox and Methalox support if Cryo Engines, CryoTanksMethalox are installed, respectively. Unlike other cryo engines, these engines maintain their kerolox support as well.  Part upgrades are mostly through the Mk4 Ares System Upgrade, outside of the solar battery and engines (as usual). If Engine Ignitor is installed, adds custom configs. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to cockpits.**
 
 ## M.O.L.E. 1.22.1 (Partial Support)
-I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to command modules.**
+I've taken a few selective pieces out for my personal playthrough and provided some configurations for them that are consistent with the features added in this mod, but note that it also strip out the WBI Experiment and Omniconverter functionality as I am not intending to use these systems in my playthrough.  I'm providing this this as is and not really planning on providing support for this.  But if you want some great looking Restock quality extensions to the Mk1 Cockpit, check out the updated Appaloosa textures in this mod, beautiful. If Engine Ignitor is installed, adds custom configs. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to command modules.**
 
 ## Mark IV Spaceplane System 3.1.2
 Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to cockpits.**
@@ -309,7 +309,7 @@ Move liquid engines to deprecate node of Restock+ installed; move a few more par
 Shuffled the tech tree.  If installed with CNAR, it moves the sounding rockets to their own node. If installed, it will move a few more aviation pieces to the start.  If Airplane Plus is installed, moves a couple of wing pieces and the Spud Engine to the start node. Nerfs the skin temperature capacity of the cockpits so they cannot be used for early space vehicles and does not have a spaceworthiness upgrade. **If Kerbalism with FeatureScience is installed, adds a crew report experiment and a hard drive to the cockpit to enable science to happen.**
 
 ## Mk-33 1.0
-Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities.**
+Shuffled the tech nodes to correspond with the Mark IV Spaceplane System.  Added custom B9PS fuel tanks along with Methalox fuel tanks.  Linear Aerospike is able to run either as a Kerolox, Hydrolox, or Methalox engine.  Custom RealPlume support is forthcoming, but will likely wait for the final development. Note, this will remove the omni-storage modules if WBI Tools is installed, will require some manual editing or custom patch (not included) to restore. If Modular Launch Pads is installed, the launch pad is moved to General Launch Bases. If Engine Ignitor is installed, adds custom configs. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities.**
 
 ## MK2 Stockalike Expansion 1.8.9.3
 Shuffled tech nodes.  If installed, will move the Stock Mk2 Cockpit one tier earlier to streamlined flight.  Upgraded E.V.E.R.Y. single engine, but have not currently added RealPlume support for engines not currently supporting it.  Added cockpits and structural parts to the Mk2 Spaceplane System Upgrade. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities and Lab Group science to Lab; Lowers the radiation emitter for the Atomic Engine to be aligned with NERV.**
@@ -383,7 +383,7 @@ Note in this version, some textures are incorrectly specified and the restock wh
 Mod is beautifully modelled and the very definition of MOAR BOOSTERS.  It appears to be a WIP as RealPlume configs appears to be broken and thus most engines currently fly without plumes with RealPlume installed. This will get better support when I get around to fixing the plumes and/or get closer to it in the tech tree. Currently shuffled the tech tree nodes.  Engines have not currently received upgrades.  Cost rebalancing, mostly made things more expensive and fixed the costs of the fuel tanks.  
 
 ## TD Advanced Propulsion Systems - 0.6.200606 (Partial Support)
-Like the Nexus, this mod is beautiful and promising, but the RealPlume support is currently broken, so I have just moved these later in the nuclear propulsion node and will work on supporting this in a later update.
+Like the Nexus, this mod is beautiful and promising, but the RealPlume support is currently broken, so I have just moved these later in the nuclear propulsion node and will work on supporting this in a later update. If Engine Ignitor is installed, adds custom configs.
 
 ## Universal Storage 2 1.9.1.2
 Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to probes.**
@@ -405,7 +405,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 0.9.7 (): Added a general config to specify upgrade values for engines, parachutes, space capable planes, command modules, fuel tanks, ore tanks, structural parts; Have begun to add code that specifies location of upgrade within the description (this will be an on-going process); Added general upgrade systems to Stock, Airplane Plus, Open Cockpit, and few parts within other mods as specified in individual files.
+* 0.9.7 (6 November 2020): Added a general config to specify upgrade values for engines, parachutes, space capable planes, command modules, fuel tanks, ore tanks, structural parts; Have begun to add code that specifies location of upgrade within the description (this will be an on-going process); Added general upgrade systems to Stock, Airplane Plus, Open Cockpit, and few parts within other mods as specified in individual files.  Fixed bug with FeatureReliability as well as issue with MAH when BDB is present in installs. Added Engine Ignitor Configs for CNAR, Coatl Aerospace, Dodo Labs, KeR-7, MAH, Mars Direct, Nexus, TM4KSP, MOLE, Mk-33 courtesy of Clamp-O-Tron
 * 0.9.6 (29 October 2020): Added CRE Stockalike British Rocketry Support; Balanced cryo engines ISP in Making Alternate History and CryoEngines (Thanks to suggestion by Github user T10a); 
 * 0.9.5 (29 October 2020): Added additional general engine upgrade patches; Incorporated some stock and Making History engines to general engine patches; Fixed bug where general engine upgrade patch failed if engines didn't use ModuleEnginesFX; Removed additional added variables in late pass after their need is no longer required; Light changes to the placement of early solid rocket boosters; Added check for fuel tank upgrades to only apply the patch if the part has fuel as some parts do not have fuel if other mods are not installed; Added CryTanks as an explicit NEEDS, removed redundant patch that incorrectly added zzz_CryoTanks pass; Incorrect NEEDS on the SRB PARTUPGRADE; Fixed Upgrade for Twin-Boar introduced from 28 October update; Generalized the B9 Module Identifier for the engine upgrades across all mods to accommodate that not all use the newer ModuleEnginesFX
 * 0.9.4 (27 October 2020): KSP Forum Release; Better fix for bug where EC upgrades are available in parts with an EC max capacity of 0; Fixed issue where Kerbalism was inserting reliability variables into the incorrect module; added a upgrade config for engines for future development.
