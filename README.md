@@ -22,15 +22,20 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
   * Better SRBs is how KTT is handling the "upgrades" for SRBs.  I also modify SRBs from mods not directly supported in Better SRBs custom configs if BetterSRBs is present.
 * [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18-custom-barn-kit-1120-19-october-2019-parachute-included/)
   * Increases the initial number of parts for the VAB and SPH to be 46 as I did not want part counts to be as binding as a game mechanic. If JNSQ or Sigma Dimensions is detected, will increase the part count limits to 72 to help offset the availability of only smaller fuel tanks in the beginning of the tech tree.
-* [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
-  * It is hard to argue that this mod should not be part of any game.  The costs reflected in the engines and structural part upgrades are intended to have trade-offs through the increased construction time of your craft, thus balancing deltaV versus the time it takes to construct the vessel and completing contracts quickly.
 * [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
   * Rational Resources implements some cold gas RCS modes into stock, ReStock+ and NF RCS blocks.  I've added upgrades to these parts and this will be how KTT handles RCS upgrades.  Be aware that this mod changes the distribution of planet resources and ISRU chains!
 * [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
   * Support for Stock; GPP, GEP, OPM; and MPE.
 * [StageRecovery](https://forum.kerbalspaceprogram.com/index.php?/topic/179306-19x-stagerecovery-recover-funds-from-dropped-stages/)
   * Entry costs and upgrades can get expensive, so it is good to recover as much of your vessel as possible.
-
+  
+## Recommended Gameplay Mods
+* [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
+  * It is hard to argue that this mod should not be part of any game.  The costs reflected in the engines and structural part upgrades are intended to have trade-offs through the increased construction time of your craft, thus balancing deltaV versus the time it takes to construct the vessel and completing contracts quickly.
+* Engine Ignitor Reignited
+  * Provides a new gameplay challenge to consider how to best balance engine burns alongside limited ignitions
+* MandatoryRCS
+*  Persistent Rotation
 
 ## Objectives
 
@@ -95,6 +100,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * DMagic Orbital Science 1.4.3
 * Dodo Labs 1.3.1
 * Duna Direct 1.10.1
+* Engine Ignitor Reignited 1.3.6.2
 * Extraplanetary Launchpads 6.8.2
 * Fuji 1.1
 * Grounded 5.00
@@ -220,6 +226,9 @@ Shuffled the tech nodes. Lowered the cost of the fairings. Slight renaming of a 
 
 ## Duna Direct 1.10.1
 Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added a Duna Direct System Upgrade in-line with Mk3 Spaceplane Upgrade System. If Engine Ignitor is installed, adds custom configs. **Has Built-in Kerbalism Support.**
+
+## Engine Ignitor Reignited 1.3.6.2
+If installed, several mods have custom ignitor configs, see individual mods for details.
 
 ## Extraplanetary Launchpads 6.8.2
 Shuffled the tech nodes and some cost balancing as some parts were missing entry costs.  I am not very familiar with the mod, so locations were set without much balancing and yet unsure how much I will use this mod.  No upgrades were applied to containers.
