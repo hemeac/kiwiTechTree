@@ -128,7 +128,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * M.O.L.E. 1.22.1 (Very Limited Support) 
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
-* Mk-1 Stockalike Open Cockpit 1.2.1
+* Mk-1 Stockalike Open Cockpit 1.3.0
 * Mk-33 1.0
 * Mk2 Stockalike Expansion 1.8.9.3
 * Mk3 Stockalike Expansion 1.5.1
@@ -314,7 +314,7 @@ Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%. If Rati
 ## Missing History 1.8.2
 Move liquid engines to deprecate node of Restock+ installed; move a few more parts to deprecated node if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. If installed alongside Kerbal Atomics, will adapt the same LF/LH2 multimode design as the Stock NERV and ReStock+ Cherenkov and updates the RealPlume plume to match. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities; Adds RTG to Candle Engine and Radiation Emitter to nuclear propulsion if FeatureRadiation is installed.**
 
-## Mk-1 Stockalike Open Cockpit 1.2.1
+## Mk-1 Stockalike Open Cockpit 1.3.0
 Shuffled the tech tree.  If installed with CNAR, it moves the sounding rockets to their own node. If installed, it will move a few more aviation pieces to the start.  If Airplane Plus is installed, moves a couple of wing pieces and the Spud Engine to the start node. Nerfs the skin temperature capacity of the cockpits so they cannot be used for early space vehicles and does not have a spaceworthiness upgrade. **If Kerbalism with FeatureScience is installed, adds a crew report experiment and a hard drive to the cockpit to enable science to happen.**
 
 ## Mk-33 1.0
