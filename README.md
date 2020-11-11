@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.0 Release Candidate; 6 November 2020; Currently tested only in KSP 1.9.1
+## Version 1.0 Release Candidate; 11 November 2020; Tested mostly in KSP 1.9.1, light testing in 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -17,35 +17,35 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
 * [B9 Part Switch](https://forum.kerbalspaceprogram.com/index.php?/topic/140541-1101-b9partswitch-v2170-july-29/)
 * [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-18x-110x-module-manager-414-july-7th-2020-locked-inside-edition/)
 
-## Strongly Recommended
+## Strongly Recommended Mods (with custom configs)
 * [BetterSRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/)
   * Better SRBs is how KTT is handling the "upgrades" for SRBs.  I also modify SRBs from mods not directly supported in Better SRBs custom configs if BetterSRBs is present.
 * [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18-custom-barn-kit-1120-19-october-2019-parachute-included/)
   * Increases the initial number of parts for the VAB and SPH to be 46 as I did not want part counts to be as binding as a game mechanic. If JNSQ or Sigma Dimensions is detected, will increase the part count limits to 72 to help offset the availability of only smaller fuel tanks in the beginning of the tech tree.
+* [Engine Ignitor Reignited](https://forum.kerbalspaceprogram.com/index.php?/topic/168424-19x-engine-ignitor-re-ignited-release-new-dependency-added/)
+  * Provides a new gameplay challenge to consider how to best balance engine burns alongside limited ignitions
 * [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
   * Rational Resources implements some cold gas RCS modes into stock, ReStock+ and NF RCS blocks.  I've added upgrades to these parts and this will be how KTT handles RCS upgrades.  Be aware that this mod changes the distribution of planet resources and ISRU chains!
 * [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
   * Support for Stock; GPP, GEP, OPM; and MPE.
-* [StageRecovery](https://forum.kerbalspaceprogram.com/index.php?/topic/179306-19x-stagerecovery-recover-funds-from-dropped-stages/)
-  * Entry costs and upgrades can get expensive, so it is good to recover as much of your vessel as possible.
   
 ## Recommended Gameplay Mods
 * [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
   * It is hard to argue that this mod should not be part of any game.  The costs reflected in the engines and structural part upgrades are intended to have trade-offs through the increased construction time of your craft, thus balancing deltaV versus the time it takes to construct the vessel and completing contracts quickly.
-* Engine Ignitor Reignited
-  * Provides a new gameplay challenge to consider how to best balance engine burns alongside limited ignitions
-* MandatoryRCS
-*  Persistent Rotation
+* [MandatoryRCS](https://github.com/gotmachine/MandatoryRCS)
+* [Persistent Rotation](https://forum.kerbalspaceprogram.com/index.php?/topic/102277-18-persistentrotation-186/)
+* [StageRecovery](https://forum.kerbalspaceprogram.com/index.php?/topic/179306-19x-stagerecovery-recover-funds-from-dropped-stages/)
+  * Entry costs and upgrades can get expensive, so it is good to recover as much of your vessel as possible.
 
 ## Objectives
 
-The Kiwi Tech Tree (KTT) overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  While I really enjoyed both aforementioned mods, I found it took a bit too long to see my kerbals in game and I could progress through most of the tech tree before leaving Kerbin's sphere of influence.  You begin with 0.625m parts and work progressively larger.  To try to limit early crewed missions using plane cockpits, I have nerfed the skin temperature of the spaceplanes, but provide higher skin temperatures to the spaceplanes once they reach the High Altitude tech node (same tier as the Mk3 cockpit). I have made heat shields available relatively early, so you are of course free to experiment with re-entry.
+The Kiwi Tech Tree (KTT) overhaul, like its predecessors, revolves around the premise that probes should come before crewed space missions.  You begin with 0.625m parts and work progressively larger, but also have access to plane cockpits from the start.  To limit early crewed missions using plane cockpits, I have nerfed the skin temperature of crewed cockpits, but provide an upgrade for higher skin temperatures once you reach the High Altitude tech node (same tier as the Mk3 cockpit). I have made heat shields available relatively early, so you are of course free to experiment with re-entry.
 
 KTT is a Tech Tree mod at it's core, however, I have tried to align stock parts and other mods to have similar functionality available with Nertea's NF Suite (if the relevant NF mods are installed).  I further implement some optional mods within the NF Suite using B9PS functionality. This removes the need to choose one or the other within the gameplay environment. If you like to play with new parts as the modder intended, this is not the right tech tree mod for you. 
 
 Many parts have available upgrades such as engine upgrades which increase thrust/isp or structural upgrades which decrease the mass of the part.  These upgrades generally come paired with a 50% increase in the part cost and available later in the tech tree. The rebalance is an attempt to make my tech choices a bit more meaningful and allow my kerbins to spend some time testing jets in Kerbin's atmosphere earlier in the career prior to launching in space.  
 
-I have added another 70+ tech nodes across the tree, but have tried to leave the general layout of the tree largely consistent with the Community Tech Tree.  The major changes are adding a separate branch for solid rocket boosters and if you have mods which have cryogenic engines, this will move them to a different branch from the Liquid Fuel Branch. I have also tried to separate out science more explicitly within the tech tree. While I have shifted some of the nodes around, I have not removed any, thus leaving some compatibility with any mod that I have not directly supported. To balance the additional number of science nodes, I have reduced some of the costs.  Expect to need to collect around 40% more science points over the course of your career to unlock the majority of the tree with parts. Science multipliers have increased within Kerbin, but have generally been reduced outside of Kerbin's Sphere of Influence.  Expect to need to visit more planets to complete the tech tree.
+I have added another 70+ tech nodes across the tree, but leave the general layout of the tree consistent with the Community Tech Tree, although some branches have shifted the relative location.  While I shift some nodes, all nodes are present, thus leaving some compatibility with any mod not currently supported. To balance the additional number of science nodes, I have reduced unlock costs.  Expect to collect around 40% more science points over the course of your career to unlock the majority of the tree. Science multipliers have increased within Kerbin, but have generally been reduced outside of Kerbin's Sphere of Influence.  Expect to need to visit more planets to complete the tech tree.
 
 I calibrated the nodes around stock, expansion packs, Restock/Restock+ and Missing History.  The name of the nodes do not fully indicate the type of technology within the node, but rather the type of technologies that you should expect to find along the branch.  However, some branches do not fully represent their current use (ie. miniaturization where you will find ground science).  I have decided at this point to not rename them. Given the number of nodes, you will benefit by having several parts mods.
 
@@ -141,7 +141,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Near Future Propulsion 1.2.2
 * Near Future Solar 1.2.3
 * Near Future Spacecraft 1.3.3
-* Rational Resources 1.11.0 (Based off Github repository dated 1 October 2020)
+* Rational Resources 1.12.0
 * RealPlume-Stock 4.0.1
 * Restock/Restock+ 1.1.2
 * SCANsat 20.4
@@ -355,11 +355,11 @@ Lastly, the advanced and concentrated versions of both Nertea and stock require 
 ## Near Future Spacecraft 1.3.3
 Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the Monopropellant fuel tanks as they provide some variety to the fuel tanks, they don't look as bad as Nertea thinks they look. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. **If Kerbalism with FeatureScience is installed, it will re-balance the HDD modules.  Adds a panoramic view to the Phoebe. If FeatureRadiation is installed, it adds a radiation emitter to the RTG in the 2.5m utility pod, but "balanced" by the fact that it has a radiation sickness bay added by Kerbalism (irony?)**
 
-## Rational Resources 1.11.0
-Shuffled the tech nodes.  Placed the engines in the deprecated node as they feel disconnected from other parts and re-use existing textures.
+## Rational Resources 1.12.0
+Shuffled the tech nodes. Add a few upgrades to engines, but those with pre-existing B9 switches will remain unchanged. If installed, it will add cold-gas RCS thrusters to several mods.
 
 ## RealPlume 4.0.1 / PlumeParty
-Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, will use Plume Party.  Added temporary RealPlume patches to the Kerbal Atomics aerospikes. Modified the description text to turn it green to make it easier to pinpoint the engines that have RealPlume support.
+Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, uses Plume Party in some cases for Stock/ReStock/NF, but will likely move to Waterfall in the near future.  Added temporary RealPlume patches to the Kerbal Atomics aerospikes. Modified the description text to turn it orange to make it easier to pinpoint the engines that have RealPlume support.
 
 ## ReStock/ReStock+ 1.2.1
 Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% increased mass. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. Note that ReStock 1.2.1 is installed in 1.9.1, you will lose the Advanced Grabbing Unit Jr as a stock version is introduced in 1.10. It will also split the single nozzle and the quadruple nozzle variants of the Poodle into two engines.  The quad nozzle will become an SL engine with higher thrust, while the single longer nozzle, named the Malshi, will be the vacuum engine. **If Kerbalism is installed, edits HDD and Science Slots to Experiment Return Unit so the Hard Drive is not a default 500 kB generic HDD.**
@@ -414,7 +414,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.0.0RC (): Added "Other" Engine Upgrade; Added standardized upgrade support for Duna Direct, Luciole, Mining Expansion, Missing History, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future, Luciole, Nexus (Still not full support), Open Cockpit, Rational Resources, Planetary Bases, ReStock, SSPX, ; Fixed NEEDS for some parts in Mk3 Expansion; Updated Mk1 Stockalike Open Cockpit Support to 1.3; 
+* 1.0.0RC1 (11 November): Added "Other" Engine Upgrade; Several new fuel tank options; Removed legacy structural part upgrades; Added standardized upgrade support for Duna Direct, Luciole, Mining Expansion, Missing History, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future, Luciole, Nexus (Still not full support), Open Cockpit, Rational Resources, Planetary Bases, ReStock, SSPX, ; Fixed NEEDS for some parts in Mk3 Expansion; Updated Mk1 Stockalike Open Cockpit Support to 1.3; Cleaned up Partupgrade text for  engines; Light testing for support in 1.10.1
 * 0.9.7 (6 November 2020): Added a general config to specify upgrade values for engines, parachutes, space capable planes, command modules, fuel tanks, ore tanks, structural parts; Have begun to add code that specifies location of upgrade within the description (this will be an on-going process); Added general upgrade systems to Stock, Airplane Plus, Open Cockpit, and few parts within other mods as specified in individual files.  Fixed bug with FeatureReliability as well as issue with MAH when BDB is present in installs. Added Engine Ignitor Configs for CNAR, Coatl Aerospace, Dodo Labs, KeR-7, MAH, Mars Direct, Nexus, TM4KSP, MOLE, Mk-33 courtesy of Clamp-O-Tron
 * 0.9.6 (29 October 2020): Added CRE Stockalike British Rocketry Support; Balanced cryo engines ISP in Making Alternate History and CryoEngines (Thanks to suggestion by Github user T10a); 
 * 0.9.5 (29 October 2020): Added additional general engine upgrade patches; Incorporated some stock and Making History engines to general engine patches; Fixed bug where general engine upgrade patch failed if engines didn't use ModuleEnginesFX; Removed additional added variables in late pass after their need is no longer required; Light changes to the placement of early solid rocket boosters; Added check for fuel tank upgrades to only apply the patch if the part has fuel as some parts do not have fuel if other mods are not installed; Added CryTanks as an explicit NEEDS, removed redundant patch that incorrectly added zzz_CryoTanks pass; Incorrect NEEDS on the SRB PARTUPGRADE; Fixed Upgrade for Twin-Boar introduced from 28 October update; Generalized the B9 Module Identifier for the engine upgrades across all mods to accommodate that not all use the newer ModuleEnginesFX
