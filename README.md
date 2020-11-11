@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.0 Release Candidate; 11 November 2020; Tested mostly in KSP 1.9.1, light testing in 1.10.1
+## Version 1.0 Release Candidate; 11 November 2020; KSP 1.9.1-1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
