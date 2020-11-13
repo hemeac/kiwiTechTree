@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.0.0 Release Candidate 2; 12 November 2020; KSP 1.9.1-1.10.1
+## Version 1.0.0; 14 November 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -84,6 +84,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 
 ## Current Supported Mods (see details below for general changes):
 * Airplane Plus 26.5
+* Arc Aerospace Wyvern 5 Crew Capsule 0.5
 * B9 Procedural Wings Fork 1.0.0
 * BetterSRBs 1.2.3
 * BonVoyage 1.1.1
@@ -178,6 +179,9 @@ I have added support to a fair number of the mods that I support within KTT and 
 
 ## Airplane Plus 26.5
 Reshuffled tech nodes, generally provide parts one or two tiers earlier than the default.  Added space worthiness upgrade to cockpits.  Added engine upgrades to engines with the exceptions of the rotors not using ModuleEngines as they cannot be modified by B9PS. **If Kerbalism is installed: Depressurized small cockpits; If FeatureScience is installed: Setup hard drive specs to be in-line with KTT's Stock levels.**
+
+## Arc Aerospace Wyvern 5 Crew Capsule 0.5
+Shuffled the tech nodes.  Added a custom engine upgrade. **If Kerbalism with FeatureScience is installed: Setup capsule to have larger HDD space.**
 
 ## B9 Procedural Wings Fork 1.0.0
 Creates custom node off of Aviation if installed.  It is in the same tier, but the cost of the next tier.  Supports CryoTanksMethalox.
@@ -414,6 +418,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 1.0.0 (14 November 2020): Added Arc Aerospace Wyvern Support; Fixed MAH and BDB Compatibility for real
 * 1.0.0 RC2 (12 November 2020): Fixed Parachute Single being in start node; Fixed missing costs in Knes; Fixed cost of James Webb Telescope; Added missing structural upgrades in Near Future Construction; Fixed cost in Orion SpineS and SpineL; Small cost rebalancing in Stock, Open Cockpit, Luciole, Knes, AirplanePlus, CRE; Fixed duplicate atmosphere curves in two engines in Knes.
 * 1.0.0 RC1 (11 November 2020): Added "Other" Engine Upgrade; Several new fuel tank options; Removed legacy structural part upgrades; Added standardized upgrade support for Duna Direct, Luciole, Mining Expansion, Missing History, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future, Luciole, Nexus (Still not full support), Open Cockpit, Rational Resources, Planetary Bases, ReStock, SSPX, ; Fixed NEEDS for some parts in Mk3 Expansion; Updated Mk1 Stockalike Open Cockpit Support to 1.3; Cleaned up Partupgrade text for  engines; Light testing for support in 1.10.1
 * 0.9.7 (6 November 2020): Added a general config to specify upgrade values for engines, parachutes, space capable planes, command modules, fuel tanks, ore tanks, structural parts; Have begun to add code that specifies location of upgrade within the description (this will be an on-going process); Added general upgrade systems to Stock, Airplane Plus, Open Cockpit, and few parts within other mods as specified in individual files.  Fixed bug with FeatureReliability as well as issue with MAH when BDB is present in installs. Added Engine Ignitor Configs for CNAR, Coatl Aerospace, Dodo Labs, KeR-7, MAH, Mars Direct, Nexus, TM4KSP, MOLE, Mk-33 courtesy of Clamp-O-Tron
