@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.0.1; 14 November 2020; KSP 1.9.1 - 1.10.1
+## Version 1.0.1; 15 November 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -132,6 +132,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * M.O.L.E. 1.22.1 (Very Limited Support) 
 * Mark IV Spaceplane System 3.1.2
 * Missing History 1.8.2
+* Missing Robotics 1.0
 * Mk-1 Stockalike Open Cockpit 1.3.0
 * Mk-33 1.0
 * Mk2 Stockalike Expansion 1.8.9.3
@@ -332,6 +333,9 @@ Shuffled the tech nodes. Added B9PS upgrade which reduces weight by 20%. If Rati
 ## Missing History 1.8.2
 Move liquid engines to deprecate node of Restock+ installed; move a few more parts to deprecated node if Restock+ is installed; Used Restock models if available. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% Mass. If installed alongside Kerbal Atomics, will adapt the same LF/LH2 multimode design as the Stock NERV and ReStock+ Cherenkov and updates the RealPlume plume to match. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities; Adds RTG to Candle Engine and Radiation Emitter to nuclear propulsion if FeatureRadiation is installed.**
 
+## Missing Robotics 1.0
+Shuffled the tech nodes.  If installed, creates a new science node called Early Actuators and places the KAL-1000 controller in the node so it is more easily accessible.
+
 ## Mk-1 Stockalike Open Cockpit 1.3.0
 Shuffled the tech tree.  If installed with CNAR, it moves the sounding rockets to their own node. If installed, it will move a few more aviation pieces to the start.  If Airplane Plus is installed, moves a couple of wing pieces and the Spud Engine to the start node. Nerfs the skin temperature capacity of the cockpits so they cannot be used for early space vehicles and does not have a spaceworthiness upgrade. **If Kerbalism with FeatureScience is installed, adds a crew report experiment and a hard drive to the cockpit to enable science to happen.**
 
@@ -438,7 +442,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.0.1 (14 November 2020): Added Airplane Kuisine, Beamed Power Plugin, Deep Sky Core, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions.
+* 1.0.1 (15 November 2020): Added Airplane Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.
 * 1.0.0 (13 November 2020): Added Arc Aerospace Wyvern Support; Fixed MAH and BDB Compatibility for real
 * 1.0.0 RC2 (12 November 2020): Fixed Parachute Single being in start node; Fixed missing costs in Knes; Fixed cost of James Webb Telescope; Added missing structural upgrades in Near Future Construction; Fixed cost in Orion SpineS and SpineL; Small cost rebalancing in Stock, Open Cockpit, Luciole, Knes, AirplanePlus, CRE; Fixed duplicate atmosphere curves in two engines in Knes.
 * 1.0.0 RC1 (11 November 2020): Added "Other" Engine Upgrade; Several new fuel tank options; Removed legacy structural part upgrades; Added standardized upgrade support for Duna Direct, Luciole, Mining Expansion, Missing History, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future, Luciole, Nexus (Still not full support), Open Cockpit, Rational Resources, Planetary Bases, ReStock, SSPX, ; Fixed NEEDS for some parts in Mk3 Expansion; Updated Mk1 Stockalike Open Cockpit Support to 1.3; Cleaned up Partupgrade text for  engines; Light testing for support in 1.10.1
