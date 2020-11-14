@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.0.0; 14 November 2020; KSP 1.9.1 - 1.10.1
+## Version 1.0.1; 14 November 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -86,6 +86,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Airplane Plus 26.5
 * Arc Aerospace Wyvern 5 Crew Capsule 0.5
 * B9 Procedural Wings Fork 1.0.0
+* Beamed Power Plugin 1.0.5
 * BetterSRBs 1.2.3
 * BonVoyage 1.1.1
 * Bumblebee 0.5
@@ -134,7 +135,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Mk2 Stockalike Expansion 1.8.9.3
 * Mk3 Stockalike Expansion 1.5.1
 * Modular Launch Pads 2.1 [Alpha]
-* Near Future Aeronautics 2.0.0
+* Near Future Aeronautics 2.0.0Xingyun-2
 * Near Future Construction 1.2.3
 * Near Future Electrical 1.1.3
 * Near Future Exploration 1.0.10
@@ -150,6 +151,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Science Param Editor 12.0
 * SmartParts 1.9.16
 * Smart Docking Aid 1.0
+* Starlink Satellite Pack 1.1.0
 * Stockalike Mining Extension 1.1.6
 * Stockalike Station Parts Expansion Redux 1.3.6
 * Stockish Project Orion 1.8.1
@@ -157,6 +159,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * TD Advanced Propulsion Systems - 0.6.200606 (Limited Support)
 * Universal Storage 2 1.9.1.2
 * Ж-20 "Moroz" Spaceplane 1.3
+* Xingyun-2 1.0
 
 ## Roadmap
 * Roadmap for [Version 1.0](https://github.com/hemeac/kiwiTechTree/milestone/1) to see what the remaining plans are for 1.0 (at this point, mostly part balancing).  
@@ -185,6 +188,9 @@ Shuffled the tech nodes.  Added a custom engine upgrade. **If Kerbalism with Fea
 
 ## B9 Procedural Wings Fork 1.0.0
 Creates custom node off of Aviation if installed.  It is in the same tier, but the cost of the next tier.  Supports CryoTanksMethalox.
+
+## Beamed Power Plugin 1.0.5
+Created a custom nodeS in addition to new node added by plugin and distributed parts between the two.  If Near Future Exploration is installed, moved patched parts one tier later in the tech tree to reflect their added functionality. **If Kerbalism with FeatureReliability is installed, engines are given sufficient reliability to allow them to be used to their full potential.**
 
 ## BetterSRBs 1.2.4
 Moved the new parts to the SRB tech nodes. Deprecate a couple of parts unless other Jade of Maar mods detected; Undeprecate the Missing History SRB in this stage to offer a third tier of SRBs in the 1.875m category.  Replace new SRB parts with Restock if available to maintain similar aesthetic.
@@ -383,6 +389,9 @@ As SAS levels are available only through upgrades, the docking aid is added to A
 ## SmartParts 1.9.16
 Shuffled the tech node.  Added 0.625m and 5m fuel breakers.
 
+## Starlink Satellite Pack 1.1.0
+Shuffled the tech nodes.  Automatically applied the KSP-sized patch for the satelites.  Nerfed the solar panel and EC storage. **If Kerbalism with FeatureScience is installed, adds customm HDD modules and custom data transmit speeds.  Also adds a custom experiment to these parts, a 5 year experiment, "Internet Experiment" that is available within the home system.**
+
 ## Stockalike Mining Extension 1.1.6
 Shuffled the tech nodes.  Added B9 upgrades to mass driver engines.  If installed, will move the stock ISRU's one tier later in the tech tree.
 
@@ -404,6 +413,9 @@ Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox. **If K
 ## Ж-20 "Moroz" Spaceplane 1.3
 Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgrades as part of the Moroz Spaceplane System.  Comes in a bit earlier than the Mk3 and is spaceplane capable, so useful if you would like as your first spaceplane. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to cockpits.**
 
+## Xingyun-2 1.0
+Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism with FeatureScience is installed, adds customm HDD modules and custom data transmit speeds.  Also adds a custom experiment to these parts, a 5 year experiment, "Internet Experiment" that is available within the home system.**
+
 ## Alternate Tech Tree Mods and/or Overhauls (In no particular order, but some are quite old)
 * [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/)
 * [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/)
@@ -418,7 +430,8 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.0.0 (14 November 2020): Added Arc Aerospace Wyvern Support; Fixed MAH and BDB Compatibility for real
+* 1.0.1 (14 November 2020): Added Beamed Power Plugin, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch
+* 1.0.0 (13 November 2020): Added Arc Aerospace Wyvern Support; Fixed MAH and BDB Compatibility for real
 * 1.0.0 RC2 (12 November 2020): Fixed Parachute Single being in start node; Fixed missing costs in Knes; Fixed cost of James Webb Telescope; Added missing structural upgrades in Near Future Construction; Fixed cost in Orion SpineS and SpineL; Small cost rebalancing in Stock, Open Cockpit, Luciole, Knes, AirplanePlus, CRE; Fixed duplicate atmosphere curves in two engines in Knes.
 * 1.0.0 RC1 (11 November 2020): Added "Other" Engine Upgrade; Several new fuel tank options; Removed legacy structural part upgrades; Added standardized upgrade support for Duna Direct, Luciole, Mining Expansion, Missing History, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future, Luciole, Nexus (Still not full support), Open Cockpit, Rational Resources, Planetary Bases, ReStock, SSPX, ; Fixed NEEDS for some parts in Mk3 Expansion; Updated Mk1 Stockalike Open Cockpit Support to 1.3; Cleaned up Partupgrade text for  engines; Light testing for support in 1.10.1
 * 0.9.7 (6 November 2020): Added a general config to specify upgrade values for engines, parachutes, space capable planes, command modules, fuel tanks, ore tanks, structural parts; Have begun to add code that specifies location of upgrade within the description (this will be an on-going process); Added general upgrade systems to Stock, Airplane Plus, Open Cockpit, and few parts within other mods as specified in individual files.  Fixed bug with FeatureReliability as well as issue with MAH when BDB is present in installs. Added Engine Ignitor Configs for CNAR, Coatl Aerospace, Dodo Labs, KeR-7, MAH, Mars Direct, Nexus, TM4KSP, MOLE, Mk-33 courtesy of Clamp-O-Tron
