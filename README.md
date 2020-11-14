@@ -83,6 +83,7 @@ I have added support to a fair number of the mods that I support within KTT and 
   
 
 ## Current Supported Mods (see details below for general changes):
+* Airplane Kuisine 2.4.2
 * Airplane Plus 26.5
 * Arc Aerospace Wyvern 5 Crew Capsule 0.5
 * B9 Procedural Wings Fork 1.0.0
@@ -97,6 +98,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
 * Decoupler Shroud 0.7.2
+* Deep Sky Core 3.0.9
 * Deep Space Surface Habitat Unit Pack 1.10.1
 * DeepFreeze 0.28.0
 * DMagic Orbital Science 1.4.3
@@ -180,6 +182,9 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Very likely to break any mod that attempts to reconfigure engines or fuel tanks in any manner. I am not planning on supporting any alternative fuel switchers.
 * Smart Docking Aid functionality is added by this mod to all probes due to an inability to tie it to probes once Level 3 SAS upgrades have been applied. Limited testing suggests it may not turn on until SAS 3, but need to test further.
 
+## Airplane Kuisine 2.4.2
+Shuffled the tech nodes.  Added standard B9 part upgrades.
+
 ## Airplane Plus 26.5
 Reshuffled tech nodes, generally provide parts one or two tiers earlier than the default.  Added space worthiness upgrade to cockpits.  Added engine upgrades to engines with the exceptions of the rotors not using ModuleEngines as they cannot be modified by B9PS. **If Kerbalism is installed: Depressurized small cockpits; If FeatureScience is installed: Setup hard drive specs to be in-line with KTT's Stock levels.**
 
@@ -221,6 +226,9 @@ Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding C
 
 ## Decoupler Shroud 0.7.2
 Moved the part to decoupler node in the tech tree. Don't forget to add Basic Procedural Textures for further compatibility.
+
+## Deep Sky Core 3.0.9
+Shuffled the tech nodes.  Added standard B9 part upgrades. **If Kerbalism with FeatureScience is installed, adds custom HDD values for Mk1 and Mk2 cockpits.**
 
 ## Deep Space Surface Habitat Unit Pack 1.10.1
 Shuffled the tech nodes.  Added Decaying RTG support; B9PS Upgrade solar support if Near Future Solar installed; Standard structural piece B9 upgrades. **If Kerbalism with FeatureRadiation is installed: Adds small radiation emitted from RTG; If FeatureScience is installed: Adds lab science group; Also adds a greenhouse consistent with description.**
@@ -430,7 +438,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.0.1 (14 November 2020): Added Beamed Power Plugin, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch
+* 1.0.1 (14 November 2020): Added Airplane Kuisine, Beamed Power Plugin, Deep Sky Core, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions.
 * 1.0.0 (13 November 2020): Added Arc Aerospace Wyvern Support; Fixed MAH and BDB Compatibility for real
 * 1.0.0 RC2 (12 November 2020): Fixed Parachute Single being in start node; Fixed missing costs in Knes; Fixed cost of James Webb Telescope; Added missing structural upgrades in Near Future Construction; Fixed cost in Orion SpineS and SpineL; Small cost rebalancing in Stock, Open Cockpit, Luciole, Knes, AirplanePlus, CRE; Fixed duplicate atmosphere curves in two engines in Knes.
 * 1.0.0 RC1 (11 November 2020): Added "Other" Engine Upgrade; Several new fuel tank options; Removed legacy structural part upgrades; Added standardized upgrade support for Duna Direct, Luciole, Mining Expansion, Missing History, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future, Luciole, Nexus (Still not full support), Open Cockpit, Rational Resources, Planetary Bases, ReStock, SSPX, ; Fixed NEEDS for some parts in Mk3 Expansion; Updated Mk1 Stockalike Open Cockpit Support to 1.3; Cleaned up Partupgrade text for  engines; Light testing for support in 1.10.1
