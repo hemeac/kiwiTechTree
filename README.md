@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.0.1; 15 November 2020; KSP 1.9.1 - 1.10.1
+## Version 1.0.1.1; 15 November 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -83,7 +83,7 @@ I have added support to a fair number of the mods that I support within KTT and 
   
 
 ## Current Supported Mods (see details below for general changes):
-* Airplane Kuisine 2.4.2
+* Airline Kuisine 2.4.2
 * Airplane Plus 26.5
 * Arc Aerospace Wyvern 5 Crew Capsule 0.5
 * B9 Procedural Wings Fork 1.0.0
@@ -183,7 +183,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Very likely to break any mod that attempts to reconfigure engines or fuel tanks in any manner. I am not planning on supporting any alternative fuel switchers.
 * Smart Docking Aid functionality is added by this mod to all probes due to an inability to tie it to probes once Level 3 SAS upgrades have been applied. Limited testing suggests it may not turn on until SAS 3, but need to test further.
 
-## Airplane Kuisine 2.4.2
+## Airline Kuisine 2.4.2
 Shuffled the tech nodes.  Added standard B9 part upgrades.
 
 ## Airplane Plus 26.5
@@ -442,7 +442,8 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.0.1 (15 November 2020): Added Airplane Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.
+* 1.0.1.1 (15 November 2020): Added Version File
+* 1.0.1 (15 November 2020): Added Airline Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.
 * 1.0.0 (13 November 2020): Added Arc Aerospace Wyvern Support; Fixed MAH and BDB Compatibility for real
 * 1.0.0 RC2 (12 November 2020): Fixed Parachute Single being in start node; Fixed missing costs in Knes; Fixed cost of James Webb Telescope; Added missing structural upgrades in Near Future Construction; Fixed cost in Orion SpineS and SpineL; Small cost rebalancing in Stock, Open Cockpit, Luciole, Knes, AirplanePlus, CRE; Fixed duplicate atmosphere curves in two engines in Knes.
 * 1.0.0 RC1 (11 November 2020): Added "Other" Engine Upgrade; Several new fuel tank options; Removed legacy structural part upgrades; Added standardized upgrade support for Duna Direct, Luciole, Mining Expansion, Missing History, Mk2 Stockalike Expansion, Mk3 Stockalike Expansion, Near Future, Luciole, Nexus (Still not full support), Open Cockpit, Rational Resources, Planetary Bases, ReStock, SSPX, ; Fixed NEEDS for some parts in Mk3 Expansion; Updated Mk1 Stockalike Open Cockpit Support to 1.3; Cleaned up Partupgrade text for  engines; Light testing for support in 1.10.1
