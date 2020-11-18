@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.0.1.1; 15 November 2020; KSP 1.9.1 - 1.10.1
+## Version 1.0.2; 18 November 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -160,6 +160,8 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Stockish Project Orion 1.8.1
 * Super Heavy Boosters Historical - Nexus 2.0.200524 (Limited Support)
 * TD Advanced Propulsion Systems - 0.6.200606 (Limited Support)
+* Tundra Exploration 3.0
+* Tundra Technologies 3.0
 * Universal Storage 2 1.9.1.2
 * Ж-20 "Moroz" Spaceplane 1.3
 * Xingyun-2 1.0
@@ -419,6 +421,12 @@ Mod is beautifully modelled and the very definition of MOAR BOOSTERS.  It appear
 ## TD Advanced Propulsion Systems - 0.6.200606 (Partial Support)
 Like the Nexus, this mod is beautiful and promising, but the RealPlume support is currently broken, so I have just moved these later in the nuclear propulsion node and will work on supporting this in a later update. If Engine Ignitor is installed, adds custom configs.
 
+## Tundra Exploration 3.0
+Reshuffled tech nodes.  Added standard B9 Part Upgrades.  If Modular Launchpads is installed, moves the launchpads to those nodes. **If Kerbalism with FeatureScience is installed: Adds custom HDD profiles to probes, cargo pods and command pods.**
+
+## Tundra Technologies 3.0
+Reshuffled Tech nodes.  Added standard B9 Part Upgrades.  If DecayingRTGs installed, RTG has custom config.  **If Kerbalism with FeatureScience is installed: Adds custom HDD profiles to probes, custom data transfer speeds for antenna.  If FeatureRadiation is installed, adds support for the RTG.**
+
 ## Universal Storage 2 1.9.1.2
 Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to probes.**
 
@@ -442,6 +450,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 1.0.2 (): Adds Tundra Exploration, Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs
 * 1.0.1.1 (15 November 2020): Added Version File
 * 1.0.1 (15 November 2020): Added Airline Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.
 * 1.0.0 (13 November 2020): Added Arc Aerospace Wyvern Support; Fixed MAH and BDB Compatibility for real
