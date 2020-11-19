@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.0.2; 18 November 2020; KSP 1.9.1 - 1.10.1
+## Version 1.1.0; 20 November 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -92,12 +92,14 @@ I have added support to a fair number of the mods that I support within KTT and 
 * BetterSRBs 1.2.3
 * BonVoyage 1.1.1
 * Bumblebee 0.5
+* Bureaucracy - Monthly Budgets, Reimagined 1.4
 * Coatl Aerospace 20 October 2020 (Github)
 * Completely Non-Aggressive Rocketry 1.0.2
-* Conformal Decals 0.2.1
+* Conformal Decals 0.2.5
 * CRE Stockalike British Rocketry 2.0
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
+* CustomBarnKit 1.1.21.0
 * Decoupler Shroud 0.7.2
 * Deep Sky Core 3.0.9
 * Deep Space Surface Habitat Unit Pack 1.10.1
@@ -138,7 +140,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Mk-33 1.0
 * Mk2 Stockalike Expansion 1.8.9.3
 * Mk3 Stockalike Expansion 1.5.1
-* Modular Launch Pads 2.1 [Alpha]
+* Modular Launch Pads 2.1.2
 * Near Future Aeronautics 2.0.0Xingyun-2
 * Near Future Construction 1.2.3
 * Near Future Electrical 1.1.3
@@ -156,6 +158,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * SmartParts 1.9.16
 * Smart Docking Aid 1.0
 * Starlink Satellite Pack 1.1.0
+* Stock TKS 1.0
 * Stockalike Mining Extension 1.1.6
 * Stockalike Station Parts Expansion Redux 1.3.6
 * Stockish Project Orion 1.8.1
@@ -213,13 +216,16 @@ Moved module to science node.  Kept upgrades in current path.
 ## Bumblebee 0.5
 Shuffled the tech nodes.  Generally increased the prices, particularly the sensor package to create a cost to getting a rather large sensor suite in a very small package. Added decaying RTG support if Near Future Electrical and Decaying RTG extra is installed. If BonVoyage is installed, adds a BV module to the Bumblebee core. **If Kerbalism with FeatureScience is installed: Setup probe body to have larger HDD space and 9 science slots.**
 
+## Bureaucracy - Monthly Budgets, Reimagined 1.4
+If installed alongside CustomBarnKit, will set up custom part values for the VAB and SPH.
+
 ## Coatl Aerospace Github Download 20 October 2020
 Shuffled the tech tree. Rebalanced some of the antenna to provide more variety of antenna through the tech tree. Usual B9 engine upgrades. If Engine Ignitor is installed, adds custom configs. **If Kerbalism with FeatureScience is installed, adds custom probe HDD space and customized science experiments to help differentiate some of the experiments and give more reason to launch experiments. If FeatureRadiation is installed, will make the RTGs compliant and act as radiation emitters. Probe bus with RTG shielding is a radiation absorber.**
 
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space.  If Engine Ignitor is installed, adds custom configs.
 
-## Conformal Decals 0.2.1
+## Conformal Decals 0.2.5
 Moved the decals to the Other Parts node.
 
 ## CRE Stockalike British Rocketry 2.0
@@ -230,6 +236,9 @@ Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Lowe
 
 ## CryoTanks 1.5.2
 Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a busy...
+
+## CustomBarnKit 1.1.21.0
+If installed, will provide custom part counts for VAB and SPH.  Unique configurations exist for Sigma Dimensions, JNSQ, and Bureaucracy (which differs depending on the presence of JNSQ, Sigma Dimensions or stock-sized planets).
 
 ## Decoupler Shroud 0.7.2
 Moved the part to decoupler node in the tech tree. Don't forget to add Basic Procedural Textures for further compatibility.
@@ -253,7 +262,7 @@ Shuffled the tech nodes. Lowered the cost of the fairings. Slight renaming of a 
 Shuffled the tech nodes and cost rebalanced.  Nerfed the ISP of engines.  Added a Duna Direct System Upgrade in-line with Mk3 Spaceplane Upgrade System. If Engine Ignitor is installed, adds custom configs. **Has Built-in Kerbalism Support.**
 
 ## Engine Ignitor Reignited 1.3.6.2
-If installed, several mods have custom ignitor configs, see individual mods for details.
+If installed, several mods have custom ignitor configs, see individual mods for details. **If Kerbalism with FeatureReliability is installed: Engine Ignitor removes the ignitions and start failure for engines with an explicit configuration in Engine Ignitor. For non-configured engines, will use the formula from Kerbalism. Burn Duration remains for engines both with and without an Engine Ignitor config. These behaviors are configurable within the KiwiConfig.cfg.**
 
 ## Extraplanetary Launchpads 6.8.2
 Shuffled the tech nodes and some cost balancing as some parts were missing entry costs.  I am not very familiar with the mod, so locations were set without much balancing and yet unsure how much I will use this mod.  No upgrades were applied to containers.
@@ -354,7 +363,7 @@ Shuffled tech nodes.  If installed, will move the Stock Mk2 Cockpit one tier ear
 ## MK3 Stockalike Expansion 1.5.1
 Shuffled the tech nodes.  Added engine B9 Upgrades.  Structural part upgrades part of the Mk3 Spaceplane System Upgrade.  Have not currently added RealPlume support to engines lacking RealPlume support. **If Kerbalism with FeatureScience is installed: Adds custom HDD quantities and Lab Group science to Lab; Adds radiation emitter to atomic parts to be aligned with the modified Mk2 Stockalike Expansion configs.**
 
-## Modular Launch Pads 2.1 [Alpha]
+## Modular Launch Pads 2.1.2
 Adds support for launch pads installed by other mods into General Launch Pads.
 
 ## Near Future Aeronautics 2.0.0
@@ -410,6 +419,9 @@ Shuffled the tech node.  Added 0.625m and 5m fuel breakers.
 ## Starlink Satellite Pack 1.1.0
 Shuffled the tech nodes.  Automatically applied the KSP-sized patch for the satelites.  Nerfed the solar panel and EC storage. **If Kerbalism with FeatureScience is installed, adds customm HDD modules and custom data transmit speeds.  Also adds a custom experiment to these parts, a 5 year experiment, "Internet Experiment" that is available within the home system.**
 
+## Stock TKS 1.0
+Shuffled the tech nodes.  Added B9 upgrades.  ** If Kerbalism with FeatureScience is installed, adds custom HDD modules. **
+
 ## Stockalike Mining Extension 1.1.6
 Shuffled the tech nodes.  Added B9 upgrades to mass driver engines.  If installed, will move the stock ISRU's one tier later in the tech tree.
 
@@ -454,7 +466,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.0.2 (): Adds Tundra Exploration, Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs
+* 1.1.0 (20 November 2020): Adds Asset Mk1, Bureaucracy via CustomBarnKit, Stock TKS, Tundra Exploration, and Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs; Fixed incorrect FOR in various Kerbalism configs potentially leading to conflicts with Kerbalism not installed; Added better compatibility with Engine Ignitor and Kerbalism.
 * 1.0.1.1 (15 November 2020): Added Version File
 * 1.0.1 (15 November 2020): Added Airline Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.
 * 1.0.0 (13 November 2020): Added Arc Aerospace Wyvern Support; Fixed MAH and BDB Compatibility for real
