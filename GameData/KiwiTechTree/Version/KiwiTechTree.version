@@ -1,0 +1,29 @@
+{
+    "NAME":"KiwiTechTree",
+    "URL":"https://raw.githubusercontent.com/hemeac/kiwiTechTree/master/GameData/KiwiTechTree/Version/KiwiTechTree.version",
+    "DOWNLOAD":"https://forum.kerbalspaceprogram.com/index.php?/topic/197734-191-1101-kiwi-tech-tree-overhaul-101-15-november-2020/",
+    "VERSION":
+    {
+        "MAJOR":1,
+        "MINOR":0,
+        "PATCH":1,
+        "BUILD":1
+    },
+    "KSP_VERSION":
+    {
+        "MAJOR":1,
+        "MINOR":10,
+        "PATCH":1
+    },
+    "KSP_VERSION_MIN":{
+        "MAJOR":1,
+        "MINOR":9,
+        "PATCH":1
+
+    },
+    "KSP_VERSION_MAX":{
+        "MAJOR":1,
+        "MINOR":10,
+        "PATCH":99
+    }
+}
