@@ -86,6 +86,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Airline Kuisine 2.4.2
 * Airplane Plus 26.5
 * Arc Aerospace Wyvern 5 Crew Capsule 0.5
+* Asset Mk1 Reentry Pod 0.9
 * B9 Procedural Wings Fork 1.0.0
 * Beamed Power Plugin 1.0.5
 * BetterSRBs 1.2.3
@@ -193,6 +194,9 @@ Reshuffled tech nodes, generally provide parts one or two tiers earlier than the
 
 ## Arc Aerospace Wyvern 5 Crew Capsule 0.5
 Shuffled the tech nodes.  Added a custom engine upgrade. **If Kerbalism with FeatureScience is installed: Setup capsule to have larger HDD space.**
+
+## Asset Mk1 Reentry Pod 0.9
+Shuffled the tech node.  Added to the Mark 1 Spaceplane System Upgrade. **If Kerbalism with FeatureScience is installed: Setup re-entry pod to have larger HDD space.**
 
 ## B9 Procedural Wings Fork 1.0.0
 Creates custom node off of Aviation if installed.  It is in the same tier, but the cost of the next tier.  Supports CryoTanksMethalox.
