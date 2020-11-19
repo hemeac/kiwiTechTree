@@ -171,13 +171,12 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Xingyun-2 1.0
 
 ## Roadmap
-* Roadmap for [Version 1.0](https://github.com/hemeac/kiwiTechTree/milestone/1) to see what the remaining plans are for 1.0 (at this point, mostly part balancing).  
 * "Near Future" roadmap for [Version 1.5](https://github.com/hemeac/kiwiTechTree/milestone/2).  Some of these are a bit ambitious and not sure that I will practically get them done on my own.
 * "Possible" roadmap for [Version 2.0](https://github.com/hemeac/kiwiTechTree/milestone/3)
 
 ## No Planned Support
 * Firespitter Parts
-  * The B9 system does not appear to be compatible with the switcher system in Firespitter, so will not upgrade any parts that use that system and will avoid any parts mod that exclusively uses it for engines. AirplanePlus was the exception as most motors relied on stock mechanics for the engines.
+  * The B9 system does not appear to be compatible with the switcher system in Firespitter, so will not upgrade any parts that use that system and will avoid any parts mod that exclusively uses it for engines. AirplanePlus was the exception as most engines relied on stock mechanics for the engines.
 * Any BDArmory or related mod as that style of gameplay does not interest me.
 
 ## Known/Likely Issues
