@@ -1,3 +1,4 @@
+// This patch does not work as the functionality is not within B9, don't enable
 // Strip out SAS functionality of all probes except for stability control and add back in via upgrades
 @PART[*]:HAS[@MODULE[ModuleCommand],#vesselType[Probe]]:NEEDS[CommunityTechTree]:FOR[zKiwiAerospace]
 {

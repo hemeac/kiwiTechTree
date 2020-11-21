@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.1.0; 20 November 2020; KSP 1.9.1 - 1.10.1
+## Version 1.1.0.1; 22 November 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -291,7 +291,7 @@ Tech reshuffle.  Nerfed the main antenna.  Added solar panel upgrades if Near Fu
 Reshuffled tech tree and named the engines.  Standard B9 Engine Upgrades.  To Do: Add RealPlume support, but current attempt at a config results in compilation error. If Engine Ignitor is installed, adds custom configs.
 
 ## Kerbal Atomics 1.1.4
-Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov. **Keeps existing configs for Kerbalism.**
+Added B9PS Upgrades to engines.  Lowered ISPs of some engines in dense atmospheres; "Balanced" the aerospikes and added temporary RealPlume patches to Atomic aerospike engines.  If installed, adapts the Missing History BKN engine to the same LF/LH2 multimode design as the Kerbal Atomics patch for the Stock NERV and ReStock+ Cherenkov. Has support for NTRsUseLF extras. **Keeps existing configs for Kerbalism.**
 
 ## Kerbal Attachment System 1.7
 Reshuffled Tech Nodes.
@@ -465,6 +465,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
+* 1.1.0.1 (): Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch: NTRsUseLF
 * 1.1.0 (20 November 2020): Adds Asset Mk1, Bureaucracy via CustomBarnKit, Stock TKS, Tundra Exploration, and Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs; Fixed incorrect FOR in various Kerbalism configs potentially leading to conflicts with Kerbalism not installed; Added better compatibility with Engine Ignitor and Kerbalism. Confirmed continued compatibility with updated Modular Launchpads, Conformal Decals, Smart Docking Aid.
 * 1.0.1.1 (15 November 2020): Added Version File
 * 1.0.1 (15 November 2020): Added Airline Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.

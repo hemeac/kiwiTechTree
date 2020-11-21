@@ -1,3 +1,4 @@
+// This patch isn't tested, so don't enable
 @PART[*]:HAS[@MODULE[ModuleDataTransmitter]]:FOR[zzzKiwiAerospace]
 {
 	@MODULE[ModuleDataTransmitter]
