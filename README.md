@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.2.0; 22 November 2020; KSP 1.9.1 - 1.10.1
+## Version 1.2.0; 27 November 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -94,6 +94,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Bumblebee 0.5
 * Bureaucracy - Monthly Budgets, Reimagined 1.4
 * Coatl Aerospace 20 October 2020 (Github)
+* CommNet Antennas Extension 2.1.3 (Courtesy of flart)
 * Completely Non-Aggressive Rocketry 1.0.2
 * Conformal Decals 0.2.5
 * CRE Stockalike British Rocketry 2.0
@@ -101,7 +102,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * CryoTanks 1.5.2
 * CustomBarnKit 1.1.21.0
 * Decoupler Shroud 0.7.2
-* Deep Sky Core 3.0.9
+* Deep Sky Core 3.1.0
 * Deep Space Surface Habitat Unit Pack 1.10.1
 * DeepFreeze 0.28.0
 * DMagic Orbital Science 1.4.3
@@ -149,8 +150,9 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Near Future Propulsion 1.2.2
 * Near Future Solar 1.2.3
 * Near Future Spacecraft 1.3.3
-* Rational Resources 1.12.0
+* Rational Resources 1.13.0
 * RealPlume-Stock 4.0.1
+* Remote Tech Redev Antenna Support 0.1.1 (Courtesy of flart)
 * Restock/Restock+ 1.1.2
 * SCANsat 20.4
 * Science Pancake 1.0.0
@@ -221,6 +223,9 @@ If installed alongside CustomBarnKit, will set up custom part values for the VAB
 ## Coatl Aerospace Github Download 20 October 2020
 Shuffled the tech tree. Rebalanced some of the antenna to provide more variety of antenna through the tech tree. Usual B9 engine upgrades. If Engine Ignitor is installed, adds custom configs. **If Kerbalism with FeatureScience is installed, adds custom probe HDD space and customized science experiments to help differentiate some of the experiments and give more reason to launch experiments. If FeatureRadiation is installed, will make the RTGs compliant and act as radiation emitters. Probe bus with RTG shielding is a radiation absorber.**
 
+## CommNet Antennas Extension 2.1.3
+Shuffled the tech nodes.
+
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space.  If Engine Ignitor is installed, adds custom configs.
 
@@ -242,7 +247,7 @@ If installed, will provide custom part counts for VAB and SPH.  Unique configura
 ## Decoupler Shroud 0.7.2
 Moved the part to decoupler node in the tech tree. Don't forget to add Basic Procedural Textures for further compatibility.
 
-## Deep Sky Core 3.0.9
+## Deep Sky Core 3.1.0
 Shuffled the tech nodes.  Added standard B9 part upgrades. **If Kerbalism with FeatureScience is installed, adds custom HDD values for Mk1 and Mk2 cockpits.**
 
 ## Deep Space Surface Habitat Unit Pack 1.10.1
@@ -391,11 +396,14 @@ Lastly, the advanced and concentrated versions of both Nertea and stock require 
 ## Near Future Spacecraft 1.3.3
 Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the Monopropellant fuel tanks as they provide some variety to the fuel tanks, they don't look as bad as Nertea thinks they look. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. **If Kerbalism with FeatureScience is installed, it will re-balance the HDD modules.  Adds a panoramic view to the Phoebe. If FeatureRadiation is installed, it adds a radiation emitter to the RTG in the 2.5m utility pod, but "balanced" by the fact that it has a radiation sickness bay added by Kerbalism (irony?)**
 
-## Rational Resources 1.12.0
+## Rational Resources 1.13.0
 Shuffled the tech nodes. Add a few upgrades to engines, but those with pre-existing B9 switches will remain unchanged. If installed, it will add cold-gas RCS thrusters to several mods.
 
 ## RealPlume 4.0.1 / PlumeParty
 Where I have modified engines such as rescaling CNAR or adding LF/O in NF Spacecraft, have tried to ensure that the RealPlume is patched for compliance. Where Real Plume is not installed, uses Plume Party in some cases for Stock/ReStock/NF, but will likely move to Waterfall in the near future.  Added temporary RealPlume patches to the Kerbal Atomics aerospikes. Modified the description text to turn it orange to make it easier to pinpoint the engines that have RealPlume support.
+
+## Remote Tech Redev Antenna Support 0.1.1
+Shuffled the tech nodes.
 
 ## ReStock/ReStock+ 1.2.1
 Shuffled the tech nodes. Slight cost rebalancing on a couple of science parts. Engines have received an B9PS upgrade two tiers above them which adds 20% Thrust, 10% Efficiency for an additional 50% Cost and 5% increased mass. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. Note that ReStock 1.2.1 is installed in 1.9.1, you will lose the Advanced Grabbing Unit Jr as a stock version is introduced in 1.10. It will also split the single nozzle and the quadruple nozzle variants of the Poodle into two engines.  The quad nozzle will become an SL engine with higher thrust, while the single longer nozzle, named the Malshi, will be the vacuum engine. **If Kerbalism is installed, edits HDD and Science Slots to Experiment Return Unit so the Hard Drive is not a default 500 kB generic HDD.**
@@ -465,7 +473,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.2.0 (): Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); Added one kerbuck to the entry cost of part upgrades to distinguish them from parts (suggestion by flart); Fixed missing entry costs for upgrades in Tundra Exploration; Added a difficulty science setting in Kiwi Config to add variation in the science points required.
+* 1.2.0 (): Added CommNet Antennas Extension, Remote Tech Redev Antenna Support; Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); Added one kerbuck to the entry cost of part upgrades to distinguish them from parts (suggestion by flart); Fixed missing entry costs for upgrades in Tundra Exploration; Added a difficulty science setting in Kiwi Config to add variation in the science points required; Confirmed continued support for Rational Resources 1.13.0 and Deep Sky Core 3.1.0.
 * 1.1.0 (20 November 2020): Adds Asset Mk1, Bureaucracy via CustomBarnKit, Stock TKS, Tundra Exploration, and Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs; Fixed incorrect FOR in various Kerbalism configs potentially leading to conflicts with Kerbalism not installed; Added better compatibility with Engine Ignitor and Kerbalism. Confirmed continued compatibility with updated Modular Launchpads, Conformal Decals, Smart Docking Aid.
 * 1.0.1.1 (15 November 2020): Added Version File
 * 1.0.1 (15 November 2020): Added Airline Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.
