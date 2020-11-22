@@ -449,7 +449,7 @@ Shifted nodes; Added Methalox support to fuel tanks if CryoTanksMethalox. **If K
 Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgrades as part of the Moroz Spaceplane System.  Comes in a bit earlier than the Mk3 and is spaceplane capable, so useful if you would like as your first spaceplane. **If Kerbalism with FeatureScience is installed: Adds a custom HDD profile to cockpits.**
 
 ## Xingyun-2 1.0
-Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism with FeatureScience is installed, adds customm HDD modules and custom data transmit speeds.  Also adds a custom experiment to these parts, a 5 year experiment, "Internet Experiment" that is available within the home system.**
+Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism with FeatureScience is installed, adds customm HDD modules and custom data transmit speeds.  Also adds a custom experiment to these parts, a 5-year experiment, "Internet Experiment" that is available within the home system.**
 
 ## Alternate Tech Tree Mods and/or Overhauls (In no particular order, but some are quite old)
 * [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/)
@@ -465,7 +465,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.1.0.1 (): Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch: NTRsUseLF
+* 1.1.0.1 (): Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); 
 * 1.1.0 (20 November 2020): Adds Asset Mk1, Bureaucracy via CustomBarnKit, Stock TKS, Tundra Exploration, and Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs; Fixed incorrect FOR in various Kerbalism configs potentially leading to conflicts with Kerbalism not installed; Added better compatibility with Engine Ignitor and Kerbalism. Confirmed continued compatibility with updated Modular Launchpads, Conformal Decals, Smart Docking Aid.
 * 1.0.1.1 (15 November 2020): Added Version File
 * 1.0.1 (15 November 2020): Added Airline Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.
