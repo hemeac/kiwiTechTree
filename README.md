@@ -95,6 +95,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Bureaucracy - Monthly Budgets, Reimagined 1.4
 * Coatl Aerospace 20 October 2020 (Github)
 * CommNet Antennas Extension 2.1.3 (Courtesy of flart)
+* Community Parts Titles 0.6.5 (Limited Support)
 * Completely Non-Aggressive Rocketry 1.0.2
 * Conformal Decals 0.2.5
 * CRE Stockalike British Rocketry 2.0
@@ -182,12 +183,12 @@ I have added support to a fair number of the mods that I support within KTT and 
 
 ## Known/Likely Issues
 * Couple of upgrade lines in the Tech Tree may disappear when viewing them near the edges of the screen. This issue has disappeared "naturally" on my install.
-* Many of the extras for the Near Future Suite that change the behavior of engines, etc. will most likely not lead to expected results if installed.  Check each mod above as some behaviors were adopted directly. This is not a bug and will not be fixed.
+* Many of the extras for the Near Future Suite that change the behavior of engines, etc. may not lead to expected results if installed.  Check each mod above as some behaviors were adopted directly. I may choose not to support all extras.
+* Community Parts Titles will break the name variants for upgraded engines for some mods.  It is unlikely I will be providing support patches, but will accept user-submitted patches.
 * Kerbal Research & Development's upgrade system appears to be incompatible with the upgrades that I have implemented.  I would expect bad things to happen.
 * Realistic Power Draw modifies the science modules and given the ordering of the pass in MM, this will likely break the changes to the science system I am doing.  If you use this and want me to make a patch, get in touch.
 * Removing parts from installed mods (either manually removing configs or Perma Prune in Janitor's Closet) that have part upgrades will very likely break upgrades for other parts.  If you remove the parts, you will need to remove the associated PARTUPGRADE node from the mod manually.
 * Very likely to break any mod that attempts to reconfigure engines or fuel tanks in any manner. I am not planning on supporting any alternative fuel switchers.
-* Smart Docking Aid functionality is added by this mod to all probes due to an inability to tie it to probes once Level 3 SAS upgrades have been applied. Limited testing suggests it may not turn on until SAS 3, but need to test further.
 
 ## Airline Kuisine 2.4.2
 Shuffled the tech nodes.  Added standard B9 part upgrades.
@@ -224,6 +225,9 @@ Shuffled the tech tree. Rebalanced some of the antenna to provide more variety o
 
 ## CommNet Antennas Extension 2.1.3
 Shuffled the tech nodes.
+
+## Community Parts Titles 0.6.5 (Limited Support)
+If installed, this will disable all title changes in the mod.  This could cause cosmetic issues with some upgraded engines not correctly showing variant changes in the B9 Part Switch descriptions.  Any patches for these issues will need to be supplied by users or patched within Community Parts Titles itself.
 
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space.  If Engine Ignitor is installed, adds custom configs.
@@ -469,7 +473,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.2.0 (): Added CommNet Antennas Extension Support; Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); Added one kerbuck to the entry cost of part upgrades to distinguish them from parts (suggestion by flart); Fixed missing entry costs for upgrades in Tundra Exploration; Added a difficulty science setting in Kiwi Config to add variation in the science points required; Added toggle to disable Battery, Command Pod, Fuel Tank, Parachute, RCS, SAS, Solar, Space Capability, Structural, and Space System Upgrades; Confirmed continued support for Rational Resources 1.13.0 and Deep Sky Core 3.1.0; Added correct NEEDS to kdex science experiment for Coatl Aerospace; Fixed incorrectly referenced upgrade for Lithium fuel tanks; Fixed missing plumes for Poodle/Malshi when ReStock not installed.
+* 1.2.0 (): Added limited Community Parts Titles compatibility (See Github for details on what this means if this is relevant to you); Added CommNet Antennas Extension Support; Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); Added one kerbuck to the entry cost of part upgrades to distinguish them from parts (suggestion by flart); Fixed missing entry costs for upgrades in Tundra Exploration; Added a difficulty science setting in Kiwi Config to add variation in the science points required; Added toggle to disable Battery, Command Pod, Fuel Tank, Parachute, RCS, SAS, Solar, Space Capability, Structural, and Space System Upgrades; Confirmed continued support for Rational Resources 1.13.0 and Deep Sky Core 3.1.0; Added correct NEEDS to kdex science experiment for Coatl Aerospace; Fixed incorrectly referenced upgrade for Lithium fuel tanks; Fixed missing plumes for Poodle/Malshi when ReStock not installed.
 * 1.1.0 (20 November 2020): Adds Asset Mk1, Bureaucracy via CustomBarnKit, Stock TKS, Tundra Exploration, and Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs; Fixed incorrect FOR in various Kerbalism configs potentially leading to conflicts with Kerbalism not installed; Added better compatibility with Engine Ignitor and Kerbalism. Confirmed continued compatibility with updated Modular Launchpads, Conformal Decals, Smart Docking Aid.
 * 1.0.1.1 (15 November 2020): Added Version File
 * 1.0.1 (15 November 2020): Added Airline Kuisine, Beamed Power Plugin, Deep Sky Core, Missing Robotics, StarLink Satellite, XingYun 2 Support; Moved incorrectly placed relay satelite in NFE; Updated Template.xlsx to add Beamed Power Branch; Fixed incorrectly formatted entryCost in Mk3 Expansion Wing Segments which caused several log exceptions; Moved KAL 1000 controller one tier earlier in the tech tree.
