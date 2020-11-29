@@ -673,23 +673,3 @@
 
 // Tier 12 - ultraHighEnergyPhysics
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
