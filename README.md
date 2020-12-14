@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.2.1; 28 November 2020; KSP 1.9.1 - 1.10.1
+## Version 1.3.0; 14 December 2020; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -97,6 +97,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Bureaucracy - Monthly Budgets, Reimagined 1.4
 * Coatl Aerospace 20 October 2020 (Github)
 * CommNet Antennas Extension 2.1.3 (Courtesy of flart)
+* Commonwealth Aeronautics Blue Steel 1.00
 * Community Parts Titles 0.6.5 (Limited Support)
 * Completely Non-Aggressive Rocketry 1.0.2
 * Conformal Decals 0.2.5
@@ -168,6 +169,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Stockish Project Orion 1.8.1
 * Super Heavy Boosters Historical - Nexus 2.0.200524 (Limited Support)
 * Tantares 23.2
+* TantaresSP 3.0
 * TD Advanced Propulsion Systems - 0.6.200606 (Limited Support)
 * Tundra Exploration 3.0
 * Tundra Technologies 3.0
@@ -228,6 +230,9 @@ Shuffled the tech tree. Rebalanced some of the antenna to provide more variety o
 
 ## CommNet Antennas Extension 2.1.3
 Shuffled the tech nodes.
+
+## Commonwealth Aeronautics Blue Steel 1.00
+Shuffled the tech nodes; Added standard B9 part upgrades. **If Kerbalism with FeatureScience is installed, adds custom probe HDD values.**
 
 ## Community Parts Titles 0.6.5 (Limited Support)
 If installed, this will disable all title changes in the mod.  This could cause cosmetic issues with some upgraded engines not correctly showing variant changes in the B9 Part Switch descriptions.  Any patches for these issues will need to be supplied by users or patched within Community Parts Titles itself.
@@ -445,7 +450,10 @@ Note in this version, some textures are incorrectly specified and the restock wh
 Mod is beautifully modelled and the very definition of MOAR BOOSTERS.  It appears to be a WIP as RealPlume configs appears to be broken and thus most engines currently fly without plumes with RealPlume installed. This will get better support when I get around to fixing the plumes and/or get closer to it in the tech tree. Currently shuffled the tech tree nodes.  Engines have not currently received upgrades.  Cost rebalancing, mostly made things more expensive and fixed the costs of the fuel tanks.  
 
 ## Tantares 23.2
-Reshuffled the tech node.  Added standard B9 Part Upgrades to parts and engines.  Note that most non-engine upgrades are separated by the various Soviet programs which have fictional names chosen by Beale.  Also removes the built-in telemetry experiment due to redundancy.  **If Kerbalism with FeatureScience is installed, it will add custom HDD modules. If installed with Coatl Aerospace, aligns the overlapping experiments to similar values (ie. Nerfs the values) as well as limiting the available situations in which the experiment is valid.  If FeatureRadiation is installed, adds an emitter to the RTG in the Libra Landing Can.** 
+Reshuffled the tech node.  Added standard B9 Part Upgrades to parts and engines.  Note that most non-engine upgrades are separated by the various Soviet programs which have fictional names chosen by Beale.  Also removes the built-in telemetry experiment due to redundancy.  **If Kerbalism with FeatureScience is installed, it will add custom HDD modules. Better aligns existing science experiments to similar values (ie. Nerfs the values) as well as limiting the available situations in which the experiment is valid.  If FeatureRadiation is installed, adds an emitter to the RTG in the Libra Landing Can.** 
+
+## TantaresSP 3.0
+Reshuffled the tech placements.  Added standard B9 Part Upgrades to parts.  **If Kerbalism with FeatureScience is installed, it will add custom HDD modules. Aligns several experiments with overlapping experiments in Coatl Aerospace and BDB (when configs are finalized).**
 
 ## TD Advanced Propulsion Systems - 0.6.200606 (Partial Support)
 Like the Nexus, this mod is beautiful and promising, but the RealPlume support is currently broken, so I have just moved these later in the nuclear propulsion node and will work on supporting this in a later update. If Engine Ignitor is installed, adds custom configs.
@@ -479,7 +487,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
 
 ## Changelog
-* 1.2.1 (): Added support for Tantares; Converted the EVA Propellant to MonoPropellant for KIS and US2 EVA packs when Kerbalism is installed (thanks to Kerbalism discord user Snoman for the suggestion)
+* 1.3.0 (): Added support for Blue Steel, Tantares and TantaresSP; Background work for TantaresLV complete (not yet integrated into mod, waiting for next LV release); Converted the EVA Propellant to MonoPropellant for KIS and US2 EVA packs when Kerbalism is installed (thanks to Kerbalism discord user Snoman for the suggestion); Moved Knes Calypso fuel tank to Large Volume Containment; Lowered vacuum ISP of several stock engines; Added support for large fuel tank upgrades if TantaresLV installed; Lowered RCS ISP of Hacimachi Control Unit in Knes (Thanks Clamp-O-Tron); Moved air launch availability for KCT earlier in the tech tree and added descriptions about the restrictions available for airlaunches in the tech tree descriptions (Thanks Clamp-O-Tron); Clarified names of structural and fuel tank upgrades in part descriptions and indicated branch for probe SAS upgrades (Recommended by forum user Majk); Moved Spad Engine to start for AirplanePlus; Moved several Kerbalism experiments specific to Interkosmos and Coatl Aerospace to a general framework that is applicable to experiments across Tantares and will be for BDB.
 * 1.2.0 (28 November 2020): Moved several aircraft structural parts earlier in the tree for stock and an engine from Airplanes Plus; Added limited Community Parts Titles compatibility (See Github for details on what this means if this is relevant to you); Added CommNet Antennas Extension Support; Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); Added one kerbuck to the entry cost of part upgrades to distinguish them from parts (suggestion by flart); Fixed missing entry costs for upgrades in Tundra Exploration; Added a difficulty science setting in Kiwi Config to add variation in the science points required; Added toggle to disable Battery, Command Pod, Fuel Tank, Parachute, RCS, SAS, Solar, Space Capability, Structural, and Space System Upgrades; Confirmed continued support for Rational Resources 1.13.0 and Deep Sky Core 3.1.0; Added correct NEEDS to kdex science experiment for Coatl Aerospace; Fixed incorrectly referenced upgrade for Lithium fuel tanks; Fixed missing plumes for Poodle/Malshi when ReStock not installed; Rebalanced a couple of costs of parts from SSPX; Added support for MonoPropellant engines which had MonoPropellant fuel tanks in engine upgrade patches; Fixed issue in which Stock and Making History engines converted when Cryo Engines is installed incorrectly required ReStock.
 * 1.1.0 (20 November 2020): Adds Asset Mk1, Bureaucracy via CustomBarnKit, Stock TKS, Tundra Exploration, and Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs; Fixed incorrect FOR in various Kerbalism configs potentially leading to conflicts with Kerbalism not installed; Added better compatibility with Engine Ignitor and Kerbalism. Confirmed continued compatibility with updated Modular Launchpads, Conformal Decals, Smart Docking Aid.
 * 1.0.1.1 (15 November 2020): Added Version File
