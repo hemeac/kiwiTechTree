@@ -3,7 +3,7 @@
 namespace KiwiTechTree
 {
     [KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
-    public class PluginHelper
+    public class PluginHelper: BlankMonoBehaviour
     {
         private bool _techNodesConfigured;
 
