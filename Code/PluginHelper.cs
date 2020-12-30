@@ -5,8 +5,15 @@ namespace KiwiTechTree
     [KSPAddon(KSPAddon.Startup.SpaceCentre, true)]
     public class PluginHelper: BlankMonoBehaviour
     {
+        private bool _hasRunOnce;
+
         public void Update()
         {
+            if (_hasRunOnce)
+                return;
+
+            _hasRunOnce = true;
+
             AddMissingTechNodes();
         }
 
