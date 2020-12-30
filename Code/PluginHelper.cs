@@ -2,11 +2,9 @@
 
 namespace KiwiTechTree
 {
-    [KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
+    [KSPAddon(KSPAddon.Startup.SpaceCentre, true)]
     public class PluginHelper: BlankMonoBehaviour
     {
-        private bool _techNodesConfigured;
-
         public void Update()
         {
             AddMissingTechNodes();
@@ -14,11 +12,8 @@ namespace KiwiTechTree
 
         private void AddMissingTechNodes()
         {
-            if (_techNodesConfigured) return;
-
             if (ResearchAndDevelopment.Instance == null) return;
 
-            _techNodesConfigured = true;
             AssetBase.RnDTechTree.ReLoad();
             var rdNodes = AssetBase.RnDTechTree.GetTreeNodes().ToList();
 
