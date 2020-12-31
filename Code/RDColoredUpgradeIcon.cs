@@ -9,9 +9,9 @@ namespace KiwiTechTree
     [KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
     public class RDColoredUpgradeIcon : MonoBehaviour
     {
-        RDNode selectedNode;
+        RDNode _selectedNode;
 
-        readonly Color greenColor = new Color(0.717f, 0.819f, 0.561f);  // light green RGB(183,209,143)
+        readonly Color _greenColor = new Color(0.717f, 0.819f, 0.561f);  // light green RGB(183,209,143)
 
         FieldInfo _fieldInfoRdPartList;
 
@@ -23,14 +23,14 @@ namespace KiwiTechTree
 
             // In case the node is deselected
             if (RDController.Instance.node_selected == null)
-                selectedNode = null;
+                _selectedNode = null;
 
             // Do nothing if the tooltip hasn't changed since last update
-            if (selectedNode == RDController.Instance.node_selected)
+            if (_selectedNode == RDController.Instance.node_selected)
                 return;
 
             // Get the the selected node and partList ui object
-            selectedNode = RDController.Instance.node_selected;
+            _selectedNode = RDController.Instance.node_selected;
 
             // retrieve fieldInfo type
             if (_fieldInfoRdPartList == null)
@@ -51,9 +51,7 @@ namespace KiwiTechTree
 
             foreach (RDPartListItem item in upgradedTemplateItems)
             {
-                //Debug.Log("[KSPI]: RDColoredUpgradeIcon upgrade name " + item.upgrade.name + " upgrade techRequired: " + item.upgrade.techRequired);
-
-                item.gameObject.GetComponent<UnityEngine.UI.Image>().color = greenColor;
+                item.gameObject.GetComponent<UnityEngine.UI.Image>().color = _greenColor;
             }
         }
     }
