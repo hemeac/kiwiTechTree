@@ -1,7 +1,0 @@
-BetterSRBs 1.2.3
-https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/
-
-BetterSRBs License: Creative Commons Attribution-NonCommercial-NoDerivs CC BY-NC-ND
-No code outside of the use of partnames from the BetterSRBs mod was used for the configuration.
-
-Configuration file does contain config code copied from Restock which is distributed under the MIT License.

@@ -1,3 +1,0 @@
-kOS by erendrake, hvacengi, dunbaratu
-http://ksp-kos.github.io/KOS_DOC/
-Configuration Files License: GPLv3

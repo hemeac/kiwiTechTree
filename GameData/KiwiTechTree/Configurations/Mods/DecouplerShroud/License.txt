@@ -1,3 +1,0 @@
-DecouplerShroud by navot
-https://forum.kerbalspaceprogram.com/index.php?/topic/170781-143-decoupler-shroud/
-Configuration Files License: MIT
