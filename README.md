@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.3.0; 17 December 2020; KSP 1.9.1 - 1.10.1
+## Version 1.4.0; 20 January 2021; KSP 1.9.1 - 1.10.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -14,26 +14,34 @@
 
 A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/) and Spink Akron/theonegalen's [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/). It builds on that concept by further providing an upgrade path (via B9PS or the stock upgrade system when B9 is not available) for many of the parts, such as decreased dry mass, increased thrust/efficiency, or improved SAS levels.  I attempt to balance the improvements by having the upgrades come with an increased cost and come later in the tech tree.  This should leave a choice between getting upgraded tech at a slightly lower cost first.
 
+## Special Thanks
+This mod would not be possible without the amazing KSP community of modders and players.  But I want to give a special shout out to Nertea, JadeOfMaar, OhioBob, Linuxgurugamer, Clamp-O-Tron, Flart and Freethinker who have provided mods, patches and/or feedback that have really pushed the development forward in a way that would not be possible otherwise.
+
 ## Dependencies (Not Included)
 * [Community Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/90530-110x-community-tech-tree-august-1-2020/)
 * [B9 Part Switch](https://forum.kerbalspaceprogram.com/index.php?/topic/140541-1101-b9partswitch-v2170-july-29/)
 * [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-18x-110x-module-manager-414-july-7th-2020-locked-inside-edition/)
 
-## Strongly Recommended Mods (with custom configs)
+## Recommended Mods with Compatibility via KTT
 * [BetterSRBs](https://forum.kerbalspaceprogram.com/index.php?/topic/175316-15-1101-bettersrbs-v123-29-july-2020/)
   * Better SRBs is how KTT is handling the "upgrades" for SRBs.  I also modify SRBs from mods not directly supported in Better SRBs custom configs if BetterSRBs is present.
 * [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18-custom-barn-kit-1120-19-october-2019-parachute-included/)
   * Increases the initial number of parts for the VAB and SPH to be 46 as I did not want part counts to be as binding as a game mechanic. If JNSQ or Sigma Dimensions is detected, will increase the part count limits to 72 to help offset the availability of only smaller fuel tanks in the beginning of the tech tree.
 * [Engine Ignitor Reignited](https://forum.kerbalspaceprogram.com/index.php?/topic/168424-19x-engine-ignitor-re-ignited-release-new-dependency-added/)
   * Provides a new gameplay challenge to consider how to best balance engine burns alongside limited ignitions. Note that some engines will require external ignitors which require the use of launch clamps.
+* [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
+  * It is hard to argue that this mod should not be part of any game.  The costs reflected in the engines and structural part upgrades are intended to have trade-offs through the increased construction time of your craft, thus balancing deltaV versus the time it takes to construct the vessel and completing contracts quickly.
 * [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
   * Rational Resources implements some cold gas RCS modes into stock, ReStock+ and NF RCS blocks.  I've added upgrades to these parts and this will be how KTT handles RCS upgrades.  Be aware that this mod changes the distribution of planet resources and ISRU chains!
 * [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
   * Support for Stock; GPP, GEP, OPM; and MPE.
-  
-## Recommended Gameplay Mods
-* [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
-  * It is hard to argue that this mod should not be part of any game.  The costs reflected in the engines and structural part upgrades are intended to have trade-offs through the increased construction time of your craft, thus balancing deltaV versus the time it takes to construct the vessel and completing contracts quickly.
+
+## Recommended Mods with Compatibility via Mod
+* [KSP Interstellar Extended](https://forum.kerbalspaceprogram.com/index.php?/topic/173818-181-111-ksp-interstellar-extended-12614-release-thread/)
+  * KSPIE extends the late end of the tree by providing new parts and new game mechanics to KSP.  FreeThinker is providing compatibility with KTT via KSP Interstellar itself and has a plugin to help transition players currently using another tree.  KSPIE will generally have the final say on part placements and game mechanics to maintain balance for KSPIE.  The 2.0 version of KTT will formally adapt the late end of the tech tree used by KSPIE as well as color-coding part upgrades.
+
+## Other Recommended Mods
+
 * [MandatoryRCS](https://github.com/gotmachine/MandatoryRCS)
 * [Persistent Rotation](https://forum.kerbalspaceprogram.com/index.php?/topic/102277-18-persistentrotation-186/)
 * [StageRecovery](https://forum.kerbalspaceprogram.com/index.php?/topic/179306-19x-stagerecovery-recover-funds-from-dropped-stages/)
@@ -101,6 +109,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Community Parts Titles 0.6.5 (Limited Support)
 * Completely Non-Aggressive Rocketry 1.0.2
 * Conformal Decals 0.2.5
+* Configurable Containers 2.6.1 ** See Special Note Below **
 * CRE Stockalike British Rocketry 2.0
 * Cryogenic Engines 1.1.4
 * CryoTanks 1.5.2
@@ -160,6 +169,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * SCANsat 20.4
 * Science Pancake 1.0.0
 * Science Param Editor 12.0
+* SimpleAdjustableFairings-KWRocketry 1.3.0
 * SmartParts 1.9.16
 * Smart Docking Aid 1.0
 * Starlink Satellite Pack 1.1.0
@@ -239,6 +249,9 @@ If installed, this will disable all title changes in the mod.  This could cause 
 
 ## Completely Non-Aggressive Rocketry 1.0.2
 Created a new node in the tech tree between the start and other tech nodes for these.  Shrunk the size to 0.625m to match the small size of the early rockets and balanced fuel and thrust size for similar performance to original.  Ensures that these will not be OP relative to other early career rockets.  Also added an antenna, added a temp and pressure to probe body and soft deprecated the experiments.  Added an upgrade to basicRocketry to allow the rocket to reach space.  If Engine Ignitor is installed, adds custom configs.
+
+## Configurable Containers 2.6.1
+Disables the Fuel Tank Upgrades if Configurable Containers is installed to help minimize compatibility issues.
 
 ## Conformal Decals 0.2.5
 Moved the decals to the Other Parts node.
@@ -425,6 +438,9 @@ Shuffled the tech node.
 ## Science Param Editor 12.0
 Increases science within Kerbin slightly, but generally decreases the multiplier of most other planets.  Current support for Stock, Galileo Planet Pack, Grannus Expansion Pack, Outer Planets Mod, and Minor Planets Expansion.
 
+## SimpleAdjustableFairings-KWRocketry 1.3.0
+Shuffled the tech node. Mod provided by evileye.x
+
 ## Smart Docking Aid 1.0
 As SAS levels are available only through upgrades, the docking aid is added to ALL probes.  It currently is not possible to make it available when probes are upgraded.  It's use thus functionally needs to be "role played".
 
@@ -473,7 +489,7 @@ Shuffled the technodes.  Generally made it more expensive.  Added stuctural upgr
 ## Xingyun-2 1.0
 Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism with FeatureScience is installed, adds customm HDD modules and custom data transmit speeds.  Also adds a custom experiment to these parts, a 5-year experiment, "Internet Experiment" that is available within the home system.**
 
-## Alternate Tech Tree Mods and/or Overhauls (In no particular order, but some are quite old)
+## Alternate Tech Tree Mods, Tech Tree Related Mods, and/or Overhauls (In no particular order, but some are quite old)
 * [UnKerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/)
 * [PBC Mod](https://forum.kerbalspaceprogram.com/index.php?/topic/181013-ksp-181-probes-before-crew-pbc-version-28/)
 * [TETRIX and SIMPLEX Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/174731-19x-tetrix-techtree-25-and-simplex-techtree-116/)
@@ -485,8 +501,12 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [OpenTree](https://www.curseforge.com/kerbal/ksp-mods/opentree)
 * [RP-1](https://forum.kerbalspaceprogram.com/index.php?/topic/190040-rp-1-realistic-progression-one-v141-for-ksp-181/)
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
+* [Community Agencies  Revival Project](https://spacedock.info/mod/2624/Community%20Agencies%20Revival%20Project%20%28CARP%29)
+* [Tech Tree Kompacted](https://forum.kerbalspaceprogram.com/index.php?/topic/199096-111x-techtree-kompacted-14-uks-and-pbc-support/)
+* [Hide Empty Tech Tree Nodes](https://forum.kerbalspaceprogram.com/index.php?/topic/118305-110x-hide-empty-tech-tree-nodes-for-modded-tech-trees-v120/&tab=comments#comment-2117559)
 
 ## Changelog
+* 1.4.0 (18 January 2021): Color coded upgrades to be green in the tech tree for easier identification (Thanks Freethinker); Removed patch that adds 1 kerbuck to partupgrades as it is now redundant; Eased transition of save games to Kiwi Tech Tree (Thanks Freethinker); Support for SimpleAdjustableFairings-KWRocketry (Thanks evileye.x for the patch) Fixed the Swivel ASL ISP (thanks antilochus for logging issue); Fixed bug causing spontaneous combustion of Kerbals if mods add ElectricCharge to them (thanks WLLP for logging issue); Adds MechJeb Config (Thanks Clamp-O-Tron for the Pull Request); Disable Fuel Tank Upgrades if Configurable Containers is installed (Thanks DeadJohn for logging issue); Nerfed Cheetah and Wolfhound engines from Making History (Thanks to Darkherring (Discord) for logging issue). Added partial support for KerbalAtomicsLH2NTRModSupport [Github Issue](still requires fix in Kerbal Atomics, see https://github.com/post-kerbin-mining-corporation/KerbalAtomics/issues/90) (Thanks WLLP for logging issue). Added  JNSQ Science Param Config (Thanks Kwebib for logging the issue).
 * 1.3.0 (17 December 2020): Added support for Blue Steel, Tantares and TantaresSP; Background work for TantaresLV complete (not yet integrated into mod, waiting for next LV release); Converted the EVA Propellant to MonoPropellant for KIS and US2 EVA packs when Kerbalism is installed (thanks to Kerbalism discord user Snoman for the suggestion); Moved Knes Calypso fuel tank to Large Volume Containment; Lowered vacuum ISP of several stock engines; Added support for large fuel tank upgrades if TantaresLV installed; Lowered RCS ISP of Hacimachi Control Unit in Knes (Thanks Clamp-O-Tron); Moved air launch availability for KCT earlier in the tech tree and added descriptions about the restrictions available for airlaunches in the tech tree descriptions (Thanks Clamp-O-Tron); Clarified names of structural and fuel tank upgrades in part descriptions and indicated branch for probe SAS upgrades (Recommended by forum user Majk); Moved Spad Engine to start for AirplanePlus; Moved several Kerbalism experiments specific to Interkosmos and Coatl Aerospace to a general framework that is applicable to experiments across Tantares and will be for BDB. Added toggle to disable some Stock and Making History Engines from converting to LH2 if CryoEngines is installed (Suggestion from flart).
 * 1.2.0 (28 November 2020): Moved several aircraft structural parts earlier in the tree for stock and an engine from Airplanes Plus; Added limited Community Parts Titles compatibility (See Github for details on what this means if this is relevant to you); Added CommNet Antennas Extension Support; Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); Added one kerbuck to the entry cost of part upgrades to distinguish them from parts (suggestion by flart); Fixed missing entry costs for upgrades in Tundra Exploration; Added a difficulty science setting in Kiwi Config to add variation in the science points required; Added toggle to disable Battery, Command Pod, Fuel Tank, Parachute, RCS, SAS, Solar, Space Capability, Structural, and Space System Upgrades; Confirmed continued support for Rational Resources 1.13.0 and Deep Sky Core 3.1.0; Added correct NEEDS to kdex science experiment for Coatl Aerospace; Fixed incorrectly referenced upgrade for Lithium fuel tanks; Fixed missing plumes for Poodle/Malshi when ReStock not installed; Rebalanced a couple of costs of parts from SSPX; Added support for MonoPropellant engines which had MonoPropellant fuel tanks in engine upgrade patches; Fixed issue in which Stock and Making History engines converted when Cryo Engines is installed incorrectly required ReStock.
 * 1.1.0 (20 November 2020): Adds Asset Mk1, Bureaucracy via CustomBarnKit, Stock TKS, Tundra Exploration, and Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs; Fixed incorrect FOR in various Kerbalism configs potentially leading to conflicts with Kerbalism not installed; Added better compatibility with Engine Ignitor and Kerbalism. Confirmed continued compatibility with updated Modular Launchpads, Conformal Decals, Smart Docking Aid.
