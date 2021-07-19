@@ -1,0 +1,721 @@
+@PART[liquidEngine2]:AFTER[Squad] // LV-T45 Swivel Liquid Fuel Engine
+{
+	@TechRequired = prototypeRocketry
+    kiwiBranch = RocketryPumpFed
+    kiwiTier = 1
+    engineName = #LOC_KTT_Squad_liquidEngine2_EngineName // Swivel
+    kiwiEngineUpgradeType = singleMode
+    kiwiBaseFuel = kerolox
+    kiwiFuelKerolox = Yes
+    kiwiFuelHydrolox = Yes
+    kiwiFuelMethalox =  Yes
+    kiwiFuelHypergolic = Yes
+    kiwiEngineUpgradeKerolox0 = liquidEngine2_Upgrade0_Kerolox
+    kiwiEngineUpgradeKerolox1 = liquidEngine2_Upgrade1_Kerolox
+    kiwiEngineUpgradeHydrolox0 = liquidEngine2_Upgrade0_Hydrolox
+    kiwiEngineUpgradeHydrolox1 = liquidEngine2_Upgrade1_Hydrolox
+    kiwiEngineUpgradeMethalox0 = liquidEngine2_Upgrade0_Methalox
+    kiwiEngineUpgradeMethalox1 = liquidEngine2_Upgrade1_Methalox
+    kiwiEngineUpgradeHypergolic0 = liquidEngine2_Upgrade0_Hypergolic
+    kiwiEngineUpgradeHypergolic1 = liquidEngine2_Upgrade1_Hypergolic
+}
+
+
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = liquidEngine2_Upgrade0_Kerolox
+    type = engine
+    partIcon = liquidEngine2
+    techRequired  = prototypeLiquidFuelRocketry
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0_KEROLOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[liquidEngine2_Upgrade0_Kerolox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[liquidEngine2]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/KEROLOX/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[liquidEngine2]/title$:
+    @description ^= #:INSERTPART:$@PART[liquidEngine2]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = liquidEngine2_Upgrade1_Kerolox
+    type = engine
+    partIcon = liquidEngine2
+    techRequired  = generalLiquidFuelRocketry
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1_KEROLOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[liquidEngine2_Upgrade1_Kerolox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[liquidEngine2]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/KEROLOX/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[liquidEngine2]/title$:
+    @description ^= #:INSERTPART:$@PART[liquidEngine2]/engineName$:
+}
+@PART[liquidEngine2]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgradeKerolox = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES_KEROLOX
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgradeKerolox$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0_KEROLOX:Prototype Liquid Fuel Rocketry:
+    @description ^= :INSERTPARTUPGRADE1_KEROLOX:General Liquid Fuel Rocketry:
+}	PARTUPGRADE:NEEDS[Squad]
+{
+    name = liquidEngine2_Upgrade0_Hydrolox
+    type = engine
+    partIcon = liquidEngine2
+    techRequired  = prototypeCryoRocketry
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0_HYDROLOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_HYDROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[liquidEngine2_Upgrade0_Hydrolox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[liquidEngine2]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYDROLOX/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[liquidEngine2]/title$:
+    @description ^= #:INSERTPART:$@PART[liquidEngine2]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = liquidEngine2_Upgrade1_Hydrolox
+    type = engine
+    partIcon = liquidEngine2
+    techRequired  = generalCryoRocketry
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1_HYDROLOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1_HYDROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[liquidEngine2_Upgrade1_Hydrolox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[liquidEngine2]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYDROLOX/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[liquidEngine2]/title$:
+    @description ^= #:INSERTPART:$@PART[liquidEngine2]/engineName$:
+}
+@PART[liquidEngine2]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgradeHydrolox = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES_HYDROLOX
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgradeHydrolox$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0_HYDROLOX:Prototype Cryogenic Rocketry:
+    @description ^= :INSERTPARTUPGRADE1_HYDROLOX:General Cryogenic Rocketry:
+}	PARTUPGRADE:NEEDS[Squad]
+{
+    name = liquidEngine2_Upgrade0_Methalox
+    type = engine
+    partIcon = liquidEngine2
+    techRequired  = prototypeCryoRocketry
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0_METHALOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_METHALOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[liquidEngine2_Upgrade0_Methalox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[liquidEngine2]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/METHALOX/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[liquidEngine2]/title$:
+    @description ^= #:INSERTPART:$@PART[liquidEngine2]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = liquidEngine2_Upgrade1_Methalox
+    type = engine
+    partIcon = liquidEngine2
+    techRequired  = generalCryoRocketry
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1_METHALOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1_METHALOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[liquidEngine2_Upgrade1_Methalox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[liquidEngine2]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/METHALOX/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[liquidEngine2]/title$:
+    @description ^= #:INSERTPART:$@PART[liquidEngine2]/engineName$:
+}
+@PART[liquidEngine2]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgradeMethalox = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES_METHALOX
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgradeMethalox$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0_METHALOX:Prototype Cryogenic Rocketry:
+    @description ^= :INSERTPARTUPGRADE1_METHALOX:General Cryogenic Rocketry:
+}	PARTUPGRADE:NEEDS[Squad]
+{
+    name = liquidEngine2_Upgrade0_Hypergolic
+    type = engine
+    partIcon = liquidEngine2
+    techRequired  = prototypeLiquidFuelRocketry
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0_HYPERGOLIC
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_HYPERGOLIC
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[liquidEngine2_Upgrade0_Hypergolic]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[liquidEngine2]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYPERGOLIC/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[liquidEngine2]/title$:
+    @description ^= #:INSERTPART:$@PART[liquidEngine2]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = liquidEngine2_Upgrade1_Hypergolic
+    type = engine
+    partIcon = liquidEngine2
+    techRequired  = generalLiquidFuelRocketry
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1_HYPERGOLIC
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1_HYPERGOLIC
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[liquidEngine2_Upgrade1_Hypergolic]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[liquidEngine2]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYPERGOLIC/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[liquidEngine2]/title$:
+    @description ^= #:INSERTPART:$@PART[liquidEngine2]/engineName$:
+}
+@PART[liquidEngine2]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgradeHypergolic = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES_HYPERGOLIC
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgradeHypergolic$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0_HYPERGOLIC:Prototype Liquid Fuel Rocketry:
+    @description ^= :INSERTPARTUPGRADE1_HYPERGOLIC:General Liquid Fuel Rocketry:
+}
+
+
+@PART[toroidalAerospike]:AFTER[Squad] // T-1 Toroidal Aerospike Dart Liquid  Fuel Engine
+{
+    kiwiBranch = RocketryAdvancedPumpFed
+    kiwiTier = 7
+    engineName = #LOC_KTT_Squad_toroidalAerospike_EngineName // Dart
+    kiwiEngineUpgradeType = singleModeAerospike
+    kiwiBaseFuel = kerolox
+    kiwiFuelKerolox = Yes
+    kiwiFuelHydrolox = Yes
+    kiwiFuelMethalox =  Yes
+    kiwiFuelHypergolic = Yes
+    kiwiEngineUpgradeKerolox0 = toroidalAerospike_Upgrade0_Kerolox
+    kiwiEngineUpgradeKerolox1 = toroidalAerospike_Upgrade1_Kerolox
+    kiwiEngineUpgradeHydrolox0 = toroidalAerospike_Upgrade0_Hydrolox
+    kiwiEngineUpgradeHydrolox1 = toroidalAerospike_Upgrade1_Hydrolox
+    kiwiEngineUpgradeMethalox0 = toroidalAerospike_Upgrade0_Methalox
+    kiwiEngineUpgradeMethalox1 = toroidalAerospike_Upgrade1_Methalox
+    kiwiEngineUpgradeHypergolic0 = toroidalAerospike_Upgrade0_Hypergolic
+    kiwiEngineUpgradeHypergolic1 = toroidalAerospike_Upgrade1_Hypergolic
+}
+
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = toroidalAerospike_Upgrade0_Kerolox
+    type = engine
+    partIcon = toroidalAerospike
+    techRequired  = experimentalLiquidFuelPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0_KEROLOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[toroidalAerospike_Upgrade0_Kerolox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[toroidalAerospike]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/KEROLOX/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[toroidalAerospike]/title$:
+    @description ^= #:INSERTPART:$@PART[toroidalAerospike]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = toroidalAerospike_Upgrade1_Kerolox
+    type = engine
+    partIcon = toroidalAerospike
+    techRequired  = aBitMoreExoticLiquidFuelPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1_KEROLOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[toroidalAerospike_Upgrade1_Kerolox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[toroidalAerospike]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/KEROLOX/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[toroidalAerospike]/title$:
+    @description ^= #:INSERTPART:$@PART[toroidalAerospike]/engineName$:
+}
+@PART[toroidalAerospike]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgradeKerolox = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES_KEROLOX
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgradeKerolox$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0_KEROLOX:Experimental Liquid Fuel Propulsion (Tier 7):
+    @description ^= :INSERTPARTUPGRADE1_KEROLOX:A Bit More Exotic Liquid Fuel Propulsion (Tier 9):
+}	PARTUPGRADE:NEEDS[Squad]
+{
+    name = toroidalAerospike_Upgrade0_Hydrolox
+    type = engine
+    partIcon = toroidalAerospike
+    techRequired  = experimentalCryoPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0_HYDROLOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_HYDROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[toroidalAerospike_Upgrade0_Hydrolox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[toroidalAerospike]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYDROLOX/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[toroidalAerospike]/title$:
+    @description ^= #:INSERTPART:$@PART[toroidalAerospike]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = toroidalAerospike_Upgrade1_Hydrolox
+    type = engine
+    partIcon = toroidalAerospike
+    techRequired  = aBitMoreExoticCryoPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1_HYDROLOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1_HYDROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[toroidalAerospike_Upgrade1_Hydrolox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[toroidalAerospike]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYDROLOX/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[toroidalAerospike]/title$:
+    @description ^= #:INSERTPART:$@PART[toroidalAerospike]/engineName$:
+}
+@PART[toroidalAerospike]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgradeHydrolox = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES_HYDROLOX
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgradeHydrolox$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0_HYDROLOX:Experimental Cryogenic Propulsion (Tier 7):
+    @description ^= :INSERTPARTUPGRADE1_HYDROLOX:A Bit More Exotic Cryogenic Propulsion (Tier 9):
+}	PARTUPGRADE:NEEDS[Squad]
+{
+    name = toroidalAerospike_Upgrade0_Methalox
+    type = engine
+    partIcon = toroidalAerospike
+    techRequired  = experimentalCryoPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0_METHALOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_METHALOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[toroidalAerospike_Upgrade0_Methalox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[toroidalAerospike]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/METHALOX/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[toroidalAerospike]/title$:
+    @description ^= #:INSERTPART:$@PART[toroidalAerospike]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = toroidalAerospike_Upgrade1_Methalox
+    type = engine
+    partIcon = toroidalAerospike
+    techRequired  = aBitMoreExoticCryoPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1_METHALOX
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1_METHALOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[toroidalAerospike_Upgrade1_Methalox]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[toroidalAerospike]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/METHALOX/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[toroidalAerospike]/title$:
+    @description ^= #:INSERTPART:$@PART[toroidalAerospike]/engineName$:
+}
+@PART[toroidalAerospike]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgradeMethalox = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES_METHALOX
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgradeMethalox$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0_METHALOX:Experimental Cryogenic Propulsion (Tier 7):
+    @description ^= :INSERTPARTUPGRADE1_METHALOX:A Bit More Exotic Cryogenic Propulsion (Tier 9):
+}	PARTUPGRADE:NEEDS[Squad]
+{
+    name = toroidalAerospike_Upgrade0_Hypergolic
+    type = engine
+    partIcon = toroidalAerospike
+    techRequired  = experimentalLiquidFuelPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0_HYPERGOLIC
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_HYPERGOLIC
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[toroidalAerospike_Upgrade0_Hypergolic]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[toroidalAerospike]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYPERGOLIC/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[toroidalAerospike]/title$:
+    @description ^= #:INSERTPART:$@PART[toroidalAerospike]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = toroidalAerospike_Upgrade1_Hypergolic
+    type = engine
+    partIcon = toroidalAerospike
+    techRequired  = aBitMoreExoticLiquidFuelPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1_HYPERGOLIC
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1_HYPERGOLIC
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[toroidalAerospike_Upgrade1_Hypergolic]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[toroidalAerospike]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYPERGOLIC/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[toroidalAerospike]/title$:
+    @description ^= #:INSERTPART:$@PART[toroidalAerospike]/engineName$:
+}
+@PART[toroidalAerospike]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgradeHypergolic = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES_HYPERGOLIC
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgradeHypergolic$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0_HYPERGOLIC:Experimental Liquid Fuel Propulsion (Tier 7):
+    @description ^= :INSERTPARTUPGRADE1_HYPERGOLIC:A Bit More Exotic Liquid Fuel Propulsion (Tier 9):
+}
+
+@PART[nuclearEngine]:AFTER[Squad] // LV-N Nerv Atomic Rocket Motor
+	{
+    kiwiBranch = PropulsionNuclear
+    kiwiTier = 6
+    engineName = #LOC_KTT_Squad_nuclearEngine_EngineName // Nerv
+    kiwiEngineUpgradeType = singleModeNuclear
+    kiwiBaseFuel = kerolox
+    kiwiEngineUpgrade0 = nuclearEngine_Upgrade0
+    kiwiEngineUpgrade1 = nuclearEngine_Upgrade1
+}
+
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = nuclearEngine_Upgrade0
+    type = engine
+    partIcon = nuclearEngine
+    techRequired  = nuclearPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[nuclearEngine_Upgrade0]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[nuclearEngine]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/NUCLEAR/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[nuclearEngine]/title$:
+    @description ^= #:INSERTPART:$@PART[nuclearEngine]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = nuclearEngine_Upgrade1
+    type = engine
+    partIcon = nuclearEngine
+    techRequired  = improvedNuclearPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[nuclearEngine_Upgrade1]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[nuclearEngine]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/NUCLEAR/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[nuclearEngine]/title$:
+    @description ^= #:INSERTPART:$@PART[nuclearEngine]/engineName$:
+}
+@PART[nuclearEngine]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgrade = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgrade$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0:Nuclear Propulsion (Tier 6):
+    @description ^= :INSERTPARTUPGRADE1:Improved Nuclear Propulsion (Tier 8):
+}
+
+
+@PART[miniJetEngine]:AFTER[Squad] // J-20 Juno Basic Jet Engine
+	{
+    kiwiBranch = PropulsionTurboJet
+    kiwiTier = 0
+    engineName = #LOC_KTT_Squad_miniJetEngine_EngineName // Juno
+    kiwiEngineUpgradeType = singleModeJet
+    kiwiBaseFuel = kerolox
+    kiwiEngineUpgrade0 = miniJetEngine_Upgrade0
+    kiwiEngineUpgrade1 = miniJetEngine_Upgrade1
+}
+
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = miniJetEngine_Upgrade0
+    type = engine
+    partIcon = miniJetEngine
+    techRequired  = firstFlight
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[miniJetEngine_Upgrade0]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[miniJetEngine]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/JET/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[miniJetEngine]/title$:
+    @description ^= #:INSERTPART:$@PART[miniJetEngine]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = miniJetEngine_Upgrade1
+    type = engine
+    partIcon = miniJetEngine
+    techRequired  = testPilots
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[miniJetEngine_Upgrade1]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[miniJetEngine]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/JET/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[miniJetEngine]/title$:
+    @description ^= #:INSERTPART:$@PART[miniJetEngine]/engineName$:
+}
+@PART[miniJetEngine]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgrade = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgrade$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0:First Flight (Tier 1):
+    @description ^= :INSERTPARTUPGRADE1:Test Pilots (Tier 2):
+}
+
+
+@PART[turboJet]:AFTER[Squad] // J-404 Panther Afterburning Turbofan
+	{
+    kiwiBranch = PropulsionTurboJet
+    kiwiTier = 3
+    engineName = #LOC_KTT_Squad_turboJet_EngineName // Panther
+    kiwiEngineUpgradeType = dualModeJet
+    engineID0 = Dry
+    engineID1 = Wet
+    kiwiBaseFuel = kerolox
+    kiwiEngineUpgrade0 = turboJet_Upgrade0
+    kiwiEngineUpgrade1 = turboJet_Upgrade1
+}
+
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = turboJet_Upgrade0
+    type = engine
+    partIcon = turboJet
+    techRequired  = airLaunch
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[turboJet_Upgrade0]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[turboJet]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/JET/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[turboJet]/title$:
+    @description ^= #:INSERTPART:$@PART[turboJet]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = turboJet_Upgrade1
+    type = engine
+    partIcon = turboJet
+    techRequired  = streamlinedFlight
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[turboJet_Upgrade1]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[turboJet]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/JET/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[turboJet]/title$:
+    @description ^= #:INSERTPART:$@PART[turboJet]/engineName$:
+}
+@PART[turboJet]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgrade = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgrade$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0:Air Launch (Tier 4):
+    @description ^= :INSERTPARTUPGRADE1:Streamlined Flight (Tier 5):
+}
+
+@PART[ionEngine]:AFTER[Squad] // IX-6315 Dawn Electric Propulsion System
+	{
+    kiwiBranch = PropulsionIon
+    kiwiTier = 7
+    engineName = #LOC_KTT_Squad_ionEngine_EngineName // Dawn
+    kiwiEngineUpgradeType = singleModeIon
+    kiwiBaseFuel = xenon
+    kiwiEngineUpgrade0 = ionEngine_Upgrade0
+    kiwiEngineUpgrade1 = ionEngine_Upgrade1
+}
+
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = ionEngine_Upgrade0
+    type = engine
+    partIcon = ionEngine
+    techRequired  = ionPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[ionEngine_Upgrade0]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[ionEngine]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/XENON/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[ionEngine]/title$:
+    @description ^= #:INSERTPART:$@PART[ionEngine]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = ionEngine_Upgrade1
+    type = engine
+    partIcon = ionEngine
+    techRequired  = advIonPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[ionEngine_Upgrade1]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[ionEngine]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/XENON/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[ionEngine]/title$:
+    @description ^= #:INSERTPART:$@PART[ionEngine]/engineName$:
+}
+@PART[ionEngine]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgrade = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgrade$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0:Ion Propulsion (Tier 8):
+    @description ^= :INSERTPARTUPGRADE1:Advanced Ion Propulsion (Tier 9):
+}
+
+
+
+@PART[RAPIER]:AFTER[Squad] // CR-7 R.A.P.I.E.R. Engine
+	{
+    kiwiBranch = RocketryAdvancedPumpFed
+    kiwiTier = 9
+    engineName = #LOC_KTT_Squad_RAPIER_EngineName // R.A.P.I.E.R.
+    kiwiEngineUpgradeType = dualModeHybrid
+    engineID0 = AirBreathing
+    engineID1 = ClosedCycle
+    kiwiBaseFuel = kerolox
+    kiwiEngineUpgrade0 = RAPIER_Upgrade0
+    kiwiEngineUpgrade1 = RAPIER_Upgrade1
+}
+
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = RAPIER_Upgrade0
+    type = engine
+    partIcon = RAPIER
+    techRequired  = aBitMoreExoticLiquidFuelPropulsion
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_0
+    title = #LOC_KTT_PARTUPGRADE_TITLE_0_KEROLOX
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_0
+}
+@PARTUPGRADE[RAPIER_Upgrade0]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[RAPIER]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYBRID/BASELINE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[RAPIER]/title$:
+    @description ^= #:INSERTPART:$@PART[RAPIER]/engineName$:
+}
+PARTUPGRADE:NEEDS[Squad]
+{
+    name = RAPIER_Upgrade1
+    type = engine
+    partIcon = RAPIER
+    techRequired  = hybridLiquidFuelAircraftEngines
+    entryCost = 1
+    basicInfo = #LOC_KTT_PARTUPGRADE_BASICINFO_ENGINES_1
+    title = #LOC_KTT_PARTUPGRADE_TITLE_1
+    manufacturer = #LOC_KTT_PARTUPGRADE_MANUFACTURER
+    description = #LOC_KTT_PARTUPGRADE_DESCRIPTION_ENGINES_1
+}
+@PARTUPGRADE[RAPIER_Upgrade1]:NEEDS[Squad]:FOR[zKiwiTechTree]
+{
+    @entryCost = #$@PART[RAPIER]/entryCost$
+    @entryCost *= #$@KIWI_ENGINE_MULTIPLIERS/HYBRID/UPGRADE_ENTRYCOST_MULTIPLIER$
+    @title ^= #:INSERTPARTTITLE:$@PART[RAPIER]/title$:
+    @description ^= #:INSERTPART:$@PART[RAPIER]/engineName$:
+}
+@PART[RAPIER]:NEEDS[Squad]:HAS[~engineUpgrade[off]]:AFTER[zzKiwiTechTree]
+{
+    descriptionUpgrade = #LOC_KTT_PART_DESCRIPTIONUPGRADE_ENGINES
+    @description = #$description$ \n\n<color=#ff0000>$descriptionUpgrade$</color>
+    @description ^= #:INSERTENGINENAME:$engineName$:
+    @description ^= :INSERTPARTUPGRADE0:A Bit More Exotic Liquid Fuel Propulsion (Tier 9):
+    @description ^= :INSERTPARTUPGRADE1:Hybrid Liquid Fuel Aircraft Engines (Tier 11):
+}
+
+@PART[solarPanels4]:AFTER[Squad] // Solar Panel
+{
+    kiwiBranch = SolarPanels
+    kiwiTier = 3
+    kiwiSolarUpgradeType = standard
+}
+
+
+@PART[winglet]:AFTER[Squad] // Winglet
+	{
+    kiwiBranch = SolarPanels
+    kiwiTier = 0
+    kiwiStructuralUpgradeType = tier0
+}
