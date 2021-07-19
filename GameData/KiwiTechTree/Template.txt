@@ -1,0 +1,1330 @@
+// Kiwi's Tech Tree Overhaul Template
+// Version 2.0
+// Created 2020 for KSP 1.9.1
+// Last Updated: 17 July 2021 for KSP 1.12.1 
+// 19 September 2020: Added otherParts; Actuators, Attachments
+// 23 September 2020: Clarified role of Flight Control branch
+// 27 September 2020: Fixed incorrect node in Battery Branch
+// 29 September 2020: Added Nuclear Fuel Systems and Deprecated Node
+// 1 October 2020: Added Noble Gas/Lithium Fuel Systems Branch to template
+// 15 October 2020: Added Flight Control to Alternative Propulsion branch template.
+// 18 October 2020: Added  Basic Flight Control node to Flight Control template. 
+// 17 July 2021: Updated for the 2.0 Template System
+
+//// ********** Deprecated ********** \\\\
+
+// Tier -2 - Deprecated \\
+
+
+
+//// ********** Actuators ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Early Construction \\
+
+// Tier 3 - Basic Construction \\
+
+// Tier 4 - General Construction \\
+
+// Tier 5 - Early Actuators \\
+
+// Tier 6 - Actuators \\
+
+// Tier 7 - Advanced Actuators \\
+
+// Tier 8 - Experimental Actuators \\
+
+// Tier 9 - Off-World Manufacturing \\
+
+
+
+//// ********** CockpitsCommercial ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Early Flight \\
+
+// Tier 3 - Stability \\
+
+// Tier 4 - Aviation \\
+
+// Tier 5 - Subsonic Flight \\
+
+// Tier 6 - Efficient Flight Systems \\
+
+// Tier 7 - Advanced Flight Systems \\
+
+// Tier 8 - Specialized Flight Systems \\
+
+// Tier 9 - Experimental Flight Systems \\
+
+
+
+//// ********** CockpitsNonCommercial ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Test Pilots \\
+
+// Tier 3 - Non-Commercial Flights \\
+
+// Tier 4 - Air Launch \\
+
+// Tier 5 - Streamlined Flight \\
+
+// Tier 6 - Supersonic Flight \\
+
+// Tier 7 - High Altitude Flight \\
+
+// Tier 8 - Hypersonic Flight \\
+
+// Tier 9 - Aerospace Tech \\
+
+// Tier 10 - Experimental Aerospace Tech \\
+
+
+
+//// ********** PropulsionTurboJet ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Test Pilots \\
+
+// Tier 3 - Non-Commercial Flights \\
+
+// Tier 4 - Air Launch \\
+
+// Tier 5 - Streamlined Flight \\
+
+// Tier 6 - Supersonic Flight \\
+
+// Tier 7 - High Altitude Flight \\
+
+// Tier 8 - Hypersonic Flight \\
+
+// Tier 9 - Aerospace Tech \\
+
+// Tier 10 - Experimental Aerospace Tech \\
+
+
+
+//// ********** PropulsionTurboFan ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Early Flight \\
+
+// Tier 3 - Stability \\
+
+// Tier 4 - Aviation \\
+
+// Tier 5 - Subsonic Flight \\
+
+// Tier 6 - Efficient Flight Systems \\
+
+// Tier 7 - Advanced Flight Systems \\
+
+// Tier 8 - Specialized Flight Systems \\
+
+// Tier 9 - Experimental Flight Systems \\
+
+
+
+//// ********** PropulsionTurboFanAfterburner ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Test Pilots \\
+
+// Tier 3 - Non-Commercial Flights \\
+
+// Tier 4 - Aviation \\
+
+// Tier 5 - Subsonic Flight \\
+
+// Tier 6 - Efficient Flight Systems \\
+
+// Tier 7 - Advanced Flight Systems \\
+
+// Tier 8 - Specialized Flight Systems \\
+
+// Tier 9 - Experimental Flight Systems \\
+
+// Tier 10 - Experimental Aerospace Tech \\
+
+
+
+//// ********** RotorsVTOL ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Early Flight \\
+
+// Tier 3 - Stability \\
+
+// Tier 4 - Aviation \\
+
+// Tier 5 - Subsonic Flight \\
+
+// Tier 6 - Efficient Flight Systems \\
+
+// Tier 7 - Advanced Flight Systems \\
+
+// Tier 8 - Specialized Flight Systems \\
+
+// Tier 9 - Experimental Flight Systems \\
+
+
+
+//// ********** AirIntakes ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Test Pilots \\
+
+// Tier 3 - Non-Commercial Flights \\
+
+// Tier 4 - Air Launch \\
+
+// Tier 5 - Streamlined Flight \\
+
+// Tier 6 - Supersonic Flight \\
+
+// Tier 7 - High Altitude Flight \\
+
+// Tier 8 - Hypersonic Flight \\
+
+// Tier 9 - Aerospace Tech \\
+
+// Tier 10 - Experimental Aerospace Tech \\
+
+
+
+//// ********** StructuralPlaneParts ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Early Flight \\
+
+// Tier 3 - Stability \\
+
+// Tier 4 - Aviation \\
+
+// Tier 5 - Aerodynamics \\
+
+// Tier 6 - Advanced Aerodynamics \\
+
+// Tier 7 - Heavy Aerodynamics \\
+
+// Tier 8 - Experimental Aerodynamics \\
+
+// Tier 9 - Aerospace Composites \\
+
+// Tier 10 - Advanced Aerospace Engineering \\
+
+
+
+//// ********** CommandModules ********** \\\\
+
+// Tier 4 - Basic Command Modules \\
+
+// Tier 5 - Simple Command Modules \\
+
+// Tier 6 - Command Modules \\
+
+// Tier 7 - Heavy Command Modules \\
+
+// Tier 8 - Specialized Command Modules \\
+
+// Tier 9 - Specialized Command Centers \\
+
+// Tier 10 - Heavy Command Centers \\
+
+
+
+//// ********** Landers ********** \\\\
+
+// Tier 5 - Simple Command Module Extensions \\
+
+// Tier 6 - Command Module Extensions \\
+
+// Tier 7 - Heavy Command Module Extensions \\
+
+// Tier 9 - Specialized Landers \\
+
+// Tier 10 - Heavy Landers \\
+
+
+
+//// ********** ReEntryModules ********** \\\\
+
+// Tier 3 - Basic Re-Entry Module \\
+
+// Tier 4 - Re-Entry Module \\
+
+// Tier 5 - Advanced Re-Entry Module \\
+
+
+
+//// ********** StructuralAdapters ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Early Construction \\
+
+// Tier 3 - Basic Construction \\
+
+// Tier 4 - Fairings \\
+
+// Tier 5 - Engine Adapters \\
+
+// Tier 6 - Nose Cones \\
+
+// Tier 7 - Advanced MetalWorks \\
+
+// Tier 8 - Nanolathing \\
+
+// Tier 9 - Exotic Alloys \\
+
+// Tier 10 - Aerographite \\
+
+// Tier 11 - Bio-Activated Aerographite \\
+
+
+
+//// ********** Fairings ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Early Construction \\
+
+// Tier 3 - Basic Construction \\
+
+// Tier 4 - Fairings \\
+
+// Tier 5 - Engine Adapters \\
+
+// Tier 6 - Nose Cones \\
+
+// Tier 7 - Advanced MetalWorks \\
+
+// Tier 8 - Nanolathing \\
+
+// Tier 9 - Exotic Alloys \\
+
+// Tier 10 - Aerographite \\
+
+// Tier 11 - Bio-Activated Aerographite \\
+
+
+
+//// ********** NoseCones ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Early Construction \\
+
+// Tier 3 - Basic Construction \\
+
+// Tier 4 - Fairings \\
+
+// Tier 5 - Engine Adapters \\
+
+// Tier 6 - Nose Cones \\
+
+// Tier 7 - Advanced MetalWorks \\
+
+// Tier 8 - Nanolathing \\
+
+// Tier 9 - Exotic Alloys \\
+
+// Tier 10 - Aerographite \\
+
+// Tier 11 - Bio-Activated Aerographite \\
+
+
+
+//// ********** StructuralStationRocketParts ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Early Construction \\
+
+// Tier 3 - Basic Construction \\
+
+// Tier 4 - General Construction \\
+
+// Tier 5 - Advanced Construction \\
+
+// Tier 6 - Specialized Construction \\
+
+// Tier 7 - Composites \\
+
+// Tier 8 - Meta-Materials \\
+
+// Tier 9 - Orbital Assembly \\
+
+// Tier 10 - Orbital Megastructures \\
+
+// Tier 11 - Bio-Activated Aerographite \\
+
+
+
+//// ********** DecouplersSeparators ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Early Construction \\
+
+// Tier 3 - Basic Construction \\
+
+// Tier 4 - Decoupling \\
+
+// Tier 5 - Docking \\
+
+// Tier 6 - Advanced Decoupling \\
+
+// Tier 7 - Engine Plates \\
+
+// Tier 8 - Advanced Docking \\
+
+// Tier 9 - Advanced Engine Plates \\
+
+// Tier 10 - Automated Decoupling Systems \\
+
+// Tier 11 - Extreme Fuel Storage \\
+
+
+
+//// ********** DockingPorts ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Early Construction \\
+
+// Tier 3 - Basic Construction \\
+
+// Tier 4 - Decoupling \\
+
+// Tier 5 - Docking \\
+
+// Tier 6 - Advanced Decoupling \\
+
+// Tier 7 - Engine Plates \\
+
+// Tier 8 - Advanced Docking \\
+
+// Tier 9 - Advanced Engine Plates \\
+
+// Tier 10 - Automated Decoupling Systems \\
+
+// Tier 11 - Extreme Fuel Storage \\
+
+
+
+//// ********** EnginePlates ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Early Construction \\
+
+// Tier 3 - Basic Construction \\
+
+// Tier 4 - Decoupling \\
+
+// Tier 5 - Docking \\
+
+// Tier 6 - Advanced Decoupling \\
+
+// Tier 7 - Engine Plates \\
+
+// Tier 8 - Advanced Docking \\
+
+// Tier 9 - Advanced Engine Plates \\
+
+// Tier 10 - Automated Decoupling Systems \\
+
+// Tier 11 - Extreme Fuel Storage \\
+
+
+
+//// ********** SolarPanels ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Early Solar Panels \\
+
+// Tier 4 - Battery Tech \\
+
+// Tier 5 - Solar Tech \\
+
+// Tier 6 - Improved Solar Tech \\
+
+// Tier 7 - Advanced Solar Tech \\
+
+// Tier 8 - Advanced Photovoltaic Materials \\
+
+// Tier 9 - Cutting Edge Solar Tech \\
+
+// Tier 10 - Exotic Solar Tech \\
+
+// Tier 11 - Omega Solar Technology \\
+
+// Tier 12 - Quantum Solar Tech \\
+
+
+
+//// ********** BatteriesFuelCells ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Early Solar Panels \\
+
+// Tier 4 - Battery Tech \\
+
+// Tier 5 - Electrics \\
+
+// Tier 6 - Advanced Electrics \\
+
+// Tier 7 - High-Power Electrics \\
+
+// Tier 8 - Specialized Electrics \\
+
+// Tier 9 - Experimental Electrics \\
+
+// Tier 10 - High-Tech Electrical Systems \\
+
+// Tier 11 - High Power Electrical Systems \\
+
+// Tier 12 - Experimental Electrical Systems \\
+
+// Tier 13 - Exotic Electrical Systems \\
+
+// Tier 14 - Extreme Electrical Systems \\
+
+
+
+//// ********** SolarBeamed ********** \\\\
+
+// Tier 10 - Microwave Power Transmission \\
+
+// Tier 11 - Specialized Photovoltaic Materials \\
+
+// Tier 12 - Experimental Photovoltaic Materials \\
+
+// Tier 13 - Exotic Photovoltaic Materials \\
+
+// Tier 14 - Extreme Photovoltaic Materials \\
+
+
+
+//// ********** RocketryPumpFed ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Prototype Rocketry \\
+
+// Tier 2 - Basic Rocketry \\
+
+// Tier 3 - General Rocketry \\
+
+// Tier 4 - Advanced Rocketry \\
+
+// Tier 5 - Heavy Rocketry \\
+
+// Tier 6 - Heavier Rocketry \\
+
+// Tier 7 - Even Heavier Rocketry \\
+
+// Tier 8 - Very Heavy Rocketry \\
+
+// Tier 9 - Experimental Rocketry \\
+
+// Tier 10 - Gigantic Rocketry \\
+
+// Tier 11 - Colossal Rocketry \\
+
+
+
+//// ********** RocketryAdvancedPumpFed ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Prototype Rocketry \\
+
+// Tier 2 - Basic Rocketry \\
+
+// Tier 3 - General Rocketry \\
+
+// Tier 4 - Advanced Rocketry \\
+
+// Tier 5 - Heavy Rocketry \\
+
+// Tier 6 - Heavier Rocketry \\
+
+// Tier 7 - Experimental Propulsion \\
+
+// Tier 8 - Exotic Propulsion \\
+
+// Tier 9 - A Bit More Exotic Propulsion \\
+
+// Tier 10 - Experimental Aircraft Engines \\
+
+// Tier 11 - Hybrid Aircraft Engines \\
+
+
+
+//// ********** RocketryPressureFed ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Prototype Rocketry \\
+
+// Tier 2 - Prototype Flight Control \\
+
+// Tier 3 - Pressure Fed Propulsion \\
+
+// Tier 4 - Early Propulsion Systems \\
+
+// Tier 5 - Propulsion Systems \\
+
+// Tier 6 - Precision Propulsion \\
+
+// Tier 7 - Experimental Propulsion \\
+
+// Tier 8 - Exotic Propulsion \\
+
+// Tier 9 - A Bit More Exotic Propulsion \\
+
+// Tier 10 - Experimental Aircraft Engines \\
+
+// Tier 11 - Hybrid Aircraft Engines \\
+
+
+
+//// ********** FasterThanLight ********** \\\\
+
+// Tier 15 - Faster Than Light Technologies \\
+
+
+
+//// ********** PropulsionIon ********** \\\\
+
+// Tier 7 - Early Ion Propulsion \\
+
+// Tier 8 - Ion Propulsion \\
+
+// Tier 9 - Advanced Ion Propulsion \\
+
+// Tier 10 - Advanced Electrostatic Thrusters \\
+
+// Tier 11 - Experimental Electrostatic Thrusters \\
+
+// Tier 12 - Exotic Electrostatic Thrusters \\
+
+// Tier 13 - Exotic Plasma Propulsion \\
+
+// Tier 14 - Extreme Plasma Propulsion \\
+
+
+
+//// ********** PropulsionPlasma ********** \\\\
+
+// Tier 10 - Plasma Propulsion \\
+
+// Tier 11 - Advanced Plasma Propulsion \\
+
+// Tier 12 - Specialized Plasma Propulsion \\
+
+// Tier 13 - Exotic Plasma Propulsion \\
+
+// Tier 14 - Extreme Plasma Propulsion \\
+
+
+
+//// ********** SolidRocketBoosters ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Prototype Rocketry \\
+
+// Tier 2 - Prototype Solid Rocket Boosters \\
+
+// Tier 3 - Tiny Solid Rocket Boosters \\
+
+// Tier 4 - Small Solid Rocket Boosters \\
+
+// Tier 5 - Medium Solid Rocket Boosters \\
+
+// Tier 6 - Large Solid Rocket Boosters \\
+
+// Tier 7 - Larger Solid Rocket Boosters \\
+
+// Tier 8 - Huge Solid Rocket Boosters \\
+
+// Tier 9 - Gargantuan Solid Rocket Boosters \\
+
+
+
+//// ********** PropulsionNuclear ********** \\\\
+
+// Tier 6 - Early Nuclear Systems \\
+
+// Tier 7 - Nuclear Propulsion \\
+
+// Tier 8 - Improved Nuclear Propulsion \\
+
+// Tier 9 - Advanced Nuclear Propulsion \\
+
+// Tier 10 - Experimental Nuclear Propulsion \\
+
+// Tier 11 - Exotic Nuclear Propulsion \\
+
+// Tier 12 - High Power Exotic Nuclear Propulsion \\
+
+// Tier 13 - Extreme Nuclear Propulsion \\
+
+// Tier 14 - Insane Nuclear Propulsion \\
+
+
+
+//// ********** PropulsionFusion ********** \\\\
+
+// Tier 10 - Fusion Rockets \\
+
+// Tier 11 - Advanced Fusion Rockets \\
+
+// Tier 12 - Specialized Fusion Rockets \\
+
+// Tier 13 - Exotic Fusion Rockets \\
+
+// Tier 14 - Extreme Fusion Rockets \\
+
+
+
+//// ********** NuclearPower ********** \\\\
+
+// Tier 6 - Early Nuclear Systems \\
+
+// Tier 7 - Nuclear Power \\
+
+// Tier 8 - Improved Nuclear Power \\
+
+// Tier 9 - Advanced  Nuclear Power \\
+
+// Tier 10 - Experimental Nuclear Power \\
+
+// Tier 11 - Exotic Nuclear Power \\
+
+// Tier 12 - Antimatter Power \\
+
+// Tier 13 - Unified Field Theory \\
+
+// Tier 14 - Quantum Gravity \\
+
+
+
+//// ********** FusionPower ********** \\\\
+
+// Tier 10 - Fusion Power \\
+
+// Tier 11 - Advanced Fusion Reactions \\
+
+// Tier 12 - Exotic Reactions \\
+
+// Tier 13 - High Density Fusion Reactions \\
+
+
+
+//// ********** FuelTankStandard ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Primitive Construction \\
+
+// Tier 2 - Prototype Fuel Systems \\
+
+// Tier 3 - Early Fuel Systems \\
+
+// Tier 4 - Basic Fuel Systems \\
+
+// Tier 5 - Fuel Systems \\
+
+// Tier 6 - Advanced Fuel Systems \\
+
+// Tier 7 - Large Volume Containment \\
+
+// Tier 8 - High-Performance Fuel Systems \\
+
+// Tier 9 - Specialized Fuel Storage \\
+
+// Tier 10 - Exotic Fuel Storage \\
+
+// Tier 11 - Extreme Fuel Storage \\
+
+
+
+//// ********** FuelTankBalloon ********** \\\\
+
+// Tier 4 - Fuel Lines \\
+
+// Tier 5 - Flexible Fuel Solutions \\
+
+// Tier 6 - Advanced Flexible Fuel Systems \\
+
+// Tier 7 - Large Flexible Fuel Systems \\
+
+// Tier 8 - Huge Flexible Fuel Systems \\
+
+// Tier 9 - High Performance Flexible Fuel Systems \\
+
+// Tier 10 - Exotic Fuel Storage \\
+
+// Tier 11 - Extreme Fuel Storage \\
+
+
+
+//// ********** FuelTankNobleGas ********** \\\\
+
+// Tier 7 - Noble Gas Fuel Systems \\
+
+// Tier 10 - Lithium Fuel Systems \\
+
+
+
+//// ********** FuelTankNuclear ********** \\\\
+
+// Tier 7 - Nuclear Fuel Systems \\
+
+
+
+//// ********** ProbesSatellite ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Prototype Satellites \\
+
+// Tier 4 - Basic Satellites \\
+
+// Tier 5 - Early Satellites \\
+
+// Tier 6 - Communication Satellites \\
+
+// Tier 7 - Unkerballed Tech \\
+
+// Tier 8 - Advanced Unkerballed Tech \\
+
+// Tier 9 - Large Probes \\
+
+// Tier 10 - Artificial Intelligence \\
+
+// Tier 11 - Artificial Consciousness \\
+
+
+
+//// ********** ProbesAvionics ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Prototype Satellites \\
+
+// Tier 4 - Avionics \\
+
+// Tier 6 - Advanced Avionics \\
+
+// Tier 8 - Automation \\
+
+// Tier 9 - Mechatronics \\
+
+// Tier 10 - Artificial Intelligence \\
+
+// Tier 11 - Artificial Consciousness \\
+
+
+
+//// ********** Antenna ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Prototype Satellites \\
+
+// Tier 4 - Antenna Arrays \\
+
+// Tier 5 - Parabolic Antennas \\
+
+// Tier 6 - Low-Gain Communications \\
+
+// Tier 7 - High Gain Communications \\
+
+// Tier 8 - Signal Processing \\
+
+// Tier 9 - Digital Signal Processing \\
+
+// Tier 10 - X Band Communications \\
+
+// Tier 11 - Deep Space Optical Communications \\
+
+// Tier 12 - Quantum Communications \\
+
+
+
+//// ********** LandingGearRoverWheels ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Early Flight \\
+
+// Tier 3 - Stability \\
+
+// Tier 4 - Basic Landing \\
+
+// Tier 5 - Landing \\
+
+// Tier 6 - Field Science \\
+
+// Tier 7 - Advanced Landing \\
+
+// Tier 8 - Heavy Landing \\
+
+// Tier 9 - Advanced Motors \\
+
+
+
+//// ********** LandingSkidsBaseFrames ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - First Flight \\
+
+// Tier 2 - Early Flight \\
+
+// Tier 3 - Stability \\
+
+// Tier 4 - Basic Landing \\
+
+// Tier 5 - Landing \\
+
+// Tier 6 - Field Science \\
+
+// Tier 7 - Landing Frames \\
+
+// Tier 8 - Heavy-Duty Landing Frames \\
+
+
+
+//// ********** LaddersLights ********** \\\\
+
+// Tier 2 - Basic Re-Entry \\
+
+// Tier 3 - Survivability \\
+
+// Tier 4 - Enhanced Survivability \\
+
+// Tier 5 - Space Exploration \\
+
+// Tier 6 - Advanced Exploration \\
+
+// Tier 7 - Landing Frames \\
+
+// Tier 8 - Heavy-Duty Landing Frames \\
+
+
+
+//// ********** RCSThrusters ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Prototype Rocketry \\
+
+// Tier 2 - Prototype Flight Control \\
+
+// Tier 3 - Basic Flight Control \\
+
+// Tier 4 - Flight Control \\
+
+// Tier 5 - Advanced Flight Control \\
+
+// Tier 6 - Specialized Control \\
+
+// Tier 7 - Experimental Control \\
+
+// Tier 8 - Exotic Control \\
+
+
+
+//// ********** SASModules ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Prototype Rocketry \\
+
+// Tier 2 - Prototype Flight Control \\
+
+// Tier 3 - Basic Flight Control \\
+
+// Tier 4 - Flight Control \\
+
+// Tier 5 - Advanced Flight Control \\
+
+// Tier 6 - Specialized Control \\
+
+// Tier 7 - Experimental Control \\
+
+// Tier 8 - Exotic Control \\
+
+
+
+//// ********** LaunchEscape ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Prototype Rocketry \\
+
+// Tier 2 - Prototype Flight Control \\
+
+// Tier 3 - Basic Flight Control \\
+
+// Tier 4 - Flight Control \\
+
+// Tier 5 - Advanced Flight Control \\
+
+// Tier 6 - Specialized Control \\
+
+// Tier 7 - Experimental Control \\
+
+// Tier 8 - Exotic Control \\
+
+
+
+//// ********** HeatShields ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Basic Re-Entry \\
+
+// Tier 3 - Survivability \\
+
+// Tier 4 - Enhanced Survivability \\
+
+// Tier 5 - Heat Shields \\
+
+// Tier 6 - Heat Management Systems \\
+
+// Tier 7 - Intermediate Heat Management \\
+
+// Tier 8 - Advanced Heat Management \\
+
+// Tier 9 - Experimental Heat Management \\
+
+// Tier 10 - Specialized Radiators \\
+
+// Tier 11 - Advanced Radiators \\
+
+// Tier 12 - Exotic Radiators \\
+
+// Tier 13 - Extreme Heat Management \\
+
+
+
+//// ********** Thermal ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Basic Re-Entry \\
+
+// Tier 3 - Survivability \\
+
+// Tier 4 - Enhanced Survivability \\
+
+// Tier 5 - Heat Shields \\
+
+// Tier 6 - Heat Management Systems \\
+
+// Tier 7 - Intermediate Heat Management \\
+
+// Tier 8 - Advanced Heat Management \\
+
+// Tier 9 - Experimental Heat Management \\
+
+// Tier 10 - Specialized Radiators \\
+
+// Tier 11 - Advanced Radiators \\
+
+// Tier 12 - Exotic Radiators \\
+
+// Tier 13 - Extreme Heat Management \\
+
+
+
+//// ********** Stations ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Service Modules \\
+
+// Tier 5 - Recycling \\
+
+// Tier 6 - Hydroponics \\
+
+// Tier 7 - Early Stations \\
+
+// Tier 8 - Short-Term Habitation \\
+
+// Tier 9 - Long-Term Habitation \\
+
+// Tier 10 - Advanced Stations \\
+
+// Tier 11 - Colonization \\
+
+// Tier 12 - Advanced Colonization \\
+
+
+
+//// ********** Colonization ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Service Modules \\
+
+// Tier 5 - Recycling \\
+
+// Tier 6 - Hydroponics \\
+
+// Tier 7 - Early Stations \\
+
+// Tier 8 - Short-Term Habitation \\
+
+// Tier 9 - Long-Term Habitation \\
+
+// Tier 10 - Advanced Stations \\
+
+// Tier 11 - Colonization \\
+
+// Tier 12 - Advanced Colonization \\
+
+
+
+//// ********** LifeSupport ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Service Modules \\
+
+// Tier 5 - Recycling \\
+
+// Tier 6 - Hydroponics \\
+
+// Tier 7 - Early Stations \\
+
+// Tier 8 - Short-Term Habitation \\
+
+// Tier 9 - Long-Term Habitation \\
+
+// Tier 10 - Advanced Stations \\
+
+// Tier 11 - Colonization \\
+
+// Tier 12 - Advanced Colonization \\
+
+
+
+//// ********** Storage ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Service Modules \\
+
+// Tier 5 - Storage Tech \\
+
+// Tier 6 - Early Logistics \\
+
+// Tier 7 - Logistics \\
+
+// Tier 8 - In-Situ Resource Utilization \\
+
+// Tier 9 - Advanced Logistics \\
+
+// Tier 10 - Advanced Off-World Mining \\
+
+// Tier 11 - Resource Exploitation \\
+
+// Tier 12 - Advanced Colonization \\
+
+
+
+//// ********** Resources ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 2 - Engineering 101 \\
+
+// Tier 3 - Service Modules \\
+
+// Tier 5 - Storage Tech \\
+
+// Tier 6 - Early Logistics \\
+
+// Tier 7 - Logistics \\
+
+// Tier 8 - In-Situ Resource Utilization \\
+
+// Tier 9 - Advanced Logistics \\
+
+// Tier 10 - Advanced Off-World Mining \\
+
+// Tier 11 - Resource Exploitation \\
+
+// Tier 12 - Advanced Colonization \\
+
+
+
+//// ********** ScienceProbe ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 3 - Science 201 \\
+
+// Tier 4 - Basic Science \\
+
+// Tier 5 - Applied Science \\
+
+// Tier 6 - Exact Science \\
+
+// Tier 7 - Science Tech \\
+
+// Tier 8 - Advanced Science Tech \\
+
+// Tier 9 - Experimental Science \\
+
+// Tier 10 - Metascience \\
+
+// Tier 11 - High-Energy Science \\
+
+// Tier 12 - Applied High Energy Physics \\
+
+// Tier 13 - Ultra-High Energy Physics \\
+
+// Tier 14 - Extreme High Energy Physics \\
+
+
+
+//// ********** ScienceGround ********** \\\\
+
+// Tier 0 - Start \\
+
+// Tier 1 - Algebra \\
+
+// Tier 3 - Science 201 \\
+
+// Tier 4 - Ground Science \\
+
+// Tier 5 - Miniaturization \\
+
+// Tier 6 - Precision Engineering \\
+
+// Tier 7 - Electronics \\
+
+// Tier 8 - Specialized Science Tech \\
+
+// Tier 9 - Long-Term Science Tech \\
+
+// Tier 10 - Scientific Outposts \\
+
+// Tier 11 - High-Energy Science \\
+
+// Tier 12 - Applied High Energy Physics \\
+
+// Tier 13 - Ultra-High Energy Physics \\
+
+// Tier 14 - Extreme High Energy Physics \\
+
+
+
+//// ********** OtherParts ********** \\\\
+
+// Tier 0 - Other Parts \\
+
+
+
+//// ********** Unresearchable ********** \\\\
+
+#N/A

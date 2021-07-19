@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.3.0; 17 December 2020; KSP 1.9.1 - 1.10.1
+## Version 2.0.0 [Super Pre-Alpha]; 18 July 2021; KSP 1.12.1
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -28,8 +28,8 @@ A "Probes/Planes Before Crew" type overhaul of the Tech Tree inspired by Zee's [
   * Provides a new gameplay challenge to consider how to best balance engine burns alongside limited ignitions. Note that some engines will require external ignitors which require the use of launch clamps.
 * [Rational Resources](https://forum.kerbalspaceprogram.com/index.php?/topic/184875-rational-resources-v1110-sep-20-2020/)
   * Rational Resources implements some cold gas RCS modes into stock, ReStock+ and NF RCS blocks.  I've added upgrades to these parts and this will be how KTT handles RCS upgrades.  Be aware that this mod changes the distribution of planet resources and ISRU chains!
-* [Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
-  * Support for Stock; GPP, GEP, OPM; and MPE.
+* [Celestial Body Science Param Editor](https://github.com/DMagic1/Science-Param-Loader)
+  * Support for Stock; GPP, GEP, GU, JNSQ, OPM; and MPE. Changes disabled if Sigma Dimensions used with this.
   
 ## Recommended Gameplay Mods
 * [Kerbal Construction Time](https://forum.kerbalspaceprogram.com/index.php?/topic/182877-173-18x-19x-kerbal-construction-time-unrapid-planned-assembly/)
@@ -422,8 +422,8 @@ Shuffled the tech nodes. Slight cost rebalancing. **No change to any features in
 ## Science Pancake 1.0.0
 Shuffled the tech node.
 
-## Science Param Editor 12.0
-Increases science within Kerbin slightly, but generally decreases the multiplier of most other planets.  Current support for Stock, Galileo Planet Pack, Grannus Expansion Pack, Outer Planets Mod, and Minor Planets Expansion.
+## (Celestial Body Science Param Editor 12.0
+Increases science within Kerbin slightly, but generally decreases the multiplier of most other planets.  Current support for Stock, Galileo Planet Pack, Grannus Expansion Pack, Outer Planets Mod, and Minor Planets Expansion, JNSQ, and Galaxies Unbound.  Changes disabled if Sigma Dimensions is detected.
 
 ## Smart Docking Aid 1.0
 As SAS levels are available only through upgrades, the docking aid is added to ALL probes.  It currently is not possible to make it available when probes are upgraded.  It's use thus functionally needs to be "role played".
@@ -485,8 +485,12 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [OpenTree](https://www.curseforge.com/kerbal/ksp-mods/opentree)
 * [RP-1](https://forum.kerbalspaceprogram.com/index.php?/topic/190040-rp-1-realistic-progression-one-v141-for-ksp-181/)
 * [Less Real Than Real(ism)](https://forum.kerbalspaceprogram.com/index.php?/topic/189978-181-less-real-than-realism-rp-1-with-less-r-v12/)
+* [Community Agencies Revival Project](https://forum.kerbalspaceprogram.com/index.php?/topic/203553-carp-community-agencies-revival-project/)
+* [TechTree Kompacted](https://forum.kerbalspaceprogram.com/index.php?/topic/199096-111x-techtree-kompacted-12/)
+* [CSI Tech Tree](https://forum.kerbalspaceprogram.com/index.php?/topic/202292-wip111x-csi-tech-tree-03-bdb-thoughts/)
 
 ## Changelog
+* 2.0.0 () New Tech Tree Nodes; New Upgrade System; Fixed Typo in CustomBarnKit compatibility thanks to Tony48 for picking out; Added support for Galaxies Unbound for the Celestial Body Science Editor modlet; 
 * 1.3.0 (17 December 2020): Added support for Blue Steel, Tantares and TantaresSP; Background work for TantaresLV complete (not yet integrated into mod, waiting for next LV release); Converted the EVA Propellant to MonoPropellant for KIS and US2 EVA packs when Kerbalism is installed (thanks to Kerbalism discord user Snoman for the suggestion); Moved Knes Calypso fuel tank to Large Volume Containment; Lowered vacuum ISP of several stock engines; Added support for large fuel tank upgrades if TantaresLV installed; Lowered RCS ISP of Hacimachi Control Unit in Knes (Thanks Clamp-O-Tron); Moved air launch availability for KCT earlier in the tech tree and added descriptions about the restrictions available for airlaunches in the tech tree descriptions (Thanks Clamp-O-Tron); Clarified names of structural and fuel tank upgrades in part descriptions and indicated branch for probe SAS upgrades (Recommended by forum user Majk); Moved Spad Engine to start for AirplanePlus; Moved several Kerbalism experiments specific to Interkosmos and Coatl Aerospace to a general framework that is applicable to experiments across Tantares and will be for BDB. Added toggle to disable some Stock and Making History Engines from converting to LH2 if CryoEngines is installed (Suggestion from flart).
 * 1.2.0 (28 November 2020): Moved several aircraft structural parts earlier in the tree for stock and an engine from Airplanes Plus; Added limited Community Parts Titles compatibility (See Github for details on what this means if this is relevant to you); Added CommNet Antennas Extension Support; Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); Added one kerbuck to the entry cost of part upgrades to distinguish them from parts (suggestion by flart); Fixed missing entry costs for upgrades in Tundra Exploration; Added a difficulty science setting in Kiwi Config to add variation in the science points required; Added toggle to disable Battery, Command Pod, Fuel Tank, Parachute, RCS, SAS, Solar, Space Capability, Structural, and Space System Upgrades; Confirmed continued support for Rational Resources 1.13.0 and Deep Sky Core 3.1.0; Added correct NEEDS to kdex science experiment for Coatl Aerospace; Fixed incorrectly referenced upgrade for Lithium fuel tanks; Fixed missing plumes for Poodle/Malshi when ReStock not installed; Rebalanced a couple of costs of parts from SSPX; Added support for MonoPropellant engines which had MonoPropellant fuel tanks in engine upgrade patches; Fixed issue in which Stock and Making History engines converted when Cryo Engines is installed incorrectly required ReStock.
 * 1.1.0 (20 November 2020): Adds Asset Mk1, Bureaucracy via CustomBarnKit, Stock TKS, Tundra Exploration, and Tundra Technologies Support; Standardized RCS Cold Gas Thruster Upgrade (Implemented when Rational Resources is installed); Minor code cleanup in Internal RCS; Added additional engine upgrade configs; Fixed incorrect FOR in various Kerbalism configs potentially leading to conflicts with Kerbalism not installed; Added better compatibility with Engine Ignitor and Kerbalism. Confirmed continued compatibility with updated Modular Launchpads, Conformal Decals, Smart Docking Aid.
