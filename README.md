@@ -1,6 +1,6 @@
 # Kiwi's Tech Tree Overhaul
 
-## Version 1.5.0 (Pre-Alpha); 23 July 2021; KSP 1.11.2
+## Version 1.5.0 (Pre-Alpha); 24 July 2021; KSP 1.11.2
 
 ![Kiwi Tech Tree Overhaul](https://i.imgur.com/40Dyh8H.png)
 
@@ -112,7 +112,7 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Configurable Containers 2.6.1 ** See Special Note Below **
 * CRE Stockalike British Rocketry 2.0
 * Cryogenic Engines 2.0.1
-* CryoTanks 1.5.2
+* CryoTanks 1.6.1
 * CustomBarnKit 1.1.21.0
 * Decoupler Shroud 0.7.2
 * Deep Sky Core 3.1.0
@@ -159,14 +159,14 @@ I have added support to a fair number of the mods that I support within KTT and 
 * Mk2 Stockalike Expansion 1.8.9.3
 * Mk3 Stockalike Expansion 1.5.1
 * Modular Launch Pads 2.1.2
-* Near Future Aeronautics 2.0.0Xingyun-2
-* Near Future Construction 1.2.3
-* Near Future Electrical 1.1.3
-* Near Future Exploration 1.0.10
-* Near Future Launch Vehicles 2.0.3
+* Near Future Aeronautics 2.1.1
+* Near Future Construction 1.3.1
+* Near Future Electrical 1.2.3
+* Near Future Exploration 1.1.2
+* Near Future Launch Vehicles 2.2.0
 * Near Future Propulsion 1.2.2
-* Near Future Solar 1.2.3
-* Near Future Spacecraft 1.3.3
+* Near Future Solar 1.3.2
+* Near Future Spacecraft 1.4.2
 * Planetside Exploration
 * Rational Resources 1.13.0
 * RealPlume-Stock 4.0.1
@@ -177,10 +177,11 @@ I have added support to a fair number of the mods that I support within KTT and 
 * SimpleAdjustableFairings-KWRocketry 1.3.0
 * SmartParts 1.9.16
 * Smart Docking Aid 1.0
+* Space Dust 0.4.1
 * Starlink Satellite Pack 1.1.0
 * Stock TKS 1.0
 * Stockalike Mining Extension 1.1.6
-* Stockalike Station Parts Expansion Redux 1.3.6
+* Stockalike Station Parts Expansion Redux 1.4.0
 * Stockish Project Orion 1.8.1
 * Super Heavy Boosters Historical - Nexus 2.0.200524 (Limited Support)
 * Tantares 23.2
@@ -267,8 +268,8 @@ Rebalanced tech nodes and balanced a few of the costs.  Also nerfed the fuel cap
 ## Cryogenic Engines 2.0.1
 Shuffled the Tech Tree with some cost rebalancing and B9PS engine upgrades. Lowered the vacuum ISP of some engines so upgraded variants are not as close to the theoretical maximum for Hydrolox fuel. Will convert some Stock, Making History, and ReStock+ to cryogenic engines if they were originally based off crogenic engines.
 
-## CryoTanks 1.5.2
-Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to look a busy...
+## CryoTanks 1.6.1
+Created 1.875m variants of the Hydrogen Tanks based off the 2.5m parts; Adding CryoTanks replaces the default fuel tank weight upgrades with a "composite" fuel type to avoid issues with massless hydrogen tanks.  It creates enough switches to probably look too busy...
 
 ## CustomBarnKit 1.1.21.0
 If installed, will provide custom part counts for VAB and SPH.  Unique configurations exist for Sigma Dimensions, JNSQ, and Bureaucracy (which differs depending on the presence of JNSQ, Sigma Dimensions or stock-sized planets).
@@ -408,30 +409,30 @@ Shuffled the tech nodes.  Added engine B9 Upgrades.  Structural part upgrades pa
 ## Modular Launch Pads 2.1.2
 Adds support for launch pads installed by other mods into General Launch Pads.
 
-## Near Future Aeronautics 2.0.0
+## Near Future Aeronautics 2.1.1
 Repositioning of the tech nodes. Some cost rebalancing  Added B9PS Upgrades to parts. If installed, it will move the stock Whiplash one level earlier to try to avoid it being obsolete upon researching it. **If Kerbalism with FeatureRadiation is installed, it adds emitted radiation to atomic engines.**
 
-## Near Future Construction 1.2.3
+## Near Future Construction 1.3.1
 Repositioning of the tech nodes.  Added B9PS Upgrades to parts.
 
-## Near Future Electrical 1.1.3
+## Near Future Electrical 1.2.3
 Slight repositioning of the tech nodes. If Decaying RTGs installed as an optional mod, doubles the half-life to allow the RTGs to be more useful for OPM or other large scale missions.  Also adds decaying RTGs to several mods with always-on generators.
 
-## Near Future Exploration 1.0.10
-Repositioning of the tech nodes.  Will move several of the stock antennae further into the tech tree, will require using multiple antenna and reflectors to get further from Kerbin earlier in the tech tree.  Adds methane variants to fuel tanks of CryoTanksMethalox is installed. **If Kerbalism with FeatureScience is installed: Modifies custom HDD quantities.**
+## Near Future Exploration 1.1.2
+Repositioning of the tech nodes.  Will move several of the stock antennae further into the tech tree, will require using multiple antenna and reflectors to get further from Kerbin earlier in the tech tree.  Adds methane variants to fuel tanks of CryoTanks is installed. **If Kerbalism with FeatureScience is installed: Modifies custom HDD quantities.**
 
-## Near Future Launch Vehicles 2.0.3
+## Near Future Launch Vehicles 2.2.0
 Added B9 Engine Upgrades; Reposition stock and restock engines if LV is installed; Added B9 Upgrade to Fuel Tanks. Cost rebalancing of engines.
 
 ## Near Future Propulsion 1.2.2
 If installed, we will move the Xenon tanks to noble gas fuel system nodes in the tech tree.  I've added B9 Part Upgrades to Argon and Xenon engines.  Of particular note, as a third tier upgrade to the Argon Hall Thrusters, I have added a Argon/Xenon mix based on the ideas of Diop, Gibert, and Bouchoule (2019) and Yamasaki, Yokota, and Shimamura (2019), that suggests that mixing Xenon and Argon can improve Argon efficiency, while the latter further notes that having a longer discharge channel is able to promote argon ionization, hence higher efficiency. As the hall thrusters had a bit higher thrust relative to xenon for the size class and efficiency, I balanced the VASIMR engines to reflect that gameplay element.  I also increased the cost of Xenon in the stock if Propulsion is installed.  Currently 2.5x the original cost and have modified any Xenon tank costs to reflect that change.
 
-## Near Future Solar 1.2.3
+## Near Future Solar 1.3.2
 If installed, this will place solar a touch earlier in the tech tree and place most stock parts available a bit earlier.  I've also added B9PS support to the panels, having advanced and concentrated panels similar to NF Solar (no visual difference as seen in Nertea's version). I also spread Nertea's solar parts further through the tech tree and added concentrated part variants to those parts which excluded (Just used the Advanced textures in cases where there were no concentrated versions of the textures). The basic layout is that fixed panels came first, then deployable, but non-tracking, then deployable and tracking.  Along the nodes we have upgrades to each of these variants.
 
 Lastly, the advanced and concentrated versions of both Nertea and stock require a tech upgrade to access.  Advanced will occur one level above the part, Concentrated two levels.
 
-## Near Future Spacecraft 1.3.3
+## Near Future Spacecraft 1.4.2
 Rebalanced Tech Nodes; Added LF/O Upgrade to Orbital Maneuvering Engines alongside PlumeParty/RealPlume support. Renamed a couple of command pods to align with my naming convention of the stock pods. Undeprecate the Monopropellant fuel tanks as they provide some variety to the fuel tanks, they don't look as bad as Nertea thinks they look. If Rational Resources is installed, it will add additional cold gasses that are available to use with RCS blocks. **If Kerbalism with FeatureScience is installed, it will re-balance the HDD modules.  Adds a panoramic view to the Phoebe. If FeatureRadiation is installed, it adds a radiation emitter to the RTG in the 2.5m utility pod, but "balanced" by the fact that it has a radiation sickness bay added by Kerbalism (irony?)**
 
 ## Rational Resources 1.13.0
@@ -464,6 +465,9 @@ As SAS levels are available only through upgrades, the docking aid is added to A
 ## SmartParts 1.9.16
 Shuffled the tech node.  Added 0.625m and 5m fuel breakers.
 
+## Space Dust 0.4.1
+Shuffled the tech nodes.
+
 ## Starlink Satellite Pack 1.1.0
 Shuffled the tech nodes.  Automatically applied the KSP-sized patch for the satelites.  Nerfed the solar panel and EC storage. **If Kerbalism with FeatureScience is installed, adds customm HDD modules and custom data transmit speeds.  Also adds a custom experiment to these parts, a 5 year experiment, "Internet Experiment" that is available within the home system.**
 
@@ -473,8 +477,8 @@ Shuffled the tech nodes.  Added B9 upgrades.  ** If Kerbalism with FeatureScienc
 ## Stockalike Mining Extension 1.1.6
 Shuffled the tech nodes.  Added B9 upgrades to mass driver engines.  If installed, will move the stock ISRU's one tier later in the tech tree.
 
-## Stockalike Station Parts Expansion Redux 1.3.6
-Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr.  Also adds the Visual Observation to stock and KPBS cupolas. **Keeps the current Kerbalism configs intact.**
+## Stockalike Station Parts Expansion Redux 1.4.0
+Shuffled the tech nodes.  Added B9PS Upgrades based on the size of the parts (1.25, 2.5, and 3.75). If installed, it will move a couple of the stock parts to align with the 2.5 meter parts in SSPXr.  Also adds the Visual Observation experiment to stock and KPBS cupolas as well as the 2.5m size observeratory. **Keeps the current Kerbalism configs intact.**
 
 ## Stockish Project Orion 1.8.1
 Note in this version, some textures are incorrectly specified and the restock whitelist is missing some required textures.  If this mod has not been updated from 1.8.1, you can find the solutions within its Github issues page filed by hemeac. Shuffled the tech nodes. Reduced the cost of the atomic pulse units by 80% to make it a more viable form of transportation. Cost balancing of container parts as they were incorrectly specified. Standard B9 strucutral upgrades. Medusa and Orion engine have a mass reduction upgrade (untested if making them lighter is better as the mass may make them less controllable...) **If Kerbalism with FeatureScience is installed, it adds custom HDD modules and Lab group science to the lab; If FeatureRadiation is installed, it will add emitters to Orion and Medusa engines; If FeatureComfort is installed, it adds Radiation shower and TV slots to station components.**
@@ -523,7 +527,7 @@ Shuffled the tech nodes.  Resccaled the satelite for KSP system.  **If Kerbalism
 * [Hide Empty Tech Tree Nodes](https://forum.kerbalspaceprogram.com/index.php?/topic/118305-110x-hide-empty-tech-tree-nodes-for-modded-tech-trees-v120/&tab=comments#comment-2117559)
 
 ## Changelog
-* 1.5.0 (22 July 2021): Fixed typo in CustomBarnKit courtesy of Tony48; Fixed LqdHydrogen typo in Mk-33 courtesy of Wallum; Removed methalox variants from hydrolox engines in CryoEngines. MechJeb2 Patch courtesy of Coyote21. Kerbal Foundries 2 2.4.8.18 support courtesy of Coyote21. Research Bodies 1.12.0 support courtesy of Coyote21. MoistTech support courtesy of Coyote21; Planetside Exploration support courtesy of Coyote21. Added tier nodes and EC generation for solar panels courtesy of Flart. Updated support for Cryo Engines; Added Fusion and Antimatter Fuel Tank Upgrades; Added support for Far Future Technologies. Disabled custom RealPlume patch for Kerbal Atomoics if Waterfall is installed. Check compatibility with Kerbalism 3.14, Fuji 1.3.1, Heat Control 0.6.0, Added support for KerbalAtomicsLH2NTRModSupport due to fix in Kerbal Atomics 1.3.0 (Note that some of the multi-mode of ReStock+ and Missing History Nuclear engines may have changed in this patch due to changes in Kerbal Atomics, add KerbalAtomicsLH2NTRModSupport if you want them to have dual-mode). Updated support to Knes 1.9.7. Updated support to Luciole 1.6.
+* 1.5.0 (24 July 2021): Fixed typo in CustomBarnKit courtesy of Tony48; Fixed LqdHydrogen typo in Mk-33 courtesy of Wallum; Removed methalox variants from hydrolox engines in CryoEngines. MechJeb2 Patch courtesy of Coyote21. Kerbal Foundries 2 2.4.8.18 support courtesy of Coyote21. Research Bodies 1.12.0 support courtesy of Coyote21. MoistTech support courtesy of Coyote21; Planetside Exploration support courtesy of Coyote21. Added tier nodes and EC generation for solar panels courtesy of Flart. Updated support for Cryo Engines; Added Fusion and Antimatter Fuel Tank Upgrades; Added support for Far Future Technologies. Disabled custom RealPlume patch for Kerbal Atomoics if Waterfall is installed. Check compatibility with Kerbalism 3.14, Fuji 1.3.1, Heat Control 0.6.0, Near Future Exploration 1.1.2, Near Future Aeronautics 2.1.1, Stockalike Station Parts Expansion Redux 1.4.0, Near Future Launch Vehicles 2.2.0, Cryotanks 1.6.1, Near Future Spacecraft 1.4.2, Near Future Construction 1.3.1, Near Future Solar 1.3.2, Near Future Electrical 1.2.3, Near Future Propulsion 1.3.4. Added support for KerbalAtomicsLH2NTRModSupport due to fix in Kerbal Atomics 1.3.0 (Note that some of the multi-mode of ReStock+ and Missing History Nuclear engines may have changed in this patch due to changes in Kerbal Atomics, add KerbalAtomicsLH2NTRModSupport if you want them to have dual-mode). Updated support to Knes 1.9.7. Updated support to Luciole 1.6. Added support for Space Dust 0.4.1.
 * 1.4.0 (20 January 2021): Color coded upgrades to be green in the tech tree for easier identification (Thanks Freethinker); Removed patch that adds 1 kerbuck to partupgrades as it is now redundant; Eased transition of save games to Kiwi Tech Tree (Thanks Freethinker); Support for SimpleAdjustableFairings-KWRocketry (Thanks evileye.x for the patch) Fixed the Swivel ASL ISP (thanks antilochus for logging issue); Fixed bug causing spontaneous combustion of Kerbals if mods add ElectricCharge to them (thanks WLLP for logging issue); Adds MechJeb Config (Thanks Clamp-O-Tron for the Pull Request); Disable Fuel Tank Upgrades if Configurable Containers is installed (Thanks DeadJohn for logging issue); Nerfed Cheetah and Wolfhound engines from Making History (Thanks to Darkherring (Discord) for logging issue). Added partial support for KerbalAtomicsLH2NTRModSupport [Github Issue](still requires fix in Kerbal Atomics, see https://github.com/post-kerbin-mining-corporation/KerbalAtomics/issues/90) (Thanks WLLP for logging issue). Added  JNSQ Science Param Config (Thanks Kwebib for logging the issue). Fixed support for Commnet Antennas Extensions (Thanks Flart for PR); Fixed xmitScalar on two science experiments in Interkosmos (Thanks Flart for PR)
 * 1.3.0 (17 December 2020): Added support for Blue Steel, Tantares and TantaresSP; Background work for TantaresLV complete (not yet integrated into mod, waiting for next LV release); Converted the EVA Propellant to MonoPropellant for KIS and US2 EVA packs when Kerbalism is installed (thanks to Kerbalism discord user Snoman for the suggestion); Moved Knes Calypso fuel tank to Large Volume Containment; Lowered vacuum ISP of several stock engines; Added support for large fuel tank upgrades if TantaresLV installed; Lowered RCS ISP of Hacimachi Control Unit in Knes (Thanks Clamp-O-Tron); Moved air launch availability for KCT earlier in the tech tree and added descriptions about the restrictions available for airlaunches in the tech tree descriptions (Thanks Clamp-O-Tron); Clarified names of structural and fuel tank upgrades in part descriptions and indicated branch for probe SAS upgrades (Recommended by forum user Majk); Moved Spad Engine to start for AirplanePlus; Moved several Kerbalism experiments specific to Interkosmos and Coatl Aerospace to a general framework that is applicable to experiments across Tantares and will be for BDB. Added toggle to disable some Stock and Making History Engines from converting to LH2 if CryoEngines is installed (Suggestion from flart).
 * 1.2.0 (28 November 2020): Moved several aircraft structural parts earlier in the tree for stock and an engine from Airplanes Plus; Added limited Community Parts Titles compatibility (See Github for details on what this means if this is relevant to you); Added CommNet Antennas Extension Support; Fixed Mk-16 Parachute placed in non-existent node (Thanks to Github user: d4harp); Added more Engine Ignitor compatibility (Thanks to Clamp-o-Tron); Added support for Kerbal Atomics Extras Patch (Thanks to dylsh for identifying issue): NTRsUseLF; Actually fixed compatibility with Smart Docking Aid update (thanks to flart for identifying issue); Added one kerbuck to the entry cost of part upgrades to distinguish them from parts (suggestion by flart); Fixed missing entry costs for upgrades in Tundra Exploration; Added a difficulty science setting in Kiwi Config to add variation in the science points required; Added toggle to disable Battery, Command Pod, Fuel Tank, Parachute, RCS, SAS, Solar, Space Capability, Structural, and Space System Upgrades; Confirmed continued support for Rational Resources 1.13.0 and Deep Sky Core 3.1.0; Added correct NEEDS to kdex science experiment for Coatl Aerospace; Fixed incorrectly referenced upgrade for Lithium fuel tanks; Fixed missing plumes for Poodle/Malshi when ReStock not installed; Rebalanced a couple of costs of parts from SSPX; Added support for MonoPropellant engines which had MonoPropellant fuel tanks in engine upgrade patches; Fixed issue in which Stock and Making History engines converted when Cryo Engines is installed incorrectly required ReStock.
