@@ -1,0 +1,156 @@
+///Engines
+//Able
+@PARTUPGRADE[bluedog_Able1]:AFTER[Bluedog_DB]
+{
+	@techRequired = advRocketry
+}
+
+@PARTUPGRADE[bluedog_Able2]:AFTER[Bluedog_DB]
+{
+	@techRequired = heavyRocketry
+}
+
+//Agena
+@PARTUPGRADE[bluedog_agenaB]:AFTER[Bluedog_DB]
+{
+	@techRequired = heavierRocketry
+}
+
+@PARTUPGRADE[bluedog_agenaD]:AFTER[Bluedog_DB]
+{
+	@techRequired = evenHeavierRocketry
+}
+
+@PARTUPGRADE[bluedog_agenaHDA]:AFTER[Bluedog_DB]
+{
+	@techRequired = evenHeavierRocketry
+}
+
+@PARTUPGRADE[bluedog_agenaAdvanced]:AFTER[Bluedog_DB]
+{
+	@techRequired = veryHeavyRocketry
+}
+
+//Atlas
+@PARTUPGRADE[bluedog_Atlas1]:AFTER[Bluedog_DB]
+{
+	@techRequired = evenHeavierRocketry
+}
+
+@PARTUPGRADE[bluedog_Atlas2]:AFTER[Bluedog_DB]
+{
+	@techRequired = veryHeavyRocketry
+}
+
+//Centaur
+@PARTUPGRADE[bluedog_RL100|bluedog_VegaU]:AFTER[Bluedog_DB]
+{
+	@techRequired = heavierCryoRocketry
+}
+
+@PARTUPGRADE[bluedog_RL1001]:AFTER[Bluedog_DB]
+{
+	@techRequired = evenHeavierCryoRocketry
+}
+
+//Engines
+@PARTUPGRADE[bluedog_E1_Gen2]:AFTER[Bluedog_DB]
+{
+	@techRequired = giganticCryoRocketry
+}
+
+@PARTUPGRADE[bluedog_M1_Gen2]:AFTER[Bluedog_DB]
+{
+	@techRequired = colossalCryoRocketry
+}
+
+@PARTUPGRADE[XLR129_350K]:AFTER[Bluedog_DB]
+{
+	@techRequired = colossalCryoRocketry
+}
+
+//Jupiter
+@PARTUPGRADE[bluedog_JPL45K_gen2]:AFTER[Bluedog_DB]
+{
+	@techRequired = heavierRocketry
+}
+
+//Redstone
+@PARTUPGRADE[bluedog_Redstone1]:AFTER[Bluedog_DB]
+{
+	@techRequired = advRocketry
+}
+
+//Castors
+@PARTUPGRADE[bluedog_Castor2]:AFTER[Bluedog_DB]
+{
+	@techRequired = mediumBoosters
+}
+
+@PARTUPGRADE[bluedog_CastorIV]:AFTER[Bluedog_DB]
+{
+	@techRequired = largeBoosters
+}
+
+//Stars
+@PARTUPGRADE[bluedog_Star1]:AFTER[Bluedog_DB]
+{
+	@techRequired = mediumBoosters
+}
+
+@PARTUPGRADE[bluedog_Star2]:AFTER[Bluedog_DB]
+{
+	@techRequired = largeBoosters
+}
+
+@PARTUPGRADE[bluedog_Star3]:AFTER[Bluedog_DB]
+{
+	@techRequired = hugeBoosters
+}
+
+//Thor
+@PARTUPGRADE[bluedog_LR79NA13]:AFTER[Bluedog_DB]
+{
+	@techRequired = heavierRocketry
+}
+
+@PARTUPGRADE[bluedog_RS27]:AFTER[Bluedog_DB]
+{
+	@techRequired = evenHeavierRocketry
+}
+
+@PARTUPGRADE[bluedog_RS27A]:AFTER[Bluedog_DB]
+{
+	@techRequired = veryHeavyRocketry
+}
+
+//Titan
+@PARTUPGRADE[bluedog_LR87LH21]:AFTER[Bluedog_DB]
+{
+	@techRequired = evenHeavierCryoRocketry
+}
+
+@PARTUPGRADE[bluedog_LR87LH22]:AFTER[Bluedog_DB]
+{
+	@techRequired = veryHeavyCryoRocketry
+}
+
+@PARTUPGRADE[bluedog_Transtage_34D]:AFTER[Bluedog_DB]
+{
+	@techRequired = veryHeavyRocketry
+}
+
+@PARTUPGRADE[bluedog_LR87AJ5]:AFTER[Bluedog_DB]
+{
+	@techRequired = evenHeavierRocketry
+}
+
+@PARTUPGRADE[bluedog_LR87AJ11]:AFTER[Bluedog_DB]
+{
+	@techRequired = veryHeavyRocketry
+}
+
+//SAS
+!PARTUPGRADE[bluedog_SAS1]{}
+!PARTUPGRADE[bluedog_SAS2]{}
+!PARTUPGRADE[bluedog_SAS3]{}
