@@ -1,0 +1,80 @@
+// Kiwi's Tech Tree Overhaul (Hephaistos by Superpenguin160 - Compat Patch authored by CessnaSkyhawk)
+// Last Updated: July 31 2021
+// July 31 2021: Inital Patch Creation an
+
+@PART[SP_vulcanPayloadFairing]:AFTER[Bluedog_DB]
+{
+	@TechRequired = exoticAlloys
+}
+
+@PART[SP_engineBE4]:AFTER[Bluedog_DB]
+{
+	@TechRequired = experimentalCryoRocketry
+}
+
+@PART[bluedog_Delta_GEM63XL]:AFTER[Bluedog_DB]
+{
+	@TechRequired = gargantuanBoosters
+}
+
+@PART[bluedog_Centaur_RL10_LV2]:AFTER[Bluedog_DB]
+{
+	@TechRequired = experimentalCryoRocketry
+}
+
+@PART[SP_largeACESTank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = specializedFuelStorage
+}
+
+@PART[SP_smallACESTank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = specializedFuelStorage
+}
+
+@PART[SP_vulcanMainTank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = specializedFuelStorage
+}
+
+@PART[Decoupler_3125]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advancedEnginePlates
+}
+
+@PART[SP_vulcanBiAdaptor]:AFTER[Bluedog_DB]
+{
+	@TechRequired = exoticAlloys
+}
+
+@PART[SP_vulcanQuadAdaptor]:AFTER[Bluedog_DB]
+{
+	@TechRequired = exoticAlloys
+}
+
+@PART[SP_vulcanHeatShield]:AFTER[Bluedog_DB]
+{
+	@TechRequired = experimentalHeatManagement
+}
+
+@PART[FuelCell_ACES]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advPVMaterials
+}
+
+@PART[SP_vulcanParafoil]:AFTER[Bluedog_DB]
+{
+	@TechRequired = experimentalFlightSystems
+}
+
+
+//Centaur
+@PARTUPGRADE[bluedog_RL100|bluedog_VegaU]:AFTER[Bluedog_DB]
+{
+	@techRequired = heavierCryoRocketry
+}
+
+@PARTUPGRADE[bluedog_RL1001]:AFTER[Bluedog_DB]
+{
+	@techRequired = evenHeavierCryoRocketry
+}
