@@ -1,0 +1,1082 @@
+// Kiwi's Tech Tree Overhaul (Bluedog_DB by Cobalt Wolf - Compat Patch authored by CessnaSkyhawk)
+// Last Updated: July 31 2021
+// July 31 2021: Inital Patch Creation an
+
+
+// Tier -1 deprecated
+@PART[bluedog_upgrade_logo]:AFTER[Bluedog_DB]
+{
+	@TechRequired = deprecated
+}
+
+@PART[*]:FINAL 
+{ 
+	@description = #$description$ <color=#7F7F7F> [$name$]</color> 
+}
+
+//// Other \\\\
+// Tier 0 - otherParts
+
+@PART[FASA_Launch*|FASA_Umbilical*]:AFTER[Bluedog_DB]
+{
+	@TechRequired = otherParts
+}
+
+//// ********* Actuators, Attachments ********* \\\\
+// Tier 0 - start
+
+// Tier 1 - basicRocketry
+
+// Tier 2 - basicConstruction
+
+// Tier 3 - generalConstruction
+
+// Tier 4 - advConstruction
+
+// Tier 5 - actuators
+
+// Tier 6 - advActuators
+
+// Tier 7 - experimentalActuators
+
+// Tier 8 - offworldManufacturing
+
+
+//// ********* Aerodynamics ********* \\\\
+
+// ***** Cockpits and Engines and Air Intakes ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - earlyFlight
+
+// Tier 2 - stability
+
+// Tier 3 - aviation
+
+// Tier 4 - streamlinedFlight
+
+// Tier 5 - supersonicFlight
+
+// Tier 6 - highAltitudeFlight
+
+// Tier 7 - hypersonicFlight
+
+// Tier 8 - aerospaceTech
+
+// Tier 9 - experimentalAerospaceTech
+
+// ***** Structural & Wings & Plane Fuel Tanks ***** \\
+// Tier 0 - start
+
+// Tier 1 - earlyFlight
+@PART[bluedog_Scout_Algol_Fin]:AFTER[Bluedog_DB]
+{
+	@TechRequired = earlyFlight
+}
+// Tier 2 - stability
+@PART[bluedog_Redstone_Fin_Basic|bluedog_Redstone_Fin_CtrlSurf]:AFTER[Bluedog_DB]
+{
+	@TechRequired = stability
+}
+// Tier 3 - aviation
+@PART[bluedog_Redstone_AirVane]:AFTER[Bluedog_DB]
+{
+	@TechRequired = aviation
+}
+// Tier 4 - aerodynamicSystems
+@PART[bluedog_Mercury_Airbrake|bluedog_Delta_Fin|bluedog_Thor_CZFin]:AFTER[Bluedog_DB]
+{
+	@TechRequired = aerodynamicSystems
+}
+// Tier 5 - advAerodynamics
+
+// Tier 6 - heavyAerodynamics
+@PART[bluedog_CELV_Fin]:AFTER[Bluedog_DB]
+{
+	@TechRequired = heavyAerodynamics
+}
+// Tier 7 - experimentalAerodynamics
+
+// Tier 8 - aerospaceComposites
+
+// Tier 9 - advAerospaceEngineering
+
+
+
+// ***** Rotors & VTOLS ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - earlyFlight
+
+// Tier 2 - stability
+
+// Tier 3 - aviation
+
+// Tier 4 - subsonicFlight
+
+// Tier 5 - efficientFlightSystems
+
+// Tier 6 - advancedFlightSystems
+
+// Tier 7 - specializedFlightSystems
+
+// Tier 8 - experimentalFlightSystems
+
+
+
+
+//// ********* Command Modules ********* \\\\
+
+// ***** Command Modules ***** \\
+
+// Tier 4 - simpleCommandModules or simpleCommandModulesExtensions
+@PART[bluedog_Mercury_Capsule]:AFTER[Bluedog_DB]
+{
+	@TechRequired = simpleCommandModules
+}
+
+// Tier 5 - commandModules or commandModulesExtensions
+@PART[bluedog_Gemini_Capsule]:AFTER[Bluedog_DB]
+{
+	@TechRequired = commandModules
+}
+
+@PART[bluedog_Gemini_LanderCan|bluedog_BigG_Cabin|bluedog_Gemini_RumbleSeat]:AFTER[Bluedog_DB]
+{
+	@TechRequired = commandModulesExtensions
+}
+
+// Tier 6 - heavyCommandModules or heavyCommandModulesExtensions
+
+// Tier 7 - specializedCommandModules
+
+// Tier 8 - specializedCommandCenters or specializedLanders
+
+// Tier 9 - heavyLanders or heavyCommandCenters
+
+
+// ***** Re-entry Pods ***** \\
+
+// Tier 3 - basicReentryModule
+
+// Tier 4 - reentryModule
+
+// Tier 5 - advancedReentryModule
+
+
+//// ********* Construction ********* \\\\
+
+// ***** Adapters, Fairings, Rocket Nose Cones ***** \\
+// Tier 0 - start
+
+// Tier 1 - basicRocketry
+@PART[bluedog_FairingBase_0p625m*|bluedog_VanguardFairing*]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicRocketry
+}
+
+// Tier 2 - basicConstruction
+@PART[bluedog_Juno1_Nose|bluedog_FairingBase_0p9375m*|bluedog_Ablestar_Fairing_SAF|bluedog_Agena_SAC]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicConstruction
+}
+
+// Tier 3 - generalConstruction
+@PART[bluedog_Sparta_0p625mAdapter|bluedog_FairingBase_1p25m*]:AFTER[Bluedog_DB]
+{
+	@TechRequired = generalConstruction
+}
+
+// Tier 4 - Advanced Construction - advConstruction
+@PART[bluedog_Juno2FairingBase*|bluedog_Juno4_FairingBase*|bluedog_Ranger_PayloadDeck|bluedog_Titan1_StructuralAdapter|bluedog_Delta_DoubleBarrelAdapter|bluedog_Thor_0p9375mAdapter|bluedog_Thor_1p25mAdapter_Long|bluedog_Thor_1p25mAdapter_Medium|bluedog_Thor_1p25mAdapter_Short|bluedog_Thor_AbleAdapter|bluedog_Transit5_Fins|bluedog_PioneerAble_Adapter|bluedog_Agena_StandardFairingBase*|bluedog_FairingBase_1p5m*|bluedog_AgenaB_FairingBase_Ranger*|bluedog_AgenaD_FairingBase_LunarOrbiter*|bluedog_Carrack_AgenaAdapter*|bluedog_Carrack_StraightAdapter*|bluedog_Carrack_WideAdapter*]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advConstruction
+}
+
+// Tier 5 - Specialized Construction - specializedConstruction
+@PART[bluedog_Titan3C_StandardFairing_SAF|bluedog_Delta2_1875_adapter_fairingBase*|bluedog_Delta2_metalFairing*|bluedog_Agena_SLV3B*|bluedog_Agena_Titan33*|bluedog_Nimbus_PayloadDeck|bluedog_Nimbus_Truss|bluedog_Vega_ThirdStage_Adapter|bluedog_SOLTAN_NoseCone|bluedog_Titan2_S2_1p25mAdapter|bluedog_Titan2_S2_1p5mAdapter|bluedog_Titan2_S2_NoseCone|bluedog_OGO_Adapter|bluedog_gemini_cap|bluedog_FairingBase_1p875m*|bluedog_Gemini_NoseFairing|bluedog_GeminiB_AdapterModule|bluedog_Shuguang_Nose|bluedog_Delta_Miniskirt_1p5m*|bluedog_Delta_Miniskirt_1p875m*|bluedog_Delta2_dpaf_base|bluedog_Delta2_dpaf_top|bluedog_Centaur_MPF_FairingBase*|bluedog_centaur25mAdapterFairing*|bluedog_centaur1875mAdapterFairing*|bluedog_Atlas_FairingBase*]:AFTER[Bluedog_DB]
+{
+	@TechRequired = specializedConstruction
+}
+
+// Tier 6 - Advanced MetalWorks - advMetalworks
+@PART[bluedog_Tian3E_PLF_SAF|bluedog_Titan3_CommercialDPAF_SAF|bluedog_Titan3_CommercialPLF*|bluedog_Agena_POPPY*|bluedog_LDC_3p5mFairingBase|bluedog_LDC_375mAdapter|bluedog_LDC_2p5mAdapter|bluedog_LDC_1p875mAdapter|bluedog_Titan3E_PLF*|bluedog_Titan3_CommericalPLF|bluedog_FairingBase_3p125m*|bluedog_OAO_spacecraftAdapter|bluedog_CELV_1p875mAdapter|bluedog_CELV_2p5mAdapter|bluedog_CELV_375mAdapter|bluedog_LDC_NoseCone|bluedog_DCSS_2p5mFairing*|bluedog_DCSS_PayloadAdapter*|bluedog_DCSS_PayloadAdapter_0p9375m|bluedog_DCSS_PayloadAdapter_2p5m|bluedog_DCSS_StructAdapter|bluedog_Agena_SLV3B_FairingBase*|bluedog_GATV_NoseCone]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advMetalworks
+}
+
+// Tier 7 - Nanolathing - nanolathing
+@PART[bluedog_Titan4_PLF*|bluedog_Agena_SOT_SupportSkirt_SAF|bluedog_Hexagon_AdapterSegment|bluedog_Hexagon_FairingBase*|bluedog_Hexagon_LaunchAdapter|bluedog_Hexagon_TrussSegment|bluedog_Delta4_dpaf_base|bluedog_Delta4_dpaf_top|bluedog_DeltaIV_DCSS_3p125_payloadAdapter|bluedog_DeltaIV_DCSS_fairingBase*|bluedog_DeltaIV_noseCone|bluedog_AtlasV_FairingBase4xx*|bluedog_AtlasV_400Fairing*|bluedog_AtlasV_500Fairing*|bluedog_AtlasV_FairingBase5xx*|bluedog_Agena_SOT_SupportSkirt]:AFTER[Bluedog_DB]
+{
+	@TechRequired = nanolathing
+}
+
+// Tier 8 - Exotic Alloys - exoticAlloys
+
+// Tier 9 - aerographite
+
+
+
+// ***** Structural Parts ***** \\
+// Tier 0 - start
+
+// Tier 1 - Basic Rocketry - basicRocketry
+
+// Tier 2 - Basic Construction - basicConstruction
+
+// Tier 3 - General Construction - generalConstruction
+
+// Tire 4 - Advanced Construction - advConstruction
+
+// Tier 5 - Specialized Construction - specializedConstruction
+
+// Tier 6 - Composites - composites
+
+// Tier 7 - Meta-Materials - metaMaterials
+
+// Tier 8 - Orbital Assembly - orbitalAssembly
+
+// Tier 9 - Orbital Megastructures - orbitalMegastructures
+
+
+//// ********* Decouplers/Separators/DockingPorts/EnginePlates ********* \\\\
+
+// Tier 0
+
+// Tier 1 - engineering101
+@PART[bluedog_Decoupler_0p625m|bluedog_SpinDecoupler_p3125m|bluedog_Spintable_0p625|bluedog_Spintable_0p9375|bluedog_Vanguard_S1_Interstage]:AFTER[Bluedog_DB]
+{
+	@TechRequired = engineering101
+}
+
+// Tier 2 Basic Construction - basicConstruction
+@PART[bluedog_ThorDelta_Interstage|bluedog_PSM_0p3125m_HighProfile|bluedog_PSM_0p3125m_LowProfile|bluedog_PSM_0p3125m_MediumProfile|bluedog_Decoupler_0p9375m|bluedog_Sergeant_3x_Decoupler|bluedog_Vanguard_S2_LongProbeDecoupler|bluedog_Vanguard_S2_ShortProbeDecoupler]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicConstruction
+}
+
+// Tier 3 Decoupling - decoupling
+@PART[bluedog_PSM_0p625m_HighProfile|bluedog_PSM_0p625m_LowProfile|bluedog_PSM_0p625m_MediumProfile|bluedog_Decoupler_1p25m|bluedog_RadialDecoupler_Medium|bluedog_RadialDecoupler_Mini|bluedog_Decoupler_0p125m|bluedog_Sergeant_11x_Decoupler|bluedog_Sparta_0p625mInterstage|bluedog_Castor_RadialDecoupler]:AFTER[Bluedog_DB]
+{
+	@TechRequired = decoupling
+}
+
+// Tier 4 Docking - docking
+@PART[bluedog_Agena_AInterstage|bluedog_Agena_Decoupler_LunarOrbiter|bluedog_Agena_EngineMount|bluedog_Agena_EngineShroud|bluedog_Agena_StraightInterstage|bluedog_Decoupler_1p5m|bluedog_Juno4_EngineMount|bluedog_Juno4_Interstage|bluedog_Jupiter_EngineMount|bluedog_Mercury_Decoupler|bluedog_Mercury_Interstage|bluedog_Mercury_Retropack|bluedog_AIMP_SolidDecoupler|bluedog_Ranger_Block2_RetroDecoupler|bluedog_Ranger_Decoupler|bluedog_Transit4A_Decoupler|bluedog_Delta_Interstage|bluedog_HOSS_EngineMount|bluedog_Thor_0p9375mInterstage|bluedog_Thor_EngineMount|bluedog_Titan1_S1_EngineShroud]:AFTER[Bluedog_DB]
+{
+	@TechRequired = docking
+}
+
+// Tier 5 Advanced Decoupling - advancedDecoupling
+@PART[bluedog_Keyhole_RVAdapter|bluedog_Keyhole_DualAdapter|bluedog_Agena_MultiPayloadAdapter|bluedog_Agena_SLV3B_Interstage|bluedog_Atlas_BoosterSkirt|bluedog_Atlas_Decoupler1875m|bluedog_CentaurD_EngineMount|bluedog_BigG_Decoupler|bluedog_Gemini_Decoupler_1p5m|bluedog_Gemini_Decoupler_1p875m|bluedog_Gemini_DockingPort|bluedog_Gemini_RetroModule|bluedog_GeminiB_RetroModule|bluedog_Shuguang_RetroModule|bluedog_Gemini_Lander_LowProfilePort|bluedog_Decoupler_1p875m|bluedog_Nimbus_Decoupler|bluedog_Minotaur_Interstage|bluedog_1875_NoseSep|bluedog_1875_RadialDecoupler|bluedog_Titan2_S2_EngineDecoupler|bluedog_Titan2_S2_GeminiDecoupler|bluedog_Vega_EngineMount]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advancedDecoupling
+}
+
+// Tier 6 Engine Plates - enginePlates
+@PART[bluedog_Titan3B_Interstage|bluedog_Atlas_Decoupler25m|bluedog_Agena_EquipmentRack|bluedog_GATV_DockingPort|bluedog_DCSS_Interstage|bluedog_CELV_BoosterSkirt|bluedog_LDC_S1_EngineMount|bluedog_LDC_S2_EngineMount|bluedog_LDC_S2_Interstage|bluedog_LDC_S2_ShortInterstage|bluedog_GeminiFerry_DockingAdapter|bluedog_Gemini_InflatableAirlock|bluedog_MOL_DockingPort|bluedog_MOL_ForkDockingPort|bluedog_MOL_RingDockingPort|bluedog_MiniLab_Interstage|bluedog_mariner10_decoupler|bluedog_1875_RadialSep|bluedog_Titan3_S1_EngineShroud|bluedog_IDCSP_Truss]:AFTER[Bluedog_DB]
+{
+	@TechRequired = enginePlates
+}
+
+// Tier 7 Advanced Docking - advancedDocking
+@PART[bluedog_DeltaIV_smallInterstage|bluedog_CXA_APAS_A_L04F|bluedog_CXA_APAS_P|bluedog_AtlasV_Interstage4xx|bluedog_CentaurV_EngineMount|bluedog_DeltaIV_3p125interstage|bluedog_DeltaIV_heavyDecoupler|bluedog_DeltaIV_1p5m_Interstage|bluedog_Decoupler_3p125m|bluedog_IUS_Interstage]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advancedDocking
+}
+
+
+// Tier 8 Advanced Engine Plates - advancedEnginePlates
+
+// Tier 9 Automated Decoupling Systems - automatedDecouplingSystems
+
+// Tier 10 extremeFuelStorage
+
+
+//// ********* Electric / Solar / Heat ********* \\\\
+
+
+// ***** Batteries ***** \\
+
+// Tier 0
+
+// Tier 1 Engineering 101 - engineering101
+
+// Tier 2 - Science 201 - science201
+
+// Tier 3 - Battery Tech - batteryTech
+
+// Tier 4 - Electrics - batteryTech
+@PART[bluedog_Ranger_Battery|bluedog_Ranger_Block1_Truss|bluedog_Ranger_Lander_Truss]:AFTER[Bluedog_DB]
+{
+	@TechRequired = batteryTech
+}
+
+// Tier 5 - Advanced Electrics - advElectrics
+@PART[bluedog_Mariner2_Truss|bluedog_MarinerB_Truss]:AFTER[Bluedog_DB]
+{
+	@TechRequired = batteryTech
+}
+
+// Tier 6 - High-Power Electrics // largeElectrics
+@PART[bluedog_ATDA_Battery]:AFTER[Bluedog_DB]
+{
+	@TechRequired = largeElectrics
+}
+
+// Tier 7 - Specialized Electrics - specializedElectrics
+
+// Tier 8 - Experimental Electrics - experimentalElectrics
+
+// Tier 9 - High Tech Electrical Systems - highTechElectricalSystems
+
+// Tier 10 - High Power Electrical Systems - highPowerElectricalSystems
+
+// Tier 11 - Experimental Electrical Systems - experimentalElectricalSystems
+
+// Tier 12 - Exotic Electrical Systems - exoticElectricalSystems
+
+
+
+
+
+// ***** Solar and Fuel Cells ***** \\
+
+// Tier 0 - start
+
+// Tier 1 Engineering 101 - engineering101
+
+// Tier 2 - Science 201 - science201
+
+// Tier 3 - batteryTech
+@PART[bluedog_SmallSquarePanel_Rotating|bluedog_SmallSquarePanel_Static]:AFTER[Bluedog_DB]
+{
+	@TechRequired = batteryTech
+}
+
+// Tier 4 - electrics
+@PART[bluedog_Transit5_SNAP9A|bluedog_Transit5_Solar|bluedog_Ranger_Lander_Solar_Fixed|bluedog_Ranger_Lander_Solar_Tracking|bluedog_Ranger_Solar|bluedog_Ranger_TrackingSolar|bluedog_Pioneer5_SolarPaddle|bluedog_PioneerAble_SolarPaddle|bluedog_Pioneer6_ServiceModule|bluedog_AIMP_SolarPaddle]:AFTER[Bluedog_DB]
+{
+	@TechRequired = electrics
+}
+
+// Tier 5 - advElectrics
+@PART[bluedog_Transit5_RTG|bluedog_RTG_SNAP3|bluedog_Mariner2_Solar_Antenna|bluedog_Mariner2_Solar_Basic|bluedog_Mariner2_TrackingSolar_Antenna|bluedog_Mariner2_TrackingSolar_Basic|bluedog_MarinerB_Solar|bluedog_MarinerB_TrackingSolar|bluedog_OGO_SolarPanel_Antenna|bluedog_OGO_SolarPanel_Basic|bluedog_Nimbus_SolarPanel|bluedog_LunarOrbiter_Solar_SideMount|bluedog_LunarOrbiter_Solar_Tracking|bluedog_LunarOrbiter_Solar_UnderFold]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advElectrics
+}
+
+// Tier 6 - largeElectrics (High-Power Electrics)
+@PART[bluedog_RTG_SNAP19|bluedog_RTG_SNAP19_Nimbus|bluedog_RTG_SNAP19_Quad|bluedog_OAO_solarUpper|bluedog_OAO_solarLower|bluedog_mariner10_solar|bluedog_Helios_SunShade|bluedog_Gemini_LargeFixedArray|bluedog_Gemini_SolarWing|bluedog_MOL_Solar1|bluedog_MOL_Solar2|bluedog_Gemini_MOL_Solar2|bluedog_Tianja_LargeFixedSolar|bluedog_Tianja_LargeRotatingSolar|bluedog_Tianja_SmallFixedSolar|bluedog_Tianja_SmallRotatingSolar]:AFTER[Bluedog_DB]
+{
+	@TechRequired = largeElectrics
+}
+// Tier 7 - advSolarTech 
+@PART[bluedog_Hexagon_SolarPanel|bluedog_Strawman_Solar]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advSolarTech
+}
+
+// Tier 8 - Advanced Photovoltaic Materials (advPVMaterials) / Cutting-Edge Solar Technology (cuttingEdgeSolarTech)
+
+// Tier 9 - Microwave Power Transmission / Exotic Solar Technology (exoticSolarTech)
+
+// Tier 10 - Omega Solar Technology (omegaSolarTech)
+
+
+
+
+
+
+
+//// ********* Engines ********* \\\\
+
+// ***** Liquid Fuel ***** \\
+
+// Tier 0 - start, just the small jet engine to allow for the aeronautics branch
+
+// Tier 1 - basicRocketry , a basic 0.625m engine that helps get us off the ground
+@PART[bluedog_Vanguard_GE405|bluedog_Atlas_LR101_Inline]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicRocketry
+}
+// Tier 2 - generalRocketry ; Stronger 0.625m engine and initial 1.25m engine
+@PART[bluedog_Redstone_A7_Bare|bluedog_Redstone_A7_TailUnit|bluedog_Able_Engine]:AFTER[Bluedog_DB]
+{
+	@TechRequired = generalRocketry
+}
+// Tier 3 - advRocketry ; Intro of the 1.875m engine in Making History
+@PART[bluedog_Redstone_QuadEngine|bluedog_Ablestar_Engine]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advRocketry
+}
+
+// Tier 4 - heavyRocketry Heavy Rocketry, Intro of 2.5m engines
+@PART[bluedog_LR87_3|bluedog_LR91_3|bluedog_LR91_3_SingleVernier|bluedog_Thor_LR101|bluedog_Thor_LR79|bluedog_Juno4_Engine_45K|bluedog_Juno4_Engine_6K|bluedog_Jupiter_Vernier|bluedog_AJ10_118F|bluedog_Agena_Engine_XLR81]:AFTER[Bluedog_DB]
+{
+	@TechRequired = heavyRocketry
+}
+// Tier 5 - heavierRocketry Heavier Rocketry
+@PART[bluedog_Vega_GE405H|bluedog_LR87_5|bluedog_LR91_5|bluedog_LR91_5_FourVernier|bluedog_Titan2_S2_VernierMotor|bluedog_Gemini_Lander_Engine|bluedog_AJ10_118K|bluedog_TR_201|bluedog_Delta2_RS27|bluedog_Atlas_LR89|bluedog_Atlas_LR101_Radial|bluedog_Atlas_LR105]:AFTER[Bluedog_DB]
+{
+	@TechRequired = heavierRocketry
+}
+
+// Tier 6 - evenHeavierRocketry Even Heavier Rocketry Intro of 3.75m engines
+@PART[bluedog_LR87_11|bluedog_LR87_11_Single|bluedog_LR87_11_Vac|bluedog_LR91_11|bluedog_LR91_11_FourVernier|bluedog_AJ10_118X|bluedog_Titan_Transtage]:AFTER[Bluedog_DB]
+{
+	@TechRequired = evenHeavierRocketry
+}
+
+// Tier 7 - veryHeavyRocketry Very Heavy Rocketry
+@PART[bluedog_AtlasV_RD180|bluedog_Agena_Engine_8096C]:AFTER[Bluedog_DB]
+{
+	@TechRequired = veryHeavyRocketry
+}
+
+// Tier 8 - experimentalRocketry Experimental Rocketry
+
+// Tier 9 - giganticRocketry
+
+// Tier 10 - colossalRocketry
+
+
+// ***** Liquid Hydrogen / Liquid Methane ***** \\
+
+// Tier 0 - start, just the small jet engine to allow for the aeronautics branch
+
+// Tier 1 - basicCryoRocketry , a basic 0.625m engine that helps get us off the ground
+
+// Tier 2 - generalCryoRocketry ; Stronger 0.625m engine and initial 1.25m engine
+
+// Tier 3 - advancedCryoRocketry ; Intro of the 1.875m engine in Making History
+
+// Tier 4 - heavyCryoRocketry Heavy Rocketry, Intro of 2.5m engines
+@PART[bluedog_CentaurD_RL10]:AFTER[Bluedog_DB]
+{
+	@TechRequired = heavyCryoRocketry
+}
+
+// Tier 5 - heavierCryoRocketry Heavier Rocketry
+@PART[bluedog_LR87_LH2_SL|bluedog_LR87_LH2_V]:AFTER[Bluedog_DB]
+{
+	@TechRequired = heavierCryoRocketry
+}
+
+// Tier 6 - evenHeavierCryoRocketry Even Heavier Rocketry Intro of 3.75m engines
+@PART[bluedog_CentaurD_RL10A4N]:AFTER[Bluedog_DB]
+{
+	@TechRequired = evenHeavierCryoRocketry
+}
+
+// Tier 7 - veryHeavyCryoRocketry Very Heavy Rocketry
+@PART[bluedog_DeltaIV_RS68|bluedog_CentaurD_RL10B2]:AFTER[Bluedog_DB]
+{
+	@TechRequired = veryHeavyCryoRocketry
+}
+
+// Tier 8 - experimentalCryoRocketry Experimental Rocketry
+@PART[bluedog_E1|bluedog_RL20_SL|bluedog_RL20_Vac|bluedog_RS30]:AFTER[Bluedog_DB]
+{
+	@TechRequired = experimentalCryoRocketry
+}
+
+// Tier 9 - giganticCryoRocketry
+@PART[bluedog_M1|bluedog_XLR129]:AFTER[Bluedog_DB]
+{
+	@TechRequired = giganticCryoRocketry
+}
+
+// Tier 10 - colossalCryoRocketry
+
+
+// ***** Speciality Liquid Fuel/Mono Engines ***** \\
+
+// Tier 2 - basicFlightControl
+
+// Tier 3 - flightControl
+
+// Tier 4 - propulsionSystems
+@PART[bluedog_Ranger_Engine|bluedog_Ranger_Lander_Propulsion|bluedog_PioneerAble_Engine|bluedog_Agena_RetroThrustModule]:AFTER[Bluedog_DB]
+{
+	@TechRequired = propulsionSystems
+}
+// Tier 5 - precisionPropulsion
+@PART[bluedog_HAPS_HAPS|bluedog_HAPS_SuperHAPS|bluedog_Burner2|bluedog_LunarOrbiter_Propulsion]:AFTER[Bluedog_DB]
+{
+	@TechRequired = precisionPropulsion
+}
+// Tier 6 - experimentalPropulsion
+@PART[bluedog_mariner10_engine|bluedog_GATV_SPS|bluedog_GATV_SPS_LFO|bluedog_GATV_SPS_RCS|bluedog_Tempel2_Ion]:AFTER[Bluedog_DB]
+{
+	@TechRequired = experimentalPropulsion
+}
+// Tier 7 - exoticPropulsion or ionPropulsion
+@PART[bluedog_Hexagon_ServiceEngine]:AFTER[Bluedog_DB]
+{
+	@TechRequired = exoticPropulsion
+}
+
+// Tier 8 - advIonPropulsion or aBitMoreExoticPropulsion
+
+// Tier 9 - plasmaPropulsion or advGriddedThrusters or expAircraftEngines
+
+// Tier 10 - advEMSystems or expGriddedThrusters or hybridAircraftEngines
+
+// Tier 11 - specializedPlasmaGeneration or exoticGriddedThrusters
+
+// Tier 12 - exoticPlasmaPropulsion
+
+
+
+// ***** Solid Rocket Boosters ***** \\
+
+// Tier 0 - start
+// Good starting solid rocket to get off ground, barely
+
+// Tier 1, soundingRockets - looking at just a slightly more powerful 0.625m part
+@PART[bluedog_Scout_Castor_Inline]:AFTER[Bluedog_DB]
+{
+	@TechRequired = soundingRockets
+}
+
+// Tier 2, tinyBoosters - Introduce a 1.25m SRB
+@PART[bluedog_Pioneer_VernierSolids|bluedog_Vanguard_S2_RetroRocket|bluedog_UpperSolids_BE3|bluedog_Scout_Algol_Short|bluedog_Scout_Antares_Basic|bluedog_Sergeant_1x|bluedog_Sergeant_3x]:AFTER[Bluedog_DB]
+{
+	@TechRequired = tinyBoosters
+}
+
+// Tier 3, smallBoosters - Some more powerful 1.25m SRB
+@PART[bluedog_UpperSolids_Altair|bluedog_Scout_Algol_Inline|bluedog_Scout_Algol_Radial|bluedog_Scout_Antares_Inline|bluedog_Scout_Castor_Radial|bluedog_Castor2|bluedog_Sergeant_11x|bluedog_Lateraltron|bluedog_Perfectron]:AFTER[Bluedog_DB]
+{
+	@TechRequired = smallBoosters
+}
+// Tier 4, mediumBoosters - Intro of a solid 1.875 m booster found within Missing History Patch
+@PART[bluedog_Titan1_SeparationBottle|bluedog_UpperSolids_Star37BV|bluedog_AIMP_Star13|bluedog_Mercury_PosigradeRocket|bluedog_Mercury_RetroRocket|bluedog_Delta_GEM40_Inline|bluedog_Corona_Retro|bluedog_Agena_UllageMotor|bluedog_Castor4]:AFTER[Bluedog_DB]
+{
+	@TechRequired = mediumBoosters
+}
+
+// Tier 5, largeBoosters - 2.5m booster
+// Tier 4, mediumBoosters - Intro of a solid 1.875 m booster found within Missing History Patch
+@PART[bluedog_SOLTAN_SRB|bluedog_Titan2_S2_RetroMotor|bluedog_UA1202|bluedog_UA1203|bluedog_UA1204|bluedog_UpperSolids_Star37FMV|bluedog_Athena_Castor30|bluedog_Athena_Castor30XL|bluedog_Peacekeeper_Castor120|bluedog_Peacekeeper_SR119|bluedog_Peacekeeper_SR120|bluedog_Castor4XL|bluedog_Gemini_RetroMotor|bluedog_Delta_GEM40]:AFTER[Bluedog_DB]
+{
+	@TechRequired = largeBoosters
+}
+
+// Tier 6, largerBoosters - Pollux from Making History makes this branch
+@PART[bluedog_SRMU_Single|bluedog_UA1205|bluedog_UA1206|bluedog_UA1207|bluedog_UA1208|bluedog_UpperSolids_Star48BV|bluedog_IUS_Orbus6|bluedog_Delta_GEM46]:AFTER[Bluedog_DB]
+{
+	@TechRequired = largerBoosters
+}
+// Tier 7 - hugeBoosters
+@PART[bluedog_AtlasV_Star5F|bluedog_SRMU_Full|bluedog_SRMU_Half|bluedog_SRMU_TwoSeg|bluedog_IUS_Orbus21|bluedog_Hexagon_Mk8_Retro|bluedog_Delta_GEM60|bluedog_AtlasV_AJ60|bluedog_AtlasV_AJ60]:AFTER[Bluedog_DB]
+{
+	@TechRequired = hugeBoosters
+}
+// Tier 8 - gargantuanBoosters
+@PART[bluedog_SRMU_XL|bluedog_Delta_GEM60XL]:AFTER[Bluedog_DB]
+{
+	@TechRequired = gargantuanBoostersBoosters
+}
+
+
+//// ********* Fuel Tanks ********* \\\\
+
+// ***** Liquid Fuel ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - basicRocketry; 0.625m Fuel Tank
+@PART[bluedog_Vanguard_S1_Tank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicRocketry
+}
+
+// Tier 2 - earlyFuelSystems ; Intro of the 1.25m tank, a larger 0.625 piece
+@PART[bluedog_DeltaB_Tank|bluedog_ThorAble_Tank|bluedog_Redstone_MediumFuelTank|bluedog_Redstone_ShortFuelTank|bluedog_Vanguard_S2_Tank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicRocketry
+}
+
+// Tier 3 - basicFuelSystems // Intro of the 1.875 if Making History installed
+@PART[bluedog_Redstone_FuelTank|bluedog_Ablestar_Tank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicFuelSystems
+}
+
+// Tier 4 - fuelSystems // Intro of the 2.5m
+@PART[bluedog_Agena_Tank_Short|bluedog_Juno4_FuelTank_1|bluedog_Juno4_FuelTank_2|bluedog_Jupiter_FuelTank|bluedog_DeltaE_Tank|bluedog_Thor_LowerTank_1|bluedog_Thor_MediumExtensionTank|bluedog_Thor_ShortExtensionTank|bluedog_Thor_UpperTank_1|bluedog_Titan1_S1_LowerTank|bluedog_Titan1_S1_UpperTank|bluedog_Titan1_S2_ShortTank|bluedog_Titan1_S2_Tank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = fuelSystems
+}
+
+// Tier 5 - advFuelSystems - Intro of the 3.75m
+@PART[bluedog_Gemini_Lander_Frame|bluedog_Agena_Tank_Long|bluedog_Atlas_AdapterFuelTank|bluedog_Atlas_LongFuelTank|bluedog_Atlas_MediumFuelTank|bluedog_Atlas_ShortFuelTank|bluedog_Atlas_ShortAdapterTank|bluedog_Atlas_SustainerAdapterTank|bluedog_Centaur_Tank|bluedog_CentaurD_FuelTank|bluedog_CentaurD_Tank|bluedog_Delta2_LowerTank|bluedog_Delta2_UpperTank|bluedog_Delta2_AdapterTank|bluedog_DeltaP_Stage|bluedog_Gemini_Lander_SaddleTank|bluedog_HOSS_Tank|bluedog_Titan2_S1_Lower_Tank|bluedog_Titan2_S1_Upper_Tank|bluedog_Titan2_S2_Tank|bluedog_Vega_Tank1|bluedog_Vega_Tank2|bluedog_Vega_ThirdStage_Tank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advFuelSystems
+}
+
+// Tier 6 - largeVolumeContainment // Intro of the 5m Large Volume Containment
+@PART[bluedog_SLV3X_LowerTank|bluedog_SLV3X_MainTank|bluedog_SLV3X_MediumTank|bluedog_SLV3X_ShortTank|bluedog_SLV3X_UpperTank|bluedog_DCSS_Tank|bluedog_DeltaK_Stage|bluedog_CELV_SustainerTank|bluedog_LDC_S1_Tank1|bluedog_LDC_S1_Tank2|bluedog_LDC_S2_Tank1|bluedog_LDC_S2_Tank2|bluedog_DeltaIII_AdapterTank|bluedog_Titan3_S1_Stretched_Tank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = largeVolumeContainment
+}
+
+// Tier 7 - highPerformanceFuelSystems // Intro of the 7.5m High Performance Fuel Systems
+@PART[bluedog_Agena_SOT_1p875m|bluedog_Agena_SOT_2p5m|bluedog_CELV_AdapterTank_1p875m_Long|bluedog_CELV_AdapterTank_1p875m_Short|bluedog_CELV_AdapterTank_2p5m_Long|bluedog_CELV_AdapterTank_2p5m_Short|bluedog_CELV_LongTank|bluedog_CELV_MainTank|bluedog_CELV_MediumTank|bluedog_CELV_ShortTank|bluedog_AtlasV_CCBLowerTank|bluedog_AtlasV_CCBUpperTank|bluedog_Centaur4_Tank|bluedog_CentaurV_Tank|bluedog_CentaurT_AdapterTank|bluedog_CentaurT_Avionics|bluedog_CentaurT_ShortTank|bluedog_CentaurT_TankA|bluedog_CentaurT_TankB|bluedog_CentaurT_TankC|bluedog_CentaurT_TankD|bluedog_CentaurT_WideTank|bluedog_DeltaIV_s1_lowerTank|bluedog_DeltaIV_s1_upperTank|bluedog_DeltaIV_DCSS_5m|bluedog_Titan4_S1_Lower_Tank|bluedog_Titan4_S2_Tank]:AFTER[Bluedog_DB]
+{
+	@TechRequired = highPerformanceFuelSystems
+}
+
+// Tier 8 - specializedFuelStorage Specialized Fuel Storage
+
+// Tier 9 - exoticFuelStorage
+
+// Tier 10 - extremeFuelStorage
+
+
+// ***** Speciality Liquid Fuel Tanks ***** \\
+
+// Tier 3 - fuelLines
+
+// Tier 4 - flexibleFuelSolutions
+
+// Tier 5 - advancedFlexibleFuelSolutions
+@PART[bluedog_Xenon_SmallSingle|bluedog_Xenon_SmallStack|bluedog_Xenon_SmallTriple]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advancedFlexibleFuelSolutions
+}
+
+
+// ***** Noble Gas and Lithium Fuel Systems ***** \\
+
+// Tier 7 - nobleGasFuelSystems
+@PART[bluedog_Xenon_MediumStack]:AFTER[Bluedog_DB]
+{
+	@TechRequired = nobleGasFuelSystems
+}
+
+
+// Tier 9 - lithiumFuelSystems
+
+
+
+//// ********* Probes and Communication ********* \\\\
+
+// ***** Probes ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - engineering101
+@PART[bluedog_ThorAble_Guidance|bluedog_Vanguard_S2_Guidance]:AFTER[Bluedog_DB]
+{
+	@TechRequired = engineering101
+}
+// Tier 2 - science201
+@PART[bluedog_Redstone_Guidance|bluedog_Vanguard_Satellite1|bluedog_Vanguard_Satellite2|bluedog_Vanguard_Satellite3]:AFTER[Bluedog_DB]
+{
+	@TechRequired = science201
+}
+// Tier 3 - basicScience
+@PART[bluedog_Alouette_Core|bluedog_Explorer_11|bluedog_Explorer_7|bluedog_Explorer_8|bluedog_Explorer_S45|bluedog_Explorer_S46|bluedog_Pioneer_1|bluedog_Pioneer_4|bluedog_TRYP_Core|bluedog_Juno1_Explorer1|bluedog_WRESAT|bluedog_Juno1_Guidance|bluedog_Sparta_Guidance|bluedog_TTS1]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicScience
+}
+// Tier 4 - earlyProbes
+@PART[bluedog_Agena_Avionics|bluedog_Corona_Pod|bluedog_Jupiter_Guidance|bluedog_AIMP_Core|bluedog_Biosat_Adapter|bluedog_Courier_Core|bluedog_Relay_Core|bluedog_Telstar_Core|bluedog_OSO_Core|bluedog_Pioneer6_Bus|bluedog_Pioneer5_Core|bluedog_PioneerAble_Core|bluedog_Ranger_BareCore|bluedog_Ranger_Block2_RoughLander|bluedog_Ranger_Bus|bluedog_TIROS|bluedog_ANNA|bluedog_Injun1|bluedog_LOFTI|bluedog_POPPY1|bluedog_POPPY2|bluedog_SOLRAD|bluedog_SOLRAD8|bluedog_Transit2A|bluedog_Transit4A|bluedog_Transit5_Bus|bluedog_HOSS_Avionics]:AFTER[Bluedog_DB]
+{
+	@TechRequired = earlyProbes
+}
+// Tier 5 - communicationSatellites
+@PART[bluedog_CentaurD_Avionics|bluedog_Delta_Avionics|bluedog_Gemini_RadarEvaluationPod|bluedog_Gemini_AugustusCapsule|bluedog_LunarOrbiter_Core|bluedog_Nimbus_EarlyControlCore|bluedog_Nimbus_LateControlCore|bluedog_OGO_Bus|bluedog_MarinerB_Bus|bluedog_Athena_OAM|bluedog_Minotaur_GCA|bluedog_Peacekeeper_PostBoostVehicle]:AFTER[Bluedog_DB]
+{
+	@TechRequired = communicationSatellites
+}
+// Tier 6 - unmannedTech
+@PART[bluedog_Keyhole_OCV_KH7|bluedog_Agena_Subsat_Hitchhiker|bluedog_LDC_S2_Avionics|bluedog_MOL_ControlSegment|bluedog_Helios_Core|bluedog_IDCSP_Probe|bluedog_Mariner10_probeCore|bluedog_OAO_ProbeCore|bluedog_Titan3_AvionicsTruss]:AFTER[Bluedog_DB]
+{
+	@TechRequired = unmannedTech
+}
+
+// Tier 7 - advUnmanned or automation
+@PART[bluedog_Strawman_Bus*|bluedog_Agena_SOT_GuidanceArray|bluedog_Hexagon_Mk8_Capsule|bluedog_IUS_Avionics|bluedog_TOS_Avionics]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advUnmanned
+}
+// Tier 8 - largeUnmanned or mechatronics
+
+// Tier 9 - artificialIntelligence
+
+
+
+// ***** Antenna ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - engineering101
+@PART[bluedog_OFO_Antenna]:AFTER[Bluedog_DB]
+{
+	@TechRequired = engineering101
+}
+
+
+// Tier 2 - science201
+
+// Tier 3 - basicScience
+@PART[bluedog_HoopAntenna|bluedog_Alouette_Antenna]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicScience
+}
+
+// Tier 4 - earlyProbes
+@PART[bluedog_Oscar1|bluedog_POPPY_Antenna|bluedog_Transit5_Antenna|bluedog_Transit5_SOOS_Antenna|bluedog_Ranger_Block2_OmniAntenna|bluedog_Ranger_Dish|bluedog_Ranger_Lander_Antenna|bluedog_Ranger_OmniAntenna|bluedog_PioneerAble_Antenna|bluedog_Pioneer6_MainAntenna|bluedog_Pioneer6_StanfordAntenna|bluedog_Relay_Antenna|bluedog_Telstar_Antenna|bluedog_Biosat_Antenna|bluedog_AIMP_Antenna|bluedog_Mercury_AntennaNose|bluedog_dipoleAntenna|bluedog_domeAntenna|bluedog_mariner2Antenna|bluedog_mariner4Dish|bluedog_mariner4Antenna|bluedog_rangerDish|bluedog_scimitar|bluedog_simpleAntenna|bluedog_solarAntenna|bluedog_telstarAntenna]:AFTER[Bluedog_DB]
+{
+	@TechRequired = earlyProbes
+}
+
+// Tier 5 - communicationSatellites
+@PART[bluedog_OGO_HighGainAntenna|bluedog_Nimbus_BeaconAntenna|bluedog_Nimbus_EarlyCommandAntenna|bluedog_Nimbus_LateCommandAntenna|bluedog_Nimbus_SBandAntenna|bluedog_LunarOrbiter_Antenna|bluedog_LunarOrbiter_Dish|bluedog_Gemini_DipoleAntenna|bluedog_Gemini_WhipAntenna|bluedog_Gemini_LunarRecon_Antenna|bluedog_Gemini_LunarRecon_Dish|bluedog_Gemini_UHFAntenna]:AFTER[Bluedog_DB]
+{
+	@TechRequired = communicationSatellites
+}
+
+// Tier 6 - highGainCommunications
+@PART[bluedog_Titan_Transtage_Antenna|bluedog_OAO_antenna|bluedog_mariner10_highGainAntenna|bluedog_mariner10_lowGainAntenna|bluedog_Helios_Dish|bluedog_Gemini_DockingAntenna_Fixed|bluedog_Gemini_DockingAntenna_Rotating|bluedog_Gemini_DoubleXAntenna|bluedog_MOL_TrackingAntenna|bluedog_MOL_rackDish|bluedog_ATDA_VHFAntenna|bluedog_GATV_LBandAntenna|bluedog_GATV_SpiralAntenna]:AFTER[Bluedog_DB]
+{
+	@TechRequired = highGainCommunications
+}
+
+// Tier 7 - signalProcessing
+@PART[bluedog_Hexagon_VHF_Bent|bluedog_Hexagon_VHF_Straight|bluedog_Strawman_Harvester*|bluedog_Strawman_Reaper*|bluedog_Strawman_Thresher_Antenna|bluedog_Strawman_Starfish*]:AFTER[Bluedog_DB]
+{
+	@TechRequired = signalProcessing
+}
+
+// Tier 8 - digitalSignalProcessing
+
+// Tier 9 - xBandCommunications
+
+// Tier 10 - deepSpaceOpticalCommunications
+
+// Tier 11 - quantumCommunications
+
+
+
+
+//// ********** Nuclear *********** \\\\
+// ***** Nuclear Fuel Systems ***** \\
+
+// Tier 7 - nuclearFuelSystems
+
+// ***** Nuclear Power ***** \\
+
+// Tier 6 - nuclearPower
+
+// Tier 7 - largeNuclearPower
+
+// Tier 8 - advNuclearPower
+
+// Tier 9 - expNuclearPower
+
+// Tier 10 - exoticNuclearPower
+
+// ***** Nuclear Propulsion ***** \\
+// Tier 6 - nuclearPropulsion
+@PART[bluedog_SNTP_45|bluedog_STNP_75]:AFTER[Bluedog_DB]
+{
+	@TechRequired = nuclearPropulsion
+}
+// Tier 7 - improvedNuclearPropulsion
+
+// Tier 8 - advNuclearPropulsion
+
+// Tier 9 - expNuclearPropulsion
+
+// Tier 10 - exoticNuclearPropulsion
+
+// Tier 11 - highPowerExoticNuclearPropulsion
+
+
+
+//// ********** Utility/Misc *********** \\\\
+
+// ***** Landing Gear and Wheels ***** \\
+// Tier 0 - Start
+
+// Tier 1 - earlyFlight
+
+// Tier 2 - stability
+
+// Tier 3 - aviation
+
+// Tier 4 - landing
+@PART[bluedog_Ranger_Lander_Leg]:AFTER[Bluedog_DB]
+{
+	@TechRequired = landing
+}
+// Tier 5 - fieldScience
+@PART[bluedog_Gemini_Lander_Leg]:AFTER[Bluedog_DB]
+{
+	@TechRequired = fieldScience
+}
+// Tier 6 - advLanding
+
+// Tier 7 - heavyLanding
+
+// Tier 8 - advancedMotors
+
+
+
+
+// ***** Flight Control: Monopropellant Tanks, RCS Thrusters, SAS Modules, Launch Escape Systems ***** \\
+// Tier 0 - start
+
+// Tier 1 - basicRocketry
+
+// Tier 2 - basicFlightControl
+@PART[bluedog_YoYoDespin]:AFTER[Bluedog_DB]
+{
+	@TechRequired = basicFlightControl
+}
+// Tier 3 - flightControl
+@PART[bluedog_Sparta_ControlJets]:AFTER[Bluedog_DB]
+{
+	@TechRequired = flightControl
+}
+// Tier 4 - advFlightControl
+@PART[bluedog_Mono_SmallSingle|bluedog_Mono_SmallTriple|bluedog_Mono_SphericalTank|bluedog_POPPY2_RCS_Antenna|bluedog_ProbeRCS_1Way_Double|bluedog_ProbeRCS_1Way_Radial|bluedog_ProbeRCS_2Way_45Degree|bluedog_ProbeRCS_2Way_Vertical|bluedog_ProbeRCS_3Way_45Degree|bluedog_ProbeRCS_3Way_Radial|bluedog_ProbeRCS_1Way_Vertical|bluedog_ProbeRCS_3Way_Normal|bluedog_ProbeRCS_Radial|bluedog_ProbeRCS_4Way_45Degree|bluedog_ProbeRCS_4Way_Normal|bluedog_Pioneer6_RCS|bluedog_OSO_Arm|bluedog_probeRCSblock|bluedog_probeRCSblockE|bluedog_Mercury_LES|bluedog_Mercury_ParachuteRCS]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advFlightControl
+}
+// Tier 5 - specializedControl
+@PART[bluedog_Titan23G_ACS|bluedog_OGO_RCS|bluedog_Gemini_LES|bluedog_Gemini_RotationRCS|bluedog_Gemini_RotationRCS|bluedog_Gemini_TranslationRCS|bluedog_Gemini_HorizonScanners|bluedog_Gemini_OAMSThruster|bluedog_Gemini_ReentryRCS|bluedog_Atlas2_RollControlSystem]:AFTER[Bluedog_DB]
+{
+	@TechRequired = specializedControl
+}
+// Tier 6 - experimentalControl
+@PART[bluedog_MOL_Propellant|bluedog_Titan_Transtage_RCS_A|bluedog_Titan_Transtage_RCS_B|bluedog_Titan_Transtage_RCS_C|bluedog_Titan_Transtage_RCS_D|bluedog_Titan_Transtage_RCS_E|bluedog_OAO_starTracker|bluedog_OAO_balanceBoom|bluedog_mariner10_starTracker|bluedog_GeminiFerry_RCS|bluedog_GeminiFerry_RCS_45deg|bluedog_MOL_RCS|bluedog_MOL_RCS_Alt1|bluedog_MOL_RCS_Alt2|bluedog_MOL_RCS_Alt3|bluedog_ATDA_RCS]:AFTER[Bluedog_DB]
+{
+	@TechRequired = experimentalControl
+}
+// Tier 7 - exoticControl
+@PART[bluedog_ERCS_1Way|bluedog_ERCS_2Way|bluedog_ERCS_3Way|bluedog_Hexagon_LifeboatRCS|bluedog_Hexagon_MainRCS]:AFTER[Bluedog_DB]
+{
+	@TechRequired = exoticControl
+}
+
+
+
+
+// ***** Thermals including Heat Shields ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - engineering101
+
+// Tier 2 - science201
+
+// Tier 3 - batteryTech
+
+// Tier 4 - electrics
+@PART[bluedog_Mercury_Heatshield|bluedog_Corona_Heatshield]:AFTER[Bluedog_DB]
+{
+	@TechRequired = electrics
+}
+
+// Tier 5 - heatManagementSystems
+@PART[bluedog_Gemini_Heatshield_1p5m|bluedog_Gemini_Heatshield_1p875m|bluedog_Gemini_Heatshield_2p5m]:AFTER[Bluedog_DB]
+{
+	@TechRequired = heatManagementSystems
+}
+
+// Tier 6 - intermediateHeatManagement
+@PART[bluedog_mariner10_sunShield|bluedog_MOL_LargeRadiator|bluedog_MOL_SmallRadiator]:AFTER[Bluedog_DB]
+{
+	@TechRequired = intermediateHeatManagement
+}
+
+// Tier 7 - advHeatManagement
+@PART[bluedog_Hexagon_Mk8_Heatshield]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advHeatManagement
+}
+
+
+// Tier 8 - experimentalHeatManagement
+
+// Tier 9 - specializedRadiators
+
+
+// ***** Ladders and Lights ***** \\
+
+// Tier 4 - spaceExploration
+@PART[bluedog_GATV_RunningLight]:AFTER[Bluedog_DB]
+{
+	@TechRequired = spaceExploration
+}
+// Tier 5 - advExploration
+@PART[bluedog_GATV_AcquisitionLight|bluedog_MiniLab_Ladder]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advExploration
+}
+
+
+//// ********* Logistics and Station/Moon Habitation ********* \\\\
+// ***** Stations / Colony Pieces ***** \\
+
+// Tier 0 - start
+
+// Tier 1 - engineering101
+
+// Tier 2 - serviceModules
+
+// Tier 3 - skipped
+
+// Tier 4 - recycling
+
+// Tier 5 - hydroponics
+
+// Tier 6 - earlyStations
+@PART[bluedog_MOL_CrewTube*|bluedog_MOL_Lab_New|bluedog_Gemini_OneRoomStationModule|bluedog_Gemini_TwoRoomStationModule|bluedog_MOL_Airlock|bluedog_MOL_EquipmentSection|bluedog_MOL_Hab|bluedog_MOL_KISmodule|bluedog_MOL_Lab|bluedog_MOL_UnpressurizedCargo|bluedog_MiniLab_Lab|bluedog_Gemini_0p9375mEndcap|bluedog_Gemini_1p5mEndcap|bluedog_Gemini_1p5mShortSegment|bluedog_Gemini_1p875mLongAdapter|bluedog_Gemini_CrewTube|bluedog_Gemini_RadialAttachPoint|bluedog_Gemini_SmallShortAdapter|bluedog_Gemini_StructuralEndcap|bluedog_Gemini_StructuralNode|bluedog_MOL_0p9375mAdapter|bluedog_MOL_1p5mStationSegment|bluedog_MOL_Adapter_15_125|bluedog_MOL_Adapter_1875_15|bluedog_MOL_FiveWayAdapter|bluedog_MOL_ThreeWayAdapter|bluedog_MiniLab_Adapter]:AFTER[Bluedog_DB]
+{
+	@TechRequired = earlyStations
+}
+// Tier 7 - shortTermHabitation
+
+// Tier 8 - longTermHabitation
+
+// Tier 9 - advancedStations
+
+// Tier 10 - colonization
+
+// Tier 11 - advColonization
+
+
+
+
+// ***** Storage/Resources ***** \\
+// Tier 0 - start
+
+// Tier 1 - engineering101
+
+// Tier 2 - serviceModules
+
+// Tier 3 - Skipped
+
+// Tier 4 - storageTech
+
+// Tier 5 - earlyLogistics
+@PART[bluedog_Gemini_ArrowSM|bluedog_Gemini_EquipmentModule|bluedog_Gemini_EquipmentModule_Empty|bluedog_Gemini_LongFerrySM|bluedog_Gemini_LunarReconSM|bluedog_Shuguang_EquipmentModule]:AFTER[Bluedog_DB]
+{
+	@TechRequired = earlyLogistics
+}
+
+// Tier 6 - logistics
+@PART[bluedog_Gemini_Resupply_Capsule|bluedog_Agena_ResupplyContainer|bluedog_BigG_CylindricalSM|bluedog_GeminiFerry_PressurizedModule|bluedog_Gemini_ResupplyCapsule]:AFTER[Bluedog_DB]
+{
+	@TechRequired = logistics
+}
+// Tier 7 - isru
+@PART[bluedog_OAO3_serviceModule|bluedog_Hexagon_ServiceModule]:AFTER[Bluedog_DB]
+{
+	@TechRequired = isru
+}
+
+// Tier 8 - advLogistics
+
+// Tier 9 - advOffworldMining
+
+// Tier 10 - resourceExploitation
+
+
+
+// ***** Parachutes ***** \\
+
+// Tier 2 - survivability
+
+// Tier 3 - enhancedSurvivability
+
+// Tier 4 - spaceExploration
+@PART[bluedog_Mercury_Parachute|bluedog_Corona_Parachute]:AFTER[Bluedog_DB]
+{
+	@TechRequired = spaceExploration
+}
+
+// Tier 5 - advExploration
+@PART[bluedog_Gemini_DrogueChute|bluedog_Gemini_MainParachute]:AFTER[Bluedog_DB]
+{
+	@TechRequired = spaceExploration
+}
+
+// Tier 6 - scienceTech?
+@PART[bluedog_Titan_SRB_Parachute]:AFTER[Bluedog_DB]
+{
+	@TechRequired = scienceTech
+}
+
+// Tier 7 - advScienceTech?
+@PART[bluedog_Hexagon_Mk8_Parachute]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advScienceTech
+}
+
+//// ********* Science ********* \\\\
+
+// Tier 0 - start
+
+// Tier 1  - engineering101
+@PART[bluedog_Geiger|bluedog_OFO_Experiment]:AFTER[Bluedog_DB]
+{
+	@TechRequired = engineering101
+}
+
+// Tier 2 - science201 
+@PART[bluedog_cameraLowTech]:AFTER[Bluedog_DB]
+{
+	@TechRequired = science201
+}
+
+// Tier 3 - basicScience
+
+// Tier 4 - appliedScience
+@PART[bluedog_MiniGoo|bluedog_IonSensor|bluedog_Micrometeorite|bluedog_cameraMidTech|bluedog_foldingMag|bluedog_Transit5_GravityGradientBoom|bluedog_Transit5_Magnetometer|bluedog_Tranist5_Magnetometer_Equipment|bluedog_Transit5_SolarScience|bluedog_Transit5_UVSpectrometer|bluedog_Ranger_Block1_ElectroAnalyzer_Device1|bluedog_Ranger_Block1_ElectroAnalyzer_Device2|bluedog_Ranger_Block1_ElectroAnalyzer_Experiment|bluedog_Ranger_Block1_LymanAlphaTelescope|bluedog_Ranger_Block2_TVCamera|bluedog_Ranger_Block2_GammaRaySpectrometer|bluedog_Ranger_Block2_RadarAltimeter|bluedog_Ranger_Block3_TVSystem|bluedog_Pioneer6_IonSensor|bluedog_Pioneer6_Magnetometer|bluedog_Pioneer6_MidcourseEngine|bluedog_OSO_Experiment|bluedog_OSO_Photometer|bluedog_OSO_Sail|bluedog_Biosat_Magnetometer|bluedog_IMP_Magnetometer|bluedog_AIMP_Magnetometer|bluedog_Keyhole_Camera_KH1]:AFTER[Bluedog_DB]
+{
+	@TechRequired = appliedScience
+}
+
+// Tier 5 - exactScience
+@PART[bluedog_Camera_InstrumentTorus|bluedog_MassSpec|bluedog_IRspec|bluedog_hydrometer|bluedog_Mariner2_IonTrap|bluedog_Mariner2_CosmicDustDetector|bluedog_Mariner2_Radiometer|bluedog_OGO_ExperimentBoom_1|bluedog_OGO_ExperimentBoom_2|bluedog_OGO_ExperimentBoom_3|bluedog_OGO_LongBoom_Ball|bluedog_OGO_LongBoom_Hoop|bluedog_OGO_OPEP|bluedog_Nimbus_CameraTorus|bluedog_Nimbus_InstrumentTorus|bluedog_Nimbus_Instrument_ERB|bluedog_Nimbus_Instrument_SAMS|bluedog_Nimbus_Instrument_ESMR|bluedog_Nimbus_Instrument_SIS|bluedog_Nimbus_Instrument_SMMR|bluedog_Nimbus_Instrument_THIR|bluedog_Nimbus_Instrument_TOMS|bluedog_LunarOrbiter_Camera|bluedog_Gemini_LunarRecon_Camera|bluedog_Gemini_Magnetometer|bluedog_Gemini_Spectrometer|bluedog_Keyhole_Camera_KH4|bluedog_Keyhole_Camera_KH4B]:AFTER[Bluedog_DB]
+{
+	@TechRequired = exactScience
+}
+
+// Tier 6 - scienceTech
+@PART[bluedog_cameraHighTech|bluedog_OAO_SAO_instrument|bluedog_OAO_WEP_instrument|bluedog_Mariner10_chargedParticleTelescope|bluedog_mariner10_SciencePallet|bluedog_mariner10_UVspectrometer|bluedog_mariner10_camera|bluedog_mariner10_cameraStandalone|bluedog_mariner10_magnetometer|bluedog_mariner10_plasmaScience|bluedog_Helios_Magnetometer|bluedog_Helios_RPWSAntenna|bluedog_MOL_Camera|bluedog_GATV_MaterialsBay|bluedog_GATV_MMDetector|bluedog_GATV_NuclearPackage|bluedog_Keyhole_Camera_KH7]:AFTER[Bluedog_DB]
+{
+	@TechRequired = scienceTech
+}
+
+// Tier 7 - advScienceTech or specializedScienceTech // Resource Detection goes in advScienceTech
+@PART[bluedog_Strawman_Thresher|bluedog_Hexagon_Camera|bluedog_Hexagon_MappingCamera|bluedog_Keyhole_Camera_KH8]:AFTER[Bluedog_DB]
+{
+	@TechRequired = advScienceTech
+}
+
+@PART[bluedog_OAO3_PEP_instrument]:AFTER[Bluedog_DB]
+{
+	@TechRequired = specializedScienceTech
+}
+
+// Tier 8 - experimentalScience or longTermScienceTech // Resource Detection goes in experimentalScience
+
+// Tier 9 - metascience or scientificOutposts // Resource detection goes in metaScience
+
+// Tier 10 - highEnergyScience
+
+// Tier 11 - appliedHighEnergyPhysics
+
+// Tier 12 - ultraHighEnergyPhysics
+
